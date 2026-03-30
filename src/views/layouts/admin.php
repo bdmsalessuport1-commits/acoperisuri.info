@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32.png">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <?php $v = '8'; ?>
+    <?php $v = '9'; ?>
     <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
     <link rel="stylesheet" href="/css/admin.css?v=<?= $v ?>">
 </head>
@@ -51,7 +51,7 @@
                         <span class="sidebar-icon">&#9655;</span>
                         Subcategorii
                     </a>
-                    <a href="/admin/produse" class="sidebar-link<?= $currentPath === '/admin/produse' ? ' active' : '' ?>">
+                    <a href="/admin/produse" class="sidebar-link<?= str_starts_with($currentPath, '/admin/produse') ? ' active' : '' ?>">
                         <span class="sidebar-icon">&#9733;</span>
                         Produse
                     </a>

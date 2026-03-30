@@ -156,6 +156,29 @@ return [
         'layout' => 'admin',
         'title' => 'Admin - Produse',
     ],
+    '/admin/produse/adauga' => [
+        'controller' => 'AdminController',
+        'action' => 'productAdd',
+        'name' => 'admin.products.add',
+        'layout' => 'admin',
+        'title' => 'Admin - Adauga produs',
+    ],
+    '/admin/produse/editeaza/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'productEdit',
+        'name' => 'admin.products.edit',
+        'layout' => 'admin',
+    ],
+    '/admin/produse/sterge/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'productDelete',
+        'name' => 'admin.products.delete',
+    ],
+    '/admin/produse/duplica/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'productDuplicate',
+        'name' => 'admin.products.duplicate',
+    ],
     '/admin/categorii' => [
         'controller' => 'AdminController',
         'action' => 'categories',
