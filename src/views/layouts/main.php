@@ -4,26 +4,6 @@
     <?php \App\Helpers\View::partial('seo-head', get_defined_vars()); ?>
 
     <style>
-        /* Layout styles */
-        .site-header {
-            background-color: var(--color-bg-header);
-            padding: var(--spacing-md) 0;
-            border-bottom: 2px solid var(--color-border-light);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .site-logo img {
-            height: 60px;
-            width: auto;
-        }
-
-        .site-logo:hover {
-            text-decoration: none;
-            opacity: 0.9;
-        }
-
         .site-main {
             min-height: calc(100vh - 200px);
         }
@@ -101,11 +81,6 @@
     <?php \App\Helpers\View::partial('footer', get_defined_vars()); ?>
 
     <!-- Scripts -->
-    <script>
-        // Ready state
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('acoperisuri.info loaded');
-        });
-    </script>
+    <script src="/js/header.js"></script>
 </body>
 </html>
