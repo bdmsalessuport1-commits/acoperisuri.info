@@ -53,28 +53,56 @@
                 <div class="category-card-image">&#128167;</div>
                 <div class="category-card-body">
                     <h3>Sisteme pluviale</h3>
-                    <p>Jgheaburi si burlane Metigla si Flamingo iQ</p>
+                    <p>Jgheaburi si burlane Metigla, Wetterbest si Flamingo iQ</p>
+                </div>
+            </a>
+            <a href="/folii-anticondens" class="category-card">
+                <div class="category-card-image">&#128203;</div>
+                <div class="category-card-body">
+                    <h3>Folii anticondens</h3>
+                    <p>Protectie eficienta pentru structura acoperisului</p>
+                </div>
+            </a>
+            <a href="/tamplarie-pvc-aluminiu" class="category-card">
+                <div class="category-card-image">&#128311;</div>
+                <div class="category-card-body">
+                    <h3>Tamplarie PVC si Aluminiu</h3>
+                    <p>Ferestre si usi de inalta calitate si eficienta</p>
+                </div>
+            </a>
+            <a href="/ferestre-mansarda-fakro" class="category-card">
+                <div class="category-card-image">&#127968;</div>
+                <div class="category-card-body">
+                    <h3>Ferestre mansarda FAKRO</h3>
+                    <p>Iluminare naturala si ventilatie pentru mansarda</p>
+                </div>
+            </a>
+            <a href="/scari-pod-fakro" class="category-card">
+                <div class="category-card-image">&#128682;</div>
+                <div class="category-card-body">
+                    <h3>Scari de pod FAKRO</h3>
+                    <p>Acces sigur si confortabil la podul casei</p>
+                </div>
+            </a>
+            <a href="/izolatie" class="category-card">
+                <div class="category-card-image">&#127777;</div>
+                <div class="category-card-body">
+                    <h3>Izolatie fibre lemn STEICO</h3>
+                    <p>Izolatie ecologica cu performanta termica superioara</p>
+                </div>
+            </a>
+            <a href="/hidroizolatii-terase" class="category-card">
+                <div class="category-card-image">&#128166;</div>
+                <div class="category-card-body">
+                    <h3>Hidroizolatii terase</h3>
+                    <p>Sisteme de hidroizolatie impermeabile de durata</p>
                 </div>
             </a>
             <a href="/accesorii-acoperis" class="category-card">
                 <div class="category-card-image">&#128295;</div>
                 <div class="category-card-body">
                     <h3>Accesorii acoperis</h3>
-                    <p>Folie anticondens, sipci metalice, etansari</p>
-                </div>
-            </a>
-            <a href="/ferestre-tamplarie" class="category-card">
-                <div class="category-card-image">&#128311;</div>
-                <div class="category-card-body">
-                    <h3>Ferestre si tamplarie</h3>
-                    <p>Ferestre PVC, aluminiu si mansarda FAKRO</p>
-                </div>
-            </a>
-            <a href="/izolatie-hidroizolatii" class="category-card">
-                <div class="category-card-image">&#127777;</div>
-                <div class="category-card-body">
-                    <h3>Izolatie</h3>
-                    <p>Izolatie fibre lemn STEICO si hidroizolatii</p>
+                    <p>Sipci metalice, etansari si accesorii montaj</p>
                 </div>
             </a>
             <a href="/garduri" class="category-card">

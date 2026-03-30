@@ -1,7 +1,4 @@
 <?php
-/**
- * Header complet cu top bar, navigare si mega-meniu
- */
 $currentUri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
 $currentUri = rtrim($currentUri, '/') ?: '/';
 ?>
@@ -17,9 +14,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
         <div class="top-bar-right">
             <span class="delivery-text">&#128666; Livram in toata tara</span>
             <span class="top-bar-separator">|</span>
-            <a href="https://www.facebook.com/bdmsystems" target="_blank" rel="noopener" class="social-link">
-                f Facebook
-            </a>
+            <a href="https://www.facebook.com/bdmsystems" target="_blank" rel="noopener">f Facebook</a>
         </div>
     </div>
 </div>
@@ -29,7 +24,6 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
     <div class="container">
         <div class="header-main">
 
-            <!-- Logo -->
             <a href="/" class="site-logo">
                 <img src="/images/logo/logo-full.png" alt="BDM Systems - acoperisuri.info">
             </a>
@@ -38,91 +32,85 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
             <nav class="site-nav" aria-label="Navigare principala">
                 <ul class="nav-list">
 
-                    <!-- ACOPERISURI - Mega Menu -->
+                    <!-- PRODUSE - Mega Menu cu 2 coloane -->
                     <li class="nav-item">
-                        <a href="/tigla-metalica" class="nav-link <?= str_starts_with($currentUri, '/tigla') || str_starts_with($currentUri, '/tabla') || str_starts_with($currentUri, '/accesorii') || str_starts_with($currentUri, '/sipci') ? 'active' : '' ?>">
-                            Acoperisuri <span class="arrow">&#9660;</span>
+                        <a href="#" class="nav-link nav-link-produse" onclick="return false;">
+                            &#9776; Produse <span class="arrow">&#9660;</span>
                         </a>
-                        <div class="mega-dropdown">
-                            <div class="mega-grid">
-                                <div class="mega-column">
+                        <div class="mega-produse" id="megaProduse">
+                            <!-- Coloana stanga: Categorii -->
+                            <div class="mega-categories">
+                                <a href="/tigla-metalica" class="mega-cat-link has-sub" data-panel="panel-tigla">Tigla metalica <span class="cat-arrow">&#9654;</span></a>
+                                <a href="/tabla-faltuita" class="mega-cat-link has-sub" data-panel="panel-tabla-falt">Tabla faltuita <span class="cat-arrow">&#9654;</span></a>
+                                <a href="/tabla-click" class="mega-cat-link has-sub" data-panel="panel-tabla-click">Tabla click <span class="cat-arrow">&#9654;</span></a>
+                                <a href="/tabla-cutata" class="mega-cat-link has-sub" data-panel="panel-tabla-cutata">Tabla cutata <span class="cat-arrow">&#9654;</span></a>
+                                <a href="/sisteme-pluviale" class="mega-cat-link has-sub" data-panel="panel-pluviale">Sisteme pluviale <span class="cat-arrow">&#9654;</span></a>
+                                <a href="/folii-anticondens" class="mega-cat-link">Folii anticondens</a>
+                                <a href="/accesorii-acoperis" class="mega-cat-link">Accesorii acoperis</a>
+                                <a href="/sipci-metalice" class="mega-cat-link">Sipci metalice</a>
+                                <a href="/tamplarie-pvc-aluminiu" class="mega-cat-link">Tamplarie PVC si Aluminiu</a>
+                                <a href="/ferestre-mansarda-fakro" class="mega-cat-link">Ferestre mansarda FAKRO</a>
+                                <a href="/scari-pod-fakro" class="mega-cat-link">Scari de pod FAKRO</a>
+                                <a href="/izolatie" class="mega-cat-link">Izolatie fibre lemn STEICO</a>
+                                <a href="/hidroizolatii-terase" class="mega-cat-link">Hidroizolatii terase</a>
+                                <a href="/garduri" class="mega-cat-link">Garduri</a>
+                            </div>
+
+                            <!-- Coloana dreapta: Subcategorii (apar la hover) -->
+                            <div class="mega-subcategories">
+                                <p class="mega-default-msg">Trece cu mouse-ul pe o categorie<br>pentru a vedea subcategoriile.</p>
+
+                                <div class="mega-sub-panel" id="panel-tigla">
                                     <h4>Tigla metalica</h4>
-                                    <a href="/tigla-metalica/budmat">Budmat</a>
-                                    <div class="sub-items">
-                                        <a href="/produs/budmat-venecja">Venecja</a>
-                                        <a href="/produs/budmat-bella-sara">Bella Sara</a>
-                                        <a href="/produs/budmat-como">Como</a>
+                                    <div class="sub-group">
+                                        <a href="/tigla-metalica/budmat" class="sub-group-title">Budmat</a>
+                                        <div class="sub-items">
+                                            <a href="/produs/budmat-venecja">Venecja</a>
+                                            <a href="/produs/budmat-bella-sara">Bella Sara</a>
+                                            <a href="/produs/budmat-como">Como</a>
+                                        </div>
                                     </div>
-                                    <a href="/tigla-metalica/metigla">Metigla</a>
-                                    <div class="sub-items">
-                                        <a href="/produs/metigla-elit">Elit</a>
-                                        <a href="/produs/metigla-star">Star</a>
-                                        <a href="/produs/metigla-mira">Mira</a>
+                                    <div class="sub-group">
+                                        <a href="/tigla-metalica/metigla" class="sub-group-title">Metigla</a>
+                                        <div class="sub-items">
+                                            <a href="/produs/metigla-elit">Elit</a>
+                                            <a href="/produs/metigla-star">Star</a>
+                                            <a href="/produs/metigla-mira">Mira</a>
+                                        </div>
                                     </div>
                                     <a href="/tigla-metalica/blachotrapez">Blachotrapez</a>
                                     <a href="/tigla-metalica/wetterbest">Wetterbest</a>
                                 </div>
-                                <div class="mega-column">
+
+                                <div class="mega-sub-panel" id="panel-tabla-falt">
                                     <h4>Tabla faltuita</h4>
                                     <a href="/tabla-faltuita/metigla">Metigla</a>
                                     <a href="/tabla-faltuita/vestalpin">Vestalpin</a>
                                     <a href="/tabla-faltuita/wetterbest">Wetterbest</a>
                                     <a href="/tabla-faltuita/fals-solar-metigla">Fals solar Metigla</a>
+                                </div>
 
-                                    <h4 style="margin-top: var(--spacing-md);">Tabla click</h4>
+                                <div class="mega-sub-panel" id="panel-tabla-click">
+                                    <h4>Tabla click</h4>
                                     <a href="/tabla-click/metigla">Metigla</a>
                                     <a href="/tabla-click/wetterbest">Wetterbest</a>
                                 </div>
-                                <div class="mega-column">
+
+                                <div class="mega-sub-panel" id="panel-tabla-cutata">
                                     <h4>Tabla cutata</h4>
                                     <a href="/tabla-cutata/metigla">Metigla</a>
                                     <a href="/tabla-cutata/wetterbest">Wetterbest</a>
                                     <a href="/tabla-cutata/blachotrapez">Blachotrapez</a>
-
-                                    <h4 style="margin-top: var(--spacing-md);">Accesorii</h4>
-                                    <a href="/accesorii-acoperis">Accesorii acoperis</a>
-                                    <a href="/sipci-metalice">Sipci metalice</a>
                                 </div>
-                                <div class="mega-column">
-                                    <h4>Folii si izolatie</h4>
-                                    <a href="/folii-anticondens">Folii anticondens</a>
-                                    <a href="/izolatie">Izolatie fibre lemn (STEICO)</a>
-                                    <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
+
+                                <div class="mega-sub-panel" id="panel-pluviale">
+                                    <h4>Sisteme pluviale</h4>
+                                    <a href="/sisteme-pluviale/metigla">Sistem de scurgere Metigla</a>
+                                    <a href="/sisteme-pluviale/wetterbest">Sistem de scurgere Wetterbest</a>
+                                    <a href="/sisteme-pluviale/flamingo-iq-budmat">Flamingo iQ Budmat</a>
                                 </div>
                             </div>
                         </div>
-                    </li>
-
-                    <!-- SISTEME PLUVIALE -->
-                    <li class="nav-item">
-                        <a href="/sisteme-pluviale" class="nav-link <?= str_starts_with($currentUri, '/sisteme-pluviale') ? 'active' : '' ?>">
-                            Sisteme pluviale <span class="arrow">&#9660;</span>
-                        </a>
-                        <div class="dropdown">
-                            <a href="/sisteme-pluviale/metigla" class="dropdown-link">Sistem de scurgere Metigla</a>
-                            <a href="/sisteme-pluviale/wetterbest" class="dropdown-link">Sistem de scurgere Wetterbest</a>
-                            <a href="/sisteme-pluviale/flamingo-iq-budmat" class="dropdown-link">Flamingo iQ Budmat</a>
-                        </div>
-                    </li>
-
-                    <!-- TAMPLARIE PVC SI ALUMINIU -->
-                    <li class="nav-item">
-                        <a href="/tamplarie-pvc-aluminiu" class="nav-link <?= str_starts_with($currentUri, '/tamplarie') ? 'active' : '' ?>">Tamplarie PVC</a>
-                    </li>
-
-                    <!-- FERESTRE MANSARDA FAKRO -->
-                    <li class="nav-item">
-                        <a href="/ferestre-mansarda-fakro" class="nav-link <?= str_starts_with($currentUri, '/ferestre-mansarda') ? 'active' : '' ?>">Ferestre mansarda</a>
-                    </li>
-
-                    <!-- SCARI DE POD FAKRO -->
-                    <li class="nav-item">
-                        <a href="/scari-pod-fakro" class="nav-link <?= str_starts_with($currentUri, '/scari-pod') ? 'active' : '' ?>">Scari de pod</a>
-                    </li>
-
-                    <!-- GARDURI -->
-                    <li class="nav-item">
-                        <a href="/garduri" class="nav-link <?= $currentUri === '/garduri' ? 'active' : '' ?>">Garduri</a>
                     </li>
 
                     <!-- SERVICII -->
@@ -148,7 +136,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 </ul>
             </nav>
 
-            <!-- CTA Button -->
+            <!-- CTA -->
             <div class="header-cta">
                 <a href="tel:+40756034734" class="btn btn-primary">
                     <span class="phone-icon">&#128222;</span>
@@ -158,118 +146,55 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
 
             <!-- Hamburger -->
             <button class="hamburger" id="hamburger" aria-label="Deschide meniul">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
-
         </div>
     </div>
 </header>
 
-<!-- MOBILE NAV OVERLAY -->
+<!-- MOBILE NAV -->
 <div class="mobile-nav-overlay" id="mobileNav">
     <ul class="mobile-nav-list">
-
-        <!-- Acoperisuri -->
         <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" data-toggle="mobile-acoperisuri">
-                Acoperisuri <span class="arrow">&#9660;</span>
-            </a>
-            <div class="mobile-subnav" id="mobile-acoperisuri">
-                <div class="sub-heading">Tigla metalica</div>
-                <a href="/tigla-metalica/budmat">Budmat</a>
-                <a href="/tigla-metalica/metigla">Metigla</a>
-                <a href="/tigla-metalica/blachotrapez">Blachotrapez</a>
-                <a href="/tigla-metalica/wetterbest">Wetterbest</a>
-                <div class="sub-heading">Tabla faltuita</div>
-                <a href="/tabla-faltuita/metigla">Metigla</a>
-                <a href="/tabla-faltuita/vestalpin">Vestalpin</a>
-                <a href="/tabla-faltuita/wetterbest">Wetterbest</a>
-                <div class="sub-heading">Tabla click / Tabla cutata</div>
-                <a href="/tabla-click/metigla">Tabla click Metigla</a>
-                <a href="/tabla-cutata/metigla">Tabla cutata Metigla</a>
-                <div class="sub-heading">Accesorii</div>
+            <a href="#" class="mobile-nav-link" data-toggle="mobile-produse">Produse <span class="arrow">&#9660;</span></a>
+            <div class="mobile-subnav" id="mobile-produse">
+                <div class="sub-heading">Acoperisuri</div>
+                <a href="/tigla-metalica">Tigla metalica</a>
+                <a href="/tabla-faltuita">Tabla faltuita</a>
+                <a href="/tabla-click">Tabla click</a>
+                <a href="/tabla-cutata">Tabla cutata</a>
+                <a href="/folii-anticondens">Folii anticondens</a>
                 <a href="/accesorii-acoperis">Accesorii acoperis</a>
                 <a href="/sipci-metalice">Sipci metalice</a>
-            </div>
-        </li>
-
-        <!-- Sisteme pluviale -->
-        <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" data-toggle="mobile-pluviale">
-                Sisteme pluviale <span class="arrow">&#9660;</span>
-            </a>
-            <div class="mobile-subnav" id="mobile-pluviale">
-                <a href="/sisteme-pluviale/metigla">Sistem de scurgere Metigla</a>
-                <a href="/sisteme-pluviale/wetterbest">Sistem de scurgere Wetterbest</a>
+                <div class="sub-heading">Sisteme pluviale</div>
+                <a href="/sisteme-pluviale/metigla">Scurgere Metigla</a>
+                <a href="/sisteme-pluviale/wetterbest">Scurgere Wetterbest</a>
                 <a href="/sisteme-pluviale/flamingo-iq-budmat">Flamingo iQ Budmat</a>
+                <div class="sub-heading">Tamplarie si Ferestre</div>
+                <a href="/tamplarie-pvc-aluminiu">Tamplarie PVC si Aluminiu</a>
+                <a href="/ferestre-mansarda-fakro">Ferestre mansarda FAKRO</a>
+                <a href="/scari-pod-fakro">Scari de pod FAKRO</a>
+                <div class="sub-heading">Izolatie</div>
+                <a href="/izolatie">Izolatie fibre lemn STEICO</a>
+                <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
+                <div class="sub-heading">Altele</div>
+                <a href="/garduri">Garduri</a>
             </div>
         </li>
-
-        <!-- Folii anticondens -->
         <li class="mobile-nav-item">
-            <a href="/folii-anticondens" class="mobile-nav-link">Folii anticondens</a>
-        </li>
-
-        <!-- Tamplarie PVC si Aluminiu -->
-        <li class="mobile-nav-item">
-            <a href="/tamplarie-pvc-aluminiu" class="mobile-nav-link">Tamplarie PVC si Aluminiu</a>
-        </li>
-
-        <!-- Ferestre Mansarda FAKRO -->
-        <li class="mobile-nav-item">
-            <a href="/ferestre-mansarda-fakro" class="mobile-nav-link">Ferestre mansarda FAKRO</a>
-        </li>
-
-        <!-- Scari de pod FAKRO -->
-        <li class="mobile-nav-item">
-            <a href="/scari-pod-fakro" class="mobile-nav-link">Scari de pod FAKRO</a>
-        </li>
-
-        <!-- Izolatie -->
-        <li class="mobile-nav-item">
-            <a href="/izolatie" class="mobile-nav-link">Izolatie (STEICO Zell)</a>
-        </li>
-
-        <!-- Hidroizolatii Terase -->
-        <li class="mobile-nav-item">
-            <a href="/hidroizolatii-terase" class="mobile-nav-link">Hidroizolatii terase</a>
-        </li>
-
-        <!-- Garduri -->
-        <li class="mobile-nav-item">
-            <a href="/garduri" class="mobile-nav-link">Garduri</a>
-        </li>
-
-        <!-- Servicii -->
-        <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" data-toggle="mobile-servicii">
-                Servicii <span class="arrow">&#9660;</span>
-            </a>
+            <a href="#" class="mobile-nav-link" data-toggle="mobile-servicii">Servicii <span class="arrow">&#9660;</span></a>
             <div class="mobile-subnav" id="mobile-servicii">
                 <a href="/servicii/consultanta-eficienta-energetica">Consultanta eficienta energetica</a>
                 <a href="/servicii/consultanta-passive-house">Consultanta Passive House</a>
             </div>
         </li>
-
-        <li class="mobile-nav-item">
-            <a href="/blog" class="mobile-nav-link">Blog</a>
-        </li>
-
-        <li class="mobile-nav-item">
-            <a href="/contact" class="mobile-nav-link">Contact</a>
-        </li>
+        <li class="mobile-nav-item"><a href="/blog" class="mobile-nav-link">Blog</a></li>
+        <li class="mobile-nav-item"><a href="/contact" class="mobile-nav-link">Contact</a></li>
     </ul>
-
     <div class="mobile-cta">
-        <a href="tel:+40756034734" class="btn btn-primary btn-lg">
-            &#128222; Suna acum: 0756.034.734
-        </a>
+        <a href="tel:+40756034734" class="btn btn-primary btn-lg">&#128222; Suna acum: 0756.034.734</a>
     </div>
-
     <div class="mobile-contact-info">
         <p><a href="mailto:office@bdmacoperis.ro">office@bdmacoperis.ro</a></p>
-        <p>Livram in toata tara</p>
     </div>
 </div>
