@@ -46,3 +46,4 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <link rel="stylesheet" href="/css/header.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/footer.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/homepage.css?v=<?= $v ?>">
+<link rel="stylesheet" href="/css/category.css?v=<?= $v ?>">
