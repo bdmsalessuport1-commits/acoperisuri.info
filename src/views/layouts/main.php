@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <?php \App\Helpers\View::partial('seo-head', get_defined_vars()); ?>
+
+    <style>
+        /* Layout styles */
+        .site-header {
+            background-color: var(--color-bg-header);
+            padding: var(--spacing-md) 0;
+            border-bottom: 2px solid var(--color-border-light);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .site-logo img {
+            height: 60px;
+            width: auto;
+        }
+
+        .site-logo:hover {
+            text-decoration: none;
+            opacity: 0.9;
+        }
+
+        .site-main {
+            min-height: calc(100vh - 200px);
+        }
+
+        .site-footer {
+            background-color: var(--color-primary);
+            color: var(--color-bg-white);
+            padding: var(--spacing-2xl) 0;
+        }
+
+        .site-footer p {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Breadcrumb styles */
+        .breadcrumb {
+            background-color: var(--color-bg-light);
+            padding: var(--spacing-sm) 0;
+            border-bottom: 1px solid var(--color-border-light);
+        }
+
+        .breadcrumb-list {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            font-size: var(--text-sm);
+        }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: '/';
+            margin-right: var(--spacing-xs);
+            color: var(--color-text-light);
+        }
+
+        .breadcrumb-item a {
+            color: var(--color-accent-blue);
+        }
+
+        .breadcrumb-item span {
+            color: var(--color-text-light);
+        }
+
+        /* Page placeholder */
+        .page-placeholder {
+            text-align: center;
+            padding: var(--spacing-3xl) 0;
+        }
+
+        .page-placeholder .placeholder-icon {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-md);
+            opacity: 0.5;
+        }
+
+        .page-placeholder h2 {
+            color: var(--color-primary);
+        }
+
+        .page-placeholder p {
+            color: var(--color-text-light);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <?php \App\Helpers\View::partial('header', get_defined_vars()); ?>
+
+    <?php \App\Helpers\View::partial('breadcrumb', get_defined_vars()); ?>
+
+    <main class="site-main">
+        <?= $content ?>
+    </main>
+
+    <?php \App\Helpers\View::partial('footer', get_defined_vars()); ?>
+
+    <!-- Scripts -->
+    <script>
+        // Ready state
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('acoperisuri.info loaded');
+        });
+    </script>
+</body>
+</html>
