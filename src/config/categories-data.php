@@ -301,13 +301,13 @@ return [
         'description' => 'Scari escamotabile FAKRO pentru acces la pod. Modele din lemn si metal, izolate termic, cu diverse dimensiuni.',
         'icon' => '&#128682;',
         'subcategories' => [
-            ['slug' => 'scari-lemn', 'name' => 'Scari din lemn', 'count' => 4, 'icon' => '&#128682;'],
-            ['slug' => 'scari-metal', 'name' => 'Scari metalice', 'count' => 3, 'icon' => '&#128682;'],
-            ['slug' => 'scari-izolate', 'name' => 'Scari termoizolate', 'count' => 2, 'icon' => '&#128682;'],
+            ['slug' => 'fakro', 'name' => 'FAKRO', 'count' => 6, 'icon' => '&#128682;'],
         ],
         'popular' => [
             ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
-            ['slug' => 'fakro-lst', 'name' => 'LST (metalica)', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-lwt-thermo', 'name' => 'LWT Thermo', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-lst', 'name' => 'LST Foarfeca', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-lmf', 'name' => 'LMF Antifoc', 'brand' => 'FAKRO'],
         ],
         'seo_title' => 'Scari de Pod FAKRO - Escamotabile si Izolate',
         'seo_text' => '<h2>Scari de pod FAKRO - acces sigur si confortabil</h2>

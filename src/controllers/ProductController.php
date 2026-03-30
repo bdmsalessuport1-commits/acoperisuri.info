@@ -1593,6 +1593,253 @@ class ProductController
         ],
 
         // ==========================================
+        // SCARI DE POD FAKRO
+        // ==========================================
+        'fakro-lwk-komfort' => [
+            'name' => 'FAKRO LWK Komfort',
+            'tagline' => 'Cel mai vandut model - scara din pin, 160kg, U=1.1, 17+ marimi disponibile. Pret accesibil.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Material' => 'Lemn pin',
+                'Sarcina maxima' => '160 kg',
+                'U capac' => '1.1 W/m²K',
+                'Grosime izolatie capac' => '3 cm',
+                'Inaltime tavan max' => '280 cm / 305 cm',
+                'Inclinare scara' => '55 grade',
+                'Trepte' => 'Antiderapante, latime 34 cm',
+                'Sectiuni' => '3 sau 4',
+                'Garantie' => '3 ani',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Pin lacuit, capac alb', 'code' => 'Standard', 'color' => '#c4a96a'],
+                ],
+            ],
+            'warranty' => 'Garantie 3 ani FAKRO. Cel mai popular model din gama. Confom EN 14975.',
+            'description' => '<h2>FAKRO LWK Komfort - scara de pod bestseller</h2>
+                <p>LWK Komfort este cel mai vandut model de scara de pod FAKRO, combinand calitatea excelenta a lemnului de pin cu un pret accesibil. Disponibila in peste 17 dimensiuni de goluri, se potriveste practic oricarei case.</p>
+                <h3>Caracteristici LWK Komfort</h3>
+                <ul>
+                    <li>Lemn de pin de calitate, tratat si lacuit</li>
+                    <li>Trepte antiderapante cu latime 34 cm</li>
+                    <li>Balustrada inclusa pentru siguranta</li>
+                    <li>Montaj rapid - livrare complet asamblata</li>
+                    <li>Capac termoizolant alb, U=1.1 W/m²K</li>
+                    <li>Disponibila pentru tavane intre 232 si 305 cm</li>
+                </ul>
+                <h3>Dimensiuni disponibile</h3>
+                <p>Goluri de la 60×94 cm pana la 70×140 cm. Peste 17 marimi disponibile pentru a se potrivi oricarui gol din planseu.</p>',
+            'related' => [
+                ['slug' => 'fakro-lwt-thermo', 'name' => 'LWT Thermo', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ltk-energy', 'name' => 'LTK Energy', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lst', 'name' => 'LST Foarfeca', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-lwt-thermo' => [
+            'name' => 'FAKRO LWT Thermo',
+            'tagline' => 'Scara termoizolanta Passive House - U=0.51 W/m²K, clasa etanseitate 4, 7.4cm izolatie capac.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Material' => 'Lemn pin',
+                'Sarcina maxima' => '160 kg',
+                'U capac' => '0.51 W/m²K',
+                'Grosime izolatie capac' => '7.4 cm',
+                'Grosime capac' => '8 cm',
+                'Clasa etanseitate aer' => 'Clasa 4 (maxim - EN12207)',
+                'Inaltime tavan max' => '280 cm / 305 cm',
+                'Goluri disponibile' => '62×122, 72×122, 72×142 cm',
+                'Inclinare scara' => '55 grade',
+                'Certificare' => 'Passive House',
+                'Garantie' => '3 ani',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Pin lacuit, capac super-izolat alb', 'code' => 'Thermo', 'color' => '#ddd8c4'],
+                ],
+            ],
+            'warranty' => 'Garantie 3 ani FAKRO. Certificat Passive House. U=0.51 W/m²K - cel mai bun din gama.',
+            'description' => '<h2>FAKRO LWT Thermo - performanta Passive House</h2>
+                <p>LWT Thermo este scara de pod cu cele mai bune performante termice din gama FAKRO, certificata pentru case pasive (Passive House). Capacul cu 7.4 cm izolatie si dublul garnituri asigura un U=0.51 W/m²K si etanseitate de clasa 4 - cel mai inalt nivel posibil.</p>
+                <h3>De ce LWT Thermo?</h3>
+                <ul>
+                    <li>U=0.51 W/m²K - certificat Passive House</li>
+                    <li>Clasa 4 etanseitate aer - fara pierderi termice</li>
+                    <li>Capac 8 cm grosime cu 7.4 cm izolatie</li>
+                    <li>Doua garnituri perimetrale pentru etanseitate maxima</li>
+                    <li>Ideal pentru case cu consum energetic ultra-redus</li>
+                    <li>Maner de sprijin inclus</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ltk-energy', 'name' => 'LTK Energy', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-ltk-energy' => [
+            'name' => 'FAKRO LTK Energy',
+            'tagline' => 'Scara termoizolanta intermediara - U=0.68 W/m²K, 6 cm izolatie, 10 marimi disponibile.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Material' => 'Lemn pin',
+                'Sarcina maxima' => '160 kg',
+                'U capac' => '0.68 W/m²K',
+                'Grosime izolatie capac' => '6 cm',
+                'Grosime capac' => '6.6 cm',
+                'Inaltime tavan max' => '280 cm / 305 cm',
+                'Marimi disponibile' => '10 variante',
+                'Inclinare scara' => '55 grade',
+                'Garantie' => '3 ani',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Pin lacuit, capac izolat alb', 'code' => 'Energy', 'color' => '#ddd8c4'],
+                ],
+            ],
+            'warranty' => 'Garantie 3 ani FAKRO. Echilibru optim performanta-pret.',
+            'description' => '<h2>FAKRO LTK Energy - izolatie superioara la pret mediu</h2>
+                <p>LTK Energy este solutia de mijloc intre LWK Komfort (standard) si LWT Thermo (Passive House). Cu un U=0.68 W/m²K si 6 cm de izolatie in capac, aceasta scara ofera performante termice superioare la un pret accesibil.</p>
+                <h3>Pozitionare LTK Energy</h3>
+                <ul>
+                    <li>U=0.68 W/m²K - performanta termica superioara</li>
+                    <li>6 cm izolatie capac - protectie termica buna</li>
+                    <li>10 marimi disponibile - versatila</li>
+                    <li>Raport excelent performanta/pret</li>
+                    <li>Recomandata pentru case bine izolate (nu neaparat Passive House)</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lwt-thermo', 'name' => 'LWT Thermo', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lst', 'name' => 'LST Foarfeca', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-lst' => [
+            'name' => 'FAKRO LST Foarfeca',
+            'tagline' => 'Scara metalica tip foarfeca (pantograf) - economie maxima de spatiu, H tavan 230-280 cm.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Material' => 'Otel (metal)',
+                'Tip' => 'Foarfeca (pantograf/scissors)',
+                'Sarcina maxima' => '160 kg',
+                'Inaltime tavan' => '230 - 280 cm',
+                'Gol minim' => '51 x 80 cm',
+                'Mecanism' => 'Arc (spring-loaded)',
+                'Trepte' => 'Antiderapante metal',
+                'Garantie' => '3 ani',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Metal vopsit alb', 'code' => 'Foarfeca', 'color' => '#e8e8e8'],
+                ],
+            ],
+            'warranty' => 'Garantie 3 ani FAKRO. Ideal pentru goluri mici si spatii restranuse.',
+            'description' => '<h2>FAKRO LST - scara metalica tip foarfeca</h2>
+                <p>LST este scara de pod cu mecanism tip foarfeca (pantograf), ideala pentru spatii unde nu exista loc suficient pentru deschiderea clasica a unei scari pliate. Mecanismul foarfeca se pliaza compact si ocupa spatiu minim in pod.</p>
+                <h3>Avantaje LST Foarfeca</h3>
+                <ul>
+                    <li>Mecanism foarfeca - spatiu minim necesar pentru deschidere</li>
+                    <li>Gol minim 51×80 cm - potrivit pentru goluri mici</li>
+                    <li>Arc cu deschidere usoara - fara efort</li>
+                    <li>Trepte metalice antiderapante</li>
+                    <li>Capac termoizolant alb inclus</li>
+                    <li>Ideal pentru poduri cu spatiu limitat</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lml-lux', 'name' => 'LML Lux Metal', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lmf', 'name' => 'LMF Antifoc', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-lml-lux' => [
+            'name' => 'FAKRO LML Lux Metal',
+            'tagline' => 'Scara metalica standard cu piston de asistare, trepte adanci 12.7 cm, H tavan pana la 312 cm.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Material' => 'Otel (metal)',
+                'Sarcina maxima' => '160 kg',
+                'Inaltime tavan max' => '234 - 312 cm',
+                'Adancime treapta' => '12.7 cm',
+                'Mecanism' => 'Piston de asistare la deschidere',
+                'Sectiuni' => '3',
+                'Garantie' => '3 ani',
+                'Standard' => 'EN 14975',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Metal lacuit, capac alb', 'code' => 'Lux Metal', 'color' => '#d0d0d0'],
+                ],
+            ],
+            'warranty' => 'Garantie 3 ani FAKRO. Design etans, trepte adanci pentru confort maxim.',
+            'description' => '<h2>FAKRO LML Lux - scara metalica premium</h2>
+                <p>LML Lux este scara metalica premium a gamei FAKRO, cu trepte adanci de 12.7 cm care ofera confort superior la urcare/coborare. Pistonul de asistare face deschiderea si inchiderea scarii extrem de usoara.</p>
+                <h3>Caracteristici LML Lux</h3>
+                <ul>
+                    <li>Trepte metalice adanci 12.7 cm - confort superior</li>
+                    <li>Piston de asistare - deschidere fara efort</li>
+                    <li>Design etans - garnitura perimetrala</li>
+                    <li>Inaltime tavan pana la 312 cm</li>
+                    <li>Balustrade telescopice incluse</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-lst', 'name' => 'LST Foarfeca', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lmf', 'name' => 'LMF Antifoc', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-lmf' => [
+            'name' => 'FAKRO LMF Antifoc',
+            'tagline' => 'Scara metalica rezistenta la foc 60 minute. Certificata EI60 pentru cladiri cu cerinte de securitate la incendiu.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Material' => 'Otel cu tratamente antiincendiu',
+                'Rezistenta la foc' => '60 minute',
+                'Sarcina maxima' => '160 kg',
+                'Inaltime tavan max' => 'pana la 308 cm',
+                'Garnitura' => 'Expandabila la temperaturi ridicate',
+                'Sectiuni' => '3',
+                'Garantie' => '3 ani',
+                'Certificare' => 'Rezistenta la foc EI60',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Metal ignifugat, capac antifoc', 'code' => 'EI60', 'color' => '#b0b0b0'],
+                ],
+            ],
+            'warranty' => 'Garantie 3 ani FAKRO. Certificat rezistenta la foc 60 minute.',
+            'description' => '<h2>FAKRO LMF Antifoc - siguranta certificata la incendiu</h2>
+                <p>LMF este scara de pod cu rezistenta certificata la foc de 60 de minute - obligatorie in anumite tipuri de constructii (cladiri publice, blocuri, spatii comerciale) conform normativelor de securitate la incendiu.</p>
+                <h3>Certificare antifoc</h3>
+                <ul>
+                    <li>Rezistenta la foc 60 minute - certificat EI60</li>
+                    <li>Garnitura expandabila - se dilata la caldura blocand trecerea fumului si flacarii</li>
+                    <li>Materiale ignifuge pe toata structura</li>
+                    <li>Obligatorie conform normativelor pentru anumite destinatii</li>
+                    <li>Trepte antiderapante metalice</li>
+                    <li>Manere de sprijin telescopice</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-lml-lux', 'name' => 'LML Lux Metal', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lst', 'name' => 'LST Foarfeca', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        // ==========================================
         // FOLII ANTICONDENS (BDM + Riwega)
         // ==========================================
         'bdm-125-standard-plus' => [
