@@ -62,8 +62,13 @@ return [
         'controller' => 'VideoController',
         'action' => 'index',
         'name' => 'video',
-        'title' => 'Video - BDM Systems',
-        'description' => 'Tutoriale video si prezentari de produse pentru acoperisuri.',
+        'title' => 'Videouri acoperisuri - Sfaturi si demonstratii | BDM Systems',
+        'description' => 'Videouri TikTok cu montaj acoperis, sfaturi tehnice, sisteme pluviale si studii de caz.',
+    ],
+    '/video/categorie/{slug}' => [
+        'controller' => 'VideoController',
+        'action' => 'category',
+        'name' => 'video.category',
     ],
 
     // Categorii de sine statatoare (cu titluri SEO)
