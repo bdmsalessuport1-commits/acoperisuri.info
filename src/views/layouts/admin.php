@@ -43,9 +43,13 @@
 
                 <div class="sidebar-section">
                     <span class="sidebar-section-label">Continut</span>
-                    <a href="/admin/categorii" class="sidebar-link<?= $currentPath === '/admin/categorii' ? ' active' : '' ?>">
+                    <a href="/admin/categorii" class="sidebar-link<?= str_starts_with($currentPath, '/admin/categorii') ? ' active' : '' ?>">
                         <span class="sidebar-icon">&#9776;</span>
                         Categorii
+                    </a>
+                    <a href="/admin/subcategorii" class="sidebar-link<?= str_starts_with($currentPath, '/admin/subcategorii') ? ' active' : '' ?>">
+                        <span class="sidebar-icon">&#9655;</span>
+                        Subcategorii
                     </a>
                     <a href="/admin/produse" class="sidebar-link<?= $currentPath === '/admin/produse' ? ' active' : '' ?>">
                         <span class="sidebar-icon">&#9733;</span>

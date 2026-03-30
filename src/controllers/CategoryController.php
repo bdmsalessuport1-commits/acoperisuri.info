@@ -3,14 +3,21 @@
 namespace App\Controllers;
 
 use App\Helpers\View;
+use App\Helpers\DataStore;
 
 class CategoryController
 {
+    private DataStore $catStore;
+    private DataStore $subStore;
     private array $categoriesData;
 
     public function __construct()
     {
-        $this->categoriesData = require __DIR__ . '/../config/categories-data.php';
+        $this->catStore = new DataStore('categories');
+        $this->subStore = new DataStore('subcategories');
+
+        // Construieste structura compatibila cu cea veche (categories-data.php)
+        $this->categoriesData = $this->buildLegacyFormat();
     }
 
     public function show(array $params, array $route): void
@@ -39,7 +46,6 @@ class CategoryController
         $catName = $catData['name'] ?? $this->slugToName($catSlug);
         $subName = $this->slugToName($subSlug);
 
-        // Gaseste numele corect al subcategoriei din datele categoriei
         if ($catData && !empty($catData['subcategories'])) {
             foreach ($catData['subcategories'] as $sub) {
                 if ($sub['slug'] === $subSlug) {
@@ -49,7 +55,6 @@ class CategoryController
             }
         }
 
-        // Obtine produsele din subcategorie
         $productCtrl = new ProductController();
         $products = $productCtrl->getBySubcategory($catSlug, $subSlug);
 
@@ -67,6 +72,49 @@ class CategoryController
                 ['label' => $subName],
             ],
         ]);
+    }
+
+    /**
+     * Construieste formatul legacy (slug => data) din DataStore
+     * pentru compatibilitate cu views existente
+     */
+    private function buildLegacyFormat(): array
+    {
+        $result = [];
+        $allSubs = $this->subStore->all();
+
+        foreach ($this->catStore->orderBy('sort_order') as $cat) {
+            if (!($cat['is_active'] ?? true)) continue;
+
+            $slug = $cat['slug'];
+            $subs = [];
+            foreach ($allSubs as $sub) {
+                if (($sub['category_id'] ?? 0) === $cat['id'] && ($sub['is_active'] ?? true)) {
+                    $subs[] = [
+                        'slug'  => $sub['slug'],
+                        'name'  => $sub['name'],
+                        'count' => $sub['count'] ?? 0,
+                        'icon'  => $sub['icon'] ?? $cat['icon'] ?? '',
+                    ];
+                }
+            }
+
+            // Sortare subcategorii dupa sort_order
+            usort($subs, fn($a, $b) => ($a['sort_order'] ?? 0) <=> ($b['sort_order'] ?? 0));
+
+            $result[$slug] = [
+                'name'          => $cat['name'],
+                'description'   => $cat['description'] ?? '',
+                'icon'          => $cat['icon'] ?? '',
+                'subcategories' => $subs,
+                'popular'       => [],
+                'seo_title'     => $cat['seo_title'] ?? '',
+                'seo_text'      => $cat['seo_text'] ?? '',
+                'related'       => [],
+            ];
+        }
+
+        return $result;
     }
 
     private function slugToName(string $slug): string
