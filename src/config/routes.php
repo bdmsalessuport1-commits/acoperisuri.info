@@ -22,15 +22,22 @@ return [
         'controller' => 'PageController',
         'action' => 'about',
         'name' => 'about',
-        'title' => 'Despre noi - BDM Systems',
-        'description' => 'Aflati mai multe despre BDM Systems, experienta noastra si echipa de profesionisti.',
+        'title' => 'Despre BDM Systems - 14+ ani experienta in acoperisuri',
+        'description' => 'BDM Systems - din 2010, peste 4000 acoperisuri realizate. Tigla metalica, tabla faltuita, ferestre FAKRO, izolatie STEICO.',
     ],
     '/contact' => [
         'controller' => 'PageController',
         'action' => 'contact',
         'name' => 'contact',
-        'title' => 'Contact - BDM Systems',
-        'description' => 'Contacteaza-ne pentru oferte personalizate si consultanta gratuita pentru acoperisuri.',
+        'title' => 'Contact - BDM Systems | Solicita oferta gratuita',
+        'description' => 'Contacteaza BDM Systems pentru oferte personalizate, consultanta gratuita si informatii despre acoperisuri.',
+    ],
+    '/servicii' => [
+        'controller' => 'PageController',
+        'action' => 'services',
+        'name' => 'services',
+        'title' => 'Servicii acoperisuri - Montaj, renovare, consultanta | BDM Systems',
+        'description' => 'Servicii profesionale: montaj acoperis, renovare, sisteme pluviale, ferestre FAKRO, izolatie STEICO. Consultanta gratuita.',
     ],
 
     // Blog

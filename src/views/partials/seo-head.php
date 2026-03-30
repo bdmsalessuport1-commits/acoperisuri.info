@@ -50,3 +50,4 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <link rel="stylesheet" href="/css/product.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/blog.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/video.css?v=<?= $v ?>">
+<link rel="stylesheet" href="/css/pages.css?v=<?= $v ?>">
