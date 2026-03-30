@@ -71,6 +71,6 @@
     <?php \App\Helpers\View::partial('footer', get_defined_vars()); ?>
 
     <!-- Scripts -->
-    <script src="/js/header.js"></script>
+    <script src="/js/header.js?v=5"></script>
 </body>
 </html>
