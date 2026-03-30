@@ -8,12 +8,12 @@ class CategoryController
 {
     public function show(array $params, array $route): void
     {
-        $slug = $params['categorie'] ?? 'categorie';
+        $slug = $params['categorie'] ?? basename(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH));
         $name = $this->slugToName($slug);
 
         View::render('pages/category', [
-            'pageTitle' => $name . ' - BDM Systems',
-            'pageDescription' => 'Produse din categoria ' . $name . ' - BDM Systems acoperisuri.info',
+            'pageTitle' => $route['title'] ?? ($name . ' - BDM Systems'),
+            'pageDescription' => $route['description'] ?? ('Produse din categoria ' . $name . ' - BDM Systems acoperisuri.info'),
             'categorySlug' => $slug,
             'categoryName' => $name,
             'breadcrumbs' => [

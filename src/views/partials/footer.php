@@ -27,10 +27,12 @@
                 <div class="footer-links">
                     <a href="/tigla-metalica">Tigla metalica</a>
                     <a href="/tabla-faltuita">Tabla faltuita</a>
-                    <a href="/tabla-click">Tabla click</a>
                     <a href="/sisteme-pluviale">Sisteme pluviale</a>
-                    <a href="/accesorii-acoperis">Accesorii acoperis</a>
-                    <a href="/ferestre-tamplarie">Ferestre si tamplarie</a>
+                    <a href="/folii-anticondens">Folii anticondens</a>
+                    <a href="/tamplarie-pvc-aluminiu">Tamplarie PVC si Aluminiu</a>
+                    <a href="/ferestre-mansarda-fakro">Ferestre mansarda FAKRO</a>
+                    <a href="/scari-pod-fakro">Scari de pod FAKRO</a>
+                    <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
                 </div>
             </div>
 

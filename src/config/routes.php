@@ -56,6 +56,50 @@ return [
         'description' => 'Tutoriale video si prezentari de produse pentru acoperisuri.',
     ],
 
+    // Categorii de sine statatoare (cu titluri SEO)
+    '/folii-anticondens' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'folii-anticondens',
+        'title' => 'Folii anticondens pentru acoperis - BDM Systems',
+        'description' => 'Folii anticondens de calitate pentru protectia acoperisului. Montaj profesional si livrare in toata tara.',
+    ],
+    '/tamplarie-pvc-aluminiu' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'tamplarie',
+        'title' => 'Tamplarie PVC si Aluminiu - BDM Systems',
+        'description' => 'Ferestre si usi din PVC si aluminiu de inalta calitate. Eficienta energetica si design modern.',
+    ],
+    '/ferestre-mansarda-fakro' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'ferestre-mansarda',
+        'title' => 'Ferestre mansarda FAKRO - BDM Systems',
+        'description' => 'Ferestre de mansarda FAKRO - iluminare naturala si ventilatie pentru mansarda dumneavoastra.',
+    ],
+    '/scari-pod-fakro' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'scari-pod',
+        'title' => 'Scari de pod FAKRO - BDM Systems',
+        'description' => 'Scari de pod FAKRO - acces sigur si confortabil la podul casei. Modele escamotabile si izolate termic.',
+    ],
+    '/izolatie' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'izolatie',
+        'title' => 'Izolatie fibre lemn STEICO Zell - BDM Systems',
+        'description' => 'Izolatie ecologica din fibre de lemn STEICO Zell. Performanta termica superioara si confort.',
+    ],
+    '/hidroizolatii-terase' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'hidroizolatii',
+        'title' => 'Hidroizolatii terase - BDM Systems',
+        'description' => 'Sisteme de hidroizolatie pentru terase. Protectie impermeabila de durata.',
+    ],
+
     // Produs individual (INAINTE de categorii dinamice!)
     '/produs/{slug}' => [
         'controller' => 'ProductController',

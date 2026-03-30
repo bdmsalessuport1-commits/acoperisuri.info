@@ -40,7 +40,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
 
                     <!-- ACOPERISURI - Mega Menu -->
                     <li class="nav-item">
-                        <a href="/tigla-metalica" class="nav-link <?= str_starts_with($currentUri, '/tigla') || str_starts_with($currentUri, '/tabla') || str_starts_with($currentUri, '/accesorii') ? 'active' : '' ?>">
+                        <a href="/tigla-metalica" class="nav-link <?= str_starts_with($currentUri, '/tigla') || str_starts_with($currentUri, '/tabla') || str_starts_with($currentUri, '/accesorii') || str_starts_with($currentUri, '/sipci') ? 'active' : '' ?>">
                             Acoperisuri <span class="arrow">&#9660;</span>
                         </a>
                         <div class="mega-dropdown">
@@ -78,12 +78,16 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                     <a href="/tabla-cutata/metigla">Metigla</a>
                                     <a href="/tabla-cutata/wetterbest">Wetterbest</a>
                                     <a href="/tabla-cutata/blachotrapez">Blachotrapez</a>
+
+                                    <h4 style="margin-top: var(--spacing-md);">Accesorii</h4>
+                                    <a href="/accesorii-acoperis">Accesorii acoperis</a>
+                                    <a href="/sipci-metalice">Sipci metalice</a>
                                 </div>
                                 <div class="mega-column">
-                                    <h4>Accesorii</h4>
-                                    <a href="/accesorii-acoperis">Accesorii acoperis</a>
-                                    <a href="/folie-anticondens">Folie anticondens</a>
-                                    <a href="/sipci-metalice">Sipci metalice</a>
+                                    <h4>Folii si izolatie</h4>
+                                    <a href="/folii-anticondens">Folii anticondens</a>
+                                    <a href="/izolatie">Izolatie fibre lemn (STEICO)</a>
+                                    <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
                                 </div>
                             </div>
                         </div>
@@ -95,34 +99,25 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                             Sisteme pluviale <span class="arrow">&#9660;</span>
                         </a>
                         <div class="dropdown">
-                            <a href="/sisteme-pluviale/metigla" class="dropdown-link">Sisteme de scurgere Metigla</a>
+                            <a href="/sisteme-pluviale/metigla" class="dropdown-link">Sistem de scurgere Metigla</a>
+                            <a href="/sisteme-pluviale/wetterbest" class="dropdown-link">Sistem de scurgere Wetterbest</a>
                             <a href="/sisteme-pluviale/flamingo-iq-budmat" class="dropdown-link">Flamingo iQ Budmat</a>
                         </div>
                     </li>
 
-                    <!-- FERESTRE SI TAMPLARIE -->
+                    <!-- TAMPLARIE PVC SI ALUMINIU -->
                     <li class="nav-item">
-                        <a href="/ferestre-tamplarie" class="nav-link <?= str_starts_with($currentUri, '/ferestre') ? 'active' : '' ?>">
-                            Ferestre <span class="arrow">&#9660;</span>
-                        </a>
-                        <div class="dropdown">
-                            <a href="/ferestre-tamplarie/ferestre-pvc" class="dropdown-link">Ferestre PVC</a>
-                            <a href="/ferestre-tamplarie/ferestre-aluminiu" class="dropdown-link">Ferestre aluminiu</a>
-                            <div class="dropdown-divider"></div>
-                            <a href="/ferestre-tamplarie/ferestre-mansarda-fakro" class="dropdown-link">Ferestre mansarda FAKRO</a>
-                            <a href="/ferestre-tamplarie/scari-poduri-fakro" class="dropdown-link">Scari poduri FAKRO</a>
-                        </div>
+                        <a href="/tamplarie-pvc-aluminiu" class="nav-link <?= str_starts_with($currentUri, '/tamplarie') ? 'active' : '' ?>">Tamplarie PVC</a>
                     </li>
 
-                    <!-- IZOLATIE -->
+                    <!-- FERESTRE MANSARDA FAKRO -->
                     <li class="nav-item">
-                        <a href="/izolatie-hidroizolatii" class="nav-link <?= str_starts_with($currentUri, '/izolatie') ? 'active' : '' ?>">
-                            Izolatie <span class="arrow">&#9660;</span>
-                        </a>
-                        <div class="dropdown">
-                            <a href="/izolatie-hidroizolatii/izolatie-fibre-lemn" class="dropdown-link">Izolatie fibre lemn (STEICO Zell)</a>
-                            <a href="/izolatie-hidroizolatii/hidroizolatii-terase" class="dropdown-link">Hidroizolatii terase</a>
-                        </div>
+                        <a href="/ferestre-mansarda-fakro" class="nav-link <?= str_starts_with($currentUri, '/ferestre-mansarda') ? 'active' : '' ?>">Ferestre mansarda</a>
+                    </li>
+
+                    <!-- SCARI DE POD FAKRO -->
+                    <li class="nav-item">
+                        <a href="/scari-pod-fakro" class="nav-link <?= str_starts_with($currentUri, '/scari-pod') ? 'active' : '' ?>">Scari de pod</a>
                     </li>
 
                     <!-- GARDURI -->
@@ -196,7 +191,6 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/tabla-cutata/metigla">Tabla cutata Metigla</a>
                 <div class="sub-heading">Accesorii</div>
                 <a href="/accesorii-acoperis">Accesorii acoperis</a>
-                <a href="/folie-anticondens">Folie anticondens</a>
                 <a href="/sipci-metalice">Sipci metalice</a>
             </div>
         </li>
@@ -207,40 +201,48 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 Sisteme pluviale <span class="arrow">&#9660;</span>
             </a>
             <div class="mobile-subnav" id="mobile-pluviale">
-                <a href="/sisteme-pluviale/metigla">Sisteme de scurgere Metigla</a>
+                <a href="/sisteme-pluviale/metigla">Sistem de scurgere Metigla</a>
+                <a href="/sisteme-pluviale/wetterbest">Sistem de scurgere Wetterbest</a>
                 <a href="/sisteme-pluviale/flamingo-iq-budmat">Flamingo iQ Budmat</a>
             </div>
         </li>
 
-        <!-- Ferestre -->
+        <!-- Folii anticondens -->
         <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" data-toggle="mobile-ferestre">
-                Ferestre si tamplarie <span class="arrow">&#9660;</span>
-            </a>
-            <div class="mobile-subnav" id="mobile-ferestre">
-                <a href="/ferestre-tamplarie/ferestre-pvc">Ferestre PVC</a>
-                <a href="/ferestre-tamplarie/ferestre-aluminiu">Ferestre aluminiu</a>
-                <a href="/ferestre-tamplarie/ferestre-mansarda-fakro">Ferestre mansarda FAKRO</a>
-                <a href="/ferestre-tamplarie/scari-poduri-fakro">Scari poduri FAKRO</a>
-            </div>
+            <a href="/folii-anticondens" class="mobile-nav-link">Folii anticondens</a>
+        </li>
+
+        <!-- Tamplarie PVC si Aluminiu -->
+        <li class="mobile-nav-item">
+            <a href="/tamplarie-pvc-aluminiu" class="mobile-nav-link">Tamplarie PVC si Aluminiu</a>
+        </li>
+
+        <!-- Ferestre Mansarda FAKRO -->
+        <li class="mobile-nav-item">
+            <a href="/ferestre-mansarda-fakro" class="mobile-nav-link">Ferestre mansarda FAKRO</a>
+        </li>
+
+        <!-- Scari de pod FAKRO -->
+        <li class="mobile-nav-item">
+            <a href="/scari-pod-fakro" class="mobile-nav-link">Scari de pod FAKRO</a>
         </li>
 
         <!-- Izolatie -->
         <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" data-toggle="mobile-izolatie">
-                Izolatie <span class="arrow">&#9660;</span>
-            </a>
-            <div class="mobile-subnav" id="mobile-izolatie">
-                <a href="/izolatie-hidroizolatii/izolatie-fibre-lemn">Izolatie fibre lemn (STEICO Zell)</a>
-                <a href="/izolatie-hidroizolatii/hidroizolatii-terase">Hidroizolatii terase</a>
-            </div>
+            <a href="/izolatie" class="mobile-nav-link">Izolatie (STEICO Zell)</a>
         </li>
 
-        <!-- Simple links -->
+        <!-- Hidroizolatii Terase -->
+        <li class="mobile-nav-item">
+            <a href="/hidroizolatii-terase" class="mobile-nav-link">Hidroizolatii terase</a>
+        </li>
+
+        <!-- Garduri -->
         <li class="mobile-nav-item">
             <a href="/garduri" class="mobile-nav-link">Garduri</a>
         </li>
 
+        <!-- Servicii -->
         <li class="mobile-nav-item">
             <a href="#" class="mobile-nav-link" data-toggle="mobile-servicii">
                 Servicii <span class="arrow">&#9660;</span>
