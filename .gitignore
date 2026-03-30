@@ -1,0 +1,41 @@
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Storage (keep structure, ignore contents)
+/storage/logs/*
+/storage/cache/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+
+# Uploads (keep structure, ignore contents)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Compiled / Build
+*.compiled.php
