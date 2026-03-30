@@ -43,3 +43,4 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <link rel="stylesheet" href="/css/variables.css">
 <link rel="stylesheet" href="/css/base.css">
 <link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/footer.css">

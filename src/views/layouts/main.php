@@ -8,16 +8,6 @@
             min-height: calc(100vh - 200px);
         }
 
-        .site-footer {
-            background-color: var(--color-primary);
-            color: var(--color-bg-white);
-            padding: var(--spacing-2xl) 0;
-        }
-
-        .site-footer p {
-            color: rgba(255, 255, 255, 0.8);
-        }
-
         /* Breadcrumb styles */
         .breadcrumb {
             background-color: var(--color-bg-light);
