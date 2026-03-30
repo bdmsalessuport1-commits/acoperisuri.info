@@ -6,31 +6,158 @@ use App\Helpers\View;
 
 class BlogController
 {
+    private array $blogData;
+
+    public function __construct()
+    {
+        $this->blogData = require __DIR__ . '/../config/blog-data.php';
+    }
+
     public function index(array $params, array $route): void
     {
+        $page       = max(1, (int)($_GET['pagina'] ?? 1));
+        $perPage    = 9;
+        $articles   = $this->blogData['articles'];
+        $categories = $this->blogData['categories'];
+
+        usort($articles, fn($a, $b) => strtotime($b['date']) - strtotime($a['date']));
+
+        $total      = count($articles);
+        $totalPages = max(1, (int)ceil($total / $perPage));
+        $page       = min($page, $totalPages);
+        $offset     = ($page - 1) * $perPage;
+        $pageSlice  = array_slice($articles, $offset, $perPage);
+
+        // First article on page 1 becomes the featured card
+        $featured = null;
+        if ($page === 1 && !empty($pageSlice)) {
+            $featured = array_shift($pageSlice);
+        }
+
         View::render('pages/blog', [
-            'pageTitle' => $route['title'] ?? 'Blog - BDM Systems',
-            'pageDescription' => $route['description'] ?? '',
-            'breadcrumbs' => [
-                ['label' => 'Blog'],
-            ],
+            'pageTitle'          => $route['title']       ?? 'Blog - BDM Systems',
+            'pageDescription'    => $route['description'] ?? 'Articole si ghiduri despre acoperisuri, montaj, materiale si eficienta energetica.',
+            'articles'           => $pageSlice,
+            'featured'           => $featured,
+            'categories'         => $categories,
+            'popular'            => array_slice($articles, 0, 5),
+            'currentPage'        => $page,
+            'totalPages'         => $totalPages,
+            'totalArticles'      => $total,
+            'activeCategory'     => null,
+            'activeCategoryName' => null,
+            'breadcrumbs'        => [['label' => 'Blog']],
         ]);
     }
 
     public function show(array $params, array $route): void
     {
-        $slug = $params['slug'] ?? 'articol';
-        $name = ucwords(str_replace('-', ' ', $slug));
+        $slug       = $params['slug'] ?? '';
+        $articles   = $this->blogData['articles'];
+        $categories = $this->blogData['categories'];
+
+        $article = null;
+        foreach ($articles as $a) {
+            if ($a['slug'] === $slug) {
+                $article = $a;
+                break;
+            }
+        }
+
+        if (!$article) {
+            View::render404();
+            return;
+        }
+
+        // Related: same category first, then others, max 3
+        $samecat = array_values(array_filter($articles,
+            fn($a) => $a['category_slug'] === $article['category_slug'] && $a['slug'] !== $slug));
+        $others  = array_values(array_filter($articles,
+            fn($a) => $a['category_slug'] !== $article['category_slug']));
+        $related = array_slice(array_merge($samecat, $others), 0, 3);
 
         View::render('pages/blog-single', [
-            'pageTitle' => $name . ' - Blog BDM Systems',
-            'pageDescription' => 'Articol: ' . $name,
-            'articleSlug' => $slug,
-            'articleTitle' => $name,
-            'breadcrumbs' => [
-                ['label' => 'Blog', 'url' => '/blog'],
-                ['label' => $name],
+            'pageTitle'       => $article['title'] . ' | Blog BDM Systems',
+            'pageDescription' => $article['excerpt'],
+            'article'         => $article,
+            'relatedArticles' => $related,
+            'popular'         => array_slice($articles, 0, 5),
+            'categories'      => $categories,
+            'articleSlug'     => $slug,
+            'articleTitle'    => $article['title'],
+            'breadcrumbs'     => [
+                ['label' => 'Blog',                    'url' => '/blog'],
+                ['label' => $article['category_name'], 'url' => '/blog/categorie/' . $article['category_slug']],
+                ['label' => $article['title']],
             ],
         ]);
+    }
+
+    public function category(array $params, array $route): void
+    {
+        $catSlug    = $params['slug'] ?? '';
+        $articles   = $this->blogData['articles'];
+        $categories = $this->blogData['categories'];
+
+        $category = null;
+        foreach ($categories as $c) {
+            if ($c['slug'] === $catSlug) {
+                $category = $c;
+                break;
+            }
+        }
+
+        if (!$category) {
+            View::render404();
+            return;
+        }
+
+        $filtered = array_values(array_filter($articles,
+            fn($a) => $a['category_slug'] === $catSlug));
+        usort($filtered, fn($a, $b) => strtotime($b['date']) - strtotime($a['date']));
+
+        View::render('pages/blog', [
+            'pageTitle'          => $category['name'] . ' - Blog BDM Systems',
+            'pageDescription'    => 'Articole din categoria ' . $category['name'] . ' pe acoperisuri.info.',
+            'articles'           => $filtered,
+            'featured'           => null,
+            'categories'         => $categories,
+            'popular'            => array_slice($articles, 0, 5),
+            'currentPage'        => 1,
+            'totalPages'         => 1,
+            'totalArticles'      => count($filtered),
+            'activeCategory'     => $catSlug,
+            'activeCategoryName' => $category['name'],
+            'breadcrumbs'        => [
+                ['label' => 'Blog',            'url' => '/blog'],
+                ['label' => $category['name']],
+            ],
+        ]);
+    }
+
+    public function sitemap(array $params, array $route): void
+    {
+        $articles = $this->blogData['articles'];
+        $base     = 'https://acoperisuri.info';
+
+        header('Content-Type: application/xml; charset=utf-8');
+        echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+        echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+
+        echo "  <url>\n    <loc>{$base}/blog</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n";
+
+        foreach ($this->blogData['categories'] as $cat) {
+            $loc = $base . '/blog/categorie/' . htmlspecialchars($cat['slug']);
+            echo "  <url>\n    <loc>{$loc}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>\n";
+        }
+
+        foreach ($articles as $a) {
+            $loc  = $base . '/blog/' . htmlspecialchars($a['slug']);
+            $date = htmlspecialchars($a['date']);
+            echo "  <url>\n    <loc>{$loc}</loc>\n    <lastmod>{$date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.7</priority>\n  </url>\n";
+        }
+
+        echo '</urlset>';
+        exit;
     }
 }

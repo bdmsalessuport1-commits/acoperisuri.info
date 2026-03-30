@@ -38,8 +38,18 @@ return [
         'controller' => 'BlogController',
         'action' => 'index',
         'name' => 'blog',
-        'title' => 'Blog - BDM Systems',
-        'description' => 'Articole si sfaturi despre acoperisuri, montaj, intretinere si materiale de constructii.',
+        'title' => 'Blog - Ghiduri si articole utile | BDM Systems',
+        'description' => 'Articole si ghiduri practice despre acoperisuri, montaj, intretinere, materiale si eficienta energetica.',
+    ],
+    '/sitemap-blog.xml' => [
+        'controller' => 'BlogController',
+        'action' => 'sitemap',
+        'name' => 'blog.sitemap',
+    ],
+    '/blog/categorie/{slug}' => [
+        'controller' => 'BlogController',
+        'action' => 'category',
+        'name' => 'blog.category',
     ],
     '/blog/{slug}' => [
         'controller' => 'BlogController',
