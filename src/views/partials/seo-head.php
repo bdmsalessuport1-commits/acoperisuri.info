@@ -40,10 +40,11 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 <!-- CSS -->
-<?php $v = '5'; ?>
+<?php $v = '6'; ?>
 <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/base.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/header.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/footer.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/homepage.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/category.css?v=<?= $v ?>">
+<link rel="stylesheet" href="/css/product.css?v=<?= $v ?>">
