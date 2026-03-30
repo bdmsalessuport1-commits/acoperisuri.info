@@ -23,6 +23,17 @@ spl_autoload_register(function (string $class) {
 
     if (file_exists($file)) {
         require $file;
+        return;
+    }
+
+    // Fallback: lowercase directory, keep filename (for Linux case-sensitivity)
+    $parts = explode('\\', $relativeClass);
+    $className = array_pop($parts);
+    $dirs = array_map('strtolower', $parts);
+    $file = $baseDir . implode('/', $dirs) . '/' . $className . '.php';
+
+    if (file_exists($file)) {
+        require $file;
     }
 });
 
