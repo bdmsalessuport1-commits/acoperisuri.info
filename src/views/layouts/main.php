@@ -70,6 +70,14 @@
 
     <?php \App\Helpers\View::partial('footer', get_defined_vars()); ?>
 
+    <!-- Schema.org JSON-LD -->
+    <?php if (!empty($breadcrumbs)): ?>
+        <?= \App\Helpers\SchemaMarkup::breadcrumbs(array_merge([['label' => 'Acasa', 'url' => '/']], $breadcrumbs)) ?>
+    <?php endif; ?>
+    <?php if (!empty($schemaMarkup)): ?>
+        <?= $schemaMarkup ?>
+    <?php endif; ?>
+
     <!-- Scripts -->
     <script src="/js/header.js?v=6"></script>
 </body>

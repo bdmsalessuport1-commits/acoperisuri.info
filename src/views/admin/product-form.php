@@ -253,6 +253,8 @@ $action = $isEdit ? '/admin/produse/editeaza/' . ($formData['id'] ?? 0) : '/admi
             </div>
         </div>
 
+        <?php $slugPrefix = '/produs/'; \App\Helpers\View::partial('admin-seo-preview', ['formData' => $formData, 'slugPrefix' => $slugPrefix]); ?>
+
         <!-- Link-uri rapide -->
         <?php if ($isEdit): ?>
         <div class="admin-card">

@@ -18,13 +18,13 @@ class AdminController
 
     public function dashboard(array $params, array $route): void
     {
-        $blogData = require ROOT_PATH . '/src/config/blog-data.php';
         $videoData = require ROOT_PATH . '/src/config/video-data.php';
 
         $catStore = new DataStore('categories');
         $subStore = new DataStore('subcategories');
+        $blogStore = new DataStore('blog-articles');
 
-        $articles = $blogData['articles'] ?? [];
+        $articles = $blogStore->all();
         $videos = array_filter($videoData['videos'] ?? [], fn($v) => $v['is_active'] ?? true);
 
         $totalProducts = 0;
@@ -554,10 +554,251 @@ class AdminController
         exit;
     }
 
+    // ─── BLOG ────────────────────────────────────────────
+
     public function blog(array $params, array $route): void
     {
         Auth::requireRole('editor');
-        View::render('admin/blog', ['pageTitle' => 'Blog - Articole'], 'admin');
+
+        $artStore = new DataStore('blog-articles');
+        $catStore = new DataStore('blog-categories');
+
+        $allArticles = $artStore->all();
+
+        // Filters
+        $filterCategory = (int) ($_GET['categorie'] ?? 0);
+        $filterStatus = $_GET['status'] ?? '';
+        $search = trim($_GET['q'] ?? '');
+
+        if ($filterCategory) {
+            $allArticles = array_filter($allArticles, fn($a) => ($a['category_id'] ?? 0) === $filterCategory);
+        }
+        if ($filterStatus) {
+            $allArticles = array_filter($allArticles, fn($a) => ($a['status'] ?? 'draft') === $filterStatus);
+        }
+        if ($search) {
+            $q = mb_strtolower($search);
+            $allArticles = array_filter($allArticles, fn($a) =>
+                str_contains(mb_strtolower($a['title'] ?? ''), $q) ||
+                str_contains(mb_strtolower($a['slug'] ?? ''), $q) ||
+                str_contains(mb_strtolower($a['author'] ?? ''), $q)
+            );
+        }
+
+        $allArticles = array_values($allArticles);
+        usort($allArticles, fn($a, $b) => strtotime($b['date'] ?? '2000-01-01') - strtotime($a['date'] ?? '2000-01-01'));
+
+        // Pagination
+        $perPage = 20;
+        $page = max(1, (int) ($_GET['pagina'] ?? 1));
+        $total = count($allArticles);
+        $totalPages = max(1, (int) ceil($total / $perPage));
+        $page = min($page, $totalPages);
+        $offset = ($page - 1) * $perPage;
+        $articles = array_slice($allArticles, $offset, $perPage);
+
+        // Category names map
+        $categoryNames = [];
+        foreach ($catStore->all() as $cat) {
+            $categoryNames[$cat['id']] = $cat['name'];
+        }
+
+        View::render('admin/blog', [
+            'pageTitle'      => 'Blog - Articole',
+            'articles'       => $articles,
+            'categories'     => $catStore->orderBy('sort_order'),
+            'categoryNames'  => $categoryNames,
+            'filterCategory' => $filterCategory,
+            'filterStatus'   => $filterStatus,
+            'search'         => $search,
+            'page'           => $page,
+            'totalPages'     => $totalPages,
+            'total'          => $total,
+            'flash'          => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function blogAdd(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $artStore = new DataStore('blog-articles');
+        $catStore = new DataStore('blog-categories');
+        $errors = [];
+        $formData = $this->getBlogDefaults();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getBlogFormData();
+            $errors = $this->validateBlogArticle($formData, $artStore);
+
+            if (empty($errors)) {
+                $formData['sort_order'] = $formData['sort_order'] ?: $artStore->count() + 1;
+                $artStore->create($formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Articolul a fost creat cu succes.'];
+                header('Location: /admin/blog');
+                exit;
+            }
+        }
+
+        View::render('admin/blog-form', [
+            'pageTitle'  => 'Adauga articol',
+            'formData'   => $formData,
+            'errors'     => $errors,
+            'categories' => $catStore->orderBy('sort_order'),
+            'isEdit'     => false,
+        ], 'admin');
+    }
+
+    public function blogEdit(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $artStore = new DataStore('blog-articles');
+        $catStore = new DataStore('blog-categories');
+        $id = (int) ($params['id'] ?? 0);
+        $article = $artStore->find($id);
+
+        if (!$article) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Articolul nu a fost gasit.'];
+            header('Location: /admin/blog');
+            exit;
+        }
+
+        $errors = [];
+        $formData = $article;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getBlogFormData();
+            $errors = $this->validateBlogArticle($formData, $artStore, $id);
+
+            if (empty($errors)) {
+                $artStore->update($id, $formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Articolul a fost actualizat.'];
+                header('Location: /admin/blog');
+                exit;
+            }
+        }
+
+        View::render('admin/blog-form', [
+            'pageTitle'  => 'Editeaza: ' . ($article['title'] ?? ''),
+            'formData'   => $formData,
+            'errors'     => $errors,
+            'categories' => $catStore->orderBy('sort_order'),
+            'isEdit'     => true,
+        ], 'admin');
+    }
+
+    public function blogDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $artStore = new DataStore('blog-articles');
+        $artStore->delete((int) ($params['id'] ?? 0));
+        $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Articolul a fost sters.'];
+        header('Location: /admin/blog');
+        exit;
+    }
+
+    // ─── BLOG CATEGORIES ────────────────────────────────────
+
+    public function blogCategories(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $catStore = new DataStore('blog-categories');
+
+        View::render('admin/blog-categories', [
+            'pageTitle'  => 'Categorii Blog',
+            'categories' => $catStore->orderBy('sort_order'),
+            'flash'      => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function blogCategoryAdd(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $catStore = new DataStore('blog-categories');
+        $errors = [];
+        $formData = ['name' => '', 'slug' => '', 'description' => '', 'icon' => '', 'sort_order' => 0];
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getBlogCategoryFormData();
+            $errors = $this->validateBlogCategory($formData, $catStore);
+
+            if (empty($errors)) {
+                $formData['sort_order'] = $formData['sort_order'] ?: $catStore->count() + 1;
+                $catStore->create($formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Categoria a fost creata.'];
+                header('Location: /admin/blog/categorii');
+                exit;
+            }
+        }
+
+        View::render('admin/blog-category-form', [
+            'pageTitle' => 'Adauga categorie blog',
+            'formData'  => $formData,
+            'errors'    => $errors,
+            'isEdit'    => false,
+        ], 'admin');
+    }
+
+    public function blogCategoryEdit(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $catStore = new DataStore('blog-categories');
+        $id = (int) ($params['id'] ?? 0);
+        $category = $catStore->find($id);
+
+        if (!$category) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Categoria nu a fost gasita.'];
+            header('Location: /admin/blog/categorii');
+            exit;
+        }
+
+        $errors = [];
+        $formData = $category;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getBlogCategoryFormData();
+            $errors = $this->validateBlogCategory($formData, $catStore, $id);
+
+            if (empty($errors)) {
+                $catStore->update($id, $formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Categoria a fost actualizata.'];
+                header('Location: /admin/blog/categorii');
+                exit;
+            }
+        }
+
+        View::render('admin/blog-category-form', [
+            'pageTitle' => 'Editeaza: ' . ($category['name'] ?? ''),
+            'formData'  => $formData,
+            'errors'    => $errors,
+            'isEdit'    => true,
+        ], 'admin');
+    }
+
+    public function blogCategoryDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $catStore = new DataStore('blog-categories');
+        $catStore->delete((int) ($params['id'] ?? 0));
+        $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Categoria a fost stearsa.'];
+        header('Location: /admin/blog/categorii');
+        exit;
     }
 
     public function videos(array $params, array $route): void
@@ -722,7 +963,66 @@ class AdminController
     public function seo(array $params, array $route): void
     {
         Auth::requireRole('administrator');
-        View::render('admin/seo', ['pageTitle' => 'SEO'], 'admin');
+
+        $settings = \App\Helpers\SeoHelper::settings();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $action = $_POST['action'] ?? '';
+
+            if ($action === 'save_settings') {
+                $settings['site_title'] = trim($_POST['site_title'] ?? '');
+                $settings['title_separator'] = $_POST['title_separator'] ?? ' | ';
+                $settings['default_description'] = trim($_POST['default_description'] ?? '');
+                $settings['robots_txt'] = $_POST['robots_txt'] ?? '';
+                $settings['analytics_code'] = trim($_POST['analytics_code'] ?? '');
+                $settings['tag_manager_id'] = trim($_POST['tag_manager_id'] ?? '');
+                \App\Helpers\SeoHelper::saveSettings($settings);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Setarile SEO au fost salvate.'];
+            } elseif ($action === 'save_redirects') {
+                $fromArr = $_POST['redirect_from'] ?? [];
+                $toArr = $_POST['redirect_to'] ?? [];
+                $activeArr = $_POST['redirect_active'] ?? [];
+                $redirects = [];
+                foreach ($fromArr as $i => $from) {
+                    $from = trim($from);
+                    $to = trim($toArr[$i] ?? '');
+                    if ($from === '' && $to === '') continue;
+                    $redirects[] = [
+                        'from' => $from,
+                        'to' => $to,
+                        'active' => isset($activeArr[$i]),
+                    ];
+                }
+                $settings['redirects'] = $redirects;
+                \App\Helpers\SeoHelper::saveSettings($settings);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => count($redirects) . ' redirecturi salvate.'];
+            }
+
+            header('Location: /admin/seo');
+            exit;
+        }
+
+        // Sitemap stats
+        $catStore = new DataStore('categories');
+        $prodStore = new DataStore('products');
+        $blogStore = new DataStore('blog-articles');
+        $sitemapStats = [
+            'Pagini statice' => 6,
+            'Categorii' => $catStore->count(),
+            'Produse active' => count(array_filter($prodStore->all(), fn($p) => ($p['status'] ?? 'draft') === 'activ')),
+            'Articole blog' => $blogStore->count(),
+            'Redirecturi 301' => count($settings['redirects'] ?? []),
+        ];
+
+        View::render('admin/seo', [
+            'pageTitle'    => 'SEO',
+            'settings'     => $settings,
+            'sitemapStats' => $sitemapStats,
+            'flash'        => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
     }
 
     public function homepage(array $params, array $route): void
@@ -929,6 +1229,110 @@ class AdminController
         }
         if (empty($data['subcategory_id'])) {
             $errors[] = 'Selectati subcategoria.';
+        }
+        return $errors;
+    }
+
+    // ─── BLOG HELPERS ──────────────────────────────────────
+
+    private function getBlogDefaults(): array
+    {
+        return [
+            'title' => '', 'slug' => '', 'excerpt' => '', 'content' => '',
+            'category_id' => 0, 'image_featured' => '', 'author' => 'Echipa BDM Systems',
+            'date' => date('Y-m-d'), 'read_time' => 0, 'tags' => [],
+            'related_products' => [], 'image_icon' => '', 'image_color' => '#1a4a7a',
+            'status' => 'draft', 'seo_title' => '', 'seo_description' => '', 'sort_order' => 0,
+        ];
+    }
+
+    private function getBlogFormData(): array
+    {
+        $tags = array_filter(array_map('trim', explode(',', $_POST['tags'] ?? '')));
+
+        $relatedRaw = $_POST['related_products'] ?? [];
+        if (is_string($relatedRaw)) {
+            $relatedRaw = array_filter(array_map('trim', explode(',', $relatedRaw)));
+        }
+
+        // Build related products array from paired inputs
+        $rpSlugs = $_POST['rp_slug'] ?? [];
+        $rpNames = $_POST['rp_name'] ?? [];
+        $related = [];
+        foreach ($rpSlugs as $i => $slug) {
+            $slug = trim($slug);
+            $name = trim($rpNames[$i] ?? '');
+            if ($slug !== '') {
+                $related[] = ['slug' => $slug, 'name' => $name ?: $slug];
+            }
+        }
+
+        return [
+            'title'            => trim($_POST['title'] ?? ''),
+            'slug'             => trim($_POST['slug'] ?? ''),
+            'excerpt'          => trim($_POST['excerpt'] ?? ''),
+            'content'          => $_POST['content'] ?? '',
+            'category_id'      => (int) ($_POST['category_id'] ?? 0),
+            'image_featured'   => trim($_POST['image_featured'] ?? ''),
+            'author'           => trim($_POST['author'] ?? 'Echipa BDM Systems'),
+            'date'             => $_POST['date'] ?? date('Y-m-d'),
+            'read_time'        => (int) ($_POST['read_time'] ?? 0),
+            'tags'             => $tags,
+            'related_products' => $related,
+            'image_icon'       => trim($_POST['image_icon'] ?? ''),
+            'image_color'      => trim($_POST['image_color'] ?? '#1a4a7a'),
+            'status'           => $_POST['status'] ?? 'draft',
+            'seo_title'        => trim($_POST['seo_title'] ?? ''),
+            'seo_description'  => trim($_POST['seo_description'] ?? ''),
+            'sort_order'       => (int) ($_POST['sort_order'] ?? 0),
+        ];
+    }
+
+    private function validateBlogArticle(array $data, DataStore $store, ?int $excludeId = null): array
+    {
+        $errors = [];
+        if (empty($data['title'])) {
+            $errors[] = 'Titlul articolului este obligatoriu.';
+        }
+        if (empty($data['slug'])) {
+            $errors[] = 'Slug-ul este obligatoriu.';
+        } elseif (!preg_match('/^[a-z0-9\-]+$/', $data['slug'])) {
+            $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
+        } elseif ($store->slugExists($data['slug'], $excludeId)) {
+            $errors[] = 'Acest slug exista deja.';
+        }
+        if (empty($data['category_id'])) {
+            $errors[] = 'Selectati categoria.';
+        }
+        if (empty($data['content'])) {
+            $errors[] = 'Continutul articolului este obligatoriu.';
+        }
+        return $errors;
+    }
+
+    private function getBlogCategoryFormData(): array
+    {
+        return [
+            'name'        => trim($_POST['name'] ?? ''),
+            'slug'        => trim($_POST['slug'] ?? ''),
+            'description' => trim($_POST['description'] ?? ''),
+            'icon'        => trim($_POST['icon'] ?? ''),
+            'sort_order'  => (int) ($_POST['sort_order'] ?? 0),
+        ];
+    }
+
+    private function validateBlogCategory(array $data, DataStore $store, ?int $excludeId = null): array
+    {
+        $errors = [];
+        if (empty($data['name'])) {
+            $errors[] = 'Numele categoriei este obligatoriu.';
+        }
+        if (empty($data['slug'])) {
+            $errors[] = 'Slug-ul este obligatoriu.';
+        } elseif (!preg_match('/^[a-z0-9\-]+$/', $data['slug'])) {
+            $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
+        } elseif ($store->slugExists($data['slug'], $excludeId)) {
+            $errors[] = 'Acest slug exista deja.';
         }
         return $errors;
     }

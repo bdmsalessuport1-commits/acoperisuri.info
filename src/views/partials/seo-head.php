@@ -3,9 +3,10 @@
  * SEO Meta Tags - inclus in <head>
  * Variabile disponibile: $pageTitle, $pageDescription, $pageUrl, $pageImage
  */
-$siteName = 'BDM Systems - acoperisuri.info';
+$seoSettings = \App\Helpers\SeoHelper::settings();
+$siteName = $seoSettings['site_title'] ?? 'BDM Systems - acoperisuri.info';
 $title = $pageTitle ?? $siteName;
-$description = $pageDescription ?? 'BDM Systems - solutii complete pentru acoperisuri, tigla metalica, sisteme pluviale si accesorii montaj.';
+$description = $pageDescription ?? ($seoSettings['default_description'] ?? 'BDM Systems - solutii complete pentru acoperisuri, tigla metalica, sisteme pluviale si accesorii montaj.');
 $url = $pageUrl ?? ($_SERVER['REQUEST_SCHEME'] ?? 'https') . '://' . ($_SERVER['HTTP_HOST'] ?? 'acoperisuri.info') . ($_SERVER['REQUEST_URI'] ?? '/');
 $image = $pageImage ?? '/images/logo/logo-full.png';
 ?>
@@ -39,8 +40,24 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
+<?php
+// Google Analytics
+$gaCode = $seoSettings['analytics_code'] ?? '';
+if ($gaCode):
+?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?= htmlspecialchars($gaCode) ?>"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','<?= htmlspecialchars($gaCode) ?>');</script>
+<?php endif; ?>
+<?php
+// Google Tag Manager
+$gtmId = $seoSettings['tag_manager_id'] ?? '';
+if ($gtmId):
+?>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','<?= htmlspecialchars($gtmId) ?>');</script>
+<?php endif; ?>
+
 <!-- CSS -->
-<?php $v = '8'; ?>
+<?php $v = '9'; ?>
 <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/base.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/header.css?v=<?= $v ?>">

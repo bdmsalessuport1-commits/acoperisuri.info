@@ -3,22 +3,26 @@
 namespace App\Controllers;
 
 use App\Helpers\View;
+use App\Helpers\DataStore;
+use App\Helpers\SchemaMarkup;
 
 class BlogController
 {
-    private array $blogData;
+    private DataStore $artStore;
+    private DataStore $catStore;
 
     public function __construct()
     {
-        $this->blogData = require __DIR__ . '/../config/blog-data.php';
+        $this->artStore = new DataStore('blog-articles');
+        $this->catStore = new DataStore('blog-categories');
     }
 
     public function index(array $params, array $route): void
     {
         $page       = max(1, (int)($_GET['pagina'] ?? 1));
         $perPage    = 9;
-        $articles   = $this->blogData['articles'];
-        $categories = $this->blogData['categories'];
+        $articles   = $this->getPublishedArticles();
+        $categories = $this->getCategoriesForView();
 
         usort($articles, fn($a, $b) => strtotime($b['date']) - strtotime($a['date']));
 
@@ -53,8 +57,8 @@ class BlogController
     public function show(array $params, array $route): void
     {
         $slug       = $params['slug'] ?? '';
-        $articles   = $this->blogData['articles'];
-        $categories = $this->blogData['categories'];
+        $articles   = $this->getPublishedArticles();
+        $categories = $this->getCategoriesForView();
 
         $article = null;
         foreach ($articles as $a) {
@@ -90,14 +94,15 @@ class BlogController
                 ['label' => $article['category_name'], 'url' => '/blog/categorie/' . $article['category_slug']],
                 ['label' => $article['title']],
             ],
+            'schemaMarkup'    => SchemaMarkup::article($article),
         ]);
     }
 
     public function category(array $params, array $route): void
     {
         $catSlug    = $params['slug'] ?? '';
-        $articles   = $this->blogData['articles'];
-        $categories = $this->blogData['categories'];
+        $articles   = $this->getPublishedArticles();
+        $categories = $this->getCategoriesForView();
 
         $category = null;
         foreach ($categories as $c) {
@@ -137,8 +142,9 @@ class BlogController
 
     public function sitemap(array $params, array $route): void
     {
-        $articles = $this->blogData['articles'];
-        $base     = 'https://acoperisuri.info';
+        $articles   = $this->getPublishedArticles();
+        $categories = $this->getCategoriesForView();
+        $base       = 'https://acoperisuri.info';
 
         header('Content-Type: application/xml; charset=utf-8');
         echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
@@ -146,7 +152,7 @@ class BlogController
 
         echo "  <url>\n    <loc>{$base}/blog</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n";
 
-        foreach ($this->blogData['categories'] as $cat) {
+        foreach ($categories as $cat) {
             $loc = $base . '/blog/categorie/' . htmlspecialchars($cat['slug']);
             echo "  <url>\n    <loc>{$loc}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>\n";
         }
@@ -159,5 +165,60 @@ class BlogController
 
         echo '</urlset>';
         exit;
+    }
+
+    /**
+     * Returns published articles enriched with category_slug and category_name
+     */
+    private function getPublishedArticles(): array
+    {
+        $catMap = $this->buildCategoryMap();
+        $articles = [];
+
+        foreach ($this->artStore->all() as $a) {
+            // Only published, or scheduled with past date
+            $status = $a['status'] ?? 'draft';
+            if ($status === 'draft') continue;
+            if ($status === 'programat' && strtotime($a['date'] ?? '') > time()) continue;
+
+            $catId = $a['category_id'] ?? 0;
+            $a['category_slug'] = $catMap[$catId]['slug'] ?? '';
+            $a['category_name'] = $catMap[$catId]['name'] ?? '';
+            $a['date_display'] = $this->formatDateRo($a['date'] ?? '');
+            $articles[] = $a;
+        }
+
+        return $articles;
+    }
+
+    private function getCategoriesForView(): array
+    {
+        $cats = $this->catStore->orderBy('sort_order');
+        // Add count per category
+        $allArticles = $this->artStore->all();
+        foreach ($cats as &$cat) {
+            $cat['count'] = count(array_filter($allArticles, fn($a) =>
+                ($a['category_id'] ?? 0) === $cat['id'] && ($a['status'] ?? 'draft') !== 'draft'
+            ));
+        }
+        return $cats;
+    }
+
+    private function buildCategoryMap(): array
+    {
+        $map = [];
+        foreach ($this->catStore->all() as $c) {
+            $map[$c['id']] = $c;
+        }
+        return $map;
+    }
+
+    private function formatDateRo(string $date): string
+    {
+        $months = [1=>'ianuarie',2=>'februarie',3=>'martie',4=>'aprilie',5=>'mai',6=>'iunie',
+            7=>'iulie',8=>'august',9=>'septembrie',10=>'octombrie',11=>'noiembrie',12=>'decembrie'];
+        $ts = strtotime($date);
+        if (!$ts) return $date;
+        return date('j', $ts) . ' ' . ($months[(int)date('n', $ts)] ?? '') . ' ' . date('Y', $ts);
     }
 }

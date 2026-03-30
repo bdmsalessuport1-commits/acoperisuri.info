@@ -19,35 +19,6 @@ $tags     = $article['tags']         ?? [];
 $relProds = $article['related_products'] ?? [];
 ?>
 
-<!-- Schema.org Article -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "<?= addslashes(htmlspecialchars($title)) ?>",
-    "description": "<?= addslashes(htmlspecialchars($excerpt)) ?>",
-    "datePublished": "<?= htmlspecialchars($date) ?>",
-    "dateModified": "<?= htmlspecialchars($date) ?>",
-    "author": {
-        "@type": "Person",
-        "name": "<?= htmlspecialchars($author) ?>"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "BDM Systems",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://acoperisuri.info/images/logo/logo-full.png"
-        }
-    },
-    "image": "https://acoperisuri.info/images/logo/logo-full.png",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://acoperisuri.info/blog/<?= htmlspecialchars($article['slug'] ?? '') ?>"
-    }
-}
-</script>
-
 <!-- ARTICLE HERO -->
 <section class="article-hero">
     <div class="container">

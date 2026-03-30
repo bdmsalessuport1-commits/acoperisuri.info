@@ -116,6 +116,8 @@
                     <button type="submit" class="btn btn-primary btn-block"><?= $isEdit ? 'Salveaza modificarile' : 'Creeaza categorie' ?></button>
                 </div>
             </div>
+
+            <?php $slugPrefix = '/'; \App\Helpers\View::partial('admin-seo-preview', ['formData' => $formData, 'slugPrefix' => $slugPrefix]); ?>
         </div>
     </div>
 </form>

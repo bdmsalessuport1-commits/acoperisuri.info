@@ -78,6 +78,18 @@ return [
         'name' => 'video.category',
     ],
 
+    // SEO
+    '/sitemap.xml' => [
+        'controller' => 'SeoController',
+        'action' => 'sitemap',
+        'name' => 'sitemap',
+    ],
+    '/robots.txt' => [
+        'controller' => 'SeoController',
+        'action' => 'robots',
+        'name' => 'robots',
+    ],
+
     // Categorii de sine statatoare (cu titluri SEO)
     '/folii-anticondens' => [
         'controller' => 'CategoryController',
@@ -245,6 +257,51 @@ return [
         'name' => 'admin.blog',
         'layout' => 'admin',
         'title' => 'Admin - Blog',
+    ],
+    '/admin/blog/adauga' => [
+        'controller' => 'AdminController',
+        'action' => 'blogAdd',
+        'name' => 'admin.blog.add',
+        'layout' => 'admin',
+        'title' => 'Admin - Adauga articol',
+    ],
+    '/admin/blog/editeaza/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'blogEdit',
+        'name' => 'admin.blog.edit',
+        'layout' => 'admin',
+        'title' => 'Admin - Editeaza articol',
+    ],
+    '/admin/blog/sterge/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'blogDelete',
+        'name' => 'admin.blog.delete',
+    ],
+    '/admin/blog/categorii' => [
+        'controller' => 'AdminController',
+        'action' => 'blogCategories',
+        'name' => 'admin.blog.categories',
+        'layout' => 'admin',
+        'title' => 'Admin - Categorii Blog',
+    ],
+    '/admin/blog/categorii/adauga' => [
+        'controller' => 'AdminController',
+        'action' => 'blogCategoryAdd',
+        'name' => 'admin.blog.category.add',
+        'layout' => 'admin',
+        'title' => 'Admin - Adauga categorie blog',
+    ],
+    '/admin/blog/categorii/editeaza/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'blogCategoryEdit',
+        'name' => 'admin.blog.category.edit',
+        'layout' => 'admin',
+        'title' => 'Admin - Editeaza categorie blog',
+    ],
+    '/admin/blog/categorii/sterge/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'blogCategoryDelete',
+        'name' => 'admin.blog.category.delete',
     ],
     '/admin/videouri' => [
         'controller' => 'AdminController',

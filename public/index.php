@@ -58,6 +58,11 @@ if ($appConfig['debug']) {
 // Porneste sesiunea securizata (necesara pentru admin auth + CSRF)
 \App\Helpers\Auth::startSession();
 
+// Verifica redirecturi 301
+$cleanUri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$cleanUri = rtrim($cleanUri, '/') ?: '/';
+\App\Helpers\SeoHelper::checkRedirect($cleanUri);
+
 // Initializeaza router-ul
 $router = new \App\Helpers\Router();
 $uri = $_SERVER['REQUEST_URI'] ?? '/';
