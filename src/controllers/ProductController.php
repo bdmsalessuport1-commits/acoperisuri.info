@@ -1325,6 +1325,390 @@ class ProductController
             ],
         ],
 
+        // ==========================================
+        // FERESTRE MANSARDA FAKRO
+        // ==========================================
+        'fakro-fts-v-u2' => [
+            'name' => 'FAKRO FTS-V U2',
+            'tagline' => 'Fereastra mansarda de baza cu deschidere superioara. U=1.4, geam argon, ventilatie V10.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Coeficient U fereastra' => '1.4 W/m²K',
+                'Coeficient U geam' => '1.0 W/m²K',
+                'Tip geam' => '4H-16-4T argon',
+                'Ventilatie' => 'V10 (10 m³/h)',
+                'Garnituri' => '2 garnituri',
+                'Panta acoperis' => '15 - 90 grade',
+                'Material rama' => 'Pin tratat fungicid',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin natural lacuit', 'code' => 'Standard', 'color' => '#c4a96a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Lemn de pin tratat fungicid. Certificat european.',
+            'description' => '<h2>FAKRO FTS-V U2 - fereastra mansarda standard</h2>
+                <p>FTS-V U2 este modelul de baza din gama FAKRO cu deschidere superioara (basculanta). Cu un coeficient termic U=1.4 W/m²K si geam duplu cu argon, aceasta fereastra ofera o izolatie termica buna la un pret accesibil.</p>
+                <h3>Specificatii tehnice</h3>
+                <ul>
+                    <li>Geam dublu: 4H-16-4T umplut cu argon</li>
+                    <li>Ventilatie integrata V10 - 10 m³/h</li>
+                    <li>Deschidere superioara - curatare usoara din interior</li>
+                    <li>Lemn de pin tratat cu fungicid si lacuit</li>
+                    <li>Micro-deschidere pentru ventilatie controlata</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ftp-v-u5', 'name' => 'FTP-V U5', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-ftp-v-u3' => [
+            'name' => 'FAKRO FTP-V U3',
+            'tagline' => 'Fereastra mansarda cu 3 garnituri, topSafe si rotire 180°. U=1.4, ventilatie automata V40P.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Coeficient U fereastra' => '1.4 W/m²K',
+                'Coeficient U geam' => '1.0 W/m²K',
+                'Tip geam' => '4H-16-4T argon',
+                'Ventilatie' => 'V40P auto (20-48 m³/h)',
+                'Garnituri' => '3 garnituri',
+                'Rotire' => '180 grade',
+                'Securitate' => 'topSafe',
+                'Panta acoperis' => '15 - 90 grade',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin natural lacuit', 'code' => 'Standard', 'color' => '#c4a96a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Cel mai vandut model FAKRO. 3 garnituri pentru etanseitate superioara.',
+            'description' => '<h2>FAKRO FTP-V U3 - modelul cel mai popular</h2>
+                <p>FTP-V U3 este cel mai popular model de fereastra mansarda FAKRO, cu o combinatie optima de izolatie termica, securitate si confort. Cele 3 garnituri asigura etanseitate superioara, iar ventilatia automata V40P (20-48 m³/h) regleaza automat fluxul de aer.</p>
+                <h3>Caracteristici premium FTP-V U3</h3>
+                <ul>
+                    <li>3 garnituri - etanseitate superioara la vant si apa</li>
+                    <li>Sistem topSafe - protectie impotriva deschiderii accidentale</li>
+                    <li>Rotire 180 grade - curatare comoda din interior</li>
+                    <li>Ventilatie automata V40P (20-48 m³/h) - reglaj automat</li>
+                    <li>Micro-deschidere pentru ventilatie constanta</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-fts-v-u2', 'name' => 'FTS-V U2', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ftp-v-u5', 'name' => 'FTP-V U5', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ftp-v-p2', 'name' => 'FTP-V P2 Secure', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-ftp-v-u5' => [
+            'name' => 'FAKRO FTP-V U5',
+            'tagline' => 'Super-izolant termic cu U=0.97 W/m²K. Geam triplu cu kripton, pentru case Passive House.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Coeficient U fereastra' => '0.97 W/m²K',
+                'Coeficient U geam' => '0.5 W/m²K',
+                'Tip geam' => '4HT-10-4H-10-4HT kripton (triplu)',
+                'Ventilatie' => 'V40P auto (20-48 m³/h)',
+                'Garnituri' => '3 garnituri',
+                'Clasa energetica' => 'Passive House',
+                'Panta acoperis' => '15 - 90 grade',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin natural lacuit', 'code' => 'Premium', 'color' => '#c4a96a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Certificat Passive House. Geam triplu cu kripton.',
+            'description' => '<h2>FAKRO FTP-V U5 - performanta Passive House</h2>
+                <p>FTP-V U5 este fereastra mansarda cu cele mai bune performante termice din gama FAKRO, cu un coeficient U=0.97 W/m²K - sub pragul de 1.0 impus de casele pasive. Geamul triplu umplut cu kripton asigura o izolatie termica exceptionala.</p>
+                <h3>Performante U5</h3>
+                <ul>
+                    <li>U=0.97 W/m²K - certificat Passive House</li>
+                    <li>Geam triplu 4HT-10-4H-10-4HT umplut cu kripton</li>
+                    <li>U geam=0.5 W/m²K - izolatie termica maxima</li>
+                    <li>Ideal pentru case cu consum energetic ultra-redus</li>
+                    <li>3 garnituri + ventilatie automata V40P</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-fpp-v-u3', 'name' => 'FPP-V U3 preSelect', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-ftp-v-p2' => [
+            'name' => 'FAKRO FTP-V P2 Secure',
+            'tagline' => 'Fereastra mansarda antiefractie cu geam P2A si manere cu blocare. Clasa de securitate P2.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Coeficient U fereastra' => '1.4 W/m²K',
+                'Coeficient U geam' => '1.1 W/m²K',
+                'Tip geam' => '4HS-14-33.2T argon (antiefractie)',
+                'Clasa securitate' => 'P2A',
+                'Ventilatie' => 'V40P auto',
+                'Manere' => 'Cu blocare (securizate)',
+                'Panta acoperis' => '15 - 90 grade',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin natural lacuit', 'code' => 'Secure', 'color' => '#c4a96a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Geam antiefractie P2A certificat. Clasa securitate P2.',
+            'description' => '<h2>FAKRO FTP-V P2 Secure - securitate certificata</h2>
+                <p>FTP-V P2 Secure este fereastra mansarda cu cel mai inalt nivel de securitate din gama FAKRO. Geamul stratificat antiefractie P2A si manerele cu blocare ofera protectie certificata impotriva patrunderii neautorizate.</p>
+                <h3>Securitate P2A</h3>
+                <ul>
+                    <li>Geam stratificat 4HS-14-33.2T - rezistenta la spargere P2A</li>
+                    <li>Manere cu blocare - securizare suplimentara</li>
+                    <li>Recomandat pentru acoperisuri accesibile</li>
+                    <li>Ventilatie automata V40P inclusa</li>
+                    <li>Certificat antiefractie european</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-fts-v-u2', 'name' => 'FTS-V U2', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-fpp-v-u3' => [
+            'name' => 'FAKRO FPP-V U3 preSelect',
+            'tagline' => 'Fereastra mansarda cu mecanism preSelect - comutare rapida intre pozitii de ventilatie si deschidere.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Coeficient U fereastra' => '1.4 W/m²K',
+                'Coeficient U geam' => '1.0 W/m²K',
+                'Tip geam' => '4H-16-4T argon',
+                'Ventilatie' => 'V40P auto',
+                'Mecanism' => 'preSelect (comutare rapida)',
+                'Finisaj lemn' => 'Acrilic 2 straturi',
+                'Panta acoperis' => '15 - 90 grade',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin lacuit acrilic', 'code' => 'preSelect', 'color' => '#d4b47a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Mecanism preSelect unic FAKRO.',
+            'description' => '<h2>FAKRO FPP-V U3 preSelect - confort maxim</h2>
+                <p>FPP-V U3 preSelect dispune de mecanismul preSelect exclusiv FAKRO, care permite comutarea rapida intre pozitia de ventilatie (micro-deschidere) si pozitia complet deschisa, fara a utiliza ambele maini. Finisajul acrilic in 2 straturi ofera durabilitate imbunatatita.</p>
+                <h3>Mecanismul preSelect</h3>
+                <ul>
+                    <li>preSelect: comutare intre ventilatie si deschidere cu o singura miscare</li>
+                    <li>Finisaj acrilic 2 straturi - durabilitate superioara</li>
+                    <li>Ventilatie automata V40P (20-48 m³/h)</li>
+                    <li>Geam dublu cu argon, U=1.0</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-fpu-v-u3', 'name' => 'FPU-V U3 preSelect', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-fpu-v-u3' => [
+            'name' => 'FAKRO FPU-V U3 preSelect',
+            'tagline' => 'preSelect cu finisaj poliuretanic premium 3 straturi. Cea mai rezistenta finisare din gama FAKRO.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Coeficient U fereastra' => '1.4 W/m²K',
+                'Coeficient U geam' => '1.0 W/m²K',
+                'Tip geam' => '4H-16-4T argon',
+                'Ventilatie' => 'V40P auto',
+                'Mecanism' => 'preSelect',
+                'Finisaj lemn' => 'Poliuretanic 3 straturi (premium)',
+                'Panta acoperis' => '15 - 90 grade',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin poliuretanic 3 straturi', 'code' => 'Premium PU', 'color' => '#b8935a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Finisaj PU 3 straturi - cel mai rezistent din gama.',
+            'description' => '<h2>FAKRO FPU-V U3 preSelect - finisaj premium</h2>
+                <p>FPU-V U3 preSelect combina mecanismul preSelect cu cel mai rezistent finisaj din gama FAKRO - poliuretanic in 3 straturi. Acest finisaj ofera protectie maxima impotriva umiditatii, razelor UV si uzurii mecanice.</p>
+                <h3>Finisaj poliuretanic premium</h3>
+                <ul>
+                    <li>3 straturi poliuretanice - protectie maxima a lemnului</li>
+                    <li>Rezistenta superioara la umiditate si UV</li>
+                    <li>mecanism preSelect pentru confort maxim</li>
+                    <li>Recomandat pentru mansarde cu umiditate ridicata</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-fpp-v-u3', 'name' => 'FPP-V U3 preSelect', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-ftp-v-u5', 'name' => 'FTP-V U5', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        'fakro-fdy-v-u3' => [
+            'name' => 'FAKRO FDY-V U3 Duet proSky',
+            'tagline' => 'Fereastra panoramica dubla Duet proSky - panou superior basculant + panou inferior fix. Lumina maxima.',
+            'brand' => 'FAKRO',
+            'category' => ['slug' => 'ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            'subcategory' => ['slug' => 'fakro', 'name' => 'FAKRO'],
+            'specs' => [
+                'Tip' => 'Dublu canal (upper pivot + lower fixed)',
+                'Deschidere' => '160 grade',
+                'Ventilatie' => 'V40P auto',
+                'Format' => 'Panoramic (oversized)',
+                'Panta acoperis' => '15 - 90 grade',
+                'Garantie' => '10 ani',
+            ],
+            'materials' => [
+                'Finisaj' => [
+                    ['name' => 'Pin natural lacuit', 'code' => 'Duet proSky', 'color' => '#c4a96a'],
+                ],
+            ],
+            'warranty' => 'Garantie 10 ani. Format panoramic unic - lumina maxima in mansarda.',
+            'description' => '<h2>FAKRO FDY-V U3 Duet proSky - fereastra panoramica</h2>
+                <p>Duet proSky este solutia pentru maximum de lumina naturala in mansarda. Sistemul cu doua canale include un panou superior basculant (pivot) si un panou inferior fix, oferind o suprafata vitrata mult mai mare decat o fereastra clasica.</p>
+                <h3>Sistem Duet proSky</h3>
+                <ul>
+                    <li>Format dublu-canal - suprafata vitrata extinsa</li>
+                    <li>Panou superior cu deschidere 160 grade</li>
+                    <li>Panou inferior fix - vedere panoramica</li>
+                    <li>Lumina naturala maxima in mansarda</li>
+                    <li>Ideal pentru spatii de zi, dormitoare premium</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
+                ['slug' => 'fakro-fpu-v-u3', 'name' => 'FPU-V U3 preSelect', 'brand' => 'FAKRO'],
+            ],
+        ],
+
+        // ==========================================
+        // FOLII ANTICONDENS (BDM + Riwega)
+        // ==========================================
+        'bdm-125-standard-plus' => [
+            'name' => 'BDM 125 Standard Plus',
+            'tagline' => 'Folie anticondens 3 straturi PP, 125 g/m², permeabilitate vapori 3000 g/m²/24h. Rola 75 m².',
+            'brand' => 'BDM Systems',
+            'category' => ['slug' => 'folii-anticondens', 'name' => 'Folii anticondens'],
+            'subcategory' => ['slug' => 'folii-bdm', 'name' => 'Folii BDM'],
+            'specs' => [
+                'Greutate' => '125 g/m²',
+                'Straturi' => '3 straturi PP',
+                'Permeabilitate vapori' => '3000 g/m²/24h',
+                'Sd' => '0.02 m',
+                'Grosime' => '0.65 mm',
+                'Temperatura' => '-30 la +120°C',
+                'Clasa apa' => 'W1',
+                'Rola' => '75 m²',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Gri standard', 'code' => 'Standard', 'color' => '#b0b8c1'],
+                ],
+            ],
+            'warranty' => 'Produs BDM Systems. Clasa W1 - rezistenta la apa certificata.',
+            'description' => '<h2>Folie anticondens BDM 125 Standard Plus</h2>
+                <p>BDM 125 Standard Plus este folia anticondens standard din gama BDM, cu 3 straturi de polipropilena si o greutate de 125 g/m². Cu o permeabilitate la vapori de 3000 g/m²/24h, aceasta folie permite "respiratia" constructiei prevenind acumularea umiditatii.</p>
+                <h3>Specificatii tehnice</h3>
+                <ul>
+                    <li>3 straturi PP pentru rezistenta mecanica buna</li>
+                    <li>Permeabilitate vapori 3000 g/m²/24h</li>
+                    <li>Sd=0.02m - folie extrem de permeabila</li>
+                    <li>Temperatura -30 la +120°C</li>
+                    <li>Rola 75 m² - acoperire eficienta</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'bdm-140-maxi-sk2', 'name' => 'BDM 140 MAXI Sk2', 'brand' => 'BDM Systems'],
+                ['slug' => 'riwega-usb-reflex', 'name' => 'Riwega USB Reflex', 'brand' => 'Riwega'],
+            ],
+        ],
+
+        'bdm-140-maxi-sk2' => [
+            'name' => 'BDM 140 MAXI Sk2',
+            'tagline' => 'Folie anticondens premium 140 g/m² cu 2 benzi autoadezive SK2 pentru etansare la capriori.',
+            'brand' => 'BDM Systems',
+            'category' => ['slug' => 'folii-anticondens', 'name' => 'Folii anticondens'],
+            'subcategory' => ['slug' => 'folii-bdm', 'name' => 'Folii BDM'],
+            'specs' => [
+                'Greutate' => '140 g/m²',
+                'Straturi' => '3 straturi PP',
+                'Permeabilitate vapori' => '3000 g/m²/24h',
+                'Sd' => '0.02 m',
+                'Grosime' => '0.75 mm',
+                'Temperatura' => '-40 la +120°C',
+                'Clasa apa' => 'W1',
+                'Benzi autoadezive' => '2 x SK2',
+                'Rola' => '75 m²',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Gri premium', 'code' => 'SK2', 'color' => '#9aa5af'],
+                ],
+            ],
+            'warranty' => 'Produs BDM Systems. Benzi SK2 autoadezive - etansare perfecta la capriori.',
+            'description' => '<h2>Folie anticondens BDM 140 MAXI Sk2</h2>
+                <p>BDM 140 MAXI Sk2 este varianta premium a foliei anticondens BDM, cu greutate mai mare (140 g/m²) si dotata cu doua benzi autoadezive SK2 care asigura o etansare perfecta in dreptul capriorilor, eliminand riscul infiltratiilor de apa pe la margini.</p>
+                <h3>Avantaje SK2</h3>
+                <ul>
+                    <li>2 benzi autoadezive SK2 - etansare la capriori fara banda suplimentara</li>
+                    <li>140 g/m² - mai robusta decat varianta standard</li>
+                    <li>Temperatura -40°C - potrivita pentru zone cu ierni grele</li>
+                    <li>Clasa W1 - rezistenta la coloana de apa >350cm</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'bdm-125-standard-plus', 'name' => 'BDM 125 Standard Plus', 'brand' => 'BDM Systems'],
+                ['slug' => 'riwega-usb-reflex', 'name' => 'Riwega USB Reflex', 'brand' => 'Riwega'],
+            ],
+        ],
+
+        'riwega-usb-reflex' => [
+            'name' => 'Riwega USB Reflex 200',
+            'tagline' => 'Membrana reflexiva premium 200 g/m², reflectivitate 83.2%, Sd=0.045m. Protectie termica si hidro.',
+            'brand' => 'Riwega',
+            'category' => ['slug' => 'folii-anticondens', 'name' => 'Folii anticondens'],
+            'subcategory' => ['slug' => 'folii-riwega', 'name' => 'Folii Riwega'],
+            'specs' => [
+                'Greutate' => '200 g/m²',
+                'Straturi' => 'PP.PP.A1.PE (4 straturi cu aluminiu)',
+                'Reflectivitate' => '83.2%',
+                'Sd' => '0.045 m',
+                'Rezistenta termica' => '0.022 W/m²K',
+                'Temperatura' => '-40 la +100°C',
+                'Clasa apa' => 'W1 (>350cm coloana)',
+                'Rola' => '75 m²',
+            ],
+            'materials' => [
+                'Disponibil' => [
+                    ['name' => 'Aluminiu reflexiv', 'code' => 'Reflex 200', 'color' => '#d4d8dc'],
+                ],
+            ],
+            'warranty' => 'Produs Riwega (Austria). Cel mai avansat sistem de folie anticondens.',
+            'description' => '<h2>Riwega USB Reflex 200 - membrana reflexiva premium</h2>
+                <p>Riwega USB Reflex 200 este membrana de cea mai inalta clasa, cu 4 straturi (inclusiv un strat de aluminiu A1) care asigura nu doar protectie impotriva condensului, dar si reflectarea radiatiei termice. Cu o reflectivitate de 83.2%, reduce semnificativ transferul de caldura vara.</p>
+                <h3>Tehnologia Reflex</h3>
+                <ul>
+                    <li>Strat aluminiu A1 - reflexie termica 83.2%</li>
+                    <li>200 g/m² - cea mai robusta folie anticondens</li>
+                    <li>Sd=0.045m - permeabilitate controlata la vapori</li>
+                    <li>Rezistenta termica 0.022 W/m²K</li>
+                    <li>Produs austriac cu standard european inalt</li>
+                </ul>',
+            'related' => [
+                ['slug' => 'bdm-140-maxi-sk2', 'name' => 'BDM 140 MAXI Sk2', 'brand' => 'BDM Systems'],
+                ['slug' => 'bdm-125-standard-plus', 'name' => 'BDM 125 Standard Plus', 'brand' => 'BDM Systems'],
+            ],
+        ],
+
     ];
 
     public function show(array $params, array $route): void

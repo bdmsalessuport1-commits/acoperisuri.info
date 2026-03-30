@@ -171,12 +171,13 @@ return [
         'description' => 'Folii anticondens si membrane pentru protectia structurii acoperisului impotriva condensului si umiditatii.',
         'icon' => '&#128203;',
         'subcategories' => [
-            ['slug' => 'folii-anticondens-standard', 'name' => 'Folii anticondens standard', 'count' => 3, 'icon' => '&#128203;'],
-            ['slug' => 'membrane-difuzie', 'name' => 'Membrane de difuzie', 'count' => 2, 'icon' => '&#128203;'],
+            ['slug' => 'folii-bdm', 'name' => 'Folii BDM Systems', 'count' => 2, 'icon' => '&#128203;'],
+            ['slug' => 'folii-riwega', 'name' => 'Folii Riwega', 'count' => 1, 'icon' => '&#128203;'],
         ],
         'popular' => [
-            ['slug' => 'folie-anticondens-120g', 'name' => 'Folie anticondens 120g/mp', 'brand' => 'BDM Systems'],
-            ['slug' => 'membrana-difuzie-140g', 'name' => 'Membrana difuzie 140g/mp', 'brand' => 'BDM Systems'],
+            ['slug' => 'bdm-125-standard-plus', 'name' => 'BDM 125 Standard Plus', 'brand' => 'BDM Systems'],
+            ['slug' => 'bdm-140-maxi-sk2', 'name' => 'BDM 140 MAXI Sk2', 'brand' => 'BDM Systems'],
+            ['slug' => 'riwega-usb-reflex', 'name' => 'Riwega USB Reflex 200', 'brand' => 'Riwega'],
         ],
         'seo_title' => 'Folii Anticondens pentru Acoperis - Protectie Completa',
         'seo_text' => '<h2>Folii anticondens - protectie esentiala pentru acoperis</h2>
@@ -270,14 +271,13 @@ return [
         'description' => 'Ferestre de mansarda FAKRO - iluminare naturala, ventilatie si acces pe acoperis. Modele cu deschidere superioara, laterala sau electrica.',
         'icon' => '&#127968;',
         'subcategories' => [
-            ['slug' => 'deschidere-superioara', 'name' => 'Deschidere superioara', 'count' => 3, 'icon' => '&#127968;'],
-            ['slug' => 'deschidere-laterala', 'name' => 'Deschidere laterala', 'count' => 2, 'icon' => '&#127968;'],
-            ['slug' => 'electrice', 'name' => 'Ferestre electrice', 'count' => 2, 'icon' => '&#127968;'],
-            ['slug' => 'accesorii-fakro', 'name' => 'Accesorii FAKRO', 'count' => 5, 'icon' => '&#128295;'],
+            ['slug' => 'fakro', 'name' => 'FAKRO', 'count' => 7, 'icon' => '&#127968;'],
         ],
         'popular' => [
             ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
-            ['slug' => 'fakro-ftu-v-u3', 'name' => 'FTU-V U3', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-ftp-v-u5', 'name' => 'FTP-V U5', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-fts-v-u2', 'name' => 'FTS-V U2', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-fdy-v-u3', 'name' => 'FDY-V U3 Duet proSky', 'brand' => 'FAKRO'],
         ],
         'seo_title' => 'Ferestre Mansarda FAKRO - Modele si Preturi',
         'seo_text' => '<h2>Ferestre de mansarda FAKRO</h2>
