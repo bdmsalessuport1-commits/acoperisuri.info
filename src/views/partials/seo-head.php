@@ -40,7 +40,7 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 <!-- CSS -->
-<?php $v = '7'; ?>
+<?php $v = '8'; ?>
 <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/base.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/header.css?v=<?= $v ?>">

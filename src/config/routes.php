@@ -129,6 +129,18 @@ return [
         'name' => 'product',
     ],
 
+    // Auth
+    '/admin/login' => [
+        'controller' => 'AuthController',
+        'action' => 'login',
+        'name' => 'admin.login',
+    ],
+    '/admin/logout' => [
+        'controller' => 'AuthController',
+        'action' => 'logout',
+        'name' => 'admin.logout',
+    ],
+
     // Admin (INAINTE de categorii dinamice!)
     '/admin' => [
         'controller' => 'AdminController',
@@ -150,6 +162,62 @@ return [
         'name' => 'admin.categories',
         'layout' => 'admin',
         'title' => 'Admin - Categorii',
+    ],
+    '/admin/blog' => [
+        'controller' => 'AdminController',
+        'action' => 'blog',
+        'name' => 'admin.blog',
+        'layout' => 'admin',
+        'title' => 'Admin - Blog',
+    ],
+    '/admin/videouri' => [
+        'controller' => 'AdminController',
+        'action' => 'videos',
+        'name' => 'admin.videos',
+        'layout' => 'admin',
+        'title' => 'Admin - Videouri',
+    ],
+    '/admin/media' => [
+        'controller' => 'AdminController',
+        'action' => 'media',
+        'name' => 'admin.media',
+        'layout' => 'admin',
+        'title' => 'Admin - Media',
+    ],
+    '/admin/seo' => [
+        'controller' => 'AdminController',
+        'action' => 'seo',
+        'name' => 'admin.seo',
+        'layout' => 'admin',
+        'title' => 'Admin - SEO',
+    ],
+    '/admin/homepage' => [
+        'controller' => 'AdminController',
+        'action' => 'homepage',
+        'name' => 'admin.homepage',
+        'layout' => 'admin',
+        'title' => 'Admin - Homepage',
+    ],
+    '/admin/mesaje' => [
+        'controller' => 'AdminController',
+        'action' => 'messages',
+        'name' => 'admin.messages',
+        'layout' => 'admin',
+        'title' => 'Admin - Mesaje',
+    ],
+    '/admin/utilizatori' => [
+        'controller' => 'AdminController',
+        'action' => 'users',
+        'name' => 'admin.users',
+        'layout' => 'admin',
+        'title' => 'Admin - Utilizatori',
+    ],
+    '/admin/setari' => [
+        'controller' => 'AdminController',
+        'action' => 'settings',
+        'name' => 'admin.settings',
+        'layout' => 'admin',
+        'title' => 'Admin - Setari',
     ],
 
     // Categorii si subcategorii (ULTIMELE - wildcard catch-all)

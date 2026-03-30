@@ -55,6 +55,9 @@ if ($appConfig['debug']) {
     ini_set('display_errors', '0');
 }
 
+// Porneste sesiunea securizata (necesara pentru admin auth + CSRF)
+\App\Helpers\Auth::startSession();
+
 // Initializeaza router-ul
 $router = new \App\Helpers\Router();
 $uri = $_SERVER['REQUEST_URI'] ?? '/';
