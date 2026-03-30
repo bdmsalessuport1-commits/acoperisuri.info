@@ -18,6 +18,9 @@
 # Uploads (keep structure, ignore contents)
 /public/uploads/*
 !/public/uploads/.gitkeep
+!/public/uploads/thumbs/
+/public/uploads/thumbs/*
+!/public/uploads/thumbs/.gitkeep
 
 # OS Files
 .DS_Store

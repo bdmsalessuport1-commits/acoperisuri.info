@@ -260,6 +260,16 @@ return [
         'layout' => 'admin',
         'title' => 'Admin - Media',
     ],
+    '/admin/media/upload' => [
+        'controller' => 'AdminController',
+        'action' => 'mediaUpload',
+        'name' => 'admin.media.upload',
+    ],
+    '/admin/media/sterge/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'mediaDelete',
+        'name' => 'admin.media.delete',
+    ],
     '/admin/seo' => [
         'controller' => 'AdminController',
         'action' => 'seo',

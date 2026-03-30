@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Helpers\Auth;
 use App\Helpers\View;
 use App\Helpers\DataStore;
+use App\Helpers\MediaHelper;
 
 class AdminController
 {
@@ -568,7 +569,154 @@ class AdminController
     public function media(array $params, array $route): void
     {
         Auth::requireRole('editor');
-        View::render('admin/media', ['pageTitle' => 'Media'], 'admin');
+
+        $mediaStore = new DataStore('media');
+        $allMedia = $mediaStore->orderBy('id', 'desc');
+
+        // Filters
+        $filterZone = $_GET['zona'] ?? '';
+        $filterType = $_GET['tip'] ?? '';
+        $search = trim($_GET['q'] ?? '');
+
+        if ($filterZone) {
+            $allMedia = array_filter($allMedia, fn($m) => ($m['zone'] ?? '') === $filterZone);
+        }
+        if ($filterType === 'imagine') {
+            $allMedia = array_filter($allMedia, fn($m) => str_starts_with($m['mime'] ?? '', 'image/'));
+        }
+        if ($search) {
+            $q = mb_strtolower($search);
+            $allMedia = array_filter($allMedia, fn($m) =>
+                str_contains(mb_strtolower($m['original_name'] ?? ''), $q) ||
+                str_contains(mb_strtolower($m['filename'] ?? ''), $q) ||
+                str_contains(mb_strtolower($m['alt'] ?? ''), $q)
+            );
+        }
+
+        $allMedia = array_values($allMedia);
+
+        View::render('admin/media', [
+            'pageTitle'  => 'Media',
+            'media'      => $allMedia,
+            'total'      => count($allMedia),
+            'zones'      => MediaHelper::ZONES,
+            'filterZone' => $filterZone,
+            'filterType' => $filterType,
+            'search'     => $search,
+            'flash'      => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function mediaUpload(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+            http_response_code(405);
+            exit;
+        }
+
+        Auth::requireCsrf();
+
+        $zone = $_POST['zone'] ?? 'general';
+        $alt = trim($_POST['alt'] ?? '');
+        $files = $_FILES['media_files'] ?? null;
+
+        if (!$files || empty($files['name'][0])) {
+            if (!empty($_SERVER['HTTP_X_REQUESTED_WITH'])) {
+                header('Content-Type: application/json');
+                echo json_encode(['success' => false, 'error' => 'Niciun fisier selectat.']);
+                exit;
+            }
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Niciun fisier selectat.'];
+            header('Location: /admin/media');
+            exit;
+        }
+
+        $mediaStore = new DataStore('media');
+        $uploaded = [];
+        $errors = [];
+
+        // Normalize files array for multiple uploads
+        $fileCount = count($files['name']);
+        for ($i = 0; $i < $fileCount; $i++) {
+            $file = [
+                'name'     => $files['name'][$i],
+                'type'     => $files['type'][$i],
+                'tmp_name' => $files['tmp_name'][$i],
+                'error'    => $files['error'][$i],
+                'size'     => $files['size'][$i],
+            ];
+
+            $result = MediaHelper::processUpload($file, $zone);
+            if ($result) {
+                $mediaItem = $mediaStore->create([
+                    'filename'      => $result['filename'],
+                    'original_name' => $result['original_name'],
+                    'url'           => $result['url'],
+                    'thumb_url'     => $result['thumb_url'],
+                    'png_fallback'  => $result['png_fallback'],
+                    'mime'          => $result['mime'],
+                    'size'          => $result['size'],
+                    'width'         => $result['width'],
+                    'height'        => $result['height'],
+                    'zone'          => $result['zone'],
+                    'alt'           => $alt,
+                    'sort_order'    => 0,
+                ]);
+                $uploaded[] = $mediaItem;
+            } else {
+                $errors[] = $files['name'][$i];
+            }
+        }
+
+        // AJAX response
+        if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {
+            header('Content-Type: application/json');
+            echo json_encode([
+                'success'  => !empty($uploaded),
+                'uploaded' => $uploaded,
+                'errors'   => $errors,
+            ]);
+            exit;
+        }
+
+        // Regular form response
+        $msg = count($uploaded) . ' fisier(e) uploadate cu succes.';
+        if (!empty($errors)) {
+            $msg .= ' ' . count($errors) . ' erori: ' . implode(', ', $errors);
+        }
+        $_SESSION['_flash'] = ['type' => empty($errors) ? 'success' : 'error', 'message' => $msg];
+        header('Location: /admin/media');
+        exit;
+    }
+
+    public function mediaDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $mediaStore = new DataStore('media');
+        $id = (int) ($params['id'] ?? 0);
+        $media = $mediaStore->find($id);
+
+        if ($media) {
+            MediaHelper::deleteFiles($media);
+            $mediaStore->delete($id);
+            $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Fisierul a fost sters.'];
+        }
+
+        // AJAX response
+        if (!empty($_SERVER['HTTP_X_REQUESTED_WITH'])) {
+            header('Content-Type: application/json');
+            echo json_encode(['success' => true]);
+            exit;
+        }
+
+        header('Location: /admin/media');
+        exit;
     }
 
     public function seo(array $params, array $route): void
