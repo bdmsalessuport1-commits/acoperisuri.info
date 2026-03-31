@@ -53,7 +53,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 <a href="/scari-pod-fakro" class="mega-cat-link">Scari de pod FAKRO</a>
                                 <a href="/izolatie" class="mega-cat-link">Izolatie fibre lemn STEICO</a>
                                 <a href="/hidroizolatii-terase" class="mega-cat-link">Hidroizolatii terase</a>
-                                <a href="/garduri" class="mega-cat-link">Garduri</a>
+                                <a href="/garduri" class="mega-cat-link has-sub" data-panel="panel-garduri">Garduri <span class="cat-arrow">&#9654;</span></a>
                             </div>
 
                             <!-- Coloana dreapta: Subcategorii (apar la hover) -->
@@ -76,6 +76,15 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                             <a href="/produs/metigla-elit">Elit</a>
                                             <a href="/produs/metigla-star">Star</a>
                                             <a href="/produs/metigla-mira">Mira</a>
+                                        </div>
+                                    </div>
+                                    <div class="sub-group">
+                                        <a href="/tigla-metalica/rufster" class="sub-group-title">Rufster</a>
+                                        <div class="sub-items">
+                                            <a href="/produs/rufster-aqua-3d">Aqua 3D</a>
+                                            <a href="/produs/rufster-celesta">Celesta</a>
+                                            <a href="/produs/rufster-nova">Nova</a>
+                                            <a href="/produs/rufster-terra">Terra</a>
                                         </div>
                                     </div>
                                     <a href="/tigla-metalica/blachotrapez">Blachotrapez</a>
@@ -101,6 +110,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                     <a href="/tabla-cutata/metigla">Metigla</a>
                                     <a href="/tabla-cutata/wetterbest">Wetterbest</a>
                                     <a href="/tabla-cutata/blachotrapez">Blachotrapez</a>
+                                    <a href="/tabla-cutata/rufster">Rufster</a>
                                 </div>
 
                                 <div class="mega-sub-panel" id="panel-pluviale">
@@ -108,6 +118,14 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                     <a href="/sisteme-pluviale/metigla">Sistem de scurgere Metigla</a>
                                     <a href="/sisteme-pluviale/wetterbest">Sistem de scurgere Wetterbest</a>
                                     <a href="/sisteme-pluviale/flamingo-iq-budmat">Flamingo iQ Budmat</a>
+                                </div>
+
+                                <div class="mega-sub-panel" id="panel-garduri">
+                                    <h4>Sisteme de garduri</h4>
+                                    <a href="/garduri/rufster">Sistem Gard Rufster</a>
+                                    <a href="/garduri/wetterbest">Sistem Gard Wetterbest</a>
+                                    <a href="/garduri/budmat">Sistem Gard Budmat</a>
+                                    <a href="/garduri/bdm">Sistem Gard BDM <span style="color: var(--color-primary); font-weight: 600;">- Cel mai bun pret</span></a>
                                 </div>
                             </div>
                         </div>
@@ -122,6 +140,26 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                             <a href="/servicii/consultanta-eficienta-energetica" class="dropdown-link">Consultanta eficienta energetica</a>
                             <a href="/servicii/consultanta-passive-house" class="dropdown-link">Consultanta Passive House</a>
                         </div>
+                    </li>
+
+                    <!-- CONSULTANTA PASSIVE HOUSE -->
+                    <li class="nav-item">
+                        <a href="/servicii/consultanta-passive-house" class="nav-link <?= $currentUri === '/servicii/consultanta-passive-house' ? 'active' : '' ?>">Passive House</a>
+                    </li>
+
+                    <!-- VIDEOURI -->
+                    <li class="nav-item">
+                        <a href="/video" class="nav-link <?= str_starts_with($currentUri, '/video') ? 'active' : '' ?>">Videouri</a>
+                    </li>
+
+                    <!-- EVENIMENTE -->
+                    <li class="nav-item">
+                        <a href="/evenimente" class="nav-link <?= str_starts_with($currentUri, '/evenimente') ? 'active' : '' ?>">Evenimente</a>
+                    </li>
+
+                    <!-- CARIERE -->
+                    <li class="nav-item">
+                        <a href="/cariere" class="nav-link <?= str_starts_with($currentUri, '/cariere') ? 'active' : '' ?>">Cariere</a>
                     </li>
 
                     <!-- BLOG -->
@@ -177,8 +215,11 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <div class="sub-heading">Izolatie</div>
                 <a href="/izolatie">Izolatie fibre lemn STEICO</a>
                 <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
-                <div class="sub-heading">Altele</div>
-                <a href="/garduri">Garduri</a>
+                <div class="sub-heading">Garduri</div>
+                <a href="/garduri/rufster">Sistem Gard Rufster</a>
+                <a href="/garduri/wetterbest">Sistem Gard Wetterbest</a>
+                <a href="/garduri/budmat">Sistem Gard Budmat</a>
+                <a href="/garduri/bdm">Sistem Gard BDM</a>
             </div>
         </li>
         <li class="mobile-nav-item">
@@ -188,6 +229,10 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/servicii/consultanta-passive-house">Consultanta Passive House</a>
             </div>
         </li>
+        <li class="mobile-nav-item"><a href="/servicii/consultanta-passive-house" class="mobile-nav-link">Passive House</a></li>
+        <li class="mobile-nav-item"><a href="/video" class="mobile-nav-link">Videouri</a></li>
+        <li class="mobile-nav-item"><a href="/evenimente" class="mobile-nav-link">Evenimente</a></li>
+        <li class="mobile-nav-item"><a href="/cariere" class="mobile-nav-link">Cariere</a></li>
         <li class="mobile-nav-item"><a href="/blog" class="mobile-nav-link">Blog</a></li>
         <li class="mobile-nav-item"><a href="/contact" class="mobile-nav-link">Contact</a></li>
     </ul>
