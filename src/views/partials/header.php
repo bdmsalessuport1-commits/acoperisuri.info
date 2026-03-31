@@ -94,7 +94,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 <div class="mega-sub-panel" id="panel-tabla-falt">
                                     <h4>Tabla faltuita</h4>
                                     <a href="/tabla-faltuita/metigla">Metigla</a>
-                                    <a href="/tabla-faltuita/vestalpin">Vestalpin</a>
+                                    <a href="/tabla-faltuita/vestalpin">Voestalpine</a>
                                     <a href="/tabla-faltuita/wetterbest">Wetterbest</a>
                                     <a href="/tabla-faltuita/fals-solar-metigla">Fals solar Metigla</a>
                                 </div>

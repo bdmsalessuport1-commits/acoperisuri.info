@@ -80,7 +80,7 @@
                     <p>Divizia principala — acoperisuri complete de la A la Z. Tigla metalica, tabla faltuita, tabla cutata, sisteme pluviale, folii anticondens, accesorii montaj. Lucrari de montaj si renovare cu garantie.</p>
                     <ul class="division-list">
                         <li>Tigla metalica (Budmat, Metigla, Wetterbest, Blachotrapez)</li>
-                        <li>Tabla faltuita si click (Metigla, Wetterbest, Vestalpin)</li>
+                        <li>Tabla faltuita si click (Metigla, Wetterbest, Voestalpine)</li>
                         <li>Sisteme pluviale (Metigla, Flamingo iQ Budmat, Wetterbest)</li>
                         <li>Montaj profesional cu echipe proprii</li>
                     </ul>

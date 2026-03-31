@@ -2576,12 +2576,12 @@
     },
     {
         "id": 19,
-        "name": "Vestalpin Tabla Click",
-        "subtitle": "Tabla faltuita click Vestalpin (Austria) - 0.50mm, culori RAL premium, aspect arhitectural modern.",
+        "name": "Voestalpine Tabla Click",
+        "subtitle": "Tabla faltuita click Voestalpine (Austria) - 0.50mm, culori RAL premium, aspect arhitectural modern.",
         "slug": "vestalpin-click",
         "category_id": 2,
         "subcategory_id": 6,
-        "manufacturer": "Vestalpin",
+        "manufacturer": "Voestalpine",
         "status": "activ",
         "image_main": "",
         "image_schema": "",
@@ -2658,8 +2658,8 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie producator Vestalpin Austria. Tabla premium cu calitate austriaca.",
-        "description_html": "<h2>Tabla faltuita click Vestalpin</h2>\n                <p>Vestalpin este un producator austriac de renume pentru tabla faltuita de calitate superioara. Sistemul click Vestalpin se remarca prin simplitatea montajului si aspectul arhitectural curat, fara elemente de fixare vizibile.</p>\n                <h3>Calitatea austriaca Vestalpin</h3>\n                <ul>\n                    <li>Producator austriac cu traditie in tabla pentru acoperisuri</li>\n                    <li>Grosime 0.50mm - rigiditate si durabilitate superioare</li>\n                    <li>Sistem click cu fixare ascunsa - aspect curat</li>\n                    <li>Culori RAL premium cu rezistenta UV exceptionala</li>\n                    <li>Potrivit pentru acoperisuri rezidentiale si comerciale</li>\n                </ul>",
+        "warranty_text": "Garantie producator Voestalpine Austria. Tabla premium cu calitate austriaca.",
+        "description_html": "<h2>Tabla faltuita click Voestalpine</h2>\n                <p>Voestalpine este un producator austriac de renume pentru tabla faltuita de calitate superioara. Sistemul click Voestalpine se remarca prin simplitatea montajului si aspectul arhitectural curat, fara elemente de fixare vizibile.</p>\n                <h3>Calitatea austriaca Voestalpine</h3>\n                <ul>\n                    <li>Producator austriac cu traditie in tabla pentru acoperisuri</li>\n                    <li>Grosime 0.50mm - rigiditate si durabilitate superioare</li>\n                    <li>Sistem click cu fixare ascunsa - aspect curat</li>\n                    <li>Culori RAL premium cu rezistenta UV exceptionala</li>\n                    <li>Potrivit pentru acoperisuri rezidentiale si comerciale</li>\n                </ul>",
         "seo_title": "",
         "seo_description": "",
         "related_products": [

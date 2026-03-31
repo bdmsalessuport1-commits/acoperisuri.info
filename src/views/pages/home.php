@@ -125,8 +125,12 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         </div>
         <div class="brands-row">
             <?php foreach ($brandItems as $brand): if (empty($brand['is_active'])) continue; ?>
-            <a href="<?= htmlspecialchars($brand['link'] ?? '#') ?>" class="brand-item">
+            <a href="<?= htmlspecialchars($brand['link'] ?? '#') ?>" class="brand-item" title="<?= htmlspecialchars($brand['name'] ?? '') ?>">
+                <?php if (!empty($brand['logo'])): ?>
+                <img src="<?= htmlspecialchars($brand['logo']) ?>" alt="<?= htmlspecialchars($brand['name'] ?? '') ?>" class="brand-logo" loading="lazy">
+                <?php else: ?>
                 <span class="brand-name"><?= htmlspecialchars($brand['name'] ?? '') ?></span>
+                <?php endif; ?>
             </a>
             <?php endforeach; ?>
         </div>

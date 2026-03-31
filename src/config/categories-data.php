@@ -46,17 +46,17 @@ return [
 
     'tabla-faltuita' => [
         'name' => 'Tabla faltuita',
-        'description' => 'Sisteme de invelitoare cu falt vertical si orizontal. Design modern, etanseitate superioara si durabilitate exceptionala de la Metigla, Vestalpin si Wetterbest.',
+        'description' => 'Sisteme de invelitoare cu falt vertical si orizontal. Design modern, etanseitate superioara si durabilitate exceptionala de la Metigla, Voestalpine si Wetterbest.',
         'icon' => '&#9645;',
         'subcategories' => [
             ['slug' => 'metigla', 'name' => 'Metigla', 'count' => 2, 'icon' => '&#9645;'],
-            ['slug' => 'vestalpin', 'name' => 'Vestalpin', 'count' => 1, 'icon' => '&#9645;'],
+            ['slug' => 'vestalpin', 'name' => 'Voestalpine', 'count' => 1, 'icon' => '&#9645;'],
             ['slug' => 'wetterbest', 'name' => 'Wetterbest', 'count' => 1, 'icon' => '&#9645;'],
         ],
         'popular' => [
             ['slug' => 'metigla-falt', 'name' => 'Falt Metigla', 'brand' => 'Metigla'],
             ['slug' => 'metigla-clic', 'name' => 'Clic Metigla', 'brand' => 'Metigla'],
-            ['slug' => 'vestalpin-click', 'name' => 'Click Vestalpin', 'brand' => 'Vestalpin'],
+            ['slug' => 'vestalpin-click', 'name' => 'Click Voestalpine', 'brand' => 'Voestalpine'],
             ['slug' => 'wetterbest-click', 'name' => 'Click Wetterbest', 'brand' => 'Wetterbest'],
         ],
         'seo_title' => 'Tabla Faltuita - Sisteme de Invelitoare Premium',

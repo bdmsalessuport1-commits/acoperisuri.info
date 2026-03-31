@@ -96,13 +96,14 @@
         "title": "Producatorii nostri de incredere",
         "subtitle": "Colaboram cu lideri europeni in industria acoperisurilor.",
         "items": [
-            {"id": 1, "name": "BUDMAT", "link": "/tigla-metalica/budmat", "sort_order": 0, "is_active": true},
-            {"id": 2, "name": "METIGLA", "link": "/tigla-metalica/metigla", "sort_order": 1, "is_active": true},
-            {"id": 3, "name": "WETTERBEST", "link": "/tigla-metalica/wetterbest", "sort_order": 2, "is_active": true},
-            {"id": 4, "name": "BLACHOTRAPEZ", "link": "/tigla-metalica/blachotrapez", "sort_order": 3, "is_active": true},
-            {"id": 5, "name": "FAKRO", "link": "/ferestre-tamplarie/ferestre-mansarda-fakro", "sort_order": 4, "is_active": true},
-            {"id": 6, "name": "VESTALPIN", "link": "/tabla-faltuita/vestalpin", "sort_order": 5, "is_active": true},
-            {"id": 7, "name": "STEICO", "link": "/izolatie-hidroizolatii/izolatie-fibre-lemn", "sort_order": 6, "is_active": true}
+            {"id": 1, "name": "BUDMAT", "logo": "/images/brands/budmat.png", "link": "/tigla-metalica/budmat", "sort_order": 0, "is_active": true},
+            {"id": 2, "name": "METIGLA", "logo": "/images/brands/metigla.svg", "link": "/tigla-metalica/metigla", "sort_order": 1, "is_active": true},
+            {"id": 3, "name": "WETTERBEST", "logo": "/images/brands/wetterbest.svg", "link": "/tigla-metalica/wetterbest", "sort_order": 2, "is_active": true},
+            {"id": 4, "name": "BLACHOTRAPEZ", "logo": "/images/brands/blachotrapez.svg", "link": "/tigla-metalica/blachotrapez", "sort_order": 3, "is_active": true},
+            {"id": 5, "name": "RUFSTER", "logo": "/images/brands/rufster-icon.jpg", "link": "/tigla-metalica/rufster", "sort_order": 4, "is_active": true},
+            {"id": 6, "name": "FAKRO", "logo": "/images/brands/fakro.png", "link": "/ferestre-tamplarie/ferestre-mansarda-fakro", "sort_order": 5, "is_active": true},
+            {"id": 7, "name": "VOESTALPINE", "logo": "/images/brands/voestalpine.svg", "link": "/tabla-faltuita/vestalpin", "sort_order": 6, "is_active": true},
+            {"id": 8, "name": "STEICO", "logo": "/images/brands/steico.svg", "link": "/izolatie-hidroizolatii/izolatie-fibre-lemn", "sort_order": 7, "is_active": true}
         ]
     },
     "products": {
