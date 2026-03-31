@@ -294,6 +294,13 @@ a:hover {
   .hide-tablet { display: none; }
 }
 
+/* Desktop - max 1200px */
+@media (max-width: 1200px) {
+  .grid-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* Desktop - max 1024px */
 @media (max-width: 1024px) {
   .grid-4 {
