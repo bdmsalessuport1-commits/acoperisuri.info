@@ -20667,5 +20667,121 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-03-31 10:48:55"
+    },
+    {
+        "id": 140,
+        "name": "Sageac Metalic Wetterbest",
+        "subtitle": "Sageac metalic din otel galvanizat prevopsit, latime utila 317mm, lungime la comanda 0.4-4m, 5 finisaje si 16 culori RAL",
+        "slug": "sageac-metalic-wetterbest",
+        "category_id": 15,
+        "subcategory_id": 50,
+        "manufacturer": "Wetterbest",
+        "status": "activ",
+        "image_main": "",
+        "image_schema": "",
+        "gallery": [],
+        "specs": [
+            {
+                "key": "Materie prima",
+                "value": "Tabla otel prevopsit galvanizat la cald",
+                "sort_order": 1
+            },
+            {
+                "key": "Standard",
+                "value": "SR-EN 10346",
+                "sort_order": 2
+            },
+            {
+                "key": "Strat zinc",
+                "value": "275 g/m²",
+                "sort_order": 3
+            },
+            {
+                "key": "Lungime",
+                "value": "400 - 4000 mm (la comanda)",
+                "sort_order": 4
+            },
+            {
+                "key": "Latime totala",
+                "value": "365 mm",
+                "sort_order": 5
+            },
+            {
+                "key": "Latime utila",
+                "value": "317 mm",
+                "sort_order": 6
+            },
+            {
+                "key": "Inaltime treapta",
+                "value": "107 mm",
+                "sort_order": 7
+            },
+            {
+                "key": "Inaltime profil",
+                "value": "8.4 mm",
+                "sort_order": 8
+            },
+            {
+                "key": "Grosime tabla",
+                "value": "0.45 mm / 0.50 mm",
+                "sort_order": 9
+            },
+            {
+                "key": "Finisaje",
+                "value": "Lucios (PE25), Imitatie lemn (PE35), Mat, Neomat 30, Suprem 50",
+                "sort_order": 10
+            },
+            {
+                "key": "Culori disponibile",
+                "value": "16 culori RAL + Wood Walnut",
+                "sort_order": 11
+            },
+            {
+                "key": "Garantie coroziune",
+                "value": "Pana la 10 ani (pana la 50 ani pt Suprem 50)",
+                "sort_order": 12
+            },
+            {
+                "key": "Garantie culoare",
+                "value": "Pana la 10 ani",
+                "sort_order": 13
+            }
+        ],
+        "materials": [
+            {
+                "name": "Lucios PE25",
+                "colors": "RAL 3005, 3009, 3011, 5010, 6005, 6033, 7016, 7024, 8004, 8017, 9002, 9006",
+                "sort_order": 1
+            },
+            {
+                "name": "Imitatie lemn PE35",
+                "colors": "Wood Walnut",
+                "sort_order": 2
+            },
+            {
+                "name": "Mat",
+                "colors": "RAL 3005, 3009, 3011, 6005, 6020, 7016, 7024, 8004, 8017, 8019, 9005",
+                "sort_order": 3
+            },
+            {
+                "name": "Neomat 30",
+                "colors": "RAL 3005, 3009, 3011, 6020, 7016, 7024, 8004, 8017, 8019, 9005",
+                "sort_order": 4
+            },
+            {
+                "name": "Suprem 50",
+                "colors": "RAL 7016, 8019, 9005",
+                "sort_order": 5
+            }
+        ],
+        "warranty_text": "Garantie coroziune pana la 10 ani. Garantie mentinere culoare pana la 10 ani. Finisajul Suprem 50 beneficiaza de garantie extinsa pana la 50 de ani.",
+        "description_html": "<h2>Sageac Metalic Wetterbest</h2><p>Sageac metalic din otel galvanizat prevopsit pentru finisarea streasinilor acoperisului. Inlocuieste clasicul lambriu din lemn, oferind durabilitate superioara, ventilatie optima si zero intretinere.</p><h3>Avantaje</h3><ul><li>Rezistent la intemperii, lumina UV si deteriorare mecanica</li><li>Greutate redusa - nu solicita structura</li><li>Ventilatie optima pentru podul acoperisului</li><li>Reactie la foc superioara fata de lemn</li><li>Non-toxic, fara risc de mucegai sau daunatori</li><li>Nu retine umezeala, praf sau impuritati</li><li>Nu necesita revopsire sau tratamente anuale</li><li>Montaj facil</li></ul><h3>Finisaje disponibile</h3><p>5 tipuri de finisaj: Lucios (PE25), Imitatie lemn (PE35), Mat, Neomat 30 si Suprem 50. Disponibil in 16 culori RAL plus finisaj imitatie lemn Wood Walnut.</p><h3>Dimensiuni</h3><p>Lungime la comanda intre 400 si 4000 mm. Latime utila 317 mm cu 3 trepte de 107 mm fiecare. Grosime tabla 0.45 sau 0.50 mm. Zinc 275 g/m² conform SR-EN 10346.</p>",
+        "seo_title": "",
+        "seo_description": "",
+        "related_products": [],
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 11:28:34",
+        "updated_at": "2026-03-31 11:28:34"
     }
 ]

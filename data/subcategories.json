@@ -813,5 +813,22 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-03-31 10:17:27"
+    },
+    {
+        "id": 50,
+        "category_id": 15,
+        "name": "Wetterbest",
+        "slug": "wetterbest",
+        "description": "Sageac metalic Wetterbest din otel galvanizat prevopsit",
+        "image": "",
+        "icon": "",
+        "count": 1,
+        "seo_title": "",
+        "seo_description": "",
+        "seo_text": "",
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 11:27:57",
+        "updated_at": "2026-03-31 11:28:34"
     }
 ]
