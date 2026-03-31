@@ -1451,6 +1451,257 @@ class AdminController
         header('Location: /admin/homepage');
     }
 
+    // ─── EVENIMENTE ─────────────────────────────────────────
+
+    public function events(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $evStore = new DataStore('events');
+        $allEvents = $evStore->all();
+
+        // Filters
+        $filterStatus = $_GET['status'] ?? '';
+        $search = trim($_GET['q'] ?? '');
+
+        if ($filterStatus) {
+            $allEvents = array_filter($allEvents, fn($e) => ($e['status'] ?? 'draft') === $filterStatus);
+        }
+        if ($search) {
+            $q = mb_strtolower($search);
+            $allEvents = array_filter($allEvents, fn($e) =>
+                str_contains(mb_strtolower($e['title'] ?? ''), $q) ||
+                str_contains(mb_strtolower($e['slug'] ?? ''), $q) ||
+                str_contains(mb_strtolower($e['location'] ?? ''), $q)
+            );
+        }
+
+        $allEvents = array_values($allEvents);
+        usort($allEvents, fn($a, $b) => strtotime($b['event_date'] ?? '2000-01-01') - strtotime($a['event_date'] ?? '2000-01-01'));
+
+        // Pagination
+        $perPage = 20;
+        $page = max(1, (int) ($_GET['pagina'] ?? 1));
+        $total = count($allEvents);
+        $totalPages = max(1, (int) ceil($total / $perPage));
+        $page = min($page, $totalPages);
+        $offset = ($page - 1) * $perPage;
+        $events = array_slice($allEvents, $offset, $perPage);
+
+        View::render('admin/events', [
+            'pageTitle'    => 'Evenimente',
+            'events'       => $events,
+            'filterStatus' => $filterStatus,
+            'search'       => $search,
+            'page'         => $page,
+            'totalPages'   => $totalPages,
+            'total'        => $total,
+            'flash'        => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function eventAdd(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $evStore = new DataStore('events');
+        $errors = [];
+        $formData = $this->getEventDefaults();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getEventFormData();
+            $errors = $this->validateEvent($formData, $evStore);
+
+            if (empty($errors)) {
+                $formData['sort_order'] = $formData['sort_order'] ?: $evStore->count() + 1;
+                $evStore->create($formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Evenimentul a fost creat cu succes.'];
+                header('Location: /admin/evenimente');
+                exit;
+            }
+        }
+
+        View::render('admin/event-form', [
+            'pageTitle' => 'Adauga eveniment',
+            'formData'  => $formData,
+            'errors'    => $errors,
+            'isEdit'    => false,
+        ], 'admin');
+    }
+
+    public function eventEdit(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $evStore = new DataStore('events');
+        $id = (int) ($params['id'] ?? 0);
+        $event = $evStore->find($id);
+
+        if (!$event) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Evenimentul nu a fost gasit.'];
+            header('Location: /admin/evenimente');
+            exit;
+        }
+
+        $errors = [];
+        $formData = $event;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getEventFormData();
+            $errors = $this->validateEvent($formData, $evStore, $id);
+
+            if (empty($errors)) {
+                $evStore->update($id, $formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Evenimentul a fost actualizat.'];
+                header('Location: /admin/evenimente');
+                exit;
+            }
+        }
+
+        View::render('admin/event-form', [
+            'pageTitle' => 'Editeaza: ' . ($event['title'] ?? ''),
+            'formData'  => $formData,
+            'errors'    => $errors,
+            'isEdit'    => true,
+        ], 'admin');
+    }
+
+    public function eventDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $evStore = new DataStore('events');
+        $evStore->delete((int) ($params['id'] ?? 0));
+        $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Evenimentul a fost sters.'];
+        header('Location: /admin/evenimente');
+        exit;
+    }
+
+    // ─── CARIERE ─────────────────────────────────────────────
+
+    public function jobs(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $jobStore = new DataStore('jobs');
+        $allJobs = $jobStore->all();
+
+        // Filters
+        $filterStatus = $_GET['status'] ?? '';
+        $search = trim($_GET['q'] ?? '');
+
+        if ($filterStatus) {
+            $allJobs = array_filter($allJobs, fn($j) => ($j['status'] ?? 'activ') === $filterStatus);
+        }
+        if ($search) {
+            $q = mb_strtolower($search);
+            $allJobs = array_filter($allJobs, fn($j) =>
+                str_contains(mb_strtolower($j['title'] ?? ''), $q) ||
+                str_contains(mb_strtolower($j['slug'] ?? ''), $q) ||
+                str_contains(mb_strtolower($j['location'] ?? ''), $q)
+            );
+        }
+
+        $allJobs = array_values($allJobs);
+        usort($allJobs, fn($a, $b) => ($a['sort_order'] ?? 0) <=> ($b['sort_order'] ?? 0));
+
+        View::render('admin/jobs', [
+            'pageTitle'    => 'Cariere - Joburi',
+            'jobs'         => $allJobs,
+            'filterStatus' => $filterStatus,
+            'search'       => $search,
+            'total'        => count($allJobs),
+            'flash'        => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function jobAdd(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $jobStore = new DataStore('jobs');
+        $errors = [];
+        $formData = $this->getJobDefaults();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getJobFormData();
+            $errors = $this->validateJob($formData, $jobStore);
+
+            if (empty($errors)) {
+                $formData['sort_order'] = $formData['sort_order'] ?: $jobStore->count() + 1;
+                $jobStore->create($formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Jobul a fost creat cu succes.'];
+                header('Location: /admin/cariere');
+                exit;
+            }
+        }
+
+        View::render('admin/job-form', [
+            'pageTitle' => 'Adauga job',
+            'formData'  => $formData,
+            'errors'    => $errors,
+            'isEdit'    => false,
+        ], 'admin');
+    }
+
+    public function jobEdit(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $jobStore = new DataStore('jobs');
+        $id = (int) ($params['id'] ?? 0);
+        $job = $jobStore->find($id);
+
+        if (!$job) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Jobul nu a fost gasit.'];
+            header('Location: /admin/cariere');
+            exit;
+        }
+
+        $errors = [];
+        $formData = $job;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getJobFormData();
+            $errors = $this->validateJob($formData, $jobStore, $id);
+
+            if (empty($errors)) {
+                $jobStore->update($id, $formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Jobul a fost actualizat.'];
+                header('Location: /admin/cariere');
+                exit;
+            }
+        }
+
+        View::render('admin/job-form', [
+            'pageTitle' => 'Editeaza: ' . ($job['title'] ?? ''),
+            'formData'  => $formData,
+            'errors'    => $errors,
+            'isEdit'    => true,
+        ], 'admin');
+    }
+
+    public function jobDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $jobStore = new DataStore('jobs');
+        $jobStore->delete((int) ($params['id'] ?? 0));
+        $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Jobul a fost sters.'];
+        header('Location: /admin/cariere');
+        exit;
+    }
+
     public function messages(array $params, array $route): void
     {
         View::render('admin/messages', ['pageTitle' => 'Mesaje / Lead-uri'], 'admin');
@@ -1849,6 +2100,100 @@ class AdminController
             $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
         } elseif ($store->slugExists($data['slug'], $excludeId)) {
             $errors[] = 'Acest slug exista deja.';
+        }
+        return $errors;
+    }
+
+    // ─── EVENT HELPERS ──────────────────────────────────────
+
+    private function getEventDefaults(): array
+    {
+        return [
+            'title' => '', 'slug' => '', 'description' => '', 'content' => '',
+            'image' => '', 'location' => '', 'event_date' => date('Y-m-d'),
+            'event_time' => '', 'status' => 'draft', 'sort_order' => 0,
+        ];
+    }
+
+    private function getEventFormData(): array
+    {
+        return [
+            'title'       => trim($_POST['title'] ?? ''),
+            'slug'        => trim($_POST['slug'] ?? ''),
+            'description' => trim($_POST['description'] ?? ''),
+            'content'     => $_POST['content'] ?? '',
+            'image'       => trim($_POST['image'] ?? ''),
+            'location'    => trim($_POST['location'] ?? ''),
+            'event_date'  => $_POST['event_date'] ?? date('Y-m-d'),
+            'event_time'  => trim($_POST['event_time'] ?? ''),
+            'status'      => $_POST['status'] ?? 'draft',
+            'sort_order'  => (int) ($_POST['sort_order'] ?? 0),
+        ];
+    }
+
+    private function validateEvent(array $data, DataStore $store, ?int $excludeId = null): array
+    {
+        $errors = [];
+        if (empty($data['title'])) {
+            $errors[] = 'Titlul evenimentului este obligatoriu.';
+        }
+        if (empty($data['slug'])) {
+            $errors[] = 'Slug-ul este obligatoriu.';
+        } elseif (!preg_match('/^[a-z0-9\-]+$/', $data['slug'])) {
+            $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
+        } elseif ($store->slugExists($data['slug'], $excludeId)) {
+            $errors[] = 'Acest slug exista deja.';
+        }
+        if (empty($data['event_date'])) {
+            $errors[] = 'Data evenimentului este obligatorie.';
+        }
+        return $errors;
+    }
+
+    // ─── JOB HELPERS ────────────────────────────────────────
+
+    private function getJobDefaults(): array
+    {
+        return [
+            'title' => '', 'slug' => '', 'location' => 'Bucuresti',
+            'type' => 'Full-time', 'description' => '',
+            'responsibilities' => '', 'requirements' => '', 'benefits' => '',
+            'status' => 'activ', 'date_posted' => date('Y-m-d'), 'sort_order' => 0,
+        ];
+    }
+
+    private function getJobFormData(): array
+    {
+        return [
+            'title'            => trim($_POST['title'] ?? ''),
+            'slug'             => trim($_POST['slug'] ?? ''),
+            'location'         => trim($_POST['location'] ?? ''),
+            'type'             => $_POST['type'] ?? 'Full-time',
+            'description'      => trim($_POST['description'] ?? ''),
+            'responsibilities' => trim($_POST['responsibilities'] ?? ''),
+            'requirements'     => trim($_POST['requirements'] ?? ''),
+            'benefits'         => trim($_POST['benefits'] ?? ''),
+            'status'           => $_POST['status'] ?? 'activ',
+            'date_posted'      => $_POST['date_posted'] ?? date('Y-m-d'),
+            'sort_order'       => (int) ($_POST['sort_order'] ?? 0),
+        ];
+    }
+
+    private function validateJob(array $data, DataStore $store, ?int $excludeId = null): array
+    {
+        $errors = [];
+        if (empty($data['title'])) {
+            $errors[] = 'Titlul jobului este obligatoriu.';
+        }
+        if (empty($data['slug'])) {
+            $errors[] = 'Slug-ul este obligatoriu.';
+        } elseif (!preg_match('/^[a-z0-9\-]+$/', $data['slug'])) {
+            $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
+        } elseif ($store->slugExists($data['slug'], $excludeId)) {
+            $errors[] = 'Acest slug exista deja.';
+        }
+        if (empty($data['description'])) {
+            $errors[] = 'Descrierea jobului este obligatorie.';
         }
         return $errors;
     }

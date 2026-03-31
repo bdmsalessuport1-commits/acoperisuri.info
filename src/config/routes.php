@@ -78,6 +78,34 @@ return [
         'name' => 'video.category',
     ],
 
+    // Evenimente
+    '/evenimente' => [
+        'controller' => 'EventController',
+        'action' => 'index',
+        'name' => 'events',
+        'title' => 'Evenimente - BDM Systems',
+        'description' => 'Evenimentele la care participam si organizam in domeniul constructiilor si acoperisurilor.',
+    ],
+    '/evenimente/{slug}' => [
+        'controller' => 'EventController',
+        'action' => 'show',
+        'name' => 'events.show',
+    ],
+
+    // Cariere
+    '/cariere' => [
+        'controller' => 'CareerController',
+        'action' => 'index',
+        'name' => 'careers',
+        'title' => 'Cariere - Lucreaza la BDM Systems',
+        'description' => 'Joburi disponibile la BDM Systems. Alatura-te echipei noastre de profesionisti.',
+    ],
+    '/cariere/{slug}' => [
+        'controller' => 'CareerController',
+        'action' => 'show',
+        'name' => 'careers.show',
+    ],
+
     // SEO
     '/sitemap.xml' => [
         'controller' => 'SeoController',
@@ -355,6 +383,62 @@ return [
         'action' => 'videoCategoryDelete',
         'name' => 'admin.videos.category.delete',
     ],
+    // Admin Evenimente
+    '/admin/evenimente' => [
+        'controller' => 'AdminController',
+        'action' => 'events',
+        'name' => 'admin.events',
+        'layout' => 'admin',
+        'title' => 'Admin - Evenimente',
+    ],
+    '/admin/evenimente/adauga' => [
+        'controller' => 'AdminController',
+        'action' => 'eventAdd',
+        'name' => 'admin.events.add',
+        'layout' => 'admin',
+        'title' => 'Admin - Adauga eveniment',
+    ],
+    '/admin/evenimente/editeaza/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'eventEdit',
+        'name' => 'admin.events.edit',
+        'layout' => 'admin',
+        'title' => 'Admin - Editeaza eveniment',
+    ],
+    '/admin/evenimente/sterge/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'eventDelete',
+        'name' => 'admin.events.delete',
+    ],
+
+    // Admin Cariere
+    '/admin/cariere' => [
+        'controller' => 'AdminController',
+        'action' => 'jobs',
+        'name' => 'admin.jobs',
+        'layout' => 'admin',
+        'title' => 'Admin - Cariere',
+    ],
+    '/admin/cariere/adauga' => [
+        'controller' => 'AdminController',
+        'action' => 'jobAdd',
+        'name' => 'admin.jobs.add',
+        'layout' => 'admin',
+        'title' => 'Admin - Adauga job',
+    ],
+    '/admin/cariere/editeaza/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'jobEdit',
+        'name' => 'admin.jobs.edit',
+        'layout' => 'admin',
+        'title' => 'Admin - Editeaza job',
+    ],
+    '/admin/cariere/sterge/{id}' => [
+        'controller' => 'AdminController',
+        'action' => 'jobDelete',
+        'name' => 'admin.jobs.delete',
+    ],
+
     '/admin/media' => [
         'controller' => 'AdminController',
         'action' => 'media',

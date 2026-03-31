@@ -63,6 +63,14 @@
                         <span class="sidebar-icon">&#9654;</span>
                         Videouri TikTok
                     </a>
+                    <a href="/admin/evenimente" class="sidebar-link<?= str_starts_with($currentPath, '/admin/evenimente') ? ' active' : '' ?>">
+                        <span class="sidebar-icon">&#9733;</span>
+                        Evenimente
+                    </a>
+                    <a href="/admin/cariere" class="sidebar-link<?= str_starts_with($currentPath, '/admin/cariere') ? ' active' : '' ?>">
+                        <span class="sidebar-icon">&#9679;</span>
+                        Cariere
+                    </a>
                     <a href="/admin/media" class="sidebar-link<?= $currentPath === '/admin/media' ? ' active' : '' ?>">
                         <span class="sidebar-icon">&#9634;</span>
                         Media
