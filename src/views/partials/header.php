@@ -133,18 +133,12 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
 
                     <!-- SERVICII -->
                     <li class="nav-item">
-                        <a href="/servicii" class="nav-link <?= str_starts_with($currentUri, '/servicii') ? 'active' : '' ?>">
-                            Servicii <span class="arrow">&#9660;</span>
-                        </a>
-                        <div class="dropdown">
-                            <a href="/servicii/consultanta-eficienta-energetica" class="dropdown-link">Consultanta eficienta energetica</a>
-                            <a href="/servicii/consultanta-passive-house" class="dropdown-link">Consultanta Passive House</a>
-                        </div>
+                        <a href="/servicii" class="nav-link <?= str_starts_with($currentUri, '/servicii') ? 'active' : '' ?>">Servicii</a>
                     </li>
 
                     <!-- CONSULTANTA PASSIVE HOUSE -->
                     <li class="nav-item">
-                        <a href="/servicii/consultanta-passive-house" class="nav-link <?= $currentUri === '/servicii/consultanta-passive-house' ? 'active' : '' ?>">Passive House</a>
+                        <a href="/servicii/consultanta-passive-house" class="nav-link <?= $currentUri === '/servicii/consultanta-passive-house' ? 'active' : '' ?>">Consultanta Passive House</a>
                     </li>
 
                     <!-- VIDEOURI -->
@@ -222,14 +216,8 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/garduri/bdm">Sistem Gard BDM</a>
             </div>
         </li>
-        <li class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" data-toggle="mobile-servicii">Servicii <span class="arrow">&#9660;</span></a>
-            <div class="mobile-subnav" id="mobile-servicii">
-                <a href="/servicii/consultanta-eficienta-energetica">Consultanta eficienta energetica</a>
-                <a href="/servicii/consultanta-passive-house">Consultanta Passive House</a>
-            </div>
-        </li>
-        <li class="mobile-nav-item"><a href="/servicii/consultanta-passive-house" class="mobile-nav-link">Passive House</a></li>
+        <li class="mobile-nav-item"><a href="/servicii" class="mobile-nav-link">Servicii</a></li>
+        <li class="mobile-nav-item"><a href="/servicii/consultanta-passive-house" class="mobile-nav-link">Consultanta Passive House</a></li>
         <li class="mobile-nav-item"><a href="/video" class="mobile-nav-link">Videouri</a></li>
         <li class="mobile-nav-item"><a href="/evenimente" class="mobile-nav-link">Evenimente</a></li>
         <li class="mobile-nav-item"><a href="/cariere" class="mobile-nav-link">Cariere</a></li>
