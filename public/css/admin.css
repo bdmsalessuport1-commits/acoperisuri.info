@@ -1800,3 +1800,40 @@ a {
     color: #e2e8f0;
     outline: none;
 }
+
+/* ===========================
+   VIDEO MANAGER
+   =========================== */
+.admin-video-thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.admin-video-thumb-placeholder {
+    width: 50px;
+    height: 50px;
+    background: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 1.25rem;
+}
+
+.video-embed-preview {
+    max-width: 325px;
+    margin: 1rem auto;
+    min-height: 200px;
+}
+
+.video-char-counter {
+    font-size: var(--text-xs);
+    color: var(--color-text-light);
+    text-align: right;
+}
+
+.video-char-counter.over {
+    color: #dc2626;
+}

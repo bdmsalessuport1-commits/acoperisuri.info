@@ -18,14 +18,13 @@ class AdminController
 
     public function dashboard(array $params, array $route): void
     {
-        $videoData = require ROOT_PATH . '/src/config/video-data.php';
-
         $catStore = new DataStore('categories');
         $subStore = new DataStore('subcategories');
         $blogStore = new DataStore('blog-articles');
+        $videoStore = new DataStore('videos');
 
         $articles = $blogStore->all();
-        $videos = array_filter($videoData['videos'] ?? [], fn($v) => $v['is_active'] ?? true);
+        $videos = array_filter($videoStore->all(), fn($v) => !empty($v['is_active']));
 
         $totalProducts = 0;
         foreach ($subStore->all() as $sub) {
@@ -801,10 +800,313 @@ class AdminController
         exit;
     }
 
+    // ─── VIDEOURI TIKTOK ────────────────────────────────────
+
     public function videos(array $params, array $route): void
     {
         Auth::requireRole('editor');
-        View::render('admin/videos', ['pageTitle' => 'Videouri TikTok'], 'admin');
+
+        $vidStore = new DataStore('videos');
+        $catStore = new DataStore('video-categories');
+
+        $allVideos = $vidStore->all();
+
+        // Filters
+        $filterCategory = (int) ($_GET['categorie'] ?? 0);
+        $filterStatus = $_GET['status'] ?? '';
+        $search = trim($_GET['q'] ?? '');
+
+        if ($filterCategory) {
+            // Include subcategories of selected parent
+            $subIds = array_column(array_filter($catStore->all(), fn($c) => ($c['parent_id'] ?? 0) === $filterCategory), 'id');
+            $allIds = array_merge([$filterCategory], $subIds);
+            $allVideos = array_filter($allVideos, fn($v) =>
+                in_array($v['category_id'] ?? 0, $allIds) || in_array($v['subcategory_id'] ?? 0, $allIds)
+            );
+        }
+        if ($filterStatus === 'activ') {
+            $allVideos = array_filter($allVideos, fn($v) => !empty($v['is_active']));
+        } elseif ($filterStatus === 'inactiv') {
+            $allVideos = array_filter($allVideos, fn($v) => empty($v['is_active']));
+        }
+        if ($search) {
+            $q = mb_strtolower($search);
+            $allVideos = array_filter($allVideos, fn($v) =>
+                str_contains(mb_strtolower($v['title'] ?? ''), $q) ||
+                str_contains(mb_strtolower($v['slug'] ?? ''), $q)
+            );
+        }
+
+        $allVideos = array_values($allVideos);
+        usort($allVideos, fn($a, $b) => ($a['sort_order'] ?? 0) <=> ($b['sort_order'] ?? 0));
+
+        // Pagination
+        $perPage = 20;
+        $page = max(1, (int) ($_GET['pagina'] ?? 1));
+        $total = count($allVideos);
+        $totalPages = max(1, (int) ceil($total / $perPage));
+        $page = min($page, $totalPages);
+        $offset = ($page - 1) * $perPage;
+        $videos = array_slice($allVideos, $offset, $perPage);
+
+        // Category names map
+        $categoryNames = [];
+        foreach ($catStore->all() as $cat) {
+            $categoryNames[$cat['id']] = $cat['name'];
+        }
+
+        // Parent categories for filter
+        $parentCategories = array_filter($catStore->all(), fn($c) => ($c['parent_id'] ?? 0) === 0);
+        usort($parentCategories, fn($a, $b) => ($a['sort_order'] ?? 0) <=> ($b['sort_order'] ?? 0));
+
+        View::render('admin/videos', [
+            'pageTitle'        => 'Videouri TikTok',
+            'videos'           => $videos,
+            'categories'       => $parentCategories,
+            'categoryNames'    => $categoryNames,
+            'filterCategory'   => $filterCategory,
+            'filterStatus'     => $filterStatus,
+            'search'           => $search,
+            'page'             => $page,
+            'totalPages'       => $totalPages,
+            'total'            => $total,
+            'flash'            => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function videoAdd(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $vidStore = new DataStore('videos');
+        $catStore = new DataStore('video-categories');
+        $errors = [];
+        $formData = $this->getVideoDefaults();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getVideoFormData();
+            $errors = $this->validateVideo($formData, $vidStore);
+
+            if (empty($errors)) {
+                $formData['sort_order'] = $formData['sort_order'] ?: $vidStore->count() + 1;
+                $vidStore->create($formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Videoul a fost creat cu succes.'];
+                header('Location: /admin/videouri');
+                exit;
+            }
+        }
+
+        View::render('admin/video-form', [
+            'pageTitle'     => 'Adauga video',
+            'formData'      => $formData,
+            'errors'        => $errors,
+            'allCategories' => $catStore->orderBy('sort_order'),
+            'isEdit'        => false,
+        ], 'admin');
+    }
+
+    public function videoEdit(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $vidStore = new DataStore('videos');
+        $catStore = new DataStore('video-categories');
+        $id = (int) ($params['id'] ?? 0);
+        $video = $vidStore->find($id);
+
+        if (!$video) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Videoul nu a fost gasit.'];
+            header('Location: /admin/videouri');
+            exit;
+        }
+
+        $errors = [];
+        $formData = $video;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getVideoFormData();
+            $errors = $this->validateVideo($formData, $vidStore, $id);
+
+            if (empty($errors)) {
+                $vidStore->update($id, $formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Videoul a fost actualizat.'];
+                header('Location: /admin/videouri');
+                exit;
+            }
+        }
+
+        View::render('admin/video-form', [
+            'pageTitle'     => 'Editeaza: ' . ($video['title'] ?? ''),
+            'formData'      => $formData,
+            'errors'        => $errors,
+            'allCategories' => $catStore->orderBy('sort_order'),
+            'isEdit'        => true,
+        ], 'admin');
+    }
+
+    public function videoDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $vidStore = new DataStore('videos');
+        $vidStore->delete((int) ($params['id'] ?? 0));
+        $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Videoul a fost sters.'];
+        header('Location: /admin/videouri');
+        exit;
+    }
+
+    // ─── VIDEO CATEGORIES ────────────────────────────────────
+
+    public function videoCategories(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $catStore = new DataStore('video-categories');
+        $vidStore = new DataStore('videos');
+        $allCats = $catStore->orderBy('sort_order');
+
+        // Count videos per category
+        $allVideos = $vidStore->all();
+        foreach ($allCats as &$cat) {
+            $cid = $cat['id'];
+            $cat['video_count'] = count(array_filter($allVideos, fn($v) =>
+                ($v['category_id'] ?? 0) === $cid || ($v['subcategory_id'] ?? 0) === $cid
+            ));
+        }
+        unset($cat);
+
+        // Sort hierarchically: parent then its children
+        $parents = array_filter($allCats, fn($c) => ($c['parent_id'] ?? 0) === 0);
+        $children = array_filter($allCats, fn($c) => ($c['parent_id'] ?? 0) > 0);
+        $sorted = [];
+        foreach ($parents as $p) {
+            $sorted[] = $p;
+            foreach ($children as $ch) {
+                if (($ch['parent_id'] ?? 0) === $p['id']) {
+                    $sorted[] = $ch;
+                }
+            }
+        }
+
+        View::render('admin/video-categories', [
+            'pageTitle'  => 'Categorii Video',
+            'categories' => $sorted,
+            'flash'      => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function videoCategoryAdd(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $catStore = new DataStore('video-categories');
+        $errors = [];
+        $formData = ['name' => '', 'slug' => '', 'parent_id' => 0, 'icon' => '', 'sort_order' => 0, 'is_active' => true];
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getVideoCategoryFormData();
+            $errors = $this->validateVideoCategory($formData, $catStore);
+
+            if (empty($errors)) {
+                $formData['sort_order'] = $formData['sort_order'] ?: $catStore->count() + 1;
+                $catStore->create($formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Categoria a fost creata.'];
+                header('Location: /admin/videouri/categorii');
+                exit;
+            }
+        }
+
+        $parentCategories = array_filter($catStore->all(), fn($c) => ($c['parent_id'] ?? 0) === 0);
+
+        View::render('admin/video-category-form', [
+            'pageTitle'        => 'Adauga categorie video',
+            'formData'         => $formData,
+            'errors'           => $errors,
+            'parentCategories' => $parentCategories,
+            'isEdit'           => false,
+        ], 'admin');
+    }
+
+    public function videoCategoryEdit(array $params, array $route): void
+    {
+        Auth::requireRole('editor');
+
+        $catStore = new DataStore('video-categories');
+        $id = (int) ($params['id'] ?? 0);
+        $category = $catStore->find($id);
+
+        if (!$category) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Categoria nu a fost gasita.'];
+            header('Location: /admin/videouri/categorii');
+            exit;
+        }
+
+        $errors = [];
+        $formData = $category;
+
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            Auth::requireCsrf();
+            $formData = $this->getVideoCategoryFormData();
+            $errors = $this->validateVideoCategory($formData, $catStore, $id);
+
+            if (empty($errors)) {
+                $catStore->update($id, $formData);
+                $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Categoria a fost actualizata.'];
+                header('Location: /admin/videouri/categorii');
+                exit;
+            }
+        }
+
+        $parentCategories = array_filter($catStore->all(), fn($c) => ($c['parent_id'] ?? 0) === 0 && $c['id'] !== $id);
+
+        View::render('admin/video-category-form', [
+            'pageTitle'        => 'Editeaza: ' . ($category['name'] ?? ''),
+            'formData'         => $formData,
+            'errors'           => $errors,
+            'parentCategories' => $parentCategories,
+            'isEdit'           => true,
+        ], 'admin');
+    }
+
+    public function videoCategoryDelete(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $catStore = new DataStore('video-categories');
+        $vidStore = new DataStore('videos');
+        $id = (int) ($params['id'] ?? 0);
+
+        // Check for children
+        $children = array_filter($catStore->all(), fn($c) => ($c['parent_id'] ?? 0) === $id);
+        if (!empty($children)) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Nu poti sterge o categorie cu subcategorii. Sterge mai intai subcategoriile.'];
+            header('Location: /admin/videouri/categorii');
+            exit;
+        }
+
+        // Check for videos
+        $hasVideos = array_filter($vidStore->all(), fn($v) =>
+            ($v['category_id'] ?? 0) === $id || ($v['subcategory_id'] ?? 0) === $id
+        );
+        if (!empty($hasVideos)) {
+            $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Nu poti sterge o categorie cu videouri asociate.'];
+            header('Location: /admin/videouri/categorii');
+            exit;
+        }
+
+        $catStore->delete($id);
+        $_SESSION['_flash'] = ['type' => 'success', 'message' => 'Categoria a fost stearsa.'];
+        header('Location: /admin/videouri/categorii');
+        exit;
     }
 
     public function media(array $params, array $route): void
@@ -1322,6 +1624,102 @@ class AdminController
     }
 
     private function validateBlogCategory(array $data, DataStore $store, ?int $excludeId = null): array
+    {
+        $errors = [];
+        if (empty($data['name'])) {
+            $errors[] = 'Numele categoriei este obligatoriu.';
+        }
+        if (empty($data['slug'])) {
+            $errors[] = 'Slug-ul este obligatoriu.';
+        } elseif (!preg_match('/^[a-z0-9\-]+$/', $data['slug'])) {
+            $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
+        } elseif ($store->slugExists($data['slug'], $excludeId)) {
+            $errors[] = 'Acest slug exista deja.';
+        }
+        return $errors;
+    }
+
+    // ─── VIDEO HELPERS ──────────────────────────────────────
+
+    private function getVideoDefaults(): array
+    {
+        return [
+            'title' => '', 'slug' => '', 'description' => '',
+            'tiktok_url' => '', 'tiktok_id' => '', 'thumbnail' => '',
+            'category_id' => 0, 'subcategory_id' => 0,
+            'published_at' => date('Y-m-d'),
+            'is_active' => true, 'sort_order' => 0,
+        ];
+    }
+
+    private function getVideoFormData(): array
+    {
+        $tiktokUrl = trim($_POST['tiktok_url'] ?? '');
+        $tiktokId = trim($_POST['tiktok_id'] ?? '');
+
+        // Auto-extract tiktok_id from URL server-side
+        if ($tiktokUrl && !$tiktokId) {
+            if (preg_match('/video\/(\d+)/', $tiktokUrl, $m)) {
+                $tiktokId = $m[1];
+            }
+        }
+
+        return [
+            'title'           => trim($_POST['title'] ?? ''),
+            'slug'            => trim($_POST['slug'] ?? ''),
+            'description'     => trim($_POST['description'] ?? ''),
+            'tiktok_url'      => $tiktokUrl,
+            'tiktok_id'       => $tiktokId,
+            'thumbnail'       => trim($_POST['thumbnail'] ?? ''),
+            'category_id'     => (int) ($_POST['category_id'] ?? 0),
+            'subcategory_id'  => (int) ($_POST['subcategory_id'] ?? 0),
+            'published_at'    => $_POST['published_at'] ?? date('Y-m-d'),
+            'is_active'       => !empty($_POST['is_active']),
+            'sort_order'      => (int) ($_POST['sort_order'] ?? 0),
+        ];
+    }
+
+    private function validateVideo(array $data, DataStore $store, ?int $excludeId = null): array
+    {
+        $errors = [];
+        if (empty($data['title'])) {
+            $errors[] = 'Titlul videoului este obligatoriu.';
+        }
+        if (empty($data['slug'])) {
+            $errors[] = 'Slug-ul este obligatoriu.';
+        } elseif (!preg_match('/^[a-z0-9\-]+$/', $data['slug'])) {
+            $errors[] = 'Slug-ul poate contine doar litere mici, cifre si cratime.';
+        } elseif ($store->slugExists($data['slug'], $excludeId)) {
+            $errors[] = 'Acest slug exista deja.';
+        }
+        if (empty($data['tiktok_url'])) {
+            $errors[] = 'URL-ul TikTok este obligatoriu.';
+        }
+        if (empty($data['category_id'])) {
+            $errors[] = 'Selectati categoria.';
+        }
+        if (empty($data['subcategory_id'])) {
+            $errors[] = 'Selectati subcategoria.';
+        }
+        if (mb_strlen($data['description'] ?? '') > 200) {
+            $errors[] = 'Descrierea nu poate depasi 200 caractere.';
+        }
+        return $errors;
+    }
+
+    private function getVideoCategoryFormData(): array
+    {
+        return [
+            'name'       => trim($_POST['name'] ?? ''),
+            'slug'       => trim($_POST['slug'] ?? ''),
+            'parent_id'  => (int) ($_POST['parent_id'] ?? 0),
+            'icon'       => trim($_POST['icon'] ?? ''),
+            'sort_order' => (int) ($_POST['sort_order'] ?? 0),
+            'is_active'  => !empty($_POST['is_active']),
+        ];
+    }
+
+    private function validateVideoCategory(array $data, DataStore $store, ?int $excludeId = null): array
     {
         $errors = [];
         if (empty($data['name'])) {

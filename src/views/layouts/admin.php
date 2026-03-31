@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32.png">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <?php $v = '9'; ?>
+    <?php $v = '10'; ?>
     <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
     <link rel="stylesheet" href="/css/admin.css?v=<?= $v ?>">
 </head>
@@ -55,11 +55,11 @@
                         <span class="sidebar-icon">&#9733;</span>
                         Produse
                     </a>
-                    <a href="/admin/blog" class="sidebar-link<?= $currentPath === '/admin/blog' ? ' active' : '' ?>">
+                    <a href="/admin/blog" class="sidebar-link<?= str_starts_with($currentPath, '/admin/blog') ? ' active' : '' ?>">
                         <span class="sidebar-icon">&#9998;</span>
                         Blog
                     </a>
-                    <a href="/admin/videouri" class="sidebar-link<?= $currentPath === '/admin/videouri' ? ' active' : '' ?>">
+                    <a href="/admin/videouri" class="sidebar-link<?= str_starts_with($currentPath, '/admin/videouri') ? ' active' : '' ?>">
                         <span class="sidebar-icon">&#9654;</span>
                         Videouri TikTok
                     </a>
