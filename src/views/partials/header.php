@@ -25,7 +25,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
         <div class="header-main">
 
             <a href="/" class="site-logo">
-                <img src="/images/logo/logo-full.png" alt="BDM Systems - acoperisuri.info">
+                <img src="/images/logo/logo-full.png" alt="BDM Systems - acoperisuri.info" width="200" height="55" fetchpriority="high">
             </a>
 
             <!-- Desktop Navigation -->

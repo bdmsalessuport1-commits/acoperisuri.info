@@ -49,10 +49,12 @@ $ogType = $pageType ?? 'website';
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="shortcut icon" href="/favicon.ico">
 
-<!-- Google Fonts -->
+<!-- Preconnect + Preload fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap"></noscript>
 
 <?php
 // Google Analytics
@@ -70,15 +72,13 @@ if ($gtmId):
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','<?= htmlspecialchars($gtmId) ?>');</script>
 <?php endif; ?>
 
-<!-- CSS -->
-<?php $v = '10'; ?>
-<link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/base.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/header.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/footer.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/homepage.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/category.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/product.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/blog.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/video.css?v=<?= $v ?>">
-<link rel="stylesheet" href="/css/pages.css?v=<?= $v ?>">
+<!-- Critical CSS (inline above-the-fold) -->
+<style>
+<?php echo \App\Helpers\AssetHelper::criticalCss(); ?>
+</style>
+
+<!-- Full CSS (async load) -->
+<?php $v = '11'; ?>
+<link rel="preload" as="style" href="/css/app.min.css?v=<?= $v ?>">
+<link rel="stylesheet" href="/css/app.min.css?v=<?= $v ?>" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/css/app.min.css?v=<?= $v ?>"></noscript>

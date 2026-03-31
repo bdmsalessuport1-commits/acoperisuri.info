@@ -17,7 +17,7 @@
 </IfModule>
 
 # ===========================
-# GZIP Compression
+# GZIP / Brotli Compression
 # ===========================
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html
@@ -25,8 +25,15 @@
     AddOutputFilterByType DEFLATE text/javascript
     AddOutputFilterByType DEFLATE application/javascript
     AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/ld+json
     AddOutputFilterByType DEFLATE image/svg+xml
     AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE font/woff
+    AddOutputFilterByType DEFLATE font/woff2
+    AddOutputFilterByType DEFLATE application/font-woff
+    AddOutputFilterByType DEFLATE application/font-woff2
 </IfModule>
 
 # ===========================
@@ -35,22 +42,50 @@
 <IfModule mod_expires.c>
     ExpiresActive On
 
-    # Images - 1 month
-    ExpiresByType image/jpeg "access plus 1 month"
-    ExpiresByType image/png "access plus 1 month"
-    ExpiresByType image/gif "access plus 1 month"
-    ExpiresByType image/svg+xml "access plus 1 month"
-    ExpiresByType image/webp "access plus 1 month"
+    # HTML - no cache (always fresh)
+    ExpiresByType text/html "access plus 0 seconds"
+
+    # Images - 1 year (versioned via query string)
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/avif "access plus 1 year"
     ExpiresByType image/x-icon "access plus 1 year"
 
-    # CSS and JS - 1 week
-    ExpiresByType text/css "access plus 1 week"
-    ExpiresByType application/javascript "access plus 1 week"
+    # CSS and JS - 1 year (versioned via query string)
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
 
-    # Fonts - 1 month
-    ExpiresByType font/woff2 "access plus 1 month"
-    ExpiresByType font/woff "access plus 1 month"
-    ExpiresByType application/font-woff2 "access plus 1 month"
+    # Fonts - 1 year
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+
+    # JSON/XML - short cache
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType application/xml "access plus 0 seconds"
+</IfModule>
+
+# Cache-Control headers
+<IfModule mod_headers.c>
+    # CSS/JS: immutable (versioned files)
+    <FilesMatch "\.(css|js)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # Images/Fonts: long cache
+    <FilesMatch "\.(ico|jpg|jpeg|png|gif|webp|avif|svg|woff|woff2)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # HTML: no cache
+    <FilesMatch "\.(html|php)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+    </FilesMatch>
 </IfModule>
 
 # ===========================
@@ -61,6 +96,7 @@
     Header set X-Frame-Options "SAMEORIGIN"
     Header set X-XSS-Protection "1; mode=block"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
 </IfModule>
 
 # Disable directory listing
@@ -76,4 +112,12 @@ Options -Indexes
 <FilesMatch "\.(env|log|sql|md)$">
     Order allow,deny
     Deny from all
+</FilesMatch>
+
+# Deny access to data files
+<FilesMatch "\.(json)$">
+    <If "%{REQUEST_URI} !~ m#^/(sitemap|robots)#">
+        Order allow,deny
+        Deny from all
+    </If>
 </FilesMatch>
