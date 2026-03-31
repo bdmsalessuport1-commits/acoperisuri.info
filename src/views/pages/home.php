@@ -102,7 +102,13 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         <div class="grid grid-4">
             <?php foreach ($catItems as $cat): if (empty($cat['is_active'])) continue; ?>
             <a href="<?= htmlspecialchars($cat['link'] ?? '#') ?>" class="category-card">
+                <?php if (!empty($cat['image'])): ?>
+                <div class="category-card-image">
+                    <img src="<?= htmlspecialchars($cat['image']) ?>" alt="<?= htmlspecialchars($cat['name'] ?? '') ?>" loading="lazy" width="600" height="600">
+                </div>
+                <?php else: ?>
                 <div class="category-card-image"><?= $cat['icon'] ?? '' ?></div>
+                <?php endif; ?>
                 <div class="category-card-body">
                     <h3><?= htmlspecialchars($cat['name'] ?? '') ?></h3>
                     <p><?= htmlspecialchars($cat['description'] ?? '') ?></p>

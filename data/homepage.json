@@ -94,7 +94,8 @@
                 "icon": "&#9650;",
                 "link": "/tigla-metalica",
                 "sort_order": 0,
-                "is_active": true
+                "is_active": true,
+                "image": "/images/categories/tigla-metalica.jpg"
             },
             {
                 "id": 2,
@@ -103,7 +104,8 @@
                 "icon": "&#9645;",
                 "link": "/tabla-faltuita",
                 "sort_order": 1,
-                "is_active": true
+                "is_active": true,
+                "image": "/images/categories/tabla-faltuita.jpg"
             },
             {
                 "id": 3,
@@ -112,6 +114,17 @@
                 "icon": "&#9646;",
                 "link": "/tabla-click",
                 "sort_order": 2,
+                "is_active": true,
+                "image": "/images/categories/tabla-click.jpg"
+            },
+            {
+                "id": 14,
+                "name": "Tabla cutata",
+                "description": "Solutia versatila si economica pentru acoperisuri si fatade",
+                "icon": "&#9646;",
+                "image": "/images/categories/tabla-cutata.jpg",
+                "link": "/tabla-cutata",
+                "sort_order": 3,
                 "is_active": true
             },
             {
@@ -120,8 +133,9 @@
                 "description": "Jgheaburi si burlane Metigla, Wetterbest si Flamingo iQ",
                 "icon": "&#128167;",
                 "link": "/sisteme-pluviale",
-                "sort_order": 3,
-                "is_active": true
+                "sort_order": 4,
+                "is_active": true,
+                "image": "/images/categories/sisteme-pluviale.jpg"
             },
             {
                 "id": 5,
@@ -129,7 +143,7 @@
                 "description": "Protectie eficienta pentru structura acoperisului",
                 "icon": "&#128203;",
                 "link": "/folii-anticondens",
-                "sort_order": 4,
+                "sort_order": 5,
                 "is_active": true
             },
             {
@@ -138,7 +152,7 @@
                 "description": "Ferestre si usi de inalta calitate si eficienta",
                 "icon": "&#128311;",
                 "link": "/tamplarie-pvc-aluminiu",
-                "sort_order": 5,
+                "sort_order": 6,
                 "is_active": true
             },
             {
@@ -147,8 +161,9 @@
                 "description": "Iluminare naturala si ventilatie pentru mansarda",
                 "icon": "&#127968;",
                 "link": "/ferestre-mansarda-fakro",
-                "sort_order": 6,
-                "is_active": true
+                "sort_order": 7,
+                "is_active": true,
+                "image": "/images/categories/ferestre-mansarda.jpg"
             },
             {
                 "id": 8,
@@ -156,7 +171,7 @@
                 "description": "Acces sigur si confortabil la podul casei",
                 "icon": "&#128682;",
                 "link": "/scari-pod-fakro",
-                "sort_order": 7,
+                "sort_order": 8,
                 "is_active": true
             },
             {
@@ -165,7 +180,7 @@
                 "description": "Izolatie ecologica cu performanta termica superioara",
                 "icon": "&#127777;",
                 "link": "/izolatie",
-                "sort_order": 8,
+                "sort_order": 9,
                 "is_active": true
             },
             {
@@ -174,7 +189,7 @@
                 "description": "Sisteme de hidroizolatie impermeabile de durata",
                 "icon": "&#128166;",
                 "link": "/hidroizolatii-terase",
-                "sort_order": 9,
+                "sort_order": 10,
                 "is_active": true
             },
             {
@@ -183,8 +198,9 @@
                 "description": "Sipci metalice, etansari si accesorii montaj",
                 "icon": "&#128295;",
                 "link": "/accesorii-acoperis",
-                "sort_order": 10,
-                "is_active": true
+                "sort_order": 11,
+                "is_active": true,
+                "image": "/images/categories/accesorii-acoperis.jpg"
             },
             {
                 "id": 12,
@@ -192,8 +208,9 @@
                 "description": "Garduri metalice rezistente si estetice",
                 "icon": "&#127981;",
                 "link": "/garduri",
-                "sort_order": 11,
-                "is_active": true
+                "sort_order": 12,
+                "is_active": true,
+                "image": "/images/categories/garduri.jpg"
             },
             {
                 "id": 13,
@@ -201,8 +218,9 @@
                 "description": "Calculeaza rapid costul acoperisului tau",
                 "icon": "&#128202;",
                 "link": "/calculator",
-                "sort_order": 12,
-                "is_active": true
+                "sort_order": 13,
+                "is_active": true,
+                "image": "/images/categories/calculator.jpg"
             }
         ]
     },
