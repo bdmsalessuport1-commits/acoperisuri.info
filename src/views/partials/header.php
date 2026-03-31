@@ -181,6 +181,10 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
 
             <!-- CTA -->
             <div class="header-cta">
+                <a href="/calculator" class="btn btn-accent">
+                    <span>&#128202;</span>
+                    <span class="btn-text">Calculator cost</span>
+                </a>
                 <a href="tel:+40756034734" class="btn btn-primary">
                     <span class="phone-icon">&#128222;</span>
                     <span class="btn-text">Solicita oferta</span>
@@ -236,6 +240,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
         <li class="mobile-nav-item"><a href="/contact" class="mobile-nav-link">Contact</a></li>
     </ul>
     <div class="mobile-cta">
+        <a href="/calculator" class="btn btn-accent btn-lg">&#128202; Calculator cost acoperis</a>
         <a href="tel:+40756034734" class="btn btn-primary btn-lg">&#128222; Suna acum: 0756.034.734</a>
     </div>
     <div class="mobile-contact-info">

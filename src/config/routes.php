@@ -39,6 +39,13 @@ return [
         'title' => 'Servicii acoperisuri - Montaj, renovare, consultanta | BDM Systems',
         'description' => 'Servicii profesionale: montaj acoperis, renovare, sisteme pluviale, ferestre FAKRO, izolatie STEICO. Consultanta gratuita.',
     ],
+    '/calculator' => [
+        'controller' => 'PageController',
+        'action' => 'calculator',
+        'name' => 'calculator',
+        'title' => 'Calculator cost acoperis - Estimeaza pretul | BDM Systems',
+        'description' => 'Calculeaza rapid costul acoperisului tau. Estimare pret pentru tigla metalica, tabla faltuita, tabla click si accesorii.',
+    ],
 
     // Blog
     '/blog' => [

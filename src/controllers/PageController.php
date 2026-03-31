@@ -78,4 +78,13 @@ class PageController
             'breadcrumbs'     => [['label' => 'Servicii']],
         ]);
     }
+
+    public function calculator(array $params, array $route): void
+    {
+        View::render('pages/calculator', [
+            'pageTitle'       => 'Calculator cost acoperis - Estimeaza pretul | BDM Systems',
+            'pageDescription' => 'Calculeaza rapid costul acoperisului tau. Estimare pret pentru tigla metalica, tabla faltuita, tabla click si accesorii.',
+            'breadcrumbs'     => [['label' => 'Calculator cost acoperis']],
+        ]);
+    }
 }
