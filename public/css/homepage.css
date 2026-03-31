@@ -35,37 +35,25 @@
     position: relative;
 }
 
-/* When a banner slide is active, remove min-height from container */
-.hero-slider-banner,
-.hero-slider-banner .hero-slides {
-    min-height: auto;
-}
-
 /* Banner mode slides (image only, no overlay) */
 .hero-slide-banner {
     background: var(--color-primary);
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-slide-banner.active {
-    position: relative;
+    align-items: stretch;
 }
 
 .hero-banner-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     width: 100%;
-    height: 100%;
+    flex: 1;
 }
 
 .hero-banner-link img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     object-position: center;
+    display: block;
 }
 
 .hero-slide-overlay {
@@ -632,16 +620,6 @@
         min-height: 450px;
     }
 
-    .hero-slide-banner,
-    .hero-slide-banner.active {
-        min-height: auto;
-    }
-
-    .hero-slider-banner,
-    .hero-slider-banner .hero-slides {
-        min-height: auto;
-    }
-
     .hero, .hero-slide h1, .hero-title {
         font-size: 2rem;
     }
@@ -677,16 +655,6 @@
     .hero-slides,
     .hero-slide {
         min-height: 400px;
-    }
-
-    .hero-slide-banner,
-    .hero-slide-banner.active {
-        min-height: auto;
-    }
-
-    .hero-slider-banner,
-    .hero-slider-banner .hero-slides {
-        min-height: auto;
     }
 
     .hero h1, .hero-slide h1, .hero-title {
