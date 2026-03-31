@@ -126,14 +126,14 @@
         "description": "",
         "image": "",
         "icon": "&#9646;",
-        "count": 2,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 9,
@@ -143,14 +143,14 @@
         "description": "",
         "image": "",
         "icon": "&#9646;",
-        "count": 2,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 10,
@@ -296,14 +296,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 5,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 19,
@@ -313,14 +313,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 4,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 20,
@@ -330,14 +330,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 7,
+        "count": 4,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 3,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 21,
@@ -347,14 +347,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 8,
+        "count": 5,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 4,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 22,
@@ -364,14 +364,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 28,
+        "count": 24,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 5,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 23,
@@ -381,14 +381,14 @@
         "description": "",
         "image": "",
         "icon": "&#9644;",
-        "count": 3,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 24,
@@ -398,14 +398,14 @@
         "description": "",
         "image": "",
         "icon": "&#9644;",
-        "count": 2,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 25,
@@ -415,14 +415,14 @@
         "description": "",
         "image": "",
         "icon": "&#128311;",
-        "count": 4,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 26,
@@ -432,14 +432,14 @@
         "description": "",
         "image": "",
         "icon": "&#128311;",
-        "count": 3,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 27,
@@ -449,14 +449,14 @@
         "description": "",
         "image": "",
         "icon": "&#128311;",
-        "count": 2,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 3,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 28,
@@ -466,14 +466,14 @@
         "description": "",
         "image": "",
         "icon": "&#128311;",
-        "count": 2,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 4,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 29,
@@ -534,14 +534,14 @@
         "description": "",
         "image": "",
         "icon": "&#128166;",
-        "count": 4,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 33,
@@ -551,14 +551,14 @@
         "description": "",
         "image": "",
         "icon": "&#128166;",
-        "count": 3,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 34,
@@ -568,14 +568,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 3,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 3,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 35,
@@ -585,14 +585,14 @@
         "description": "",
         "image": "",
         "icon": "&#127981;",
-        "count": 4,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 36,
@@ -602,14 +602,14 @@
         "description": "",
         "image": "",
         "icon": "&#127981;",
-        "count": 3,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 37,
@@ -619,14 +619,14 @@
         "description": "",
         "image": "",
         "icon": "&#127981;",
-        "count": 3,
+        "count": 0,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 3,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 11:38:21"
     },
     {
         "id": 38,
@@ -830,5 +830,22 @@
         "is_active": true,
         "created_at": "2026-03-31 11:27:57",
         "updated_at": "2026-03-31 11:28:34"
+    },
+    {
+        "id": 51,
+        "category_id": 2,
+        "name": "Fals solar Metigla",
+        "slug": "fals-solar-metigla",
+        "description": "Sistem fals solar Metigla pentru tabla faltuita",
+        "image": "",
+        "icon": "",
+        "count": 0,
+        "seo_title": "",
+        "seo_description": "",
+        "seo_text": "",
+        "sort_order": 4,
+        "is_active": true,
+        "created_at": "2026-03-31 11:44:04",
+        "updated_at": "2026-03-31 11:44:04"
     }
 ]

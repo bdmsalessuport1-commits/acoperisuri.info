@@ -56,15 +56,21 @@ class CategoryController
         }
 
         $catName = $catData['name'];
-        $subName = $this->slugToName($subSlug);
+        $subName = null;
 
-        if ($catData && !empty($catData['subcategories'])) {
+        if (!empty($catData['subcategories'])) {
             foreach ($catData['subcategories'] as $sub) {
                 if ($sub['slug'] === $subSlug) {
                     $subName = $sub['name'];
                     break;
                 }
             }
+        }
+
+        // 404 if subcategory not found
+        if ($subName === null) {
+            View::render404();
+            return;
         }
 
         $productCtrl = new ProductController();
