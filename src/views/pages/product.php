@@ -12,24 +12,26 @@ $tagline = $p['tagline'] ?? '';
 $baseUrl = ($_SERVER['REQUEST_SCHEME'] ?? 'https') . '://' . ($_SERVER['HTTP_HOST'] ?? 'acoperisuri.info');
 ?>
 
-<?php if ($hasData): ?>
-<!-- Schema.org Product -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "<?= htmlspecialchars($productName) ?>",
-    "description": "<?= htmlspecialchars($tagline) ?>",
-    "brand": {"@type": "Brand", "name": "<?= htmlspecialchars($brand) ?>"},
-    "manufacturer": {"@type": "Organization", "name": "<?= htmlspecialchars($brand) ?>"},
-    "url": "<?= htmlspecialchars($baseUrl . '/produs/' . $productSlug) ?>",
-    "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {"@type": "Organization", "name": "BDM Systems"}
-    }
+<?php if ($hasData):
+$schema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'Product',
+    'name' => $productName,
+    'description' => $tagline,
+    'brand' => ['@type' => 'Brand', 'name' => $brand],
+    'manufacturer' => ['@type' => 'Organization', 'name' => $brand],
+    'url' => 'https://acoperisuri.info/produs/' . $productSlug,
+    'offers' => [
+        '@type' => 'Offer',
+        'availability' => 'https://schema.org/InStock',
+        'seller' => ['@type' => 'Organization', 'name' => 'BDM Systems'],
+    ],
+];
+if ($warranty) {
+    $schema['additionalProperty'] = ['@type' => 'PropertyValue', 'name' => 'Garantie', 'value' => $warranty];
 }
-</script>
+?>
+<script type="application/ld+json"><?= json_encode($schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?></script>
 <?php endif; ?>
 
 <section class="section">

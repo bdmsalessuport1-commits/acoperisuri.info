@@ -10,7 +10,7 @@
             <!-- Coloana 1: Despre noi -->
             <div class="footer-col">
                 <a href="/" class="footer-logo">
-                    <img src="/images/logo/logo-full.png" alt="BDM Systems">
+                    <img src="/images/logo/logo-full.png" alt="BDM Systems" loading="lazy" width="200" height="40">
                 </a>
                 <p class="footer-about-text">
                     BDM Systems - solutii complete pentru acoperisuri, tamplarie si izolatie.

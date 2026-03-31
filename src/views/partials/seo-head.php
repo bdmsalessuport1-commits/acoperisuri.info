@@ -1,14 +1,19 @@
 <?php
 /**
  * SEO Meta Tags - inclus in <head>
- * Variabile disponibile: $pageTitle, $pageDescription, $pageUrl, $pageImage
+ * Variabile disponibile: $pageTitle, $pageDescription, $pageUrl, $pageImage, $pageType
  */
 $seoSettings = \App\Helpers\SeoHelper::settings();
 $siteName = $seoSettings['site_title'] ?? 'BDM Systems - acoperisuri.info';
 $title = $pageTitle ?? $siteName;
 $description = $pageDescription ?? ($seoSettings['default_description'] ?? 'BDM Systems - solutii complete pentru acoperisuri, tigla metalica, sisteme pluviale si accesorii montaj.');
-$url = $pageUrl ?? ($_SERVER['REQUEST_SCHEME'] ?? 'https') . '://' . ($_SERVER['HTTP_HOST'] ?? 'acoperisuri.info') . ($_SERVER['REQUEST_URI'] ?? '/');
+$baseUrl = 'https://acoperisuri.info';
+$requestPath = strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
+$canonicalUrl = $baseUrl . $requestPath;
+$fullUrl = $pageUrl ?? $canonicalUrl;
 $image = $pageImage ?? '/images/logo/logo-full.png';
+$absImage = str_starts_with($image, 'http') ? $image : $baseUrl . $image;
+$ogType = $pageType ?? 'website';
 ?>
 
 <meta charset="UTF-8">
@@ -20,14 +25,23 @@ $image = $pageImage ?? '/images/logo/logo-full.png';
 <meta name="author" content="BDM Systems">
 <meta name="robots" content="index, follow">
 
+<!-- Canonical URL -->
+<link rel="canonical" href="<?= htmlspecialchars($canonicalUrl) ?>">
+
 <!-- Open Graph -->
-<meta property="og:type" content="website">
+<meta property="og:type" content="<?= htmlspecialchars($ogType) ?>">
 <meta property="og:title" content="<?= htmlspecialchars($title) ?>">
 <meta property="og:description" content="<?= htmlspecialchars($description) ?>">
-<meta property="og:url" content="<?= htmlspecialchars($url) ?>">
-<meta property="og:image" content="<?= htmlspecialchars($image) ?>">
+<meta property="og:url" content="<?= htmlspecialchars($canonicalUrl) ?>">
+<meta property="og:image" content="<?= htmlspecialchars($absImage) ?>">
 <meta property="og:site_name" content="<?= htmlspecialchars($siteName) ?>">
 <meta property="og:locale" content="ro_RO">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?= htmlspecialchars($title) ?>">
+<meta name="twitter:description" content="<?= htmlspecialchars($description) ?>">
+<meta name="twitter:image" content="<?= htmlspecialchars($absImage) ?>">
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32.png">
@@ -57,7 +71,7 @@ if ($gtmId):
 <?php endif; ?>
 
 <!-- CSS -->
-<?php $v = '9'; ?>
+<?php $v = '10'; ?>
 <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/base.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/header.css?v=<?= $v ?>">

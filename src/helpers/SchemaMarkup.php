@@ -50,14 +50,19 @@ class SchemaMarkup
 
     public static function product(array $product): string
     {
+        $name = $product['name'] ?? '';
+        $brand = $product['manufacturer'] ?? $product['brand'] ?? '';
+        $desc = strip_tags($product['subtitle'] ?? $product['tagline'] ?? $product['description'] ?? '');
+        $warranty = $product['warranty_text'] ?? $product['warranty'] ?? '';
+
         $data = [
             '@context' => 'https://schema.org',
             '@type' => 'Product',
-            'name' => $product['name'] ?? '',
-            'description' => strip_tags($product['tagline'] ?? $product['description'] ?? ''),
+            'name' => $name,
+            'description' => $desc,
             'brand' => [
                 '@type' => 'Brand',
-                'name' => $product['brand'] ?? '',
+                'name' => $brand,
             ],
             'url' => self::$baseUrl . '/produs/' . ($product['slug'] ?? ''),
         ];
@@ -66,11 +71,11 @@ class SchemaMarkup
             $data['image'] = self::$baseUrl . $product['image_main'];
         }
 
-        if (!empty($product['warranty'])) {
+        if ($warranty) {
             $data['additionalProperty'] = [
                 '@type' => 'PropertyValue',
                 'name' => 'Garantie',
-                'value' => $product['warranty'],
+                'value' => $warranty,
             ];
         }
 
@@ -79,16 +84,19 @@ class SchemaMarkup
 
     public static function article(array $article): string
     {
-        return self::render([
+        $image = $article['image_featured'] ?? $article['image'] ?? '';
+        $absImage = $image ? (str_starts_with($image, 'http') ? $image : self::$baseUrl . $image) : '';
+
+        $data = [
             '@context' => 'https://schema.org',
             '@type' => 'Article',
             'headline' => $article['title'] ?? '',
             'description' => $article['excerpt'] ?? '',
             'datePublished' => $article['date'] ?? '',
-            'dateModified' => $article['date'] ?? '',
+            'dateModified' => $article['updated_at'] ?? $article['date'] ?? '',
             'author' => [
                 '@type' => 'Organization',
-                'name' => 'BDM Systems',
+                'name' => $article['author'] ?? 'BDM Systems',
             ],
             'publisher' => [
                 '@type' => 'Organization',
@@ -99,8 +107,13 @@ class SchemaMarkup
                 ],
             ],
             'url' => self::$baseUrl . '/blog/' . ($article['slug'] ?? ''),
-            'image' => !empty($article['image']) ? self::$baseUrl . $article['image'] : '',
-        ]);
+        ];
+
+        if ($absImage) {
+            $data['image'] = $absImage;
+        }
+
+        return self::render($data);
     }
 
     public static function breadcrumbs(array $items): string

@@ -130,9 +130,9 @@ class SeoHelper
         $urls[] = ['loc' => '/contact', 'priority' => '0.7', 'changefreq' => 'monthly'];
         $urls[] = ['loc' => '/servicii', 'priority' => '0.7', 'changefreq' => 'monthly'];
         $urls[] = ['loc' => '/blog', 'priority' => '0.8', 'changefreq' => 'weekly'];
-        $urls[] = ['loc' => '/video', 'priority' => '0.6', 'changefreq' => 'weekly'];
+        $urls[] = ['loc' => '/video', 'priority' => '0.7', 'changefreq' => 'weekly'];
 
-        // Categories
+        // Product categories
         $catStore = new DataStore('categories');
         $subStore = new DataStore('subcategories');
         foreach ($catStore->orderBy('sort_order') as $cat) {
@@ -153,11 +153,24 @@ class SeoHelper
             $urls[] = ['loc' => '/produs/' . $prod['slug'], 'priority' => '0.6', 'changefreq' => 'monthly'];
         }
 
+        // Blog categories
+        $blogCatStore = new DataStore('blog-categories');
+        foreach ($blogCatStore->all() as $bc) {
+            $urls[] = ['loc' => '/blog/categorie/' . $bc['slug'], 'priority' => '0.6', 'changefreq' => 'weekly'];
+        }
+
         // Blog articles
         $blogStore = new DataStore('blog-articles');
         foreach ($blogStore->all() as $article) {
             if (($article['status'] ?? 'draft') === 'draft') continue;
             $urls[] = ['loc' => '/blog/' . $article['slug'], 'priority' => '0.6', 'changefreq' => 'monthly'];
+        }
+
+        // Video categories
+        $vidCatStore = new DataStore('video-categories');
+        foreach ($vidCatStore->all() as $vc) {
+            if (!($vc['is_active'] ?? true)) continue;
+            $urls[] = ['loc' => '/video/categorie/' . $vc['slug'], 'priority' => '0.5', 'changefreq' => 'weekly'];
         }
 
         // Build XML

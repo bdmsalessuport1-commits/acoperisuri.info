@@ -81,8 +81,10 @@ class BlogController
         $related = array_slice(array_merge($samecat, $others), 0, 3);
 
         View::render('pages/blog-single', [
-            'pageTitle'       => $article['title'] . ' | Blog BDM Systems',
-            'pageDescription' => $article['excerpt'],
+            'pageTitle'       => $article['seo_title'] ?: ($article['title'] . ' | Blog BDM Systems'),
+            'pageDescription' => $article['seo_description'] ?: $article['excerpt'],
+            'pageType'        => 'article',
+            'pageImage'       => $article['image_featured'] ?? null,
             'article'         => $article,
             'relatedArticles' => $related,
             'popular'         => array_slice($articles, 0, 5),

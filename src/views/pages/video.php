@@ -17,6 +17,31 @@ foreach ($categories as $cat) {
 }
 ?>
 
+<?php if (!empty($videos)):
+$videoSchemaItems = [];
+foreach (array_slice($videos, 0, 10) as $idx => $sv) {
+    $videoSchemaItems[] = [
+        '@type' => 'ListItem',
+        'position' => $idx + 1,
+        'item' => [
+            '@type' => 'VideoObject',
+            'name' => $sv['title'] ?? '',
+            'description' => $sv['description'] ?? $sv['title'] ?? '',
+            'uploadDate' => $sv['published_at'] ?? '',
+            'contentUrl' => $sv['tiktok_url'] ?? '',
+            'thumbnailUrl' => $sv['thumbnail'] ?? '',
+        ],
+    ];
+}
+?>
+<script type="application/ld+json"><?= json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'ItemList',
+    'name' => $activeCategoryName ? $activeCategoryName . ' - Videouri' : 'Videouri BDM Systems',
+    'itemListElement' => $videoSchemaItems,
+], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?></script>
+<?php endif; ?>
+
 <!-- HERO -->
 <section class="video-hero">
     <div class="container">
