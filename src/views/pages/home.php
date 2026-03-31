@@ -1,326 +1,242 @@
-<!-- ===========================
-     1. HERO SECTION
-     =========================== -->
-<section class="hero">
+<?php
+/** @var array $hp */
+/** @var array $sectionsOrder */
+/** @var array $featuredProducts */
+/** @var array $blogArticles */
+
+$hero       = $hp['hero'] ?? [];
+$categories = $hp['categories'] ?? [];
+$brands     = $hp['brands'] ?? [];
+$products   = $hp['products'] ?? [];
+$banners    = $hp['banners'] ?? [];
+$about      = $hp['about'] ?? [];
+$services   = $hp['services'] ?? [];
+$blogCfg    = $hp['blog'] ?? [];
+$cta        = $hp['cta'] ?? [];
+
+$months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iunie',
+    7=>'Iulie',8=>'August',9=>'Septembrie',10=>'Octombrie',11=>'Noiembrie',12=>'Decembrie'];
+?>
+
+<?php foreach ($sectionsOrder as $section): ?>
+
+<?php if ($section === 'hero'): ?>
+<?php $slides = $hero['slides'] ?? []; if (!empty($slides)): $slide = $slides[0]; ?>
+<!-- HERO SECTION -->
+<section class="hero"<?php if (!empty($slide['image'])): ?> style="background-image:url('<?= htmlspecialchars($slide['image']) ?>')"<?php endif; ?>>
     <div class="container">
         <div class="hero-content">
-            <h1>Solutii Complete pentru Acoperisul Dumneavoastra</h1>
-            <p class="hero-subtitle">Tigla metalica, tabla faltuita, sisteme pluviale si accesorii de la cei mai buni producatori din Europa.</p>
+            <h1><?= $slide['title'] ?? '' ?></h1>
+            <p class="hero-subtitle"><?= htmlspecialchars($slide['subtitle'] ?? '') ?></p>
             <div class="hero-buttons">
-                <a href="/contact" class="btn btn-primary btn-lg">Solicita oferta gratuita</a>
-                <a href="/tigla-metalica" class="btn btn-outline-white btn-lg">Descopera produsele</a>
+                <?php if (!empty($slide['button_text'])): ?>
+                    <a href="<?= htmlspecialchars($slide['button_link'] ?? '#') ?>" class="btn btn-primary btn-lg"><?= htmlspecialchars($slide['button_text']) ?></a>
+                <?php endif; ?>
+                <?php if (!empty($slide['button2_text'])): ?>
+                    <a href="<?= htmlspecialchars($slide['button2_link'] ?? '#') ?>" class="btn btn-outline-white btn-lg"><?= htmlspecialchars($slide['button2_text']) ?></a>
+                <?php endif; ?>
             </div>
+            <?php if (!empty($slide['badge_text'])): ?>
             <div class="hero-badge">
-                <span class="badge-icon">&#127942;</span>
-                Peste 4000 de acoperisuri livrate din 2010
+                <span class="badge-icon"><?= $slide['badge_icon'] ?? '' ?></span>
+                <?= htmlspecialchars($slide['badge_text']) ?>
             </div>
+            <?php endif; ?>
         </div>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     2. GRILA CATEGORII
-     =========================== -->
+<?php elseif ($section === 'categories'): ?>
+<?php $catItems = $categories['items'] ?? []; if (!empty($catItems)): ?>
+<!-- GRILA CATEGORII -->
 <section class="section">
     <div class="container">
         <div class="section-header">
-            <h2>Produsele noastre</h2>
-            <p>Gama completa de materiale pentru acoperis, tamplarie si izolatie.</p>
+            <h2><?= htmlspecialchars($categories['title'] ?? '') ?></h2>
+            <p><?= htmlspecialchars($categories['subtitle'] ?? '') ?></p>
         </div>
         <div class="grid grid-4">
-            <a href="/tigla-metalica" class="category-card">
-                <div class="category-card-image">&#9650;</div>
+            <?php foreach ($catItems as $cat): if (empty($cat['is_active'])) continue; ?>
+            <a href="<?= htmlspecialchars($cat['link'] ?? '#') ?>" class="category-card">
+                <div class="category-card-image"><?= $cat['icon'] ?? '' ?></div>
                 <div class="category-card-body">
-                    <h3>Tigla metalica</h3>
-                    <p>Profile elegante de la Budmat, Metigla, Wetterbest</p>
+                    <h3><?= htmlspecialchars($cat['name'] ?? '') ?></h3>
+                    <p><?= htmlspecialchars($cat['description'] ?? '') ?></p>
                 </div>
             </a>
-            <a href="/tabla-faltuita" class="category-card">
-                <div class="category-card-image">&#9645;</div>
-                <div class="category-card-body">
-                    <h3>Tabla faltuita</h3>
-                    <p>Sisteme de invelitoare cu falt vertical si orizontal</p>
-                </div>
-            </a>
-            <a href="/tabla-click" class="category-card">
-                <div class="category-card-image">&#9646;</div>
-                <div class="category-card-body">
-                    <h3>Tabla click</h3>
-                    <p>Montaj rapid cu sistem click fara suruburi vizibile</p>
-                </div>
-            </a>
-            <a href="/sisteme-pluviale" class="category-card">
-                <div class="category-card-image">&#128167;</div>
-                <div class="category-card-body">
-                    <h3>Sisteme pluviale</h3>
-                    <p>Jgheaburi si burlane Metigla, Wetterbest si Flamingo iQ</p>
-                </div>
-            </a>
-            <a href="/folii-anticondens" class="category-card">
-                <div class="category-card-image">&#128203;</div>
-                <div class="category-card-body">
-                    <h3>Folii anticondens</h3>
-                    <p>Protectie eficienta pentru structura acoperisului</p>
-                </div>
-            </a>
-            <a href="/tamplarie-pvc-aluminiu" class="category-card">
-                <div class="category-card-image">&#128311;</div>
-                <div class="category-card-body">
-                    <h3>Tamplarie PVC si Aluminiu</h3>
-                    <p>Ferestre si usi de inalta calitate si eficienta</p>
-                </div>
-            </a>
-            <a href="/ferestre-mansarda-fakro" class="category-card">
-                <div class="category-card-image">&#127968;</div>
-                <div class="category-card-body">
-                    <h3>Ferestre mansarda FAKRO</h3>
-                    <p>Iluminare naturala si ventilatie pentru mansarda</p>
-                </div>
-            </a>
-            <a href="/scari-pod-fakro" class="category-card">
-                <div class="category-card-image">&#128682;</div>
-                <div class="category-card-body">
-                    <h3>Scari de pod FAKRO</h3>
-                    <p>Acces sigur si confortabil la podul casei</p>
-                </div>
-            </a>
-            <a href="/izolatie" class="category-card">
-                <div class="category-card-image">&#127777;</div>
-                <div class="category-card-body">
-                    <h3>Izolatie fibre lemn STEICO</h3>
-                    <p>Izolatie ecologica cu performanta termica superioara</p>
-                </div>
-            </a>
-            <a href="/hidroizolatii-terase" class="category-card">
-                <div class="category-card-image">&#128166;</div>
-                <div class="category-card-body">
-                    <h3>Hidroizolatii terase</h3>
-                    <p>Sisteme de hidroizolatie impermeabile de durata</p>
-                </div>
-            </a>
-            <a href="/accesorii-acoperis" class="category-card">
-                <div class="category-card-image">&#128295;</div>
-                <div class="category-card-body">
-                    <h3>Accesorii acoperis</h3>
-                    <p>Sipci metalice, etansari si accesorii montaj</p>
-                </div>
-            </a>
-            <a href="/garduri" class="category-card">
-                <div class="category-card-image">&#127981;</div>
-                <div class="category-card-body">
-                    <h3>Sisteme de garduri</h3>
-                    <p>Garduri metalice rezistente si estetice</p>
-                </div>
-            </a>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     3. PRODUCATORI / BRANDURI
-     =========================== -->
+<?php elseif ($section === 'brands'): ?>
+<?php $brandItems = $brands['items'] ?? []; if (!empty($brandItems)): ?>
+<!-- PRODUCATORI / BRANDURI -->
 <section class="section bg-light">
     <div class="container">
         <div class="section-header">
-            <h2>Producatorii nostri de incredere</h2>
-            <p>Colaboram cu lideri europeni in industria acoperisurilor.</p>
+            <h2><?= htmlspecialchars($brands['title'] ?? '') ?></h2>
+            <p><?= htmlspecialchars($brands['subtitle'] ?? '') ?></p>
         </div>
         <div class="brands-row">
-            <a href="/tigla-metalica/budmat" class="brand-item">
-                <span class="brand-name">BUDMAT</span>
+            <?php foreach ($brandItems as $brand): if (empty($brand['is_active'])) continue; ?>
+            <a href="<?= htmlspecialchars($brand['link'] ?? '#') ?>" class="brand-item">
+                <span class="brand-name"><?= htmlspecialchars($brand['name'] ?? '') ?></span>
             </a>
-            <a href="/tigla-metalica/metigla" class="brand-item">
-                <span class="brand-name">METIGLA</span>
-            </a>
-            <a href="/tigla-metalica/wetterbest" class="brand-item">
-                <span class="brand-name">WETTERBEST</span>
-            </a>
-            <a href="/tigla-metalica/blachotrapez" class="brand-item">
-                <span class="brand-name">BLACHOTRAPEZ</span>
-            </a>
-            <a href="/ferestre-tamplarie/ferestre-mansarda-fakro" class="brand-item">
-                <span class="brand-name">FAKRO</span>
-            </a>
-            <a href="/tabla-faltuita/vestalpin" class="brand-item">
-                <span class="brand-name">VESTALPIN</span>
-            </a>
-            <a href="/izolatie-hidroizolatii/izolatie-fibre-lemn" class="brand-item">
-                <span class="brand-name">STEICO</span>
-            </a>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     4. PRODUSE RECOMANDATE
-     =========================== -->
+<?php elseif ($section === 'products'): ?>
+<?php if (!empty($featuredProducts)): ?>
+<!-- PRODUSE RECOMANDATE -->
 <section class="section">
     <div class="container">
         <div class="section-header">
-            <h2>Cele mai cautate produse</h2>
-            <p>Alege dintr-o gama variata de profile si sisteme de acoperis.</p>
+            <h2><?= htmlspecialchars($products['title'] ?? '') ?></h2>
+            <p><?= htmlspecialchars($products['subtitle'] ?? '') ?></p>
         </div>
         <div class="products-scroll">
-            <a href="/produs/budmat-venecja" class="product-card">
-                <div class="product-card-image">&#9650;</div>
+            <?php foreach ($featuredProducts as $prod): ?>
+            <a href="/produs/<?= htmlspecialchars($prod['slug'] ?? '') ?>" class="product-card">
+                <div class="product-card-image"><?= $prod['image_icon'] ?? '&#9650;' ?></div>
                 <div class="product-card-body">
-                    <h4>Venecja</h4>
-                    <span class="product-brand">Budmat</span>
+                    <h4><?= htmlspecialchars($prod['name'] ?? '') ?></h4>
+                    <?php if (!empty($prod['brand'])): ?>
+                        <span class="product-brand"><?= htmlspecialchars($prod['brand']) ?></span>
+                    <?php endif; ?>
                 </div>
             </a>
-            <a href="/produs/budmat-bella-sara" class="product-card">
-                <div class="product-card-image">&#9650;</div>
-                <div class="product-card-body">
-                    <h4>Bella Sara</h4>
-                    <span class="product-brand">Budmat</span>
-                </div>
-            </a>
-            <a href="/produs/metigla-elit" class="product-card">
-                <div class="product-card-image">&#9650;</div>
-                <div class="product-card-body">
-                    <h4>Elit</h4>
-                    <span class="product-brand">Metigla</span>
-                </div>
-            </a>
-            <a href="/produs/metigla-star" class="product-card">
-                <div class="product-card-image">&#9650;</div>
-                <div class="product-card-body">
-                    <h4>Star</h4>
-                    <span class="product-brand">Metigla</span>
-                </div>
-            </a>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     5. DESPRE BDM SYSTEMS
-     =========================== -->
+<?php elseif ($section === 'banners'): ?>
+<?php $bannerItems = $banners['items'] ?? []; if (!empty($bannerItems)): ?>
+<!-- BANNERE PROMOTIONALE -->
+<?php foreach ($bannerItems as $banner): if (empty($banner['is_active'])) continue; ?>
+<section class="section hp-banner"<?php if (!empty($banner['image'])): ?> style="background-image:url('<?= htmlspecialchars($banner['image']) ?>')"<?php endif; ?>>
+    <div class="container">
+        <div class="hp-banner-content">
+            <?php if (!empty($banner['title'])): ?><h2><?= htmlspecialchars($banner['title']) ?></h2><?php endif; ?>
+            <?php if (!empty($banner['text'])): ?><p><?= htmlspecialchars($banner['text']) ?></p><?php endif; ?>
+            <?php if (!empty($banner['link'])): ?><a href="<?= htmlspecialchars($banner['link']) ?>" class="btn btn-primary btn-lg">Detalii</a><?php endif; ?>
+        </div>
+    </div>
+</section>
+<?php endforeach; ?>
+<?php endif; ?>
+
+<?php elseif ($section === 'about'): ?>
+<?php if (!empty($about['title'])): ?>
+<!-- DESPRE BDM SYSTEMS -->
 <section class="section bg-light">
     <div class="container">
         <div class="about-grid">
             <div class="about-text">
-                <h2>De ce BDM Systems?</h2>
-                <p>Suntem partenerul dumneavoastra de incredere pentru orice proiect de acoperis, oferind materiale premium si consultanta de specialitate.</p>
+                <h2><?= htmlspecialchars($about['title'] ?? '') ?></h2>
+                <p><?= htmlspecialchars($about['text'] ?? '') ?></p>
+                <?php $features = $about['features'] ?? []; if (!empty($features)): ?>
                 <div class="features-list">
+                    <?php foreach ($features as $feat): ?>
                     <div class="feature-item">
-                        <div class="feature-icon">&#127942;</div>
+                        <div class="feature-icon"><?= $feat['icon'] ?? '' ?></div>
                         <div class="feature-text">
-                            <h4>Experienta din 2010</h4>
-                            <p>Peste 4000 de acoperisuri livrate cu succes in toata tara.</p>
+                            <h4><?= htmlspecialchars($feat['title'] ?? '') ?></h4>
+                            <p><?= htmlspecialchars($feat['text'] ?? '') ?></p>
                         </div>
                     </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">&#127968;</div>
-                        <div class="feature-text">
-                            <h4>Consultanta Passive House</h4>
-                            <p>Echipa certificata pentru constructii cu consum redus de energie.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">&#128666;</div>
-                        <div class="feature-text">
-                            <h4>Livrare in toata tara</h4>
-                            <p>Transport rapid si sigur, direct la santierul dumneavoastra.</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">&#128736;</div>
-                        <div class="feature-text">
-                            <h4>Suport tehnic complet</h4>
-                            <p>Asistenta la montaj, calcul materiale si documentatie tehnica.</p>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
+                <?php endif; ?>
             </div>
-            <div class="about-image">&#127960;</div>
+            <div class="about-image"><?= $about['image'] ?? '' ?></div>
         </div>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     6. SERVICII
-     =========================== -->
+<?php elseif ($section === 'services'): ?>
+<?php $svcItems = $services['items'] ?? []; if (!empty($svcItems)): ?>
+<!-- SERVICII -->
 <section class="section">
     <div class="container">
         <div class="section-header">
-            <h2>Servicii si consultanta</h2>
-            <p>Mai mult decat materiale - va oferim expertiza completa.</p>
+            <h2><?= htmlspecialchars($services['title'] ?? '') ?></h2>
+            <p><?= htmlspecialchars($services['subtitle'] ?? '') ?></p>
         </div>
         <div class="grid grid-3">
+            <?php foreach ($svcItems as $svc): ?>
             <div class="service-card">
-                <div class="service-icon">&#127793;</div>
-                <h3>Consultanta energetica</h3>
-                <p>Evaluarea si optimizarea performantei energetice a cladirii dumneavoastra pentru confort maxim si costuri reduse.</p>
+                <div class="service-icon"><?= $svc['icon'] ?? '' ?></div>
+                <h3><?= htmlspecialchars($svc['title'] ?? '') ?></h3>
+                <p><?= htmlspecialchars($svc['text'] ?? '') ?></p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">&#127968;</div>
-                <h3>Consultanta Passive House</h3>
-                <p>Proiectare si consultanta pentru cladiri cu standard Passive House - eficienta energetica maxima.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">&#128736;</div>
-                <h3>Asistenta tehnica montaj</h3>
-                <p>Suport complet la montaj, detalii de executie si calcul precis al cantitatilor necesare.</p>
-            </div>
+            <?php endforeach; ?>
         </div>
+        <?php if (!empty($services['cta_text'])): ?>
         <div class="text-center mt-xl">
-            <a href="/contact" class="btn btn-primary btn-lg">Programeaza o consultatie gratuita</a>
+            <a href="<?= htmlspecialchars($services['cta_link'] ?? '/contact') ?>" class="btn btn-primary btn-lg"><?= htmlspecialchars($services['cta_text']) ?></a>
         </div>
+        <?php endif; ?>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     7. ULTIMELE ARTICOLE BLOG
-     =========================== -->
+<?php elseif ($section === 'blog'): ?>
+<?php if (!empty($blogArticles)): ?>
+<!-- ULTIMELE ARTICOLE BLOG -->
 <section class="section bg-light">
     <div class="container">
         <div class="section-header">
-            <h2>Ghiduri si articole utile</h2>
-            <p>Sfaturi practice pentru alegerea si intretinerea acoperisului.</p>
+            <h2><?= htmlspecialchars($blogCfg['title'] ?? 'Blog') ?></h2>
+            <p><?= htmlspecialchars($blogCfg['subtitle'] ?? '') ?></p>
         </div>
         <div class="grid grid-3">
+            <?php foreach ($blogArticles as $art): ?>
             <div class="blog-card">
-                <div class="blog-card-image">&#128214;</div>
+                <div class="blog-card-image"><?= $art['image_icon'] ?? '&#128214;' ?></div>
                 <div class="blog-card-body">
-                    <div class="blog-card-date">15 Martie 2026</div>
-                    <h3><a href="/blog/cum-alegi-tigla-metalica">Cum alegi tigla metalica potrivita</a></h3>
-                    <p class="blog-card-excerpt">Ghid complet despre tipurile de tigla metalica, criterii de selectie, avantaje si dezavantaje pentru fiecare profil.</p>
-                    <a href="/blog/cum-alegi-tigla-metalica" class="read-more">Citeste mai mult &rarr;</a>
+                    <?php
+                    $ts = strtotime($art['date'] ?? '');
+                    $dateDisplay = $ts ? date('j', $ts) . ' ' . ($months[(int)date('n', $ts)] ?? '') . ' ' . date('Y', $ts) : '';
+                    ?>
+                    <div class="blog-card-date"><?= $dateDisplay ?></div>
+                    <h3><a href="/blog/<?= htmlspecialchars($art['slug'] ?? '') ?>"><?= htmlspecialchars($art['title'] ?? '') ?></a></h3>
+                    <p class="blog-card-excerpt"><?= htmlspecialchars($art['excerpt'] ?? '') ?></p>
+                    <a href="/blog/<?= htmlspecialchars($art['slug'] ?? '') ?>" class="read-more">Citeste mai mult &rarr;</a>
                 </div>
             </div>
-            <div class="blog-card">
-                <div class="blog-card-image">&#128214;</div>
-                <div class="blog-card-body">
-                    <div class="blog-card-date">8 Martie 2026</div>
-                    <h3><a href="/blog/izolatie-termica-acoperis">Izolatie termica acoperis - tot ce trebuie sa stii</a></h3>
-                    <p class="blog-card-excerpt">Tipuri de izolatie, materiale recomandate si grosimi optime pentru un acoperis eficient energetic.</p>
-                    <a href="/blog/izolatie-termica-acoperis" class="read-more">Citeste mai mult &rarr;</a>
-                </div>
-            </div>
-            <div class="blog-card">
-                <div class="blog-card-image">&#128214;</div>
-                <div class="blog-card-body">
-                    <div class="blog-card-date">1 Martie 2026</div>
-                    <h3><a href="/blog/sisteme-pluviale-ghid-alegere">Sisteme pluviale - ghid de alegere</a></h3>
-                    <p class="blog-card-excerpt">Cum alegi jgheaburile si burlanele potrivite, materiale disponibile si sfaturi de montaj corect.</p>
-                    <a href="/blog/sisteme-pluviale-ghid-alegere" class="read-more">Citeste mai mult &rarr;</a>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
+<?php endif; ?>
 
-<!-- ===========================
-     8. CTA FINAL
-     =========================== -->
+<?php elseif ($section === 'cta'): ?>
+<?php if (!empty($cta['title'])): ?>
+<!-- CTA FINAL -->
 <section class="cta-final">
     <div class="container">
-        <h2>Solicitati o oferta personalizata acum</h2>
-        <p>Echipa noastra va sta la dispozitie pentru orice proiect de acoperis.</p>
-        <a href="/contact" class="btn btn-lg">Contactati-ne</a>
+        <h2><?= htmlspecialchars($cta['title'] ?? '') ?></h2>
+        <p><?= htmlspecialchars($cta['text'] ?? '') ?></p>
+        <?php if (!empty($cta['button_text'])): ?>
+            <a href="<?= htmlspecialchars($cta['button_link'] ?? '/contact') ?>" class="btn btn-lg"><?= htmlspecialchars($cta['button_text']) ?></a>
+        <?php endif; ?>
+        <?php if (!empty($cta['phone'])): ?>
         <div class="cta-phone">
-            <a href="tel:+40756034734">&#128222; 0756.034.734</a>
+            <a href="tel:+40<?= preg_replace('/[^0-9]/', '', $cta['phone']) ?>">&#128222; <?= htmlspecialchars($cta['phone']) ?></a>
         </div>
+        <?php endif; ?>
     </div>
 </section>
+<?php endif; ?>
+
+<?php endif; ?>
+<?php endforeach; ?>

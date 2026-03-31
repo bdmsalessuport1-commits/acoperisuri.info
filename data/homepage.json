@@ -1,0 +1,96 @@
+{
+    "sections_order": ["hero", "categories", "brands", "products", "about", "services", "blog", "cta"],
+    "hero": {
+        "slides": [
+            {
+                "id": 1,
+                "title": "Solutii Complete pentru Acoperisul Dumneavoastra",
+                "subtitle": "Tigla metalica, tabla faltuita, sisteme pluviale si accesorii de la cei mai buni producatori din Europa.",
+                "image": "",
+                "button_text": "Solicita oferta gratuita",
+                "button_link": "/contact",
+                "button2_text": "Descopera produsele",
+                "button2_link": "/tigla-metalica",
+                "badge_icon": "&#127942;",
+                "badge_text": "Peste 4000 de acoperisuri livrate din 2010",
+                "is_active": true,
+                "sort_order": 0
+            }
+        ]
+    },
+    "categories": {
+        "title": "Produsele noastre",
+        "subtitle": "Gama completa de materiale pentru acoperis, tamplarie si izolatie.",
+        "items": [
+            {"id": 1, "name": "Tigla metalica", "description": "Profile elegante de la Budmat, Metigla, Wetterbest", "icon": "&#9650;", "link": "/tigla-metalica", "sort_order": 0, "is_active": true},
+            {"id": 2, "name": "Tabla faltuita", "description": "Sisteme de invelitoare cu falt vertical si orizontal", "icon": "&#9645;", "link": "/tabla-faltuita", "sort_order": 1, "is_active": true},
+            {"id": 3, "name": "Tabla click", "description": "Montaj rapid cu sistem click fara suruburi vizibile", "icon": "&#9646;", "link": "/tabla-click", "sort_order": 2, "is_active": true},
+            {"id": 4, "name": "Sisteme pluviale", "description": "Jgheaburi si burlane Metigla, Wetterbest si Flamingo iQ", "icon": "&#128167;", "link": "/sisteme-pluviale", "sort_order": 3, "is_active": true},
+            {"id": 5, "name": "Folii anticondens", "description": "Protectie eficienta pentru structura acoperisului", "icon": "&#128203;", "link": "/folii-anticondens", "sort_order": 4, "is_active": true},
+            {"id": 6, "name": "Tamplarie PVC si Aluminiu", "description": "Ferestre si usi de inalta calitate si eficienta", "icon": "&#128311;", "link": "/tamplarie-pvc-aluminiu", "sort_order": 5, "is_active": true},
+            {"id": 7, "name": "Ferestre mansarda FAKRO", "description": "Iluminare naturala si ventilatie pentru mansarda", "icon": "&#127968;", "link": "/ferestre-mansarda-fakro", "sort_order": 6, "is_active": true},
+            {"id": 8, "name": "Scari de pod FAKRO", "description": "Acces sigur si confortabil la podul casei", "icon": "&#128682;", "link": "/scari-pod-fakro", "sort_order": 7, "is_active": true},
+            {"id": 9, "name": "Izolatie fibre lemn STEICO", "description": "Izolatie ecologica cu performanta termica superioara", "icon": "&#127777;", "link": "/izolatie", "sort_order": 8, "is_active": true},
+            {"id": 10, "name": "Hidroizolatii terase", "description": "Sisteme de hidroizolatie impermeabile de durata", "icon": "&#128166;", "link": "/hidroizolatii-terase", "sort_order": 9, "is_active": true},
+            {"id": 11, "name": "Accesorii acoperis", "description": "Sipci metalice, etansari si accesorii montaj", "icon": "&#128295;", "link": "/accesorii-acoperis", "sort_order": 10, "is_active": true},
+            {"id": 12, "name": "Sisteme de garduri", "description": "Garduri metalice rezistente si estetice", "icon": "&#127981;", "link": "/garduri", "sort_order": 11, "is_active": true}
+        ]
+    },
+    "brands": {
+        "title": "Producatorii nostri de incredere",
+        "subtitle": "Colaboram cu lideri europeni in industria acoperisurilor.",
+        "items": [
+            {"id": 1, "name": "BUDMAT", "link": "/tigla-metalica/budmat", "sort_order": 0, "is_active": true},
+            {"id": 2, "name": "METIGLA", "link": "/tigla-metalica/metigla", "sort_order": 1, "is_active": true},
+            {"id": 3, "name": "WETTERBEST", "link": "/tigla-metalica/wetterbest", "sort_order": 2, "is_active": true},
+            {"id": 4, "name": "BLACHOTRAPEZ", "link": "/tigla-metalica/blachotrapez", "sort_order": 3, "is_active": true},
+            {"id": 5, "name": "FAKRO", "link": "/ferestre-tamplarie/ferestre-mansarda-fakro", "sort_order": 4, "is_active": true},
+            {"id": 6, "name": "VESTALPIN", "link": "/tabla-faltuita/vestalpin", "sort_order": 5, "is_active": true},
+            {"id": 7, "name": "STEICO", "link": "/izolatie-hidroizolatii/izolatie-fibre-lemn", "sort_order": 6, "is_active": true}
+        ]
+    },
+    "products": {
+        "title": "Cele mai cautate produse",
+        "subtitle": "Alege dintr-o gama variata de profile si sisteme de acoperis.",
+        "mode": "manual",
+        "manual_slugs": ["budmat-venecja", "budmat-bella-sara", "metigla-elit", "metigla-star"],
+        "auto_count": 4
+    },
+    "banners": {
+        "items": []
+    },
+    "about": {
+        "title": "De ce BDM Systems?",
+        "text": "Suntem partenerul dumneavoastra de incredere pentru orice proiect de acoperis, oferind materiale premium si consultanta de specialitate.",
+        "image": "&#127960;",
+        "features": [
+            {"id": 1, "icon": "&#127942;", "title": "Experienta din 2010", "text": "Peste 4000 de acoperisuri livrate cu succes in toata tara.", "sort_order": 0},
+            {"id": 2, "icon": "&#127968;", "title": "Consultanta Passive House", "text": "Echipa certificata pentru constructii cu consum redus de energie.", "sort_order": 1},
+            {"id": 3, "icon": "&#128666;", "title": "Livrare in toata tara", "text": "Transport rapid si sigur, direct la santierul dumneavoastra.", "sort_order": 2},
+            {"id": 4, "icon": "&#128736;", "title": "Suport tehnic complet", "text": "Asistenta la montaj, calcul materiale si documentatie tehnica.", "sort_order": 3}
+        ]
+    },
+    "services": {
+        "title": "Servicii si consultanta",
+        "subtitle": "Mai mult decat materiale - va oferim expertiza completa.",
+        "items": [
+            {"id": 1, "icon": "&#127793;", "title": "Consultanta energetica", "text": "Evaluarea si optimizarea performantei energetice a cladirii dumneavoastra pentru confort maxim si costuri reduse.", "sort_order": 0},
+            {"id": 2, "icon": "&#127968;", "title": "Consultanta Passive House", "text": "Proiectare si consultanta pentru cladiri cu standard Passive House - eficienta energetica maxima.", "sort_order": 1},
+            {"id": 3, "icon": "&#128736;", "title": "Asistenta tehnica montaj", "text": "Suport complet la montaj, detalii de executie si calcul precis al cantitatilor necesare.", "sort_order": 2}
+        ],
+        "cta_text": "Programeaza o consultatie gratuita",
+        "cta_link": "/contact"
+    },
+    "blog": {
+        "title": "Ghiduri si articole utile",
+        "subtitle": "Sfaturi practice pentru alegerea si intretinerea acoperisului.",
+        "count": 3
+    },
+    "cta": {
+        "title": "Solicitati o oferta personalizata acum",
+        "text": "Echipa noastra va sta la dispozitie pentru orice proiect de acoperis.",
+        "button_text": "Contactati-ne",
+        "button_link": "/contact",
+        "phone": "0756.034.734"
+    }
+}

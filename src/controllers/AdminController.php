@@ -1330,7 +1330,125 @@ class AdminController
     public function homepage(array $params, array $route): void
     {
         Auth::requireRole('administrator');
-        View::render('admin/homepage', ['pageTitle' => 'Homepage'], 'admin');
+
+        $hp = $this->loadHomepage();
+        $productStore = new DataStore('products');
+        $allProducts = $productStore->orderBy('sort_order');
+
+        View::render('admin/homepage', [
+            'pageTitle'   => 'Homepage',
+            'homepage'    => $hp,
+            'allProducts' => $allProducts,
+            'flash'       => $_SESSION['_flash'] ?? null,
+        ], 'admin');
+
+        unset($_SESSION['_flash']);
+    }
+
+    public function homepageSave(array $params, array $route): void
+    {
+        Auth::requireRole('administrator');
+        Auth::requireCsrf();
+
+        $section = $params['section'] ?? '';
+        $hp = $this->loadHomepage();
+
+        switch ($section) {
+            case 'hero':
+                $hp['hero']['slides'] = $this->parseRepeaterItems($_POST['slides'] ?? [], [
+                    'title', 'subtitle', 'image', 'button_text', 'button_link',
+                    'button2_text', 'button2_link', 'badge_icon', 'badge_text',
+                ]);
+                break;
+
+            case 'categorii':
+                $hp['categories']['title'] = trim($_POST['title'] ?? '');
+                $hp['categories']['subtitle'] = trim($_POST['subtitle'] ?? '');
+                $hp['categories']['items'] = $this->parseRepeaterItems($_POST['items'] ?? [], [
+                    'name', 'description', 'icon', 'link',
+                ]);
+                break;
+
+            case 'branduri':
+                $hp['brands']['title'] = trim($_POST['title'] ?? '');
+                $hp['brands']['subtitle'] = trim($_POST['subtitle'] ?? '');
+                $hp['brands']['items'] = $this->parseRepeaterItems($_POST['items'] ?? [], [
+                    'name', 'link',
+                ]);
+                break;
+
+            case 'produse':
+                $hp['products']['title'] = trim($_POST['title'] ?? '');
+                $hp['products']['subtitle'] = trim($_POST['subtitle'] ?? '');
+                $hp['products']['mode'] = $_POST['mode'] ?? 'manual';
+                $hp['products']['auto_count'] = (int)($_POST['auto_count'] ?? 4);
+                $slugs = array_filter(array_map('trim', $_POST['manual_slugs'] ?? []));
+                $hp['products']['manual_slugs'] = array_values($slugs);
+                break;
+
+            case 'bannere':
+                $hp['banners']['items'] = $this->parseRepeaterItems($_POST['items'] ?? [], [
+                    'title', 'text', 'image', 'link', 'position',
+                ]);
+                break;
+
+            case 'despre':
+                $hp['about']['title'] = trim($_POST['title'] ?? '');
+                $hp['about']['text'] = trim($_POST['text'] ?? '');
+                $hp['about']['image'] = trim($_POST['image'] ?? '');
+                $hp['about']['features'] = $this->parseRepeaterItems($_POST['features'] ?? [], [
+                    'icon', 'title', 'text',
+                ]);
+                break;
+
+            case 'servicii':
+                $hp['services']['title'] = trim($_POST['title'] ?? '');
+                $hp['services']['subtitle'] = trim($_POST['subtitle'] ?? '');
+                $hp['services']['cta_text'] = trim($_POST['cta_text'] ?? '');
+                $hp['services']['cta_link'] = trim($_POST['cta_link'] ?? '');
+                $hp['services']['items'] = $this->parseRepeaterItems($_POST['items'] ?? [], [
+                    'icon', 'title', 'text',
+                ]);
+                break;
+
+            case 'blog':
+                $hp['blog']['title'] = trim($_POST['title'] ?? '');
+                $hp['blog']['subtitle'] = trim($_POST['subtitle'] ?? '');
+                $hp['blog']['count'] = max(1, min(6, (int)($_POST['count'] ?? 3)));
+                break;
+
+            case 'cta':
+                $hp['cta']['title'] = trim($_POST['title'] ?? '');
+                $hp['cta']['text'] = trim($_POST['text'] ?? '');
+                $hp['cta']['button_text'] = trim($_POST['button_text'] ?? '');
+                $hp['cta']['button_link'] = trim($_POST['button_link'] ?? '');
+                $hp['cta']['phone'] = trim($_POST['phone'] ?? '');
+                break;
+
+            case 'ordine':
+                $order = $_POST['sections_order'] ?? [];
+                $valid = ['hero', 'categories', 'brands', 'products', 'banners', 'about', 'services', 'blog', 'cta'];
+                $hp['sections_order'] = array_values(array_intersect($order, $valid));
+                break;
+
+            default:
+                $_SESSION['_flash'] = ['type' => 'error', 'message' => 'Sectiune necunoscuta.'];
+                header('Location: /admin/homepage');
+                return;
+        }
+
+        $this->saveHomepage($hp);
+
+        $sectionNames = [
+            'hero' => 'Slider/Hero', 'categorii' => 'Categorii', 'branduri' => 'Branduri',
+            'produse' => 'Produse', 'bannere' => 'Bannere', 'despre' => 'Despre noi',
+            'servicii' => 'Servicii', 'blog' => 'Blog', 'cta' => 'CTA', 'ordine' => 'Ordine sectiuni',
+        ];
+        $_SESSION['_flash'] = [
+            'type' => 'success',
+            'message' => 'Sectiunea "' . ($sectionNames[$section] ?? $section) . '" a fost salvata.',
+        ];
+        header('Location: /admin/homepage');
     }
 
     public function messages(array $params, array $route): void
@@ -1733,5 +1851,38 @@ class AdminController
             $errors[] = 'Acest slug exista deja.';
         }
         return $errors;
+    }
+
+    // ─── HOMEPAGE HELPERS ───────────────────────────────────
+
+    private function loadHomepage(): array
+    {
+        $file = ROOT_PATH . '/data/homepage.json';
+        if (!file_exists($file)) {
+            return [];
+        }
+        return json_decode(file_get_contents($file), true) ?: [];
+    }
+
+    private function saveHomepage(array $data): void
+    {
+        $file = ROOT_PATH . '/data/homepage.json';
+        file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+    }
+
+    private function parseRepeaterItems(array $raw, array $fields): array
+    {
+        $items = [];
+        foreach ($raw as $i => $row) {
+            $item = ['id' => (int)($row['id'] ?? ($i + 1)), 'sort_order' => $i];
+            foreach ($fields as $f) {
+                $item[$f] = trim($row[$f] ?? '');
+            }
+            $item['is_active'] = !empty($row['is_active']);
+            if (!empty(array_filter(array_intersect_key($item, array_flip($fields))))) {
+                $items[] = $item;
+            }
+        }
+        return $items;
     }
 }

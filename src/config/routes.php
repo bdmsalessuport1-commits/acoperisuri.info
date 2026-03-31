@@ -386,6 +386,14 @@ return [
         'layout' => 'admin',
         'title' => 'Admin - Homepage',
     ],
+    '/admin/homepage/salveaza/{section}' => [
+        'controller' => 'AdminController',
+        'action' => 'homepageSave',
+        'method' => 'POST',
+        'name' => 'admin.homepage.save',
+        'layout' => 'admin',
+        'title' => 'Admin - Homepage Save',
+    ],
     '/admin/mesaje' => [
         'controller' => 'AdminController',
         'action' => 'messages',

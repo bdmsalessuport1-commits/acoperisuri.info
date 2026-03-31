@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32.png">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <?php $v = '10'; ?>
+    <?php $v = '11'; ?>
     <link rel="stylesheet" href="/css/variables.css?v=<?= $v ?>">
     <link rel="stylesheet" href="/css/admin.css?v=<?= $v ?>">
 </head>
