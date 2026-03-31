@@ -56,6 +56,40 @@
     display: block;
 }
 
+/* On tablet/mobile, show full banner image proportionally */
+@media (max-width: 1024px) {
+    .hero-slider {
+        transition: min-height 0.5s ease;
+    }
+
+    .hero-slide-banner {
+        min-height: auto !important;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .hero-banner-link {
+        flex: none;
+    }
+
+    .hero-banner-link img {
+        height: auto;
+        object-fit: contain;
+        border-radius: 4px;
+    }
+
+    .hero-banner-active,
+    .hero-banner-active .hero-slides {
+        min-height: auto !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-slide-banner {
+        padding: 12px 0;
+    }
+}
+
 .hero-slide-overlay {
     position: absolute;
     top: 0;

@@ -82,12 +82,21 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
     var dots=document.querySelectorAll('.hero-dot');
     var current=0,total=slides.length,timer;
     if(total<2)return;
+    var slider=document.getElementById('heroSlider');
+    function updateBannerMode(){
+        if(slides[current].classList.contains('hero-slide-banner')){
+            slider.classList.add('hero-banner-active');
+        } else {
+            slider.classList.remove('hero-banner-active');
+        }
+    }
     function goTo(n){
         slides[current].classList.remove('active');
         if(dots[current])dots[current].classList.remove('active');
         current=(n+total)%total;
         slides[current].classList.add('active');
         if(dots[current])dots[current].classList.add('active');
+        updateBannerMode();
     }
     function next(){goTo(current+1);}
     function startAuto(){timer=setInterval(next,5000);}
@@ -95,6 +104,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
     document.getElementById('heroNext').addEventListener('click',function(){next();resetAuto();});
     document.getElementById('heroPrev').addEventListener('click',function(){goTo(current-1);resetAuto();});
     dots.forEach(function(d){d.addEventListener('click',function(){goTo(+this.dataset.slide);resetAuto();});});
+    updateBannerMode();
     startAuto();
 })();
 </script>
