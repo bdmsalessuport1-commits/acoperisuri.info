@@ -21,30 +21,73 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
 <?php foreach ($sectionsOrder as $section): ?>
 
 <?php if ($section === 'hero'): ?>
-<?php $slides = $hero['slides'] ?? []; if (!empty($slides)): $slide = $slides[0]; ?>
-<!-- HERO SECTION -->
-<section class="hero"<?php if (!empty($slide['image'])): ?> style="background-image:url('<?= htmlspecialchars($slide['image']) ?>')"<?php endif; ?>>
-    <div class="container">
-        <div class="hero-content">
-            <h1><?= $slide['title'] ?? '' ?></h1>
-            <p class="hero-subtitle"><?= htmlspecialchars($slide['subtitle'] ?? '') ?></p>
-            <div class="hero-buttons">
-                <?php if (!empty($slide['button_text'])): ?>
-                    <a href="<?= htmlspecialchars($slide['button_link'] ?? '#') ?>" class="btn btn-primary btn-lg"><?= htmlspecialchars($slide['button_text']) ?></a>
-                <?php endif; ?>
-                <?php if (!empty($slide['button2_text'])): ?>
-                    <a href="<?= htmlspecialchars($slide['button2_link'] ?? '#') ?>" class="btn btn-outline-white btn-lg"><?= htmlspecialchars($slide['button2_text']) ?></a>
-                <?php endif; ?>
+<?php $slides = $hero['slides'] ?? []; $activeSlides = array_filter($slides, fn($s) => !empty($s['is_active'])); if (!empty($activeSlides)): ?>
+<!-- HERO SLIDER -->
+<section class="hero-slider" id="heroSlider">
+    <div class="hero-slides">
+        <?php foreach ($activeSlides as $idx => $slide): ?>
+        <div class="hero-slide <?= $idx === 0 ? 'active' : '' ?>"<?php if (!empty($slide['image'])): ?> style="background-image:url('<?= htmlspecialchars($slide['image']) ?>')"<?php endif; ?>>
+            <div class="hero-slide-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <?php if ($idx === 0): ?><h1><?= htmlspecialchars($slide['title'] ?? '') ?></h1>
+                    <?php else: ?><h2 class="hero-title"><?= htmlspecialchars($slide['title'] ?? '') ?></h2><?php endif; ?>
+                    <p class="hero-subtitle"><?= htmlspecialchars($slide['subtitle'] ?? '') ?></p>
+                    <div class="hero-buttons">
+                        <?php if (!empty($slide['button_text'])): ?>
+                            <a href="<?= htmlspecialchars($slide['button_link'] ?? '#') ?>" class="btn btn-primary btn-lg"><?= htmlspecialchars($slide['button_text']) ?></a>
+                        <?php endif; ?>
+                        <?php if (!empty($slide['button2_text'])): ?>
+                            <a href="<?= htmlspecialchars($slide['button2_link'] ?? '#') ?>" class="btn btn-outline-white btn-lg"><?= htmlspecialchars($slide['button2_text']) ?></a>
+                        <?php endif; ?>
+                    </div>
+                    <?php if (!empty($slide['badge_text'])): ?>
+                    <div class="hero-badge">
+                        <span class="badge-icon"><?= $slide['badge_icon'] ?? '' ?></span>
+                        <?= htmlspecialchars($slide['badge_text']) ?>
+                    </div>
+                    <?php endif; ?>
+                </div>
             </div>
-            <?php if (!empty($slide['badge_text'])): ?>
-            <div class="hero-badge">
-                <span class="badge-icon"><?= $slide['badge_icon'] ?? '' ?></span>
-                <?= htmlspecialchars($slide['badge_text']) ?>
-            </div>
-            <?php endif; ?>
         </div>
+        <?php endforeach; ?>
     </div>
+
+    <!-- Slider controls -->
+    <?php if (count($activeSlides) > 1): ?>
+    <button class="hero-arrow hero-arrow-prev" id="heroPrev" aria-label="Slide anterior">&#10094;</button>
+    <button class="hero-arrow hero-arrow-next" id="heroNext" aria-label="Slide urmator">&#10095;</button>
+    <div class="hero-dots">
+        <?php foreach ($activeSlides as $idx => $s): ?>
+        <button class="hero-dot <?= $idx === 0 ? 'active' : '' ?>" data-slide="<?= $idx ?>" aria-label="Slide <?= $idx + 1 ?>"></button>
+        <?php endforeach; ?>
+    </div>
+    <?php endif; ?>
 </section>
+
+<!-- Slider JS -->
+<script>
+(function(){
+    var slides=document.querySelectorAll('.hero-slide');
+    var dots=document.querySelectorAll('.hero-dot');
+    var current=0,total=slides.length,timer;
+    if(total<2)return;
+    function goTo(n){
+        slides[current].classList.remove('active');
+        if(dots[current])dots[current].classList.remove('active');
+        current=(n+total)%total;
+        slides[current].classList.add('active');
+        if(dots[current])dots[current].classList.add('active');
+    }
+    function next(){goTo(current+1);}
+    function startAuto(){timer=setInterval(next,5000);}
+    function resetAuto(){clearInterval(timer);startAuto();}
+    document.getElementById('heroNext').addEventListener('click',function(){next();resetAuto();});
+    document.getElementById('heroPrev').addEventListener('click',function(){goTo(current-1);resetAuto();});
+    dots.forEach(function(d){d.addEventListener('click',function(){goTo(+this.dataset.slide);resetAuto();});});
+    startAuto();
+})();
+</script>
 <?php endif; ?>
 
 <?php elseif ($section === 'categories'): ?>

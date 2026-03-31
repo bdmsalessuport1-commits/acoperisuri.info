@@ -65,15 +65,20 @@ a:hover{color:var(--color-primary)}
 .hamburger span{display:block;width:100%;height:2px;background-color:var(--color-primary);border-radius:2px;transition:all var(--transition-normal)}
 .mobile-nav-overlay{display:none}
 .site-main{min-height:calc(100vh - 200px)}
+.hero-slider{position:relative;min-height:600px;overflow:hidden}
+.hero-slides{position:relative;width:100%;min-height:600px}
+.hero-slide{position:absolute;top:0;left:0;width:100%;min-height:600px;display:flex;align-items:center;background-color:var(--color-primary);background-size:cover;background-position:center;opacity:0;transition:opacity 0.8s ease;z-index:1}
+.hero-slide.active{opacity:1;z-index:2;position:relative}
+.hero-slide-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,rgba(0,32,74,0.85) 0%,rgba(45,43,72,0.6) 60%,rgba(18,167,87,0.3) 100%);z-index:1}
 .hero{position:relative;min-height:600px;display:flex;align-items:center;background:linear-gradient(135deg,rgba(0,32,74,0.85) 0%,rgba(45,43,72,0.6) 60%,rgba(18,167,87,0.3) 100%);background-color:var(--color-primary);overflow:hidden}
 .hero-content{position:relative;z-index:2;max-width:650px}
-.hero h1{color:#fff;font-size:2.8rem;font-weight:700;line-height:1.15;margin-bottom:var(--spacing-md)}
+.hero-slide h1,.hero-title,.hero h1{color:#fff;font-size:2.8rem;font-weight:700;line-height:1.15;margin-bottom:var(--spacing-md)}
 .hero-subtitle{color:rgba(255,255,255,0.85);font-size:var(--text-lg);line-height:1.6;margin-bottom:var(--spacing-xl)}
 .hero-buttons{display:flex;gap:var(--spacing-md);flex-wrap:wrap;margin-bottom:var(--spacing-xl)}
 .btn-outline-white{background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.6)}
 .btn-outline-white:hover{background:#fff;color:var(--color-primary);border-color:#fff}
 @media(max-width:1024px){.site-nav{display:none}.header-cta .btn-text{display:none}.header-cta .btn{padding:10px;min-width:auto}.hamburger{display:flex}.mobile-nav-overlay{display:block}.site-logo img{height:45px}}
-@media(max-width:768px){.hero{min-height:400px}.hero h1{font-size:2rem}}
+@media(max-width:768px){.hero-slider,.hero-slides,.hero-slide{min-height:450px}.hero{min-height:400px}.hero-slide h1,.hero-title,.hero h1{font-size:2rem}}
 @media(max-width:480px){.container{padding:0 var(--spacing-md)}h1{font-size:var(--text-2xl)}h2{font-size:var(--text-xl)}h3{font-size:var(--text-lg)}.top-bar-left{font-size:0.65rem}.top-bar-right .delivery-text{display:none}.site-logo img{height:38px}.hero h1{font-size:1.6rem}.hero-buttons{flex-direction:column}.hero-buttons .btn{width:100%}}
 CSS;
 
