@@ -202,6 +202,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav-overlay" id="mobileNav">
+    <button class="mobile-nav-close" id="mobileNavClose" aria-label="Inchide meniul">&times;</button>
     <ul class="mobile-nav-list">
         <li class="mobile-nav-item">
             <a href="#" class="mobile-nav-link" data-toggle="mobile-produse">Produse <span class="arrow">&#9660;</span></a>

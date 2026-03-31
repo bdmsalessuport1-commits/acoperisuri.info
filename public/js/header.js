@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             header.classList.remove('scrolled');
         }
-        if (window.innerWidth > 1024) {
+        if (window.innerWidth > 1200) {
             if (scrollY > 100) {
                 topBar.classList.add('hidden');
             } else {
@@ -22,12 +22,24 @@ document.addEventListener('DOMContentLoaded', function () {
     }, { passive: true });
 
     // Hamburger
+    var mobileClose = document.getElementById('mobileNavClose');
+
+    function closeMobileNav() {
+        hamburger.classList.remove('active');
+        mobileNav.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
     if (hamburger && mobileNav) {
         hamburger.addEventListener('click', function () {
             hamburger.classList.toggle('active');
             mobileNav.classList.toggle('active');
             document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
         });
+    }
+
+    if (mobileClose) {
+        mobileClose.addEventListener('click', closeMobileNav);
     }
 
     // Mobile accordion
@@ -53,20 +65,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Close mobile on link click
     if (mobileNav) {
         mobileNav.querySelectorAll('a:not([data-toggle])').forEach(function (link) {
-            link.addEventListener('click', function () {
-                hamburger.classList.remove('active');
-                mobileNav.classList.remove('active');
-                document.body.style.overflow = '';
-            });
+            link.addEventListener('click', closeMobileNav);
         });
     }
 
     // Close mobile on resize
     window.addEventListener('resize', function () {
-        if (window.innerWidth > 1024 && mobileNav && mobileNav.classList.contains('active')) {
-            hamburger.classList.remove('active');
-            mobileNav.classList.remove('active');
-            document.body.style.overflow = '';
+        if (window.innerWidth > 1200 && mobileNav && mobileNav.classList.contains('active')) {
+            closeMobileNav();
         }
     });
 

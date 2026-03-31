@@ -23,6 +23,6 @@
     <?php endif; ?>
 
     <!-- Scripts -->
-    <script src="/js/app.min.js?v=11" defer></script>
+    <script src="/js/app.min.js?v=13" defer></script>
 </body>
 </html>
