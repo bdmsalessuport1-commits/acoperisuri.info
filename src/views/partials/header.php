@@ -45,7 +45,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 <a href="/tabla-click" class="mega-cat-link has-sub" data-panel="panel-tabla-click">Tabla click <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/tabla-cutata" class="mega-cat-link has-sub" data-panel="panel-tabla-cutata">Tabla cutata <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/sisteme-pluviale" class="mega-cat-link has-sub" data-panel="panel-pluviale">Sisteme pluviale <span class="cat-arrow">&#9654;</span></a>
-                                <a href="/folii-anticondens" class="mega-cat-link">Folii anticondens</a>
+                                <a href="/folii-anticondens" class="mega-cat-link has-sub" data-panel="panel-folii">Folii si membrane <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/accesorii-acoperis" class="mega-cat-link">Accesorii acoperis</a>
                                 <a href="/sipci-metalice" class="mega-cat-link">Sipci metalice</a>
                                 <a href="/tamplarie-pvc-aluminiu" class="mega-cat-link">Tamplarie PVC si Aluminiu</a>
@@ -118,6 +118,17 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                     <a href="/sisteme-pluviale/metigla">Sistem de scurgere Metigla</a>
                                     <a href="/sisteme-pluviale/wetterbest">Sistem de scurgere Wetterbest</a>
                                     <a href="/sisteme-pluviale/flamingo-iq-budmat">Flamingo iQ Budmat</a>
+                                </div>
+
+                                <div class="mega-sub-panel" id="panel-folii">
+                                    <h4>Folii si membrane Riwega</h4>
+                                    <a href="/folii-anticondens/folii-bdm">Folii BDM Systems</a>
+                                    <a href="/folii-anticondens/membrane-difuzie-acoperis">Membrane difuzie acoperis</a>
+                                    <a href="/folii-anticondens/membrane-control-vapori">Membrane control vapori</a>
+                                    <a href="/folii-anticondens/bariere-vapori">Bariere de vapori</a>
+                                    <a href="/folii-anticondens/membrane-fatada">Membrane fatada</a>
+                                    <a href="/folii-anticondens/covoare-tabla-faltuita">Covoare tabla faltuita</a>
+                                    <a href="/folii-anticondens/membrane-autoadezive">Membrane autoadezive</a>
                                 </div>
 
                                 <div class="mega-sub-panel" id="panel-garduri">
@@ -195,7 +206,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/tabla-faltuita">Tabla faltuita</a>
                 <a href="/tabla-click">Tabla click</a>
                 <a href="/tabla-cutata">Tabla cutata</a>
-                <a href="/folii-anticondens">Folii anticondens</a>
+                <a href="/folii-anticondens">Folii si membrane Riwega</a>
                 <a href="/accesorii-acoperis">Accesorii acoperis</a>
                 <a href="/sipci-metalice">Sipci metalice</a>
                 <div class="sub-heading">Sisteme pluviale</div>
