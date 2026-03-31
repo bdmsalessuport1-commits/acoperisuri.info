@@ -508,13 +508,20 @@
         display: none;
     }
 
-    .header-cta .btn-text {
-        display: none;
+    .header-cta {
+        flex-direction: column;
+        gap: 4px;
     }
 
     .header-cta .btn {
-        padding: 10px;
+        padding: 6px 12px;
+        font-size: 0.75rem;
         min-width: auto;
+        justify-content: center;
+    }
+
+    .header-cta .btn-text {
+        display: inline;
     }
 
     .hamburger {
@@ -541,5 +548,10 @@
 
     .site-logo img {
         height: 38px;
+    }
+
+    .header-cta .btn {
+        padding: 5px 8px;
+        font-size: 0.7rem;
     }
 }
