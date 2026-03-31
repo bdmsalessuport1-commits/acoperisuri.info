@@ -24,7 +24,13 @@ class CategoryController
     {
         $slug = $params['categorie'] ?? basename(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH));
         $data = $this->categoriesData[$slug] ?? null;
-        $name = $data['name'] ?? $this->slugToName($slug);
+
+        if (!$data) {
+            View::render404();
+            return;
+        }
+
+        $name = $data['name'];
 
         View::render('pages/category', [
             'pageTitle' => $route['title'] ?? ($name . ' - BDM Systems | acoperisuri.info'),
@@ -43,7 +49,13 @@ class CategoryController
         $catSlug = $params['categorie'] ?? 'categorie';
         $subSlug = $params['subcategorie'] ?? 'subcategorie';
         $catData = $this->categoriesData[$catSlug] ?? null;
-        $catName = $catData['name'] ?? $this->slugToName($catSlug);
+
+        if (!$catData) {
+            View::render404();
+            return;
+        }
+
+        $catName = $catData['name'];
         $subName = $this->slugToName($subSlug);
 
         if ($catData && !empty($catData['subcategories'])) {
