@@ -168,6 +168,13 @@ return [
         'title' => 'Hidroizolatii terase - BDM Systems',
         'description' => 'Sisteme de hidroizolatie pentru terase. Protectie impermeabila de durata.',
     ],
+    '/sageac-metalic' => [
+        'controller' => 'CategoryController',
+        'action' => 'show',
+        'name' => 'sageac-metalic',
+        'title' => 'Sageac metalic - Finisaj stresini | BDM Systems',
+        'description' => 'Sageac metalic pentru finisarea streasinilor. Protectie, ventilatie si aspect modern fara intretinere.',
+    ],
 
     // Produs individual (INAINTE de categorii dinamice!)
     '/produs/{slug}' => [

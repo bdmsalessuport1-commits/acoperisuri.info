@@ -208,5 +208,20 @@
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
         "updated_at": "2026-03-30 19:24:00"
+    },
+    {
+        "id": 15,
+        "name": "Sageac metalic",
+        "slug": "sageac-metalic",
+        "description": "Sageac metalic pentru finisarea streasinii acoperisului. Protejeaza structura de lemn impotriva umiditatii si asigura un aspect modern, fara intretinere.",
+        "image": "/images/categories/sageac-metalic.jpg",
+        "icon": "&#128295;",
+        "seo_title": "Sageac metalic - Finisaj stresini | BDM Systems",
+        "seo_description": "Sageac metalic pentru finisarea streasinilor. Protectie, ventilatie si aspect modern fara intretinere.",
+        "seo_text": "<h2>Sageac metalic - finisajul perfect pentru stresini</h2><p>Sageacul metalic este solutia moderna pentru finisarea streasinilor acoperisului. Inlocuieste clasicul lambriu din lemn, oferind durabilitate superioara si zero intretinere.</p><h3>Avantaje sageac metalic</h3><ul><li>Nu necesita vopsire sau lacuire periodica</li><li>Rezistent la umiditate si intemperii</li><li>Ventilatie integrata pentru podul acoperisului</li><li>Aspect modern si uniform</li><li>Montaj rapid si curat</li></ul><h3>Tipuri disponibile</h3><p>Oferim sageac metalic simplu si perforat (pentru ventilatie), in diverse culori RAL asortate cu invelitoarea.</p>",
+        "sort_order": 15,
+        "is_active": true,
+        "created_at": "2026-03-31 11:15:41",
+        "updated_at": "2026-03-31 11:15:41"
     }
 ]

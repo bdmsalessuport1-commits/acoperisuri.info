@@ -35,6 +35,25 @@
     position: relative;
 }
 
+/* Banner mode slides (image only, no overlay) */
+.hero-slide-banner {
+    background: var(--color-primary);
+}
+
+.hero-banner-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-banner-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .hero-slide-overlay {
     position: absolute;
     top: 0;

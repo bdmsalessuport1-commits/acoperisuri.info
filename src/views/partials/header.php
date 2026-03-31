@@ -48,6 +48,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 <a href="/folii-anticondens" class="mega-cat-link has-sub" data-panel="panel-folii">Folii si membrane <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/accesorii-acoperis" class="mega-cat-link">Accesorii acoperis</a>
                                 <a href="/sipci-metalice" class="mega-cat-link">Sipci metalice</a>
+                                <a href="/sageac-metalic" class="mega-cat-link">Sageac metalic</a>
                                 <a href="/tamplarie-pvc-aluminiu" class="mega-cat-link">Tamplarie PVC si Aluminiu</a>
                                 <a href="/ferestre-mansarda-fakro" class="mega-cat-link">Ferestre mansarda FAKRO</a>
                                 <a href="/scari-pod-fakro" class="mega-cat-link">Scari de pod FAKRO</a>
@@ -213,6 +214,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/folii-anticondens">Folii si membrane Riwega</a>
                 <a href="/accesorii-acoperis">Accesorii acoperis</a>
                 <a href="/sipci-metalice">Sipci metalice</a>
+                <a href="/sageac-metalic">Sageac metalic</a>
                 <div class="sub-heading">Sisteme pluviale</div>
                 <a href="/sisteme-pluviale/metigla">Scurgere Metigla</a>
                 <a href="/sisteme-pluviale/wetterbest">Scurgere Wetterbest</a>

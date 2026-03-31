@@ -26,6 +26,15 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
 <section class="hero-slider" id="heroSlider">
     <div class="hero-slides">
         <?php foreach ($activeSlides as $idx => $slide): ?>
+        <?php if (!empty($slide['banner_mode']) && !empty($slide['image'])): ?>
+        <!-- Banner slide (image only) -->
+        <div class="hero-slide hero-slide-banner <?= $idx === 0 ? 'active' : '' ?>">
+            <a href="<?= htmlspecialchars($slide['banner_link'] ?? '#') ?>" class="hero-banner-link" aria-label="<?= htmlspecialchars($slide['title'] ?? '') ?>">
+                <img src="<?= htmlspecialchars($slide['image']) ?>" alt="<?= htmlspecialchars($slide['title'] ?? '') ?>" width="1600" height="670" fetchpriority="<?= $idx === 0 ? 'high' : 'low' ?>">
+            </a>
+        </div>
+        <?php else: ?>
+        <!-- Content slide (text overlay) -->
         <div class="hero-slide <?= $idx === 0 ? 'active' : '' ?>"<?php if (!empty($slide['image'])): ?> style="background-image:url('<?= htmlspecialchars($slide['image']) ?>')"<?php endif; ?>>
             <div class="hero-slide-overlay"></div>
             <div class="container">
@@ -50,6 +59,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
                 </div>
             </div>
         </div>
+        <?php endif; ?>
         <?php endforeach; ?>
     </div>
 
