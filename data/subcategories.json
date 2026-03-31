@@ -330,31 +330,31 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 3,
+        "count": 7,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 3,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 10:48:55"
     },
     {
         "id": 21,
         "category_id": 7,
-        "name": "Treceri de ventilatie",
-        "slug": "treceri-ventilatie",
+        "name": "Ventilare acoperis",
+        "slug": "ventilare-acoperis",
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 3,
+        "count": 8,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 4,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 10:48:55"
     },
     {
         "id": 22,
@@ -364,14 +364,14 @@
         "description": "",
         "image": "",
         "icon": "&#128295;",
-        "count": 4,
+        "count": 28,
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
         "sort_order": 5,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-03-31 10:48:55"
     },
     {
         "id": 23,
