@@ -1,5 +1,12 @@
 FROM php:8.3-apache
 
+# Install GD extension (required for image processing: resize, WebP conversion)
+RUN apt-get update && apt-get install -y \
+    libpng-dev libjpeg62-turbo-dev libwebp-dev libfreetype6-dev \
+    && docker-php-ext-configure gd --with-jpeg --with-webp --with-freetype \
+    && docker-php-ext-install gd \
+    && rm -rf /var/lib/apt/lists/*
+
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite headers
 
@@ -16,6 +23,7 @@ COPY . /var/www/html/
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html/storage
+RUN mkdir -p /var/www/html/public/uploads/thumbs && chown -R www-data:www-data /var/www/html/public/uploads
 
 # Use PORT environment variable (Render sets this)
 RUN sed -i 's/80/${PORT}/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
