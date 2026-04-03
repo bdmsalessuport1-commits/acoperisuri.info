@@ -30,7 +30,7 @@
                     <a href="/sisteme-pluviale">Sisteme pluviale</a>
                     <a href="/folii-anticondens">Folii anticondens</a>
                     <a href="/tamplarie-pvc-aluminiu">Tamplarie PVC si Aluminiu</a>
-                    <a href="/ferestre-mansarda-fakro">Ferestre mansarda FAKRO</a>
+                    <a href="/ferestre-fakro">Ferestre FAKRO</a>
                     <a href="/scari-pod-fakro">Scari de pod FAKRO</a>
                     <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
                 </div>

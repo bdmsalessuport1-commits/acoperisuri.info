@@ -78,6 +78,12 @@ if ($route === null) {
     exit;
 }
 
+// Handle route-level redirects
+if (!empty($route['redirect'])) {
+    header('Location: ' . $route['redirect'], true, 301);
+    exit;
+}
+
 // Determina controller-ul si actiunea
 $controllerName = 'App\\Controllers\\' . $route['controller'];
 $action = $route['action'];

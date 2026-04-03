@@ -277,7 +277,7 @@ return [
 <p>Normele europene (EPBD) impun ca toate cladirile noi din 2025 sa fie "aproape cu consum zero de energie". Izolatia acoperisului devine critica. Solutii precum <a href="/izolatie/steico">STEICO Zell</a> si ferestrele triple FAKRO inregistreaza cresteri de vanzari de 40% fata de 2023.</p>
 
 <h2 id="ferestre-mansarda">3. Ferestrele de mansarda — lumina naturala ca prioritate</h2>
-<p>Mansardele amenajate au explodat ca tendinta post-pandemie. <a href="/ferestre-mansarda-fakro">Ferestrele FAKRO</a> cu triplu vitraj (U = 0.51 W/m&sup2;K) combina lumina naturala maxima cu izolatie termica excelenta. Dimensiunile mari (94x160, 114x160) sunt tot mai cerute.</p>
+<p>Mansardele amenajate au explodat ca tendinta post-pandemie. <a href="/ferestre-fakro">Ferestrele FAKRO</a> cu triplu vitraj (U = 0.51 W/m&sup2;K) combina lumina naturala maxima cu izolatie termica excelenta. Dimensiunile mari (94x160, 114x160) sunt tot mai cerute.</p>
 
 <h2 id="design-sisteme-pluviale">4. Sisteme pluviale cu design</h2>
 <p>Jgheaburile rectangulare (Flamingo iQ Budmat) si sistemele din otel vopsit in culori coordonate cu tigla devin standardul. Clientii vor un acoperis coerent vizual, nu doar functional.</p>

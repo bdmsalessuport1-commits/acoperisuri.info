@@ -72,7 +72,7 @@
                         <li>&#9989; Dimensionare conform normelor (min 10% din suprafata)</li>
                         <li>&#9989; Garantie montaj + garantie producator</li>
                     </ul>
-                    <a href="/ferestre-mansarda-fakro" class="btn btn-sm btn-outline-green">Vezi produse FAKRO &rarr;</a>
+                    <a href="/ferestre-fakro" class="btn btn-sm btn-outline-green">Vezi produse FAKRO &rarr;</a>
                 </div>
             </div>
 

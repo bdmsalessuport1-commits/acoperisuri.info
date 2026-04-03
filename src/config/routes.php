@@ -140,12 +140,17 @@ return [
         'title' => 'Tamplarie PVC si Aluminiu - BDM Systems',
         'description' => 'Ferestre si usi din PVC si aluminiu de inalta calitate. Eficienta energetica si design modern.',
     ],
-    '/ferestre-mansarda-fakro' => [
+    '/ferestre-fakro' => [
         'controller' => 'CategoryController',
         'action' => 'show',
-        'name' => 'ferestre-mansarda',
-        'title' => 'Ferestre mansarda FAKRO - BDM Systems',
-        'description' => 'Ferestre de mansarda FAKRO - iluminare naturala si ventilatie pentru mansarda dumneavoastra.',
+        'name' => 'ferestre-fakro',
+        'title' => 'Ferestre si Luminatoare FAKRO - BDM Systems',
+        'description' => 'Ferestre mansarda, ferestre terasa, tunele de lumina si luminatoare FAKRO. Iluminare naturala si ventilatie.',
+    ],
+    '/ferestre-mansarda-fakro' => [
+        'controller' => 'CategoryController',
+        'action' => 'redirect',
+        'redirect' => '/ferestre-fakro',
     ],
     '/scari-pod-fakro' => [
         'controller' => 'CategoryController',

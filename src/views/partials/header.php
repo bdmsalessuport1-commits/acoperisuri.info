@@ -50,7 +50,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 <a href="/sipci-metalice" class="mega-cat-link">Sipci metalice</a>
                                 <a href="/sageac-metalic" class="mega-cat-link">Sageac metalic</a>
                                 <a href="/tamplarie-pvc-aluminiu" class="mega-cat-link">Tamplarie PVC si Aluminiu</a>
-                                <a href="/ferestre-mansarda-fakro" class="mega-cat-link">Ferestre mansarda FAKRO</a>
+                                <a href="/ferestre-fakro" class="mega-cat-link">Ferestre si luminatoare FAKRO</a>
                                 <a href="/scari-pod-fakro" class="mega-cat-link">Scari de pod FAKRO</a>
                                 <a href="/izolatie" class="mega-cat-link">Izolatie fibre lemn STEICO</a>
                                 <a href="/hidroizolatii-terase" class="mega-cat-link">Hidroizolatii terase</a>
@@ -222,7 +222,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/sisteme-pluviale/flamingo-iq-budmat">Flamingo iQ Budmat</a>
                 <div class="sub-heading">Tamplarie si Ferestre</div>
                 <a href="/tamplarie-pvc-aluminiu">Tamplarie PVC si Aluminiu</a>
-                <a href="/ferestre-mansarda-fakro">Ferestre mansarda FAKRO</a>
+                <a href="/ferestre-fakro">Ferestre FAKRO</a>
                 <a href="/scari-pod-fakro">Scari de pod FAKRO</a>
                 <div class="sub-heading">Izolatie</div>
                 <a href="/izolatie">Izolatie fibre lemn STEICO</a>

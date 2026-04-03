@@ -136,18 +136,18 @@
     },
     {
         "id": 10,
-        "name": "Ferestre mansarda FAKRO",
-        "slug": "ferestre-mansarda-fakro",
-        "description": "Ferestre de mansarda FAKRO - iluminare naturala, ventilatie si acces pe acoperis. Modele cu deschidere superioara, laterala sau electrica.",
+        "name": "Ferestre si luminatoare FAKRO",
+        "slug": "ferestre-fakro",
+        "description": "Ferestre de mansarda, ferestre pentru acoperis terasa, tunele de lumina si luminatoare FAKRO. Iluminare naturala, ventilatie si acces pe acoperis.",
         "image": "",
         "icon": "&#127968;",
-        "seo_title": "Ferestre Mansarda FAKRO - Modele si Preturi",
+        "seo_title": "Ferestre FAKRO - Mansarda, Terasa, Tunele de Lumina, Luminatoare",
         "seo_description": "",
-        "seo_text": "<h2>Ferestre de mansarda FAKRO</h2>\n            <p>FAKRO este unul dintre cei mai importanti producatori de ferestre de mansarda din Europa. Oferim gama completa de ferestre FAKRO cu diverse tipuri de deschidere si geam termoizolant.</p>\n            <h3>Tipuri de ferestre mansarda</h3>\n            <ul>\n                <li>Cu deschidere superioara (basculanta) - cele mai populare</li>\n                <li>Cu deschidere laterala - acces facil pe acoperis</li>\n                <li>Cu deschidere electrica - confort maxim</li>\n                <li>Ferestre de acces pe acoperis</li>\n            </ul>",
+        "seo_text": "<h2>Ferestre si luminatoare FAKRO</h2>\n<p>FAKRO este unul dintre cei mai importanti producatori europeni de ferestre de mansarda, ferestre pentru acoperis terasa, tunele de lumina si luminatoare. Toate produsele FAKRO ofera iluminare naturala superioara, ventilatie eficienta si acces sigur pe acoperis.</p>\n<h3>Categorii de produse FAKRO</h3>\n<ul>\n<li>Ferestre de mansarda - cu centru de rotatie, preSelect MAX, PVC, supertermoizolante</li>\n<li>Ferestre pentru acoperis terasa - tip C, tip F, circulabile DXW</li>\n<li>Tunele de lumina - cu tub rigid SRT si flexibil SLT</li>\n<li>Luminatoare - WLI, WGI, WGT pentru acces pe acoperis</li>\n</ul>",
         "sort_order": 10,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-04-03 10:00:00"
     },
     {
         "id": 11,

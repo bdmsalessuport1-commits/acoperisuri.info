@@ -261,33 +261,36 @@ return [
                 <li>Gama variata de culori si finisaje</li>
             </ul>',
         'related' => [
-            ['slug' => '/ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            ['slug' => '/ferestre-fakro', 'name' => 'Ferestre si luminatoare FAKRO'],
             ['slug' => '/izolatie', 'name' => 'Izolatie STEICO'],
         ],
     ],
 
-    'ferestre-mansarda-fakro' => [
-        'name' => 'Ferestre mansarda FAKRO',
-        'description' => 'Ferestre de mansarda FAKRO - iluminare naturala, ventilatie si acces pe acoperis. Modele cu deschidere superioara, laterala sau electrica.',
+    'ferestre-fakro' => [
+        'name' => 'Ferestre si luminatoare FAKRO',
+        'description' => 'Ferestre mansarda, ferestre terasa, tunele de lumina si luminatoare FAKRO. Iluminare naturala si ventilatie.',
         'icon' => '&#127968;',
         'subcategories' => [
-            ['slug' => 'fakro', 'name' => 'FAKRO', 'count' => 7, 'icon' => '&#127968;'],
+            ['slug' => 'ferestre-mansarda', 'name' => 'Ferestre mansarda', 'count' => 15, 'icon' => '&#127968;'],
+            ['slug' => 'ferestre-acoperis-terasa', 'name' => 'Ferestre acoperis terasa', 'count' => 8, 'icon' => '&#9632;'],
+            ['slug' => 'tunele-de-lumina', 'name' => 'Tunele de lumina', 'count' => 4, 'icon' => '&#9728;'],
+            ['slug' => 'luminatoare', 'name' => 'Luminatoare', 'count' => 3, 'icon' => '&#128161;'],
         ],
         'popular' => [
             ['slug' => 'fakro-ftp-v-u3', 'name' => 'FTP-V U3', 'brand' => 'FAKRO'],
             ['slug' => 'fakro-ftp-v-u5', 'name' => 'FTP-V U5', 'brand' => 'FAKRO'],
-            ['slug' => 'fakro-fts-v-u2', 'name' => 'FTS-V U2', 'brand' => 'FAKRO'],
-            ['slug' => 'fakro-fdy-v-u3', 'name' => 'FDY-V U3 Duet proSky', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-ftt-u8-thermo', 'name' => 'FTT U8 Thermo', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-dxw', 'name' => 'DXW Circulabila', 'brand' => 'FAKRO'],
         ],
-        'seo_title' => 'Ferestre Mansarda FAKRO - Modele si Preturi',
-        'seo_text' => '<h2>Ferestre de mansarda FAKRO</h2>
-            <p>FAKRO este unul dintre cei mai importanti producatori de ferestre de mansarda din Europa. Oferim gama completa de ferestre FAKRO cu diverse tipuri de deschidere si geam termoizolant.</p>
-            <h3>Tipuri de ferestre mansarda</h3>
+        'seo_title' => 'Ferestre si Luminatoare FAKRO - Mansarda, Terasa, Tunele de Lumina',
+        'seo_text' => '<h2>Ferestre si luminatoare FAKRO</h2>
+            <p>FAKRO este unul dintre cei mai importanti producatori europeni de ferestre de mansarda, ferestre terasa, tunele de lumina si luminatoare.</p>
+            <h3>Categorii de produse</h3>
             <ul>
-                <li>Cu deschidere superioara (basculanta) - cele mai populare</li>
-                <li>Cu deschidere laterala - acces facil pe acoperis</li>
-                <li>Cu deschidere electrica - confort maxim</li>
-                <li>Ferestre de acces pe acoperis</li>
+                <li>Ferestre mansarda - cu centru de rotatie, preSelect MAX, PVC, supertermoizolante</li>
+                <li>Ferestre acoperis terasa - tip C, tip F, circulabile DXW</li>
+                <li>Tunele de lumina - cu tub rigid SRT si flexibil SLT</li>
+                <li>Luminatoare - WLI, WGI, WGT</li>
             </ul>',
         'related' => [
             ['slug' => '/scari-pod-fakro', 'name' => 'Scari de pod FAKRO'],
@@ -301,13 +304,13 @@ return [
         'description' => 'Scari escamotabile FAKRO pentru acces la pod. Modele din lemn si metal, izolate termic, cu diverse dimensiuni.',
         'icon' => '&#128682;',
         'subcategories' => [
-            ['slug' => 'fakro', 'name' => 'FAKRO', 'count' => 6, 'icon' => '&#128682;'],
+            ['slug' => 'fakro', 'name' => 'FAKRO', 'count' => 13, 'icon' => '&#128682;'],
         ],
         'popular' => [
             ['slug' => 'fakro-lwk-komfort', 'name' => 'LWK Komfort', 'brand' => 'FAKRO'],
             ['slug' => 'fakro-lwt-thermo', 'name' => 'LWT Thermo', 'brand' => 'FAKRO'],
+            ['slug' => 'fakro-lmk-komfort', 'name' => 'LMK Komfort Metal', 'brand' => 'FAKRO'],
             ['slug' => 'fakro-lst', 'name' => 'LST Foarfeca', 'brand' => 'FAKRO'],
-            ['slug' => 'fakro-lmf', 'name' => 'LMF Antifoc', 'brand' => 'FAKRO'],
         ],
         'seo_title' => 'Scari de Pod FAKRO - Escamotabile si Izolate',
         'seo_text' => '<h2>Scari de pod FAKRO - acces sigur si confortabil</h2>
@@ -316,11 +319,13 @@ return [
             <ul>
                 <li>LWK Komfort - din lemn, model standard popular</li>
                 <li>LWT Thermo - din lemn, cu izolatie termica superioara</li>
-                <li>LST - metalica, design scissor, economie de spatiu</li>
+                <li>LMK Komfort - metalica, robusta si durabila</li>
+                <li>LST Foarfeca - metalica, economie de spatiu</li>
                 <li>LML Lux - metalica cu balustrada</li>
+                <li>LSZ / LSF - foarfeca termoizolata / antifoc</li>
             </ul>',
         'related' => [
-            ['slug' => '/ferestre-mansarda-fakro', 'name' => 'Ferestre mansarda FAKRO'],
+            ['slug' => '/ferestre-fakro', 'name' => 'Ferestre si luminatoare FAKRO'],
         ],
     ],
 
