@@ -12,6 +12,7 @@ class MediaHelper
         'thumbnail' => ['w' => 400,  'h' => 300,  'max_kb' => 100, 'label' => 'Thumbnail (auto)',        'hint' => '400x300px, auto-generat'],
         'blog'      => ['w' => 1200, 'h' => 630,  'max_kb' => 400, 'label' => 'Blog featured',           'hint' => '1200x630px, JPG/WebP'],
         'logo'      => ['w' => 300,  'h' => 150,  'max_kb' => 100, 'label' => 'Logo producator',         'hint' => '300x150px, PNG transparent'],
+        'swatch'    => ['w' => 200,  'h' => 200,  'max_kb' => 80,  'label' => 'Culoare / Swatch produs', 'hint' => '200x200px, JPG/WebP, patrat, fundal curat'],
         'general'   => ['w' => 1200, 'h' => 1200, 'max_kb' => 500, 'label' => 'General',                 'hint' => 'Max 1200x1200px, orice format'],
     ];
 

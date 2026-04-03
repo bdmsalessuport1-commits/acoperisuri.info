@@ -123,6 +123,7 @@ class ProductController
                     'name' => $c['name'],
                     'code' => $c['code'] ?? '',
                     'color' => $c['hex'] ?? '#cccccc',
+                    'swatch' => $c['swatch'] ?? '',
                 ];
             }
             $materials[$mat['name']] = $colors;

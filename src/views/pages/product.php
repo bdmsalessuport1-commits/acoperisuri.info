@@ -102,7 +102,13 @@ if ($warranty) {
                             <div class="color-grid">
                                 <?php foreach ($colors as $c): ?>
                                     <div class="color-swatch-item">
-                                        <div class="color-preview" style="background-color: <?= htmlspecialchars($c['color']) ?>;"></div>
+                                        <?php if (!empty($c['swatch'])): ?>
+                                            <div class="color-preview color-preview-image">
+                                                <img src="<?= htmlspecialchars($c['swatch']) ?>" alt="<?= htmlspecialchars($c['name']) ?>" loading="lazy">
+                                            </div>
+                                        <?php else: ?>
+                                            <div class="color-preview" style="background-color: <?= htmlspecialchars($c['color']) ?>;"></div>
+                                        <?php endif; ?>
                                         <div class="color-name"><?= htmlspecialchars($c['name']) ?></div>
                                         <div class="color-code"><?= htmlspecialchars($c['code']) ?></div>
                                     </div>

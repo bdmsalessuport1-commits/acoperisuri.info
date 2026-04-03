@@ -19,7 +19,7 @@ $action = $isEdit ? '/admin/produse/editeaza/' . ($formData['id'] ?? 0) : '/admi
     </div>
 <?php endif; ?>
 
-<form method="post" action="<?= $action ?>" class="admin-form-grid" id="productForm">
+<form method="post" action="<?= $action ?>" class="admin-form-grid" id="productForm" enctype="multipart/form-data">
     <input type="hidden" name="_csrf_token" value="<?= $csrfToken ?>">
 
     <!-- ═══ MAIN COLUMN ═══ -->
@@ -115,29 +115,42 @@ $action = $isEdit ? '/admin/produse/editeaza/' . ($formData['id'] ?? 0) : '/admi
             </div>
         </div>
 
-        <!-- Materiale si culori -->
+        <!-- Categorii finisaje si culori -->
         <div class="admin-card">
             <div class="admin-card-header">
-                Materiale si culori
-                <button type="button" class="btn btn-sm btn-outline" onclick="addMaterialGroup()" style="margin-left: auto;">+ Material</button>
+                Categorii finisaje si culori
+                <button type="button" class="btn btn-sm btn-outline" onclick="addMaterialGroup()" style="margin-left: auto;">+ Categorie finisaj</button>
             </div>
             <div class="admin-card-body" id="materialsContainer">
+                <div class="admin-swatch-hint">
+                    <strong>Imagine recomandata:</strong> 200 &times; 200px, format patrat, JPG sau WebP, fundal curat, aceeasi proportie pentru toate imaginile din aceeasi categorie.
+                </div>
                 <?php
                 $materials = $formData['materials'] ?? [];
                 foreach ($materials as $mi => $mat):
                 ?>
                 <div class="admin-material-group" data-mat-index="<?= $mi ?>">
                     <div class="admin-material-header">
-                        <input type="text" name="mat_name[<?= $mi ?>]" value="<?= htmlspecialchars($mat['name'] ?? '') ?>" placeholder="Nume material (ex: D-Matt, SuperMat)" class="admin-material-name">
+                        <input type="text" name="mat_name[<?= $mi ?>]" value="<?= htmlspecialchars($mat['name'] ?? '') ?>" placeholder="Nume categorie finisaj (ex: SuperMat, PUR Nova, Lucios)" class="admin-material-name">
                         <button type="button" class="btn btn-sm btn-outline" onclick="addColorRow(this.closest('.admin-material-group'))" title="Adauga culoare">+ Culoare</button>
-                        <button type="button" class="btn btn-sm btn-danger" onclick="this.closest('.admin-material-group').remove()" title="Sterge material">&times;</button>
+                        <button type="button" class="btn btn-sm btn-danger" onclick="this.closest('.admin-material-group').remove()" title="Sterge categorie">&times;</button>
                     </div>
                     <div class="admin-colors-list">
                         <?php foreach ($mat['colors'] ?? [] as $ci => $color): ?>
                         <div class="admin-color-row">
-                            <input type="color" name="mat_colors[<?= $mi ?>][hex][<?= $ci ?>]" value="<?= htmlspecialchars($color['hex'] ?? '#cccccc') ?>" class="admin-color-picker">
+                            <div class="admin-color-swatch-wrap">
+                                <?php if (!empty($color['swatch'])): ?>
+                                    <img src="<?= htmlspecialchars($color['swatch']) ?>" alt="swatch" class="admin-color-swatch-preview">
+                                    <input type="hidden" name="mat_colors[<?= $mi ?>][swatch_existing][<?= $ci ?>]" value="<?= htmlspecialchars($color['swatch']) ?>">
+                                <?php else: ?>
+                                    <div class="admin-color-swatch-placeholder" style="background-color: <?= htmlspecialchars($color['hex'] ?? '#cccccc') ?>;"></div>
+                                <?php endif; ?>
+                                <input type="file" name="mat_colors_file[<?= $mi ?>][<?= $ci ?>]" accept="image/jpeg,image/png,image/webp" class="admin-color-file-input" onchange="previewSwatch(this)">
+                                <label class="admin-color-file-label" title="Incarca imagine culoare">&#128247;</label>
+                            </div>
                             <input type="text" name="mat_colors[<?= $mi ?>][name][<?= $ci ?>]" value="<?= htmlspecialchars($color['name'] ?? '') ?>" placeholder="Nume culoare" class="admin-color-name">
                             <input type="text" name="mat_colors[<?= $mi ?>][code][<?= $ci ?>]" value="<?= htmlspecialchars($color['code'] ?? '') ?>" placeholder="Cod RAL" class="admin-color-code">
+                            <input type="hidden" name="mat_colors[<?= $mi ?>][hex][<?= $ci ?>]" value="<?= htmlspecialchars($color['hex'] ?? '#cccccc') ?>">
                             <button type="button" class="btn btn-sm btn-danger" onclick="this.closest('.admin-color-row').remove()" title="Sterge">&times;</button>
                         </div>
                         <?php endforeach; ?>
@@ -312,7 +325,7 @@ function addMaterialGroup() {
     group.dataset.matIndex = mi;
     group.innerHTML = `
         <div class="admin-material-header">
-            <input type="text" name="mat_name[${mi}]" placeholder="Nume material (ex: D-Matt)" class="admin-material-name">
+            <input type="text" name="mat_name[${mi}]" placeholder="Nume categorie finisaj (ex: SuperMat, PUR Nova, Lucios)" class="admin-material-name">
             <button type="button" class="btn btn-sm btn-outline" onclick="addColorRow(this.closest('.admin-material-group'))">+ Culoare</button>
             <button type="button" class="btn btn-sm btn-danger" onclick="this.closest('.admin-material-group').remove()">&times;</button>
         </div>
@@ -330,13 +343,35 @@ function addColorRow(groupEl) {
     const row = document.createElement('div');
     row.className = 'admin-color-row';
     row.innerHTML = `
-        <input type="color" name="mat_colors[${mi}][hex][${ci}]" value="#cccccc" class="admin-color-picker">
+        <div class="admin-color-swatch-wrap">
+            <div class="admin-color-swatch-placeholder" style="background-color: #cccccc;"></div>
+            <input type="file" name="mat_colors_file[${mi}][${ci}]" accept="image/jpeg,image/png,image/webp" class="admin-color-file-input" onchange="previewSwatch(this)">
+            <label class="admin-color-file-label" title="Incarca imagine culoare">&#128247;</label>
+        </div>
         <input type="text" name="mat_colors[${mi}][name][${ci}]" placeholder="Nume culoare" class="admin-color-name">
         <input type="text" name="mat_colors[${mi}][code][${ci}]" placeholder="Cod RAL" class="admin-color-code">
+        <input type="hidden" name="mat_colors[${mi}][hex][${ci}]" value="#cccccc">
         <button type="button" class="btn btn-sm btn-danger" onclick="this.closest('.admin-color-row').remove()">&times;</button>
     `;
     list.appendChild(row);
     row.querySelector('.admin-color-name').focus();
+}
+
+function previewSwatch(input) {
+    if (!input.files || !input.files[0]) return;
+    const wrap = input.closest('.admin-color-swatch-wrap');
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        // Replace placeholder or existing preview with new image
+        const existing = wrap.querySelector('.admin-color-swatch-preview, .admin-color-swatch-placeholder');
+        if (existing) existing.remove();
+        const img = document.createElement('img');
+        img.src = e.target.result;
+        img.alt = 'swatch preview';
+        img.className = 'admin-color-swatch-preview';
+        wrap.insertBefore(img, wrap.firstChild);
+    };
+    reader.readAsDataURL(input.files[0]);
 }
 
 function addRelatedProduct(selectEl) {

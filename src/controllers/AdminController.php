@@ -1819,9 +1819,10 @@ class AdminController
             ];
         }
 
-        // Parse materials from dynamic rows
+        // Parse materials from dynamic rows (with swatch image upload)
         $matNames = $_POST['mat_name'] ?? [];
         $matColors = $_POST['mat_colors'] ?? [];
+        $swatchFiles = $_FILES['mat_colors_file'] ?? [];
         $materials = [];
         $matOrder = 1;
         foreach ($matNames as $mi => $matName) {
@@ -1832,14 +1833,37 @@ class AdminController
             $cNames = $matColors[$mi]['name'] ?? [];
             $cCodes = $matColors[$mi]['code'] ?? [];
             $cHexes = $matColors[$mi]['hex'] ?? [];
+            $cSwatchExisting = $matColors[$mi]['swatch_existing'] ?? [];
             foreach ($cNames as $ci => $cName) {
                 $cName = trim($cName);
                 if ($cName === '') continue;
+
+                // Check if a new swatch image was uploaded for this color
+                $swatchUrl = '';
+                if (isset($swatchFiles['name'][$mi][$ci]) && $swatchFiles['error'][$mi][$ci] === UPLOAD_ERR_OK) {
+                    $fileData = [
+                        'name'     => $swatchFiles['name'][$mi][$ci],
+                        'type'     => $swatchFiles['type'][$mi][$ci],
+                        'tmp_name' => $swatchFiles['tmp_name'][$mi][$ci],
+                        'error'    => $swatchFiles['error'][$mi][$ci],
+                        'size'     => $swatchFiles['size'][$mi][$ci],
+                    ];
+                    $result = \App\Helpers\MediaHelper::processUpload($fileData, 'swatch');
+                    if ($result) {
+                        $swatchUrl = $result['url'];
+                    }
+                }
+
+                // If no new upload, keep existing swatch
+                if ($swatchUrl === '' && isset($cSwatchExisting[$ci])) {
+                    $swatchUrl = trim($cSwatchExisting[$ci]);
+                }
+
                 $colors[] = [
                     'name' => $cName,
                     'code' => trim($cCodes[$ci] ?? ''),
                     'hex' => trim($cHexes[$ci] ?? '#cccccc'),
-                    'swatch' => '',
+                    'swatch' => $swatchUrl,
                     'sort_order' => $colorOrder++,
                 ];
             }

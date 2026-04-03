@@ -1206,15 +1206,64 @@ a {
     align-items: center;
 }
 
-.admin-color-picker {
-    width: 40px;
-    height: 36px;
-    border: 1px solid var(--color-border-light);
-    border-radius: var(--radius-sm);
-    cursor: pointer;
-    padding: 2px;
-    background: var(--color-bg-white);
+/* Swatch image upload */
+.admin-swatch-hint {
+    background: #f0f7ff;
+    border: 1px solid #c6ddf7;
+    border-radius: var(--radius-md);
+    padding: 0.6rem 0.9rem;
+    font-size: 0.78rem;
+    color: #2a5a9e;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.admin-color-swatch-wrap {
+    position: relative;
+    width: 50px;
+    height: 50px;
     flex-shrink: 0;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg-light);
+}
+
+.admin-color-swatch-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.admin-color-swatch-placeholder {
+    width: 100%;
+    height: 100%;
+}
+
+.admin-color-file-input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.admin-color-file-label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.55);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    line-height: 1;
+    pointer-events: none;
+    border-radius: 4px 0 0 0;
+}
+
+.admin-color-swatch-wrap:hover {
+    border-color: var(--color-accent-green);
 }
 
 .admin-color-name {
