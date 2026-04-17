@@ -186,19 +186,12 @@ if ($warranty) {
             <div class="components-grid">
                 <?php foreach ($components as $i => $comp): ?>
                     <div class="component-card">
-                        <div class="component-number"><?= $i + 1 ?></div>
+                        <div class="component-card-name"><?= htmlspecialchars($comp['name']) ?></div>
                         <div class="component-img">
                             <?php if (!empty($comp['image'])): ?>
                                 <img src="<?= htmlspecialchars($comp['image']) ?>" alt="<?= htmlspecialchars($comp['name']) ?>" loading="lazy">
-                            <?php else: ?>
-                                <span class="component-icon">&#9881;</span>
                             <?php endif; ?>
-                        </div>
-                        <div class="component-body">
-                            <h4><?= htmlspecialchars($comp['name']) ?></h4>
-                            <?php if (!empty($comp['desc'])): ?>
-                                <p><?= htmlspecialchars($comp['desc']) ?></p>
-                            <?php endif; ?>
+                            <div class="component-number"><?= $i + 1 ?></div>
                         </div>
                     </div>
                 <?php endforeach; ?>
