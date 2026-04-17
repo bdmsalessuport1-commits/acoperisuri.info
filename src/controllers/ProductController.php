@@ -156,6 +156,7 @@ class ProductController
             ],
             'specs' => $specs,
             'materials' => $materials,
+            'components' => $p['components'] ?? [],
             'warranty' => $p['warranty_text'] ?? '',
             'description' => $p['description_html'] ?? '',
             'related' => $related,

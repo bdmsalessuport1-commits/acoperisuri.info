@@ -3,6 +3,7 @@ $p = $product ?? null;
 $hasData = $p !== null;
 $specs = $p['specs'] ?? [];
 $materials = $p['materials'] ?? [];
+$components = $p['components'] ?? [];
 $related = $p['related'] ?? [];
 $brand = $p['brand'] ?? '';
 $cat = $p['category'] ?? [];
@@ -174,6 +175,34 @@ if ($warranty) {
         <?php if ($desc): ?>
         <div class="product-description">
             <?= $desc ?>
+        </div>
+        <?php endif; ?>
+
+        <!-- COMPONENTE SISTEM -->
+        <?php if (!empty($components)): ?>
+        <div class="system-components">
+            <h2>Componentele sistemului</h2>
+            <p class="components-intro">Fiecare element este proiectat pentru o potrivire perfecta si o etansare de lunga durata.</p>
+            <div class="components-grid">
+                <?php foreach ($components as $i => $comp): ?>
+                    <div class="component-card">
+                        <div class="component-number"><?= $i + 1 ?></div>
+                        <div class="component-img">
+                            <?php if (!empty($comp['image'])): ?>
+                                <img src="<?= htmlspecialchars($comp['image']) ?>" alt="<?= htmlspecialchars($comp['name']) ?>" loading="lazy">
+                            <?php else: ?>
+                                <span class="component-icon">&#9881;</span>
+                            <?php endif; ?>
+                        </div>
+                        <div class="component-body">
+                            <h4><?= htmlspecialchars($comp['name']) ?></h4>
+                            <?php if (!empty($comp['desc'])): ?>
+                                <p><?= htmlspecialchars($comp['desc']) ?></p>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
         <?php endif; ?>
 
