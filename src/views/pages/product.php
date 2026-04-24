@@ -10,6 +10,16 @@ $cat = $p['category'] ?? [];
 $warranty = $p['warranty'] ?? '';
 $desc = $p['description'] ?? '';
 $tagline = $p['tagline'] ?? '';
+$imageMain = $p['image_main'] ?? '';
+$imageSchema = $p['image_schema'] ?? '';
+$gallery = $p['gallery'] ?? [];
+// Build gallery thumbnails: main image, schema, then any extra gallery items
+$galleryImages = [];
+if ($imageMain) $galleryImages[] = $imageMain;
+if ($imageSchema) $galleryImages[] = $imageSchema;
+foreach ($gallery as $img) {
+    if ($img && !in_array($img, $galleryImages)) $galleryImages[] = $img;
+}
 $baseUrl = ($_SERVER['REQUEST_SCHEME'] ?? 'https') . '://' . ($_SERVER['HTTP_HOST'] ?? 'acoperisuri.info');
 ?>
 
@@ -53,6 +63,20 @@ if ($warranty) {
 
             <!-- GALERIE -->
             <div class="product-gallery">
+                <?php if (!empty($galleryImages)): ?>
+                <div class="gallery-main" id="galleryMain">
+                    <img src="<?= htmlspecialchars($galleryImages[0]) ?>" alt="<?= htmlspecialchars($productName) ?>" id="galleryMainImg">
+                </div>
+                <?php if (count($galleryImages) > 1): ?>
+                <div class="gallery-thumbs">
+                    <?php foreach ($galleryImages as $i => $img): ?>
+                        <div class="gallery-thumb <?= $i === 0 ? 'active' : '' ?>" data-img="<?= htmlspecialchars($img) ?>">
+                            <img src="<?= htmlspecialchars($img) ?>" alt="thumb <?= $i + 1 ?>" loading="lazy">
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <?php endif; ?>
+                <?php else: ?>
                 <div class="gallery-main" id="galleryMain">&#9650;</div>
                 <div class="gallery-thumbs">
                     <div class="gallery-thumb active">&#9650;</div>
@@ -60,6 +84,7 @@ if ($warranty) {
                     <div class="gallery-thumb">&#128209;</div>
                     <div class="gallery-thumb">&#128202;</div>
                 </div>
+                <?php endif; ?>
             </div>
 
             <!-- INFO PRODUS -->
@@ -242,4 +267,14 @@ if (form) {
         document.getElementById('formSuccess').style.display = 'block';
     });
 }
+
+// Gallery thumbnail switching
+document.querySelectorAll('.gallery-thumb[data-img]').forEach(function(thumb) {
+    thumb.addEventListener('click', function() {
+        document.querySelectorAll('.gallery-thumb').forEach(function(t) { t.classList.remove('active'); });
+        this.classList.add('active');
+        var mainImg = document.getElementById('galleryMainImg');
+        if (mainImg) mainImg.src = this.getAttribute('data-img');
+    });
+});
 </script>
