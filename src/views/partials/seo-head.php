@@ -78,7 +78,7 @@ if ($gtmId):
 </style>
 
 <!-- Full CSS (async load) -->
-<?php $v = '15'; ?>
+<?php $v = '16'; ?>
 <link rel="preload" as="style" href="/css/app.min.css?v=<?= $v ?>">
 <link rel="stylesheet" href="/css/app.min.css?v=<?= $v ?>" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="/css/app.min.css?v=<?= $v ?>"></noscript>
