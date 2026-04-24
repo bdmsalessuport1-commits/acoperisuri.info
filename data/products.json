@@ -324,9 +324,13 @@
         "subcategory_id": 1,
         "manufacturer": "Budmat",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/budmat-como/11.png",
+        "image_schema": "/uploads/products/budmat-como/12.png",
+        "gallery": [
+            "/uploads/products/budmat-como/13.png",
+            "/uploads/products/budmat-como/14.png",
+            "/uploads/products/budmat-como/15.png"
+        ],
         "specs": [
             {
                 "key": "Grosime tabla",
@@ -453,7 +457,7 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 22:00:00"
     },
     {
         "id": 4,
