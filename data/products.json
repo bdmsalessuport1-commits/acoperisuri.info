@@ -5148,8 +5148,8 @@
         "subcategory_id": 38,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/rufster-aqua-3d/1.png",
+        "image_schema": "/uploads/products/rufster-aqua-3d/2.png",
         "gallery": [],
         "specs": [
             {
@@ -5436,7 +5436,7 @@
         "sort_order": 45,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 22:15:00"
     },
     {
         "id": 46,
@@ -5447,8 +5447,8 @@
         "subcategory_id": 38,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/rufster-celesta/4.png",
+        "image_schema": "/uploads/products/rufster-celesta/5.png",
         "gallery": [],
         "specs": [
             {
@@ -5818,7 +5818,7 @@
         "sort_order": 46,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 22:15:00"
     },
     {
         "id": 47,
@@ -5829,8 +5829,8 @@
         "subcategory_id": 38,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/rufster-nova/7.png",
+        "image_schema": "/uploads/products/rufster-nova/8.png",
         "gallery": [],
         "specs": [
             {
@@ -6117,7 +6117,7 @@
         "sort_order": 47,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 22:15:00"
     },
     {
         "id": 48,
@@ -6128,8 +6128,8 @@
         "subcategory_id": 38,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/rufster-terra/9.png",
+        "image_schema": "/uploads/products/rufster-terra/10.png",
         "gallery": [],
         "specs": [
             {
@@ -6416,7 +6416,7 @@
         "sort_order": 48,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 22:15:00"
     },
     {
         "id": 49,
