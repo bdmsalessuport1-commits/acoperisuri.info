@@ -6427,8 +6427,8 @@
         "subcategory_id": 11,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-tr8/17.png",
+        "image_schema": "/uploads/products/metigla-tr8/18.png",
         "gallery": [],
         "specs": [
             {
@@ -6694,7 +6694,7 @@
         "sort_order": 49,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:00:00"
     },
     {
         "id": 50,
@@ -6705,8 +6705,8 @@
         "subcategory_id": 11,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-tr30/19.png",
+        "image_schema": "/uploads/products/metigla-tr30/20.png",
         "gallery": [],
         "specs": [
             {
@@ -6972,7 +6972,7 @@
         "sort_order": 50,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:00:00"
     },
     {
         "id": 51,
@@ -6983,8 +6983,8 @@
         "subcategory_id": 11,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-tr35/21.png",
+        "image_schema": "/uploads/products/metigla-tr35/22.png",
         "gallery": [],
         "specs": [
             {
@@ -7250,7 +7250,7 @@
         "sort_order": 51,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:00:00"
     },
     {
         "id": 52,
@@ -7261,8 +7261,8 @@
         "subcategory_id": 11,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-tr45/23.png",
+        "image_schema": "/uploads/products/metigla-tr45/24.png",
         "gallery": [],
         "specs": [
             {
@@ -7528,7 +7528,7 @@
         "sort_order": 52,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:00:00"
     },
     {
         "id": 53,
@@ -7539,8 +7539,8 @@
         "subcategory_id": 11,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-ondu18/25.png",
+        "image_schema": "/uploads/products/metigla-ondu18/26.png",
         "gallery": [],
         "specs": [
             {
@@ -7806,7 +7806,7 @@
         "sort_order": 53,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:00:00"
     },
     {
         "id": 54,
@@ -7817,8 +7817,8 @@
         "subcategory_id": 11,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-ondu18-curb/27.png",
+        "image_schema": "/uploads/products/metigla-ondu18-curb/28.png",
         "gallery": [],
         "specs": [
             {
@@ -8084,7 +8084,7 @@
         "sort_order": 54,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:00:00"
     },
     {
         "id": 55,
