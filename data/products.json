@@ -3146,112 +3146,112 @@
         "sort_order": 24,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-17 12:00:00",
+        "updated_at": "2026-04-24 20:00:00",
         "components": [
             {
                 "name": "Jgheab",
                 "desc": "Jgheab semicircular 125mm sau 165mm, lungime 4m",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/8.png"
             },
             {
                 "name": "Burlan",
                 "desc": "Burlan circular 88mm sau 100mm, lungime 3m",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/18.png"
             },
             {
                 "name": "Capac jgheab",
                 "desc": "Inchide capatul jgheabului, stanga sau dreapta",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/4.png"
             },
             {
                 "name": "Carlig jgheab caprior",
                 "desc": "Se fixeaza pe capriori inainte de montarea asterelii",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/5.png"
             },
             {
                 "name": "Carlig jgheab aplicat",
                 "desc": "Se fixeaza pe pana sau pe asterealaa dupa montaj",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/9.png"
             },
             {
                 "name": "Carlig rasucit",
                 "desc": "Carlig reglabil cu tija rasucita pentru ajustare precisa",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/24.png"
             },
             {
                 "name": "Stabilizator jgheab",
                 "desc": "Rigidizeaza jgheabul si previne deformarea",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/10.png"
             },
             {
                 "name": "Piesa de imbinare jgheab",
                 "desc": "Uneste doua tronsoane de jgheab, cu garnitura etansare",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/6.png"
             },
             {
                 "name": "Coltar interior",
                 "desc": "Colt interior 90 grade pentru jgheab",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/7.png"
             },
             {
                 "name": "Coltar exterior",
                 "desc": "Colt exterior 90 grade pentru jgheab",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/13.png"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Conecteaza jgheabul la burlan, cu palnie integrata",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/11.png"
             },
             {
                 "name": "Racord jgheab-burlan 165/88",
                 "desc": "Racord pentru dimensiune 165mm jgheab / 88mm burlan",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/12.png"
             },
             {
                 "name": "Palnie colectare",
                 "desc": "Colecteaza apa din jgheab si o directioneaza in burlan",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/22.png"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Schimba directia burlanului, unghi variabil",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/15.png"
             },
             {
                 "name": "Prelungitor burlan",
                 "desc": "Extensie pentru conectarea coturilor la burlan",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/14.png"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Fixeaza burlanul pe perete, cu surub inclus",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/17.png"
             },
             {
                 "name": "Ramificatie burlan",
                 "desc": "Ramificatie Y pentru unirea a doua burlane",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/16.png"
             },
             {
                 "name": "Element deversare",
                 "desc": "Deversare apa la baza burlanului, spre trotuar",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/19.png"
             },
             {
                 "name": "Element evacuare",
                 "desc": "Evacuare apa la baza burlanului, cot final",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/20.png"
             },
             {
                 "name": "Racord canalizare",
                 "desc": "Conecteaza burlanul la reteaua de canalizare",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/21.png"
             },
             {
                 "name": "Parafrunzar",
                 "desc": "Filtru metalic care previne blocarea cu frunze",
-                "image": ""
+                "image": "/uploads/products/metigla-sistem-pluvial/23.png"
             }
         ]
     },
