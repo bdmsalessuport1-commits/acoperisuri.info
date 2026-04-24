@@ -8095,8 +8095,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-w8/1.png",
+        "image_schema": "/uploads/products/wetterbest-w8/2.png",
         "gallery": [],
         "specs": [
             {
@@ -8584,7 +8584,7 @@
         "sort_order": 55,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 56,
@@ -8595,8 +8595,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-w10/3.png",
+        "image_schema": "/uploads/products/wetterbest-w10/4.png",
         "gallery": [],
         "specs": [
             {
@@ -9079,7 +9079,7 @@
         "sort_order": 56,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 57,
@@ -9090,8 +9090,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-w18/5.png",
+        "image_schema": "/uploads/products/wetterbest-w18/6.png",
         "gallery": [],
         "specs": [
             {
@@ -9579,7 +9579,7 @@
         "sort_order": 57,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 58,
@@ -9590,8 +9590,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-w35/7.png",
+        "image_schema": "/uploads/products/wetterbest-w35/8.png",
         "gallery": [],
         "specs": [
             {
@@ -10079,7 +10079,7 @@
         "sort_order": 58,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 59,
@@ -10090,8 +10090,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-w60/9.png",
+        "image_schema": "/uploads/products/wetterbest-w60/10.png",
         "gallery": [],
         "specs": [
             {
@@ -10579,7 +10579,7 @@
         "sort_order": 59,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 60,
@@ -10590,8 +10590,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-ji45/15.png",
+        "image_schema": "/uploads/products/wetterbest-ji45/16.png",
         "gallery": [],
         "specs": [
             {
@@ -11079,7 +11079,7 @@
         "sort_order": 60,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 61,
@@ -11090,8 +11090,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-jis-16-5/11.png",
+        "image_schema": "/uploads/products/wetterbest-jis-16-5/12.png",
         "gallery": [],
         "specs": [
             {
@@ -11579,7 +11579,7 @@
         "sort_order": 61,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 62,
@@ -11590,8 +11590,8 @@
         "subcategory_id": 12,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-jis-35/13.png",
+        "image_schema": "/uploads/products/wetterbest-jis-35/14.png",
         "gallery": [],
         "specs": [
             {
@@ -12079,7 +12079,7 @@
         "sort_order": 62,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-04-24 23:15:00"
     },
     {
         "id": 63,
