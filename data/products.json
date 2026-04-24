@@ -968,8 +968,8 @@
         "subcategory_id": 3,
         "manufacturer": "Blachotrapez",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/blachotrapez-enigma/1.png",
+        "image_schema": "/uploads/products/blachotrapez-enigma/2.png",
         "gallery": [],
         "specs": [
             {
@@ -1099,7 +1099,7 @@
         "sort_order": 8,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 22:30:00"
     },
     {
         "id": 9,
@@ -1110,8 +1110,8 @@
         "subcategory_id": 3,
         "manufacturer": "Blachotrapez",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/blachotrapez-germania-simetric/3.png",
+        "image_schema": "/uploads/products/blachotrapez-germania-simetric/4.png",
         "gallery": [],
         "specs": [
             {
@@ -1207,7 +1207,7 @@
         "sort_order": 9,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 22:30:00"
     },
     {
         "id": 10,
@@ -1218,8 +1218,8 @@
         "subcategory_id": 3,
         "manufacturer": "Blachotrapez",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/blachotrapez-kingas/5.png",
+        "image_schema": "/uploads/products/blachotrapez-kingas/6.png",
         "gallery": [],
         "specs": [
             {
@@ -1322,7 +1322,7 @@
         "sort_order": 10,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 22:30:00"
     },
     {
         "id": 11,
@@ -1333,8 +1333,8 @@
         "subcategory_id": 3,
         "manufacturer": "Blachotrapez",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/blachotrapez-diament/7.png",
+        "image_schema": "/uploads/products/blachotrapez-diament/8.png",
         "gallery": [],
         "specs": [
             {
@@ -1450,7 +1450,7 @@
         "sort_order": 11,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 22:30:00"
     },
     {
         "id": 12,
