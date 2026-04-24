@@ -4395,9 +4395,12 @@
         "subcategory_id": 30,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lwk-komfort/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lwk-komfort/3.png",
+            "/uploads/products/fakro-lwk-komfort/4.png"
+        ],
         "specs": [
             {
                 "key": "Material",
@@ -4472,7 +4475,7 @@
         "sort_order": 36,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "id": 37,
@@ -4483,9 +4486,11 @@
         "subcategory_id": 30,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lwt-thermo/6.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lwt-thermo/7.png"
+        ],
         "specs": [
             {
                 "key": "Material",
@@ -4569,7 +4574,7 @@
         "sort_order": 37,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "id": 38,
@@ -4580,9 +4585,11 @@
         "subcategory_id": 30,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ltk-energy/10.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ltk-energy/11.png"
+        ],
         "specs": [
             {
                 "key": "Material",
@@ -4657,7 +4664,7 @@
         "sort_order": 38,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "id": 39,
@@ -4668,9 +4675,11 @@
         "subcategory_id": 30,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lst/13.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lst/14.png"
+        ],
         "specs": [
             {
                 "key": "Material",
@@ -4740,7 +4749,7 @@
         "sort_order": 39,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "id": 40,
@@ -4751,9 +4760,12 @@
         "subcategory_id": 30,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lml-lux/16.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lml-lux/17.png",
+            "/uploads/products/fakro-lml-lux/18.png"
+        ],
         "specs": [
             {
                 "key": "Material",
@@ -4823,7 +4835,7 @@
         "sort_order": 40,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "id": 41,
@@ -4834,9 +4846,12 @@
         "subcategory_id": 30,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lmf/20.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lmf/21.png",
+            "/uploads/products/fakro-lmf/22.png"
+        ],
         "specs": [
             {
                 "key": "Material",
@@ -4906,7 +4921,7 @@
         "sort_order": 41,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "id": 42,
@@ -22734,15 +22749,17 @@
         "id": 164,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lwl-extra/24.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lwl-extra/25.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 164,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "name": "FAKRO LWF 45 Antifoc",
@@ -22811,15 +22828,17 @@
         "id": 165,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lwf-45/27.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lwf-45/28.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 165,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "name": "FAKRO LWZ Plus",
@@ -22883,15 +22902,17 @@
         "id": 166,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lwz-plus/33.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lwz-plus/34.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 166,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "name": "FAKRO LMK Komfort Metal",
@@ -22960,15 +22981,18 @@
         "id": 167,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lmk-komfort/36.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lmk-komfort/37.png",
+            "/uploads/products/fakro-lmk-komfort/38.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 167,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "name": "FAKRO LMP Inaltime Mare",
@@ -23032,15 +23056,20 @@
         "id": 168,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lmp/40.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lmp/41.png",
+            "/uploads/products/fakro-lmp/42.png",
+            "/uploads/products/fakro-lmp/43.png",
+            "/uploads/products/fakro-lmp/44.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 168,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "name": "FAKRO LSZ Foarfeca Termoizolata",
@@ -23104,15 +23133,17 @@
         "id": 169,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lsz/46.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-lsz/47.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 169,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     },
     {
         "name": "FAKRO LSF Foarfeca Antifoc",
@@ -23176,7 +23207,7 @@
         "id": 170,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-lsf/49.png",
         "image_schema": "",
         "gallery": [],
         "seo_title": "",
@@ -23184,6 +23215,6 @@
         "sort_order": 170,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:30:00"
     }
 ]
