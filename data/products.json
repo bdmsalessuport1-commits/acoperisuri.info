@@ -175,9 +175,13 @@
         "subcategory_id": 1,
         "manufacturer": "Budmat",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/budmat-bella-sara/6.png",
+        "image_schema": "/uploads/products/budmat-bella-sara/7.png",
+        "gallery": [
+            "/uploads/products/budmat-bella-sara/8.png",
+            "/uploads/products/budmat-bella-sara/9.png",
+            "/uploads/products/budmat-bella-sara/10.png"
+        ],
         "specs": [
             {
                 "key": "Grosime tabla",
@@ -309,7 +313,7 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 21:55:00"
     },
     {
         "id": 3,
