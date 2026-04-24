@@ -21618,15 +21618,17 @@
         "id": 149,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-dxc-c-p2/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-dxc-c-p2/3.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 149,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DXF DU6 Tip F",
@@ -21690,15 +21692,19 @@
         "id": 150,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-dxf-du6/5.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-dxf-du6/6.png",
+            "/uploads/products/fakro-dxf-du6/7.png",
+            "/uploads/products/fakro-dxf-du6/8.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 150,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DMF DU6",
@@ -21762,15 +21768,18 @@
         "id": 151,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-dmf-du6/10.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-dmf-du6/11.png",
+            "/uploads/products/fakro-dmf-du6/12.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 151,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DEF DU6",
@@ -21834,15 +21843,17 @@
         "id": 152,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-def-du6/14.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-def-du6/15.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 152,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DXW Circulabila",
@@ -21911,15 +21922,18 @@
         "id": 153,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-dxw/17.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-dxw/18.png",
+            "/uploads/products/fakro-dxw/19.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 153,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DSF Evacuare Fum",
@@ -21978,15 +21992,17 @@
         "id": 154,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-dsf/21.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-dsf/22.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 154,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DRC-C P2 Acces Terasa",
@@ -22045,15 +22061,18 @@
         "id": 155,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-drc-c-p2/24.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-drc-c-p2/25.png",
+            "/uploads/products/fakro-drc-c-p2/26.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 155,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO DRL Trapa Acces",
@@ -22112,15 +22131,18 @@
         "id": 156,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-drl/28.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-drl/29.png",
+            "/uploads/products/fakro-drl/30.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 156,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO SRT Tub Rigid",
@@ -22189,15 +22211,18 @@
         "id": 157,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-srt/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-srt/3.png",
+            "/uploads/products/fakro-srt/4.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 157,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO SLT Tub Flexibil",
@@ -22261,15 +22286,17 @@
         "id": 158,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-slt/6.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-slt/7.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 158,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO SR_ Tub Rigid Rama Integrata",
@@ -22333,15 +22360,17 @@
         "id": 159,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-sr/9.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-sr/12.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 159,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO SF_ Tub Flexibil Rama Integrata",
@@ -22400,7 +22429,7 @@
         "id": 160,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-sf/14.png",
         "image_schema": "",
         "gallery": [],
         "seo_title": "",
@@ -22408,7 +22437,7 @@
         "sort_order": 160,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO WLI Luminator",
@@ -22477,15 +22506,17 @@
         "id": 161,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-wli/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-wli/3.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 161,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO WGI Luminator Geam",
@@ -22549,15 +22580,18 @@
         "id": 162,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-wgi/5.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-wgi/6.png",
+            "/uploads/products/fakro-wgi/7.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 162,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO WGT Luminator Termoizolant",
@@ -22621,15 +22655,17 @@
         "id": 163,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-wgt/9.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-wgt/10.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 163,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-25 00:15:00"
     },
     {
         "name": "FAKRO LWL Extra",
