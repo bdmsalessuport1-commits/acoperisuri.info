@@ -3374,87 +3374,87 @@
         "sort_order": 25,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-17 12:00:00",
+        "updated_at": "2026-04-24 20:30:00",
         "components": [
             {
                 "name": "Jgheab 150mm",
                 "desc": "Jgheab semicircular 150mm, lungime 4m",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/28.png"
             },
             {
                 "name": "Burlan 97mm",
                 "desc": "Burlan circular 97mm, lungime 3m",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/26.png"
             },
             {
                 "name": "Capac jgheab",
                 "desc": "Inchide capatul jgheabului, stanga sau dreapta",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/23.png"
             },
             {
                 "name": "Carlig jgheab aplicat",
                 "desc": "Carlig pentru fixare pe pana sau asterealaa",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/16.png"
             },
             {
                 "name": "Carlig rasucit",
                 "desc": "Carlig cu tija rasucita pentru reglare inaltimii",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/24.png"
             },
             {
                 "name": "Contracarlig jgheab",
                 "desc": "Sustine jgheabul pe partea opusa carligului",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/3.png"
             },
             {
                 "name": "Bratara jgheab",
                 "desc": "Element de rigidizare si fixare suplimentara jgheab",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/4.png"
             },
             {
                 "name": "Piesa imbinare jgheab",
                 "desc": "Uneste doua tronsoane de jgheab etans",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/4.png"
             },
             {
                 "name": "Coltar interior",
                 "desc": "Colt interior 90 grade pentru jgheab",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/12.png"
             },
             {
                 "name": "Coltar exterior",
                 "desc": "Colt exterior 90 grade pentru jgheab",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/9.png"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Conecteaza jgheabul de burlan",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/2.png"
             },
             {
                 "name": "Palnie colectare",
                 "desc": "Colecteaza apa si o directioneaza in burlan",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/29.png"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Schimba directia burlanului",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/22.png"
             },
             {
                 "name": "Cot evacuare",
                 "desc": "Cot final la baza burlanului pentru evacuare apa",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/8.png"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Fixeaza burlanul pe perete",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/25.png"
             },
             {
                 "name": "Ramificatie burlan Y",
                 "desc": "Ramificatie Y pentru unirea a doua burlane",
-                "image": ""
+                "image": "/uploads/products/wetterbest-sistem-pluvial/21.png"
             },
             {
                 "name": "Parafrunzar",
