@@ -3805,9 +3805,12 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-fts-v-u2/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-fts-v-u2/3.png",
+            "/uploads/products/fakro-fts-v-u2/4.png"
+        ],
         "specs": [
             {
                 "key": "Coeficient U fereastra",
@@ -3876,7 +3879,7 @@
         "sort_order": 29,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 30,
@@ -3887,9 +3890,13 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ftp-v-u3/6.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ftp-v-u3/7.png",
+            "/uploads/products/fakro-ftp-v-u3/8.png",
+            "/uploads/products/fakro-ftp-v-u3/9.png"
+        ],
         "specs": [
             {
                 "key": "Coeficient U fereastra",
@@ -3964,7 +3971,7 @@
         "sort_order": 30,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 31,
@@ -3975,9 +3982,12 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ftp-v-u5/11.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ftp-v-u5/12.png",
+            "/uploads/products/fakro-ftp-v-u5/13.png"
+        ],
         "specs": [
             {
                 "key": "Coeficient U fereastra",
@@ -4046,7 +4056,7 @@
         "sort_order": 31,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 32,
@@ -4057,9 +4067,11 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ftp-v-p2/15.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ftp-v-p2/16.png"
+        ],
         "specs": [
             {
                 "key": "Coeficient U fereastra",
@@ -4128,7 +4140,7 @@
         "sort_order": 32,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 33,
@@ -4139,9 +4151,11 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-fpp-v-u3/18.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-fpp-v-u3/19.png"
+        ],
         "specs": [
             {
                 "key": "Coeficient U fereastra",
@@ -4210,7 +4224,7 @@
         "sort_order": 33,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 34,
@@ -4221,9 +4235,12 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-fpu-v-u3/21.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-fpu-v-u3/22.png",
+            "/uploads/products/fakro-fpu-v-u3/23.png"
+        ],
         "specs": [
             {
                 "key": "Coeficient U fereastra",
@@ -4292,7 +4309,7 @@
         "sort_order": 34,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 35,
@@ -4303,9 +4320,12 @@
         "subcategory_id": 29,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-fdy-v-u3/25.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-fdy-v-u3/26.png",
+            "/uploads/products/fakro-fdy-v-u3/27.png"
+        ],
         "specs": [
             {
                 "key": "Tip",
@@ -4364,7 +4384,7 @@
         "sort_order": 35,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "id": 36,
@@ -20991,15 +21011,17 @@
         "id": 141,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ftp-v-u4/29.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ftp-v-u4/30.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 141,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO FTU-V U3",
@@ -21063,15 +21085,18 @@
         "id": 142,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ftu-v-u3/32.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ftu-v-u3/33.png",
+            "/uploads/products/fakro-ftu-v-u3/34.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 142,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO PTP-V U3",
@@ -21135,15 +21160,21 @@
         "id": 143,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ptp-v-u3/36.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ptp-v-u3/37.png",
+            "/uploads/products/fakro-ptp-v-u3/38.png",
+            "/uploads/products/fakro-ptp-v-u3/39.png",
+            "/uploads/products/fakro-ptp-v-u3/40.png",
+            "/uploads/products/fakro-ptp-v-u3/41.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 143,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO PTP-V U4",
@@ -21207,15 +21238,18 @@
         "id": 144,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ptp-v-u4/43.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ptp-v-u4/44.png",
+            "/uploads/products/fakro-ptp-v-u4/45.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 144,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO PTP-V U5",
@@ -21279,15 +21313,17 @@
         "id": 145,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ptp-v-u5/47.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ptp-v-u5/48.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 145,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO FTT U8 Thermo",
@@ -21356,15 +21392,18 @@
         "id": 146,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-ftt-u8-thermo/50.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-ftt-u8-thermo/51.png",
+            "/uploads/products/fakro-ftt-u8-thermo/52.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 146,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO FGH-V P5 Galeria",
@@ -21428,15 +21467,19 @@
         "id": 147,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-fgh-v-p5-galeria/54.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-fgh-v-p5-galeria/55.png",
+            "/uploads/products/fakro-fgh-v-p5-galeria/56.png",
+            "/uploads/products/fakro-fgh-v-p5-galeria/57.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 147,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO FPU-V U5 preSelect MAX",
@@ -21500,15 +21543,18 @@
         "id": 148,
         "manufacturer": "FAKRO",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/fakro-fpu-v-u5/59.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/fakro-fpu-v-u5/60.png",
+            "/uploads/products/fakro-fpu-v-u5/61.png"
+        ],
         "seo_title": "",
         "seo_description": "",
         "sort_order": 148,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-04-24 23:45:00"
     },
     {
         "name": "FAKRO DXC-C P2 Tip C",
