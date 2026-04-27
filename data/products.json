@@ -2322,8 +2322,8 @@
         "subcategory_id": 5,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-falt/3.png",
+        "image_schema": "/uploads/products/metigla-falt/4.png",
         "gallery": [],
         "specs": [
             {
@@ -2456,7 +2456,7 @@
         "sort_order": 18,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-27 12:30:00"
     },
     {
         "id": 19,
@@ -2467,8 +2467,8 @@
         "subcategory_id": 6,
         "manufacturer": "Voestalpine",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/vestalpin-click/1.png",
+        "image_schema": "/uploads/products/vestalpin-click/2.png",
         "gallery": [],
         "specs": [
             {
@@ -2554,7 +2554,7 @@
         "sort_order": 19,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-27 12:30:00"
     },
     {
         "id": 20,
