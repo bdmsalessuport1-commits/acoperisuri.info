@@ -4932,9 +4932,11 @@
         "subcategory_id": 16,
         "manufacturer": "BDM Systems",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/bdm-125-standard-plus/3.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/bdm-125-standard-plus/4.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -5003,7 +5005,7 @@
         "sort_order": 42,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 43,
@@ -5014,9 +5016,11 @@
         "subcategory_id": 16,
         "manufacturer": "BDM Systems",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/bdm-140-maxi-sk2/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/bdm-140-maxi-sk2/2.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -5090,7 +5094,7 @@
         "sort_order": 43,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 44,
@@ -5101,9 +5105,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-reflex-plus/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-reflex-plus/2.png",
+            "/uploads/products/riwega-usb-reflex-plus/3.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -5172,7 +5179,7 @@
         "sort_order": 44,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 45,
@@ -17679,9 +17686,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-protector-gold-330/5.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-protector-gold-330/6.png",
+            "/uploads/products/riwega-usb-protector-gold-330/7.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -17741,7 +17751,7 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 87,
@@ -17752,9 +17762,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-protector-silver-230/9.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-protector-silver-230/10.png",
+            "/uploads/products/riwega-usb-protector-silver-230/11.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -17814,7 +17827,7 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 88,
@@ -17825,9 +17838,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-weld-as/13.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-weld-as/14.png",
+            "/uploads/products/riwega-usb-weld-as/15.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -17881,7 +17897,7 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 89,
@@ -17892,9 +17908,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-classic/17.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-classic/18.png",
+            "/uploads/products/riwega-usb-classic/19.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -17954,7 +17973,7 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 90,
@@ -17965,9 +17984,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-elefant/21.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-elefant/22.png",
+            "/uploads/products/riwega-usb-elefant/23.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18027,7 +18049,7 @@
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 91,
@@ -18038,9 +18060,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-do-155/25.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-do-155/26.png",
+            "/uploads/products/riwega-do-155/27.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18090,7 +18115,7 @@
         "sort_order": 6,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 92,
@@ -18101,9 +18126,12 @@
         "subcategory_id": 44,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-do-135/29.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-do-135/30.png",
+            "/uploads/products/riwega-do-135/31.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18153,7 +18181,7 @@
         "sort_order": 7,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 93,
@@ -18164,9 +18192,12 @@
         "subcategory_id": 45,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-micro-strong/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-micro-strong/2.png",
+            "/uploads/products/riwega-usb-micro-strong/3.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18216,7 +18247,7 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 94,
@@ -18227,9 +18258,12 @@
         "subcategory_id": 45,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-micro/5.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-micro/6.png",
+            "/uploads/products/riwega-usb-micro/7.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18279,7 +18313,7 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 95,
@@ -18290,9 +18324,12 @@
         "subcategory_id": 45,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-micro-light/9.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-micro-light/10.png",
+            "/uploads/products/riwega-usb-micro-light/11.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18342,7 +18379,7 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 96,
@@ -18353,9 +18390,12 @@
         "subcategory_id": 45,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-micro-200-vario/13.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-micro-200-vario/14.png",
+            "/uploads/products/riwega-micro-200-vario/15.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18405,7 +18445,7 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 97,
@@ -18416,9 +18456,12 @@
         "subcategory_id": 46,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-ds-188-alu/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-ds-188-alu/2.png",
+            "/uploads/products/riwega-ds-188-alu/3.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18468,7 +18511,7 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 98,
@@ -18479,9 +18522,12 @@
         "subcategory_id": 46,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-ds-1500-syn/5.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-ds-1500-syn/6.png",
+            "/uploads/products/riwega-ds-1500-syn/7.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18526,7 +18572,7 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 99,
@@ -18537,9 +18583,11 @@
         "subcategory_id": 46,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-ds-65-pe/9.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-ds-65-pe/10.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18584,7 +18632,7 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 100,
@@ -18595,9 +18643,12 @@
         "subcategory_id": 47,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-windtop-uv/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-windtop-uv/3.png",
+            "/uploads/products/riwega-usb-windtop-uv/4.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18656,7 +18707,7 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 101,
@@ -18667,9 +18718,12 @@
         "subcategory_id": 47,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-wall-120/6.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-wall-120/7.png",
+            "/uploads/products/riwega-usb-wall-120/8.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18718,7 +18772,7 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 102,
@@ -18729,9 +18783,12 @@
         "subcategory_id": 48,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-drenlam-bluetech/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-drenlam-bluetech/3.png",
+            "/uploads/products/riwega-usb-drenlam-bluetech/4.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18780,7 +18837,7 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 103,
@@ -18853,9 +18910,12 @@
         "subcategory_id": 49,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-vsk-bitum-reflex-1200/2.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-vsk-bitum-reflex-1200/3.png",
+            "/uploads/products/riwega-vsk-bitum-reflex-1200/4.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18900,7 +18960,7 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 105,
@@ -18911,9 +18971,12 @@
         "subcategory_id": 49,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-vsk-clear-280/6.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-vsk-clear-280/7.png",
+            "/uploads/products/riwega-vsk-clear-280/8.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -18958,7 +19021,7 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 106,
@@ -18969,9 +19032,12 @@
         "subcategory_id": 49,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-vsk-ds-1500-syn/10.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-vsk-ds-1500-syn/11.png",
+            "/uploads/products/riwega-vsk-ds-1500-syn/12.png"
+        ],
         "specs": [
             {
                 "key": "Greutate",
@@ -19021,7 +19087,7 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-04-27 13:00:00"
     },
     {
         "id": 107,
