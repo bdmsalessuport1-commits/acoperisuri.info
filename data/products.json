@@ -2191,8 +2191,8 @@
         "subcategory_id": 5,
         "manufacturer": "Metigla",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/metigla-clic/1.png",
+        "image_schema": "/uploads/products/metigla-clic/2.png",
         "gallery": [],
         "specs": [
             {
@@ -2311,7 +2311,7 @@
         "sort_order": 17,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-05-19 14:00:00"
     },
     {
         "id": 18,
@@ -2565,8 +2565,8 @@
         "subcategory_id": 7,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
+        "image_main": "/uploads/products/wetterbest-click/3.png",
+        "image_schema": "/uploads/products/wetterbest-click/4.png",
         "gallery": [],
         "specs": [
             {
@@ -2682,7 +2682,7 @@
         "sort_order": 20,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-03-30 19:47:43"
+        "updated_at": "2026-05-19 14:00:00"
     },
     {
         "id": 21,
