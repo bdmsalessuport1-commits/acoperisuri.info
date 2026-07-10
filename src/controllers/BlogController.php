@@ -54,6 +54,16 @@ class BlogController
         ]);
     }
 
+    /**
+     * Legacy URL handler: /nume-articol (fara prefix /blog/)
+     * Preserva SEO-ul URL-urilor originale de pe acoperisuri.info
+     */
+    public function showLegacy(array $params, array $route): void
+    {
+        $params['slug'] = $route['slug'] ?? '';
+        $this->show($params, $route);
+    }
+
     public function show(array $params, array $route): void
     {
         $slug       = $params['slug'] ?? '';
