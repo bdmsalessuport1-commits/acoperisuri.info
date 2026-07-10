@@ -23285,5 +23285,185 @@
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
         "updated_at": "2026-04-25 00:30:00"
+    },
+    {
+        "id": 171,
+        "name": "Sistem Pluvial Metigla EDGE",
+        "subtitle": "Sistem pluvial rectangular premium 140/80mm - designul minimalist pentru arhitectura moderna. Ranforsat, cu 15 ani garantie.",
+        "slug": "metigla-edge-sistem-pluvial",
+        "category_id": 5,
+        "subcategory_id": 13,
+        "manufacturer": "Metigla",
+        "status": "activ",
+        "image_main": "/uploads/products/metigla-edge-sistem-pluvial/render-1.webp",
+        "image_schema": "/uploads/products/metigla-edge-sistem-pluvial/exploded-view.webp",
+        "gallery": [
+            "/uploads/products/metigla-edge-sistem-pluvial/render-2.webp",
+            "/uploads/products/metigla-edge-sistem-pluvial/render-3.webp",
+            "/uploads/products/metigla-edge-sistem-pluvial/sectiuni.webp",
+            "/uploads/products/metigla-edge-sistem-pluvial/culori-disponibile.webp"
+        ],
+        "specs": [
+            {
+                "key": "Dimensiuni",
+                "value": "Jgheab 140mm / Burlan 80mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Sectiune",
+                "value": "Rectangulara (patrata)",
+                "sort_order": 2
+            },
+            {
+                "key": "Material",
+                "value": "Tabla otel prevopsita",
+                "sort_order": 3
+            },
+            {
+                "key": "Grosime",
+                "value": "0.60 - 1.20 mm",
+                "sort_order": 4
+            },
+            {
+                "key": "Clasa otel",
+                "value": "DX51 / DX52 / DX53 / DX54",
+                "sort_order": 5
+            },
+            {
+                "key": "Acoperire Zinc",
+                "value": "min. 275 g/m² pe fiecare fata",
+                "sort_order": 6
+            },
+            {
+                "key": "Vopsea",
+                "value": "Poliuretanica 40 µm pe fiecare fata",
+                "sort_order": 7
+            },
+            {
+                "key": "Finisaj",
+                "value": "Super lucios",
+                "sort_order": 8
+            },
+            {
+                "key": "Clasa RC",
+                "value": "4 (rezistenta la coroziune maxima)",
+                "sort_order": 9
+            },
+            {
+                "key": "Clasa RUV",
+                "value": "4 (rezistenta la UV maxima)",
+                "sort_order": 10
+            },
+            {
+                "key": "Garantie",
+                "value": "15 ani",
+                "sort_order": 11
+            },
+            {
+                "key": "Componente",
+                "value": "13 elemente sistem complet",
+                "sort_order": 12
+            },
+            {
+                "key": "Aplicabilitate",
+                "value": "Rezidential si comercial",
+                "sort_order": 13
+            }
+        ],
+        "materials": [
+            {
+                "name": "Super Lucios (1 culoare)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Gri antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 1
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie 15 ani impotriva coroziunii. Rezistenta certificata la variatii extreme de temperatura, radiatii UV si conditii meteo severe. Clasa maxima RC4 si RUV4.",
+        "description_html": "<h2>Metigla EDGE - Sistemul pluvial rectangular al arhitecturii moderne</h2><p>METIGLA EDGE este un sistem pluvial rectangular creat pentru acoperisuri moderne, unde evacuarea apei trebuie sa fie <strong>eficienta, sigura si bine integrata</strong> in arhitectura cladirii.</p><h3>De ce Metigla EDGE?</h3><ul><li><strong>Design minimalist</strong> - forma rectangulara simetrica ofera o linie curata pe fatada casei</li><li><strong>Accesorii dezvoltate unitar</strong> - sistem coerent care se monteaza simplu si predictibil</li><li><strong>Ranforsat pentru stabilitate</strong> - contribuie la rezistenta in exploatare, inclusiv in conditii de ploi abundente, zapada sau variatii de temperatura</li><li><strong>Capacitate excelenta de captare</strong> - traseul controlat al apei asigura o evacuare eficienta</li><li><strong>Aspect vizual coerent</strong> - completeaza acoperisul cu o solutie tehnica moderna si discreta</li></ul><h3>Constructie premium</h3><p>Sistemul pluvial Metigla EDGE este realizat din <strong>tabla de otel prevopsita</strong>, cu protectie de Zinc de minim 275 g/m², care confera sistemului durabilitate si rezistenta la coroziune.</p><p>Ambele fete ale sistemului sunt protejate de un strat de pasivare si sunt acoperite cu vopsea poliuretanica, intr-un strat de 40 µm pe fiecare fata, a carei textura ofera o <strong>rezistenta mare la uzura, zgarieturi si temperaturi ridicate</strong>.</p><h3>Ideal pentru</h3><ul><li>Case moderne cu linii drepte si arhitectura contemporana</li><li>Cladiri de birouri si sedii corporate</li><li>Vile premium unde estetica conteaza</li><li>Constructii cu acoperisuri de tabla faltuita sau tabla click (design compatibil)</li></ul>",
+        "seo_title": "Sistem Pluvial Metigla EDGE - Rectangular 140/80mm | Design Modern",
+        "seo_description": "Metigla EDGE - sistem pluvial rectangular premium cu design minimalist. 140mm jgheab / 80mm burlan, 15 ani garantie. Ideal pentru arhitectura moderna.",
+        "related_products": [
+            "metigla-sistem-pluvial",
+            "budmat-flamingo-iq",
+            "wetterbest-sistem-pluvial"
+        ],
+        "sort_order": 4,
+        "is_active": true,
+        "created_at": "2026-08-08 14:00:00",
+        "updated_at": "2026-08-08 14:00:00",
+        "components": [
+            {
+                "name": "Capac jgheab",
+                "desc": "Element de inchidere lateral al jgheabului (EDGE CAP-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/01-capac-jgheab.webp"
+            },
+            {
+                "name": "Jgheab",
+                "desc": "Jgheab rectangular 140mm, lungime 4m (EDGE JGH-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/02-jgheab.webp"
+            },
+            {
+                "name": "Imbinare jgheab",
+                "desc": "Piesa de imbinare intre doua tronsoane de jgheab (EDGE IMB-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/03-imbinare-jgheab.webp"
+            },
+            {
+                "name": "Carlig aplicat",
+                "desc": "Carlig standard pentru fixare directa a jgheabului (EDGE CRL-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/04-carlig-aplicat.webp"
+            },
+            {
+                "name": "Coltar jgheab",
+                "desc": "Coltar 90° pentru intersectia jgheaburilor (EDGE CJH-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/05-coltar-jgheab.webp"
+            },
+            {
+                "name": "Racord jgheab-burlan",
+                "desc": "Piesa de trecere de la jgheab la burlan (EDGE RJB-140/80)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/06-racord-jgheab-burlan.webp"
+            },
+            {
+                "name": "Cot burlan",
+                "desc": "Cot pentru burlan cu unghi ajustabil (EDGE COT-80)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/07-cot-burlan.webp"
+            },
+            {
+                "name": "Colier burlan",
+                "desc": "Colier de fixare intermediar pentru burlan (EDGE BRT-80)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/08-colier-burlan.webp"
+            },
+            {
+                "name": "Burlan",
+                "desc": "Burlan rectangular 80mm, lungime 1m (EDGE BUR-80)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/09-burlan.webp"
+            },
+            {
+                "name": "Carlig cu pinten",
+                "desc": "Carlig ranforsat cu pinten pentru sarcini mari (EDGE CRL-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/10-carlig-cu-pinten.webp"
+            },
+            {
+                "name": "Carlig cu umar",
+                "desc": "Carlig cu umar de sprijin pentru montaj perfect (EDGE CRL-140)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/11-carlig-cu-umar.webp"
+            },
+            {
+                "name": "Bratara burlan",
+                "desc": "Bratara de fixare a burlanului pe perete (EDGE BRT-80)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/12-bratara-burlan.webp"
+            },
+            {
+                "name": "Mufa burlan",
+                "desc": "Mufa de imbinare pentru extinderea burlanului (EDGE MUF-80/80)",
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/13-mufa-burlan.webp"
+            }
+        ]
     }
 ]
