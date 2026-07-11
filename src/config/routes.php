@@ -554,6 +554,25 @@ return [
         'title' => 'Admin - Setari',
     ],
 
+    // Consultanță Passive House (INAINTE de wildcard-ul de categorii!)
+    '/consultanta-passive-house' => [
+        'controller' => 'ConsultingController',
+        'action' => 'index',
+        'name' => 'consulting',
+        'title' => 'Consultanță Passive House și nZEB — Mircea Barticel, Consultant Certificat PHI | BDM Systems',
+        'description' => 'Consultanță tehnică pentru case nZEB și Passive House: analiză proiect, modelare energetică PHPP, optimizare anvelopă, verificare implementare în șantier. Mircea Barticel, Consultant Certificat PHI, 20 ani experiență.',
+    ],
+    '/consultanta-passive-house/aplica' => [
+        'controller' => 'ConsultingController',
+        'action' => 'apply',
+        'name' => 'consulting.apply',
+    ],
+    '/consultanta-passive-house/multumim' => [
+        'controller' => 'ConsultingController',
+        'action' => 'thanks',
+        'name' => 'consulting.thanks',
+    ],
+
     // Categorii si subcategorii (ULTIMELE - wildcard catch-all)
     '/{categorie}' => [
         'controller' => 'CategoryController',

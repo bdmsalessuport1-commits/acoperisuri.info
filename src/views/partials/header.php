@@ -150,7 +150,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
 
                     <!-- CONSULTANTA PASSIVE HOUSE -->
                     <li class="nav-item">
-                        <a href="/servicii/consultanta-passive-house" class="nav-link <?= $currentUri === '/servicii/consultanta-passive-house' ? 'active' : '' ?>">Consultanta Passive House</a>
+                        <a href="/consultanta-passive-house" class="nav-link <?= $currentUri === '/consultanta-passive-house' ? 'active' : '' ?>">Consultanta Passive House</a>
                     </li>
 
                     <!-- VIDEOURI -->
@@ -235,7 +235,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
             </div>
         </li>
         <li class="mobile-nav-item"><a href="/servicii" class="mobile-nav-link">Servicii</a></li>
-        <li class="mobile-nav-item"><a href="/servicii/consultanta-passive-house" class="mobile-nav-link">Consultanta Passive House</a></li>
+        <li class="mobile-nav-item"><a href="/consultanta-passive-house" class="mobile-nav-link">Consultanta Passive House</a></li>
         <li class="mobile-nav-item"><a href="/video" class="mobile-nav-link">Videouri</a></li>
         <li class="mobile-nav-item"><a href="/evenimente" class="mobile-nav-link">Evenimente</a></li>
         <li class="mobile-nav-item"><a href="/cariere" class="mobile-nav-link">Cariere</a></li>
