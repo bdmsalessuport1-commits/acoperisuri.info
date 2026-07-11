@@ -8,9 +8,15 @@
     "redirects": [
         {
             "from": "/tabla-faltuita/fals-solar-metigla",
-            "to": "/tabla-faltuita/falt-solar-metigla",
+            "to": "/tabla-faltuita/metigla",
             "active": true,
-            "note": "Corectare typo slug fals -> falt (subcategorie Metigla Falt Solar)"
+            "note": "URL vechi cu typo -> subcategoria Metigla (produsul Falt Solar e acum in Metigla)"
+        },
+        {
+            "from": "/tabla-faltuita/falt-solar-metigla",
+            "to": "/tabla-faltuita/metigla",
+            "active": true,
+            "note": "Subcategoria Falt Solar Metigla eliminata; produsul e acum in Metigla"
         }
     ]
 }
