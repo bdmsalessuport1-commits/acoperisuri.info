@@ -17168,16 +17168,21 @@
     },
     {
         "id": 82,
-        "name": "Budmat Variante",
-        "subtitle": "Sistem gard modular palisada",
+        "name": "Budmat Variante - Sistem Gard Palisada Modular",
+        "subtitle": "Sistem gard modular palisada cu variante 100, 150, 200 mm - montaj vertical simplu, aspect elegant modern",
         "slug": "budmat-variante",
         "category_id": 14,
         "subcategory_id": 42,
         "manufacturer": "Budmat",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/budmat-variante/1.jpg",
+        "image_schema": "/uploads/products/budmat-variante/2.jpg",
+        "gallery": [
+            "/uploads/products/budmat-variante/1.jpg",
+            "/uploads/products/budmat-variante/2.jpg",
+            "/uploads/products/budmat-variante/3.jpg",
+            "/uploads/products/budmat-variante/4.jpg"
+        ],
         "specs": [
             {
                 "key": "Tip",
@@ -17254,28 +17259,40 @@
                 ]
             }
         ],
-        "warranty_text": "30 ani experienta Budmat",
-        "description_html": "<h2>Sistem Gard Budmat Variante</h2><p>Posibilitati nelimitate. Sistem de gard palisada modular care permite combinarea libera a dimensiunilor si culorilor. Fara intretinere, cu aspect estetic deosebit.</p><h3>Avantaje</h3><ul><li>Constructie palisada - intimitate maxima</li><li>Pachete Parcel pentru transport usor si montaj DIY</li><li>Orificii de montaj pregatite, fara suruburi vizibile</li><li>Se poate asorta cu acoperisul, jgheaburile si sofitul Budmat</li><li>30 ani experienta in productia de acoperisuri din otel</li></ul>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie material otel prevopsit Budmat - conform certificat de la producator (culoare, coroziune)",
+        "description_html": "<h2>Budmat Variante - sistem palisada modular pentru orice arhitectura</h2>\n<p><strong>Sistemul Variante</strong> de la Budmat este o solutie <strong>modulara palisada</strong> pentru garduri metalice care se poate adapta oricarui proiect. Fabricat din <strong>otel prevopsit</strong> premium polonez, ofera un aspect elegant, uniform si <strong>rezistenta pe termen lung</strong>.</p>\n\n<h3>Trei variante de latime</h3>\n<ul>\n    <li><strong>Variante 100</strong> - latime 100 mm, aspect zvelt si modern, potrivit pentru case cu arhitectura contemporana</li>\n    <li><strong>Variante 150</strong> - latime 150 mm, echilibru intre aspect zvelt si acoperire eficienta</li>\n    <li><strong>Variante 200</strong> - latime 200 mm, aspect masiv si prezenta arhitecturala pentru vile premium</li>\n</ul>\n\n<h3>De ce Budmat Variante?</h3>\n<ul>\n    <li><strong>Montaj vertical simplu</strong> - se fixeaza pe stalpi Budmat sau structura metalica</li>\n    <li><strong>Aspect uniform impecabil</strong> - profil rectangular curat, fara suruburi vizibile</li>\n    <li><strong>Design polonez premium</strong> - producator european cu experienta indelungata</li>\n    <li><strong>Culori asortabile</strong> cu invelitoarea Budmat Venecja, Bella Sara, Como</li>\n    <li><strong>Modular</strong> - poti alege distanta intre elemente pentru densitate personalizata</li>\n    <li><strong>Rezistenta ridicata</strong> la vant si intemperii</li>\n    <li><strong>Zero intretinere</strong> - vopsire industriala protejata la UV</li>\n</ul>\n\n<h3>Ideal pentru</h3>\n<p>Case moderne cu <strong>aspect arhitectural puternic</strong>, vile premium, spatii comerciale, cladiri de birouri, delimitari care conteaza vizual. Se poate combina cu porti auto glisante sau batante Budmat.</p>\n\n<p><em>Recomandare BDM Systems:</em> pentru case cu tigla metalica Budmat Venecja sau Bella Sara, alegerea gardului Variante in aceeasi culoare creeaza un <strong>ansamblu vizual coerent</strong> premium.</p>",
+        "seo_title": "Budmat Variante - Sistem gard palisada modular 100/150/200 mm | BDM Systems",
+        "seo_description": "Sistem gard Budmat Variante cu 3 latimi de profil (100, 150, 200 mm). Otel prevopsit polonez premium, montaj vertical elegant, zero intretinere. Instalare BDM Systems.",
+        "related_products": [
+            "budmat-colectii-gard",
+            "rufster-jaluzele-gard-z95",
+            "wetterbest-sipca-metalica-semirotunda"
+        ],
         "sort_order": 82,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:30:00"
     },
     {
         "id": 83,
-        "name": "Budmat Colectii Gard",
-        "subtitle": "Sisteme gard Sicuro, Forte, Spazio, Unico",
+        "name": "Budmat Colectii Premium Gard - Sicuro, Forte, Spazio, Unico",
+        "subtitle": "4 colectii premium de garduri Budmat - designer, cu variante orizontale si verticale pentru orice stil arhitectural",
         "slug": "budmat-colectii-gard",
         "category_id": 14,
         "subcategory_id": 42,
         "manufacturer": "Budmat",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/budmat-colectii-gard/1.jpg",
+        "image_schema": "/uploads/products/budmat-colectii-gard/7.jpg",
+        "gallery": [
+            "/uploads/products/budmat-colectii-gard/1.jpg",
+            "/uploads/products/budmat-colectii-gard/2.jpg",
+            "/uploads/products/budmat-colectii-gard/3.jpg",
+            "/uploads/products/budmat-colectii-gard/4.jpg",
+            "/uploads/products/budmat-colectii-gard/5.jpg",
+            "/uploads/products/budmat-colectii-gard/6.jpg",
+            "/uploads/products/budmat-colectii-gard/7.jpg"
+        ],
         "specs": [
             {
                 "key": "Colectii disponibile",
@@ -17381,15 +17398,19 @@
                 ]
             }
         ],
-        "warranty_text": "30 ani experienta Budmat",
-        "description_html": "<h2>Colectii Sisteme Gard Budmat</h2><p>Sisteme de garduri din otel de inalta calitate, fara intretinere. Se pot asorta cu acoperisul, jgheaburile, ramele ferestrelor si imprejurimile.</p><h3>Colectii</h3><ul><li><strong>Sicuro</strong> - Design orizontal modern cu lamele, pentru intimitate</li><li><strong>Forte</strong> - Design vertical traditional, aspect de lemn</li><li><strong>Spazio</strong> - Design orizontal cu spatii, semi-transparent</li><li><strong>Unico</strong> - Design vertical/mixt, stil unic</li></ul><p>Include versiuni de panouri, porticane si porti (pietonale, batante, culisante).</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie material otel prevopsit Budmat pentru vopsea si coroziune - conform certificat producator per colectie",
+        "description_html": "<h2>Budmat Colectii Premium - designer garduri pentru case cu personalitate</h2>\n<p>Budmat, producator polonez cu traditie in acoperisuri si sisteme de garduri, ofera <strong>4 colectii premium</strong> de garduri metalice. Fiecare colectie are <strong>identitate vizuala distincta</strong>, cu variante orizontale (02) si verticale (05) pentru a se adapta oricarui stil arhitectural.</p>\n\n<h3>Colectia SICURO - eleganta clasica</h3>\n<ul>\n    <li><strong>Sicuro 01</strong> - vertical clasic, lamele inguste pentru aspect uniform</li>\n    <li><strong>Sicuro 02</strong> - orizontal, potrivit pentru case moderne cu linii orizontale</li>\n    <li><strong>Sicuro 05</strong> - vertical modern, echilibru intre securitate si eleganta</li>\n</ul>\n<p>Colectia Sicuro este alegerea potrivita pentru <strong>case rezidentiale unde inspiratia securitatii vizuale</strong> este importanta. Este colectia cea mai versatila din gama Budmat.</p>\n\n<h3>Colectia FORTE - forta arhitecturala</h3>\n<ul>\n    <li><strong>Forte 05</strong> - vertical robust, cu accente vizuale puternice</li>\n</ul>\n<p>Colectia Forte transmite <strong>siguranta si putere</strong>. Ideala pentru <strong>vile mari</strong>, spatii comerciale sau proprietati care necesita o prezenta vizuala imponenta.</p>\n\n<h3>Colectia SPAZIO - spatiu si echilibru</h3>\n<ul>\n    <li><strong>Spazio 02</strong> - orizontal cu spatiere generoasa, lasa lumina si aer</li>\n    <li><strong>Spazio 05</strong> - vertical cu spatiere, ideal pentru zone care nu necesita opacitate maxima</li>\n</ul>\n<p>Colectia Spazio ofera un <strong>echilibru intre privacy si integrare in peisaj</strong>. Potrivita pentru case in zone verzi, unde e important sa nu blochezi complet imaginea.</p>\n\n<h3>Colectia UNICO - unicitate arhitecturala</h3>\n<ul>\n    <li><strong>Unico 02</strong> - orizontal cu profil distinctiv</li>\n    <li><strong>Unico 05</strong> - vertical cu design semnatura</li>\n</ul>\n<p>Colectia Unico este pentru cei care doresc un gard <strong>diferit, cu caracter</strong>. Design designer polonez care se remarca discret dar decisiv.</p>\n\n<h3>De ce colectiile Budmat?</h3>\n<ul>\n    <li><strong>Design polonez premium</strong> - producator european consacrat</li>\n    <li><strong>Executie industriala impecabila</strong> - profile precise si finisaj uniform</li>\n    <li><strong>Garantie oferita de producator</strong> pentru vopsea si rezistenta la coroziune</li>\n    <li><strong>Compatibilitate cu tigla metalica Budmat</strong> - se asorteaza perfect cu Venecja, Bella Sara, Como</li>\n    <li><strong>Culori premium</strong> - RAL industrial + finisaje mate structurate</li>\n    <li><strong>Portile Budmat</strong> se integreaza fara diferente vizuale</li>\n</ul>\n\n<h3>Consultanta BDM Systems</h3>\n<p>Fiecare colectie are propriile subtilitati de montaj si dimensionare. <strong>BDM Systems</strong> ofera consultanta gratuita pentru alegerea colectiei potrivite proiectului tau si execuție de la echipa autorizata. Contacteaza-ne pentru <strong>vizionare sample-uri si asistenta la proiectare</strong>.</p>",
+        "seo_title": "Budmat Sicuro, Forte, Spazio, Unico - 4 colectii premium garduri | BDM Systems",
+        "seo_description": "Colectii Budmat premium pentru garduri metalice: Sicuro (01, 02, 05), Forte 05, Spazio (02, 05), Unico (02, 05). Design polonez premium, montaj de la BDM Systems.",
+        "related_products": [
+            "budmat-variante",
+            "rufster-element-gard-combi",
+            "wetterbest-lamela-gard-jaluzea-l"
+        ],
         "sort_order": 83,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:30:00"
     },
     {
         "id": 84,
