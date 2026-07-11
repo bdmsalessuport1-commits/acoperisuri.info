@@ -14918,15 +14918,20 @@
     {
         "id": 72,
         "name": "Rufster Stacheti Metalici",
-        "subtitle": "Stachet gard metalic elegant",
+        "subtitle": "Stacheti gard metalic 105 mm care imita traditia lemnului cu rezistenta otelului",
         "slug": "rufster-stacheti-metalici",
         "category_id": 14,
         "subcategory_id": 40,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-stacheti-metalici/1.jpg",
+        "image_schema": "/uploads/products/rufster-stacheti-metalici/1.jpg",
+        "gallery": [
+            "/uploads/products/rufster-stacheti-metalici/1.jpg",
+            "/uploads/products/rufster-stacheti-metalici/2.png",
+            "/uploads/products/rufster-stacheti-metalici/3.png",
+            "/uploads/products/rufster-stacheti-metalici/4.png"
+        ],
         "specs": [
             {
                 "key": "Latime",
@@ -15184,28 +15189,36 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 30 ani finisaj MPR",
-        "description_html": "<h2>Stacheti Metalici Rufster</h2><p>Stacheti de gard metalic eleganti care imita stachetii traditionali de lemn. Productie automatizata cu profil estetic, rigid, cu canale de rigidizare.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS, 10 ani poliester lucios",
+        "description_html": "<h2>Stacheti metalici Rufster - eleganta traditiei intr-un profil modern</h2>\n<p>Stachetii metalici <strong>Rufster</strong> reprezinta o solutie contemporana pentru realizarea gardurilor perimetrale. Fabricati automat pe linii specializate de formare si taiere, imita designul traditional al stachetilor de lemn, insa cu <strong>rezistenta mecanica</strong> superioara a otelului si <strong>durabilitatea</strong> vopselei industriale.</p>\n<h3>Avantaje cheie</h3>\n<ul>\n    <li><strong>Aspect estetic clasic</strong> - profil de 105 mm cu canale de rigidizare</li>\n    <li><strong>Montaj rapid</strong> - se prind cu 2 tevi transversale (suruburi autoforante sau pop-nituri)</li>\n    <li><strong>Rezistenta mecanica</strong> - geometria profilului asigura stabilitatea</li>\n    <li><strong>Gama larga de culori</strong> - se pot asorta cu invelitoarea acoperisului</li>\n    <li><strong>Sistem multistrat</strong> de protectie anticoroziva pe ambele fete</li>\n</ul>\n<h3>Finisaje disponibile</h3>\n<p>Vopsire poliester lucios 25 &micro;m, mat structurat MS 35 &micro;m, super-poliester MPR 60 &micro;m sau Pural 35 &micro;m pe ambele fete. Strat zinc 140-275 g/m&sup2; in functie de finisaj.</p>",
+        "seo_title": "Stacheti metalici gard Rufster 105 mm - aspect lemn, rezistenta otel | BDM Systems",
+        "seo_description": "Stacheti metalici Rufster 105 mm, imita lemn dar cu durabilitatea otelului prevopsit. Zinc 140-275 g/m2, finisaje MS/MPR, garantie pana la 30 ani. Montaj de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-sipca-gard-v1",
+            "rufster-element-gard-combi"
+        ],
         "sort_order": 72,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:00:00"
     },
     {
         "id": 73,
         "name": "Rufster Jaluzele Gard Z95",
-        "subtitle": "Jaluzea gard moderna 95 mm",
+        "subtitle": "Jaluzea gard Z95 - profil 94 mm cu design contemporan si montaj rapid in profil U",
         "slug": "rufster-jaluzele-gard-z95",
         "category_id": 14,
         "subcategory_id": 40,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-jaluzele-gard-z95/1.jpg",
+        "image_schema": "/uploads/products/rufster-jaluzele-gard-z95/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-jaluzele-gard-z95/1.jpg",
+            "/uploads/products/rufster-jaluzele-gard-z95/2.jpg",
+            "/uploads/products/rufster-jaluzele-gard-z95/3.jpg"
+        ],
         "specs": [
             {
                 "key": "Latime",
@@ -15317,28 +15330,35 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 30 ani finisaj MPR",
-        "description_html": "<h2>Jaluzele Gard Rufster Z95</h2><p>Gard modern cu lamele tip jaluzea, profil simplu si eficient. Utilizeaza profil U pentru finisarea marginilor. Nu necesita cadru.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Jaluzele Gard Z95 Rufster - intimitate si stil modern</h2>\n<p>Sistemul de <strong>jaluzele metalice Z95</strong> de la Rufster ofera o solutie contemporana pentru gardurile rezidentiale. Profilul simplu si eficient, cu inaltime utila de 94 mm, asigura <strong>intimitate</strong> fara vizibilitate prin gard, mentinand un aspect elegant.</p>\n<h3>De ce jaluzele Z95?</h3>\n<ul>\n    <li><strong>Aspect estetic modern</strong> - linii simple, curate</li>\n    <li><strong>Nu necesita cadru de tevi</strong> - se prinde direct pe stalpi cu profil U</li>\n    <li><strong>Montaj rapid</strong> - debitare la lungimea proiectului direct din fabrica</li>\n    <li><strong>Rezistenta structurala</strong> - profil U pentru finisarea marginilor si intaritura longitudinala</li>\n    <li><strong>Asortare cu acoperisul</strong> - aceleasi culori si finisaje ca invelitoarea</li>\n</ul>\n<h3>Materiale si finisaje</h3>\n<p>Tabla de otel prevopsita 0,45-0,60 mm, zinc 140-275 g/m&sup2;. Finisaje: <strong>Mat structurat MS 35 &micro;m</strong> sau <strong>Super-poliester MPR 60 &micro;m</strong> pentru durabilitate maxima in exterior.</p>",
+        "seo_title": "Jaluzele gard Z95 Rufster - profil 94 mm modern | BDM Systems",
+        "seo_description": "Jaluzele metalice pentru gard Rufster Z95, latime utila 94 mm, montaj simplu in profil U. Otel prevopsit, zinc 140-275 g/m2, finisaje MS/MPR cu garantie pana la 30 ani.",
+        "related_products": [
+            "rufster-jaluzea-gard-v58",
+            "rufster-jaluzea-gard-v80",
+            "rufster-jaluzele-gard-zt125"
+        ],
         "sort_order": 73,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:00:00"
     },
     {
         "id": 74,
         "name": "Rufster Sipca Gard V1",
-        "subtitle": "Sipca gard 140 mm",
+        "subtitle": "Sipca gard V1 - latime 140 mm cu design vertical simplu si modern",
         "slug": "rufster-sipca-gard-v1",
         "category_id": 14,
         "subcategory_id": 40,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-sipca-gard-v1/1.jpg",
+        "image_schema": "/uploads/products/rufster-sipca-gard-v1/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-sipca-gard-v1/1.jpg",
+            "/uploads/products/rufster-sipca-gard-v1/2.jpg"
+        ],
         "specs": [
             {
                 "key": "Latime",
@@ -15450,28 +15470,36 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 30 ani finisaj MPR",
-        "description_html": "<h2>Sipca Gard Rufster V1</h2><p>Combina practicitatea cu designul, ideala pentru imprejmuirea oricarei case. Se instaleaza pe suporturi de tub rectangular cu suruburi autoforante sau pop-nituri.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Sipca Gard Rufster V1 - practicitate si eleganta verticala</h2>\n<p><strong>Sipca V1</strong> de la Rufster combina practicitatea cu designul, fiind ideala pentru imprejmuirea locuintelor cu aspect clasic vertical. Fabricata din tabla de otel prevopsita, este <strong>extrem de rezistenta</strong> la deformari mecanice, avand o gama diversa de finisaje si culori.</p>\n<h3>Caracteristici cheie</h3>\n<ul>\n    <li><strong>Latime generoasa</strong> de 140 mm - eficient in acoperire</li>\n    <li><strong>Profil rigidizant</strong> - forma optimizata pentru rezistenta</li>\n    <li><strong>Montaj rapid</strong> pe suporturi de tub rectangular</li>\n    <li><strong>Fixare cu suruburi autoforante</strong> sau popnituri</li>\n    <li><strong>Debitare pe proiect</strong> din fabrica, la lungimea dorita</li>\n</ul>\n<h3>Specificatii materiale</h3>\n<p>Grosime tabla: 0,45-0,60 mm. Strat zinc: 140-275 g/m&sup2;. Vopsire multistrat pe ambele fete pentru protectie anticoroziva.</p>",
+        "seo_title": "Sipca gard Rufster V1 - 140 mm design vertical | BDM Systems",
+        "seo_description": "Sipca metalica gard Rufster V1, latime 140 mm, montaj rapid pe tub rectangular. Otel prevopsit, finisaje MS/MPR, garantie pana la 30 ani. BDM Systems.",
+        "related_products": [
+            "rufster-stacheti-metalici",
+            "rufster-jaluzele-gard-z95",
+            "rufster-element-gard-combi"
+        ],
         "sort_order": 74,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:00:00"
     },
     {
         "id": 75,
         "name": "Rufster Gard Rectangular 80x20",
-        "subtitle": "Gard rectangular modern",
+        "subtitle": "Gard rectangular 80x20 - imita tubul rectangular, montaj mai simplu si mai ieftin",
         "slug": "rufster-gard-rectangular-80x20",
         "category_id": 14,
         "subcategory_id": 40,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-gard-rectangular-80x20/1.jpg",
+        "image_schema": "/uploads/products/rufster-gard-rectangular-80x20/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-gard-rectangular-80x20/1.jpg",
+            "/uploads/products/rufster-gard-rectangular-80x20/2.jpg",
+            "/uploads/products/rufster-gard-rectangular-80x20/3.png"
+        ],
         "specs": [
             {
                 "key": "Latime",
@@ -15578,28 +15606,35 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 30 ani finisaj MPR",
-        "description_html": "<h2>Gard Rectangular Rufster 80x20</h2><p>Gard perimetral modern, economic, imitand gardul din tub rectangular (80x20 mm) din tabla de otel prevopsita. Fata ascunsa pe spate. Nu necesita intarire suplimentara.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Gard Rectangular Rufster 80x20 - eficienta arhitecturala</h2>\n<p><strong>Gardul rectangular 80x20</strong> a fost proiectat pentru a optimiza conceptele de garduri perimetrale. Imita gardul din <strong>tub rectangular (80x20 mm)</strong> insa este fabricat din tabla de otel prevopsita, ceea ce reduce costurile si simplifica montajul. Datorita rigidititatii modelului, <strong>nu necesita profil de inchidere superior</strong>.</p>\n<h3>Avantaje</h3>\n<ul>\n    <li><strong>Cost redus</strong> vs. tubul rectangular clasic</li>\n    <li><strong>Montaj simplificat</strong> - nu necesita cadru complet</li>\n    <li><strong>Rigiditate superioara</strong> - forma rectangulara + geometrie optimizata</li>\n    <li><strong>Fata B ascunsa</strong> - vezi doar finisajul frumos</li>\n    <li><strong>Dispunere variabila</strong> - se poate face rar/des pentru densitate personalizata</li>\n</ul>\n<h3>Specificatii</h3>\n<p>Latime 20 mm, inaltime 80 mm, lungime variabila conform proiectului. Grosime 0,45-0,55 mm. Zinc 140-275 g/m&sup2;. Vopsire multistrat cu finisaje mat structurat MS 35 &micro;m, super-poliester MPR 60 &micro;m sau imitatie lemn stejar.</p>",
+        "seo_title": "Gard rectangular Rufster 80x20 - alternativa moderna la tubul rectangular | BDM Systems",
+        "seo_description": "Gard Rufster 80x20 din tabla prevopsita, imita tubul rectangular. Rigid, montaj rapid, culori MS/MPR/stejar, garantie pana la 30 ani. BDM Systems.",
+        "related_products": [
+            "rufster-element-gard-combi-80x20",
+            "rufster-element-gard-combi-300x20",
+            "rufster-jaluzele-gard-z95"
+        ],
         "sort_order": 75,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:00:00"
     },
     {
         "id": 76,
         "name": "Rufster Element Gard Combi",
-        "subtitle": "Element gard modular cu imbinare",
+        "subtitle": "Element gard Combi - doua elemente care se imbina prin glisare intr-un ansamblu 3D unic",
         "slug": "rufster-element-gard-combi",
         "category_id": 14,
         "subcategory_id": 40,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-element-gard-combi/1.jpg",
+        "image_schema": "/uploads/products/rufster-element-gard-combi/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-element-gard-combi/1.jpg",
+            "/uploads/products/rufster-element-gard-combi/2.jpg"
+        ],
         "specs": [
             {
                 "key": "Latime",
@@ -15678,15 +15713,19 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 30 ani finisaj MPR",
-        "description_html": "<h2>Element Gard Combi Rufster</h2><p>Doua elemente care se imbina alunecand unul in celalalt, creand un ansamblu cu estetica unica. Designul rectangular ofera rigiditate excelenta fara intariri pe lungime.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Element gard Combi Rufster - design combinat, aspect premium</h2>\n<p><strong>Gardul Combi</strong> este un model proiectat din <strong>doua elemente</strong> care se imbina prin glisare, creand un ansamblu <strong>3D cu aspect estetic unic</strong>. Ofera rigiditate excelenta datorita formei rectangulare si disponibilitate in combinatii de culori elegante, inclusiv textura lemn.</p>\n<h3>De ce Combi?</h3>\n<ul>\n    <li><strong>Design 3D personalizat</strong> - imbinare glisanta a doua profile</li>\n    <li><strong>Rigiditate maxima</strong> - forma rectangulara + suprapunere</li>\n    <li><strong>Combinatii de culori</strong> - fiecare element poate avea culoarea sa</li>\n    <li><strong>Aspect premium</strong> - vizual unic vs. gardurile standard</li>\n    <li><strong>Montaj rapid</strong> in profile U laterale</li>\n</ul>\n<h3>Specificatii</h3>\n<p>Latime 20 mm, inaltime 110 mm, lungime variabila. Grosime minima 0,5 mm. Zinc 140-275 g/m&sup2;. Finisaje: mat structurat MS 35 &micro;m, poliester lucios cu textura lemn.</p>",
+        "seo_title": "Element gard Combi Rufster - design 3D combinat | BDM Systems",
+        "seo_description": "Element gard Rufster Combi cu doua profile care se imbina 3D. Rigiditate maxima, combinatii de culori inclusiv imitatie lemn. Garantie pana la 30 ani.",
+        "related_products": [
+            "rufster-element-gard-combi-80x20",
+            "rufster-element-gard-combi-300x20",
+            "rufster-gard-rectangular-80x20"
+        ],
         "sort_order": 76,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:00:00"
     },
     {
         "id": 77,
@@ -23584,5 +23623,1176 @@
         "is_active": true,
         "created_at": "2026-07-11 10:45:00",
         "updated_at": "2026-07-11 10:45:00"
+    },
+    {
+        "id": 173,
+        "name": "Rufster Element Orizontal O120",
+        "subtitle": "Element gard orizontal 120 mm - design minimalist si aspect uniform pe orizontala",
+        "slug": "rufster-element-orizontal-o120",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-element-orizontal-o120/1.jpg",
+        "image_schema": "/uploads/products/rufster-element-orizontal-o120/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-element-orizontal-o120/1.jpg",
+            "/uploads/products/rufster-element-orizontal-o120/2.jpg",
+            "/uploads/products/rufster-element-orizontal-o120/3.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "120 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "20 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Lungimi standard",
+                "value": "1.25 m / 2 m",
+                "sort_order": 3
+            },
+            {
+                "key": "Grosime",
+                "value": "0.45 - 0.60 mm",
+                "sort_order": 4
+            },
+            {
+                "key": "Strat zinc",
+                "value": "140 - 275 g/m2",
+                "sort_order": 5
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Super-Poliester MPR (60 um)",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Visiniu MPR",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MPR",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MPR",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MPR",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MPR",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Element orizontal Rufster O120 - liniile orizontale ale modernitatii</h2>\n<p><strong>Elementul orizontal O120</strong> de la Rufster este proiectat pentru gardurile cu aspect orizontal contemporan. Se instaleaza in profil U pentru finisare margini si necesita <strong>intaritura</strong> pentru rigiditate structurala. Design simplu, eficient si aspect estetic curat.</p>\n<h3>Avantaje</h3>\n<ul>\n    <li><strong>Aspect orizontal modern</strong> - profil 120 mm inaltime doar 20 mm</li>\n    <li><strong>Debitare la proiect</strong> - lungime custom din fabrica</li>\n    <li><strong>Montaj simplu</strong> in profil U cu intaritura</li>\n    <li><strong>Rezistenta durabila</strong> - otel prevopsit zincat</li>\n    <li><strong>Asortare cu acoperisul</strong></li>\n</ul>",
+        "seo_title": "Rufster Element Orizontal O120 - Element gard orizontal 120 mm | BDM Systems",
+        "seo_description": "Element gard orizontal 120 mm - design minimalist si aspect uniform pe orizontala. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-element-gard-combi",
+            "rufster-stacheti-metalici"
+        ],
+        "sort_order": 173,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 174,
+        "name": "Rufster Jaluzea Gard Dubla",
+        "subtitle": "Jaluzea gard dubla - finisaj estetic pe AMBELE fete cu doua elemente identice",
+        "slug": "rufster-jaluzea-gard-dubla",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-jaluzea-gard-dubla/1.jpg",
+        "image_schema": "/uploads/products/rufster-jaluzea-gard-dubla/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-jaluzea-gard-dubla/1.jpg",
+            "/uploads/products/rufster-jaluzea-gard-dubla/2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "40 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "117 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Lungime",
+                "value": "variabila (debitat in fabrica)",
+                "sort_order": 3
+            },
+            {
+                "key": "Grosime",
+                "value": "0.45 - 0.55 mm",
+                "sort_order": 4
+            },
+            {
+                "key": "Strat zinc",
+                "value": "140 - 275 g/m2",
+                "sort_order": 5
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Super-Poliester MPR (60 um)",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Visiniu MPR",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MPR",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MPR",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MPR",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MPR",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            },
+            {
+                "name": "Imitatie lemn - Stejar",
+                "sort_order": 3,
+                "colors": [
+                    {
+                        "name": "Stejar Auriu",
+                        "code": "imitatie lemn",
+                        "hex": "#a67b3d",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Stejar Închis",
+                        "code": "imitatie lemn",
+                        "hex": "#5c3d1a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Jaluzea Gard Dubla Rufster - frumos pe ambele parti</h2>\n<p>Solutia de gard metalic cu <strong>aspect finisat pe ambele fete</strong> - inovatia constă in doua elemente identice care se imbina usor prin fixare spate in spate. Ideala cand ambele fete ale gardului trebuie sa arate premium (fatada spre strada + fatada spre curtea vecina).</p>\n<h3>Caracteristici cheie</h3>\n<ul>\n    <li><strong>Ambele fete finisate</strong> - fata B ascunsa, doar finisajul se vede</li>\n    <li><strong>Fixare rapida</strong> cu suruburi autoforante sau popnituri</li>\n    <li><strong>Nuante trendy</strong> inclusiv Stejar Auriu (imitatie lemn)</li>\n    <li><strong>Rigiditate crescuta</strong> - nu necesita intarituri suplimentare</li>\n    <li><strong>Montaj simplu</strong> in profile U laterale</li>\n</ul>",
+        "seo_title": "Rufster Jaluzea Gard Dubla - Jaluzea gard dubla | BDM Systems",
+        "seo_description": "Jaluzea gard dubla - finisaj estetic pe AMBELE fete cu doua elemente identice. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-jaluzea-gard-v80",
+            "rufster-jaluzea-gard-sageata-v75"
+        ],
+        "sort_order": 174,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 175,
+        "name": "Rufster Jaluzea Gard Sageata V75",
+        "subtitle": "Jaluzea V75 in forma de sageata simetrica - arata la fel pe ambele parti ale gardului",
+        "slug": "rufster-jaluzea-gard-sageata-v75",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-jaluzea-gard-sageata-v75/1.jpg",
+        "image_schema": "/uploads/products/rufster-jaluzea-gard-sageata-v75/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-jaluzea-gard-sageata-v75/1.jpg",
+            "/uploads/products/rufster-jaluzea-gard-sageata-v75/2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "40 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "75 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Inaltime utila",
+                "value": "70 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Grosime",
+                "value": "0.45 - 0.55 mm",
+                "sort_order": 4
+            },
+            {
+                "key": "Strat zinc",
+                "value": "140 - 275 g/m2",
+                "sort_order": 5
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Super-Poliester MPR (60 um)",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Visiniu MPR",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MPR",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MPR",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MPR",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MPR",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            },
+            {
+                "name": "Imitatie lemn - Stejar",
+                "sort_order": 3,
+                "colors": [
+                    {
+                        "name": "Stejar Auriu",
+                        "code": "imitatie lemn",
+                        "hex": "#a67b3d",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Stejar Închis",
+                        "code": "imitatie lemn",
+                        "hex": "#5c3d1a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Jaluzea Gard Sageata V75 Rufster - simetrie perfecta</h2>\n<p><strong>Jaluzelele V75 sageata</strong> aduc un profil unic in forma de sageata simetrica, ceea ce inseamna ca gardul arata <strong>identic pe ambele fete</strong>. Inaltimea utila de 70 mm asigura <strong>intimitate</strong> fara vizibilitate prin gard.</p>\n<h3>De ce V75 sageata?</h3>\n<ul>\n    <li><strong>Model simetric</strong> - aspect identic pe ambele parti</li>\n    <li><strong>Intimitate garantata</strong> - 70 mm inaltime utila</li>\n    <li><strong>Rigiditate structurala</strong> ridicata</li>\n    <li><strong>Montaj rapid</strong> in profile U laterale</li>\n    <li><strong>Nuante variate</strong> inclusiv stejar auriu, MS si MPR</li>\n</ul>",
+        "seo_title": "Rufster Jaluzea Gard Sageata V75 - Jaluzea V75 in forma de sageata simetrica | BDM Systems",
+        "seo_description": "Jaluzea V75 in forma de sageata simetrica - arata la fel pe ambele parti ale gardului. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-jaluzea-gard-v58",
+            "rufster-jaluzea-gard-v80"
+        ],
+        "sort_order": 175,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 176,
+        "name": "Rufster Jaluzea Gard V58",
+        "subtitle": "Jaluzea V58 - solutie economica cu doua intarituri la capete pentru rezistenta maxima",
+        "slug": "rufster-jaluzea-gard-v58",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-jaluzea-gard-v58/1.jpg",
+        "image_schema": "/uploads/products/rufster-jaluzea-gard-v58/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-jaluzea-gard-v58/1.jpg",
+            "/uploads/products/rufster-jaluzea-gard-v58/2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "40 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "58 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Grosime",
+                "value": "0.45 - 0.55 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Strat zinc",
+                "value": "140 - 275 g/m2",
+                "sort_order": 4
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Super-Poliester MPR (60 um)",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Visiniu MPR",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MPR",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MPR",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MPR",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MPR",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Jaluzea Gard V58 Rufster - eficienta costurilor si rezistenta</h2>\n<p><strong>Jaluzeaua V58</strong> a fost optimizata pentru cost si rezistenta. Profilul dispune de <strong>doua intarituri la capete</strong> pentru rigiditate maxima, eliminand necesitatea stalpilor intermediari. Design cu doua fete: jaluzea pe fata si <strong>suprafata plana pe spate</strong> pentru inchidere completa.</p>\n<h3>Caracteristici</h3>\n<ul>\n    <li><strong>Cost eficient</strong> - profil optimizat</li>\n    <li><strong>Intarituri la capete</strong> - fara stalpi intermediari</li>\n    <li><strong>Suprafata plana pe spate</strong> - inchidere completa vizuala</li>\n    <li><strong>Rezistent la deformari</strong></li>\n    <li><strong>Debitare in fabrica</strong> la lungimea proiectului</li>\n</ul>",
+        "seo_title": "Rufster Jaluzea Gard V58 - Jaluzea V58 | BDM Systems",
+        "seo_description": "Jaluzea V58 - solutie economica cu doua intarituri la capete pentru rezistenta maxima. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-jaluzea-gard-v80",
+            "rufster-jaluzea-gard-sageata-v75"
+        ],
+        "sort_order": 176,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 177,
+        "name": "Rufster Jaluzea Gard V80",
+        "subtitle": "Jaluzea V80 - cel mai rigid model cu rigidizare 90 grade pentru rezistenta mecanica superioara",
+        "slug": "rufster-jaluzea-gard-v80",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-jaluzea-gard-v80/1.jpg",
+        "image_schema": "/uploads/products/rufster-jaluzea-gard-v80/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-jaluzea-gard-v80/1.jpg",
+            "/uploads/products/rufster-jaluzea-gard-v80/2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "40 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "80 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Grosime",
+                "value": "0.45 - 0.55 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Strat zinc",
+                "value": "140 - 275 g/m2",
+                "sort_order": 4
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Super-Poliester MPR (60 um)",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Visiniu MPR",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MPR",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MPR",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MPR",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MPR",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            },
+            {
+                "name": "Imitatie lemn - Stejar",
+                "sort_order": 3,
+                "colors": [
+                    {
+                        "name": "Stejar Auriu",
+                        "code": "imitatie lemn",
+                        "hex": "#a67b3d",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Stejar Închis",
+                        "code": "imitatie lemn",
+                        "hex": "#5c3d1a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Jaluzea Gard V80 Rufster - cel mai rigid din portofoliu</h2>\n<p><strong>Jaluzelele V80</strong> sunt cel mai rigid model din gama Rufster, cu <strong>rigidizare la 90 grade</strong> in partea din fata care asigura <strong>rezistenta mecanica superioara</strong>. Fabricate din tabla de otel protejata cu sistem multistrat, se pot asorta cu acoperisurile metalice.</p>\n<h3>De ce V80?</h3>\n<ul>\n    <li><strong>Cel mai rigid</strong> - rigidizare 90&deg; frontal</li>\n    <li><strong>Rezistenta mecanica maxima</strong> in gama</li>\n    <li><strong>Aspect elegant</strong> - profil 80 mm</li>\n    <li><strong>Asortare cu acoperisul</strong> metalic</li>\n    <li><strong>Debitare custom</strong> in fabrica</li>\n</ul>",
+        "seo_title": "Rufster Jaluzea Gard V80 - Jaluzea V80 | BDM Systems",
+        "seo_description": "Jaluzea V80 - cel mai rigid model cu rigidizare 90 grade pentru rezistenta mecanica superioara. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-jaluzea-gard-v58",
+            "rufster-jaluzele-gard-zt125"
+        ],
+        "sort_order": 177,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 178,
+        "name": "Rufster Jaluzele Gard ZT125",
+        "subtitle": "Jaluzele ZT125 - profil cu doua trepte Z, design deosebit si silueta arhitecturala",
+        "slug": "rufster-jaluzele-gard-zt125",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-jaluzele-gard-zt125/1.jpg",
+        "image_schema": "/uploads/products/rufster-jaluzele-gard-zt125/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-jaluzele-gard-zt125/1.jpg",
+            "/uploads/products/rufster-jaluzele-gard-zt125/2.jpg",
+            "/uploads/products/rufster-jaluzele-gard-zt125/3.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "29.5 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "125 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Grosime",
+                "value": "0.45 - 0.60 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Strat zinc",
+                "value": "140 - 275 g/m2",
+                "sort_order": 4
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Super-Poliester MPR (60 um)",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Visiniu MPR",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MPR",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MPR",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MPR",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MPR",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Jaluzele Gard ZT125 Rufster - profil Z cu doua trepte</h2>\n<p><strong>Jaluzelele metalice ZT125</strong> de la Rufster reprezinta un model deosebit prin cele <strong>doua trepte Z</strong> in profil, care creeaza un aspect estetic unic si o silueta arhitecturala. Se instaleaza in profile U si pot fi pregăurite in fabrica pentru montaj cu popnituri.</p>\n<h3>Design unic</h3>\n<ul>\n    <li><strong>Doua trepte Z</strong> - silueta arhitecturala distinctiva</li>\n    <li><strong>Latime 125 mm</strong> - eficienta in acoperire</li>\n    <li><strong>Pregaurit in fabrica</strong> optional pentru popnituri</li>\n    <li><strong>Rezistenta superioara</strong> - profil complex + intarituri</li>\n    <li><strong>Montaj usor</strong> in profil U</li>\n</ul>",
+        "seo_title": "Rufster Jaluzele Gard ZT125 - Jaluzele ZT125 | BDM Systems",
+        "seo_description": "Jaluzele ZT125 - profil cu doua trepte Z, design deosebit si silueta arhitecturala. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-jaluzele-gard-z95",
+            "rufster-jaluzea-gard-v80",
+            "rufster-jaluzea-gard-sageata-v75"
+        ],
+        "sort_order": 178,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 179,
+        "name": "Rufster Element Gard Combi 80x20",
+        "subtitle": "Combi 80x20 - variatia mai zveltă a modelului Combi, imbinare prin glisare",
+        "slug": "rufster-element-gard-combi-80x20",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-element-gard-combi-80x20/1.jpg",
+        "image_schema": "/uploads/products/rufster-element-gard-combi-80x20/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-element-gard-combi-80x20/1.jpg",
+            "/uploads/products/rufster-element-gard-combi-80x20/2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "20 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "80 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Grosime",
+                "value": "0.50 - 0.60 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Strat zinc",
+                "value": "minim 225 g/m2",
+                "sort_order": 4
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Imitatie lemn - Stejar",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Stejar Auriu",
+                        "code": "imitatie lemn",
+                        "hex": "#a67b3d",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Stejar Închis",
+                        "code": "imitatie lemn",
+                        "hex": "#5c3d1a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Element gard Combi 80x20 Rufster - eleganta zvelta a designului Combi</h2>\n<p><strong>Modelul Combi 80x20</strong> se imbina usor prin glisarea celor doua elemente, formand un gard solid cu <strong>design deosebit</strong>. Ofera aspect estetic <strong>pe ambele fete</strong> ale gardului, prin linii simple si eficiente. Geometria rectangulara ii da rigiditate excelenta in timp.</p>\n<h3>Avantaje</h3>\n<ul>\n    <li><strong>Design zvelt</strong> - profil 80 mm ideal pentru case moderne</li>\n    <li><strong>Rezistenta superioara</strong> - forma rectangulara foarte rigida</li>\n    <li><strong>Aspect frumos pe ambele fete</strong></li>\n    <li><strong>Montaj rapid</strong> in profile U</li>\n    <li><strong>Combinatii de culori</strong> - inclusiv imitatie lemn</li>\n    <li><strong>Zinc premium</strong> - minim 225 g/m&sup2;</li>\n</ul>",
+        "seo_title": "Rufster Element Gard Combi 80x20 - Combi 80x20 | BDM Systems",
+        "seo_description": "Combi 80x20 - variatia mai zveltă a modelului Combi, imbinare prin glisare. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-element-gard-combi",
+            "rufster-element-gard-combi-300x20",
+            "rufster-gard-rectangular-80x20"
+        ],
+        "sort_order": 179,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 180,
+        "name": "Rufster Element Gard Combi 300x20",
+        "subtitle": "Combi 300x20 - cea mai ampla varianta, latime 300 mm cu design premium pe ambele fete",
+        "slug": "rufster-element-gard-combi-300x20",
+        "category_id": 14,
+        "subcategory_id": 40,
+        "manufacturer": "Rufster",
+        "status": "activ",
+        "image_main": "/uploads/products/rufster-element-gard-combi-300x20/1.jpg",
+        "image_schema": "/uploads/products/rufster-element-gard-combi-300x20/2.jpg",
+        "gallery": [
+            "/uploads/products/rufster-element-gard-combi-300x20/1.jpg",
+            "/uploads/products/rufster-element-gard-combi-300x20/2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Latime",
+                "value": "20 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime",
+                "value": "300 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Grosime",
+                "value": "0.50 - 0.60 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Strat zinc",
+                "value": "minim 225 g/m2",
+                "sort_order": 4
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat Structurat MS (35 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Visiniu MS",
+                        "code": "RAL 3005",
+                        "hex": "#5e2129",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro-ciocolatiu MS",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Maro-grafit MS",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri-antracit MS",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru MS",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Verde-muschi MS",
+                        "code": "RAL 6005",
+                        "hex": "#2f4538",
+                        "swatch": "",
+                        "sort_order": 6
+                    }
+                ]
+            },
+            {
+                "name": "Imitatie lemn - Stejar",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Stejar Auriu",
+                        "code": "imitatie lemn",
+                        "hex": "#a67b3d",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Stejar Închis",
+                        "code": "imitatie lemn",
+                        "hex": "#5c3d1a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie pana la 30 ani finisaj MPR, 15 ani MS",
+        "description_html": "<h2>Element gard Combi 300x20 Rufster - maxima acoperire, minim de imbinari</h2>\n<p><strong>Combi 300x20</strong> este cea mai <strong>ampla varianta</strong> a gamei Combi, cu inaltime de 300 mm per element. Design studiat atent pentru a oferi aspect frumos <strong>pe ambele laturi</strong>, cu rigiditate superioara datorita combinatiei a doua elemente complementare.</p>\n<h3>De ce Combi 300x20?</h3>\n<ul>\n    <li><strong>Maxima acoperire</strong> - un singur element inlocuieste 3-4 profile obisnuite</li>\n    <li><strong>Aspect premium</strong> pe ambele fete</li>\n    <li><strong>Rigiditate exceptionala</strong> - geometrie combinata</li>\n    <li><strong>Instalare rapida</strong> - mai putine elemente per metru</li>\n    <li><strong>Combinatii de culori</strong> personalizate</li>\n    <li><strong>Zinc premium</strong> - minim 225 g/m&sup2;</li>\n</ul>",
+        "seo_title": "Rufster Element Gard Combi 300x20 - Combi 300x20 | BDM Systems",
+        "seo_description": "Combi 300x20 - cea mai ampla varianta, latime 300 mm cu design premium pe ambele fete. Otel prevopsit Rufster, zinc 140-275 g/m2. Instalare de la BDM Systems.",
+        "related_products": [
+            "rufster-element-gard-combi",
+            "rufster-element-gard-combi-80x20",
+            "rufster-gard-rectangular-80x20"
+        ],
+        "sort_order": 180,
+        "is_active": true,
+        "created_at": "2026-07-11 12:00:00",
+        "updated_at": "2026-07-11 12:00:00"
     }
 ]
