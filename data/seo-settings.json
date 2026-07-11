@@ -5,5 +5,12 @@
     "robots_txt": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /scripts/\nDisallow: /data/\nDisallow: /src/\nDisallow: /vendor/\n\n# Sitemap\nSitemap: https://acoperisuri.info/sitemap.xml",
     "analytics_code": "",
     "tag_manager_id": "",
-    "redirects": []
+    "redirects": [
+        {
+            "from": "/tabla-faltuita/fals-solar-metigla",
+            "to": "/tabla-faltuita/falt-solar-metigla",
+            "active": true,
+            "note": "Corectare typo slug fals -> falt (subcategorie Metigla Falt Solar)"
+        }
+    ]
 }
