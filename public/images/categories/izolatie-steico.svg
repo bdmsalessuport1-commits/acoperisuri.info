@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Izolatie fibre lemn STEICO">
+  <defs>
+    <linearGradient id="bg-izol" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2540"/>
+      <stop offset="0.55" stop-color="#00204A"/>
+      <stop offset="1" stop-color="#001030"/>
+    </linearGradient>
+    <linearGradient id="wood-fiber-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9B37A"/>
+      <stop offset="1" stop-color="#B08653"/>
+    </linearGradient>
+    <linearGradient id="wood-fiber-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C89960"/>
+      <stop offset="1" stop-color="#8B633C"/>
+    </linearGradient>
+    <linearGradient id="fade-izol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00204A" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#00204A" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="fiber-tex" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="none"/>
+      <line x1="0" y1="0" x2="4" y2="4" stroke="#8B633C" stroke-width="0.4" opacity="0.5"/>
+      <line x1="0" y1="4" x2="4" y2="0" stroke="#D9B37A" stroke-width="0.4" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg-izol)"/>
+
+  <!-- Insulation panels stacked (isometric view) -->
+  <g transform="translate(280,120)">
+    <!-- Bottom panel -->
+    <path d="M0 220 L200 250 L280 220 L80 190 Z" fill="url(#wood-fiber-b)" stroke="#8B633C" stroke-width="1"/>
+    <path d="M0 220 L200 250 L280 220 L80 190 Z" fill="url(#fiber-tex)" opacity="0.6"/>
+    <path d="M0 220 L0 260 L200 290 L200 250 Z" fill="#7A5730" stroke="#5C3D1A" stroke-width="0.5"/>
+    <path d="M200 250 L200 290 L280 260 L280 220 Z" fill="#8B633C" stroke="#5C3D1A" stroke-width="0.5"/>
+
+    <!-- Middle panel -->
+    <path d="M-15 180 L185 210 L275 180 L75 150 Z" fill="url(#wood-fiber-a)" stroke="#8B633C" stroke-width="1"/>
+    <path d="M-15 180 L185 210 L275 180 L75 150 Z" fill="url(#fiber-tex)" opacity="0.55"/>
+    <path d="M-15 180 L-15 220 L185 250 L185 210 Z" fill="#8B633C" stroke="#5C3D1A" stroke-width="0.5"/>
+    <path d="M185 210 L185 250 L275 220 L275 180 Z" fill="#9C6F42" stroke="#5C3D1A" stroke-width="0.5"/>
+
+    <!-- Top panel -->
+    <path d="M-30 140 L170 170 L270 140 L70 110 Z" fill="url(#wood-fiber-a)" stroke="#8B633C" stroke-width="1"/>
+    <path d="M-30 140 L170 170 L270 140 L70 110 Z" fill="url(#fiber-tex)" opacity="0.55"/>
+    <path d="M-30 140 L-30 180 L170 210 L170 170 Z" fill="#8B633C" stroke="#5C3D1A" stroke-width="0.5"/>
+    <path d="M170 170 L170 210 L270 180 L270 140 Z" fill="#9C6F42" stroke="#5C3D1A" stroke-width="0.5"/>
+
+    <!-- STEICO logo stamp -->
+    <rect x="60" y="130" width="90" height="26" fill="#12A757" rx="3" opacity="0.95"/>
+    <text x="105" y="149" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="#fff">STEICO</text>
+  </g>
+
+  <!-- Leaves in top-left (ecology signal) -->
+  <g transform="translate(50,80)" opacity="0.85">
+    <path d="M30 30 Q10 10 25 -5 Q45 -10 55 15 Q45 40 30 30 Z" fill="#12A757"/>
+    <path d="M30 30 Q45 40 55 15 M28 30 L45 8" stroke="#0A8040" stroke-width="1" fill="none"/>
+    <path d="M55 50 Q45 30 60 25 Q75 30 70 50 Q60 65 55 50 Z" fill="#4CBB6A" opacity="0.9"/>
+    <path d="M55 50 L67 40" stroke="#0A8040" stroke-width="0.7" fill="none"/>
+    <path d="M15 70 Q0 55 15 45 Q30 45 32 65 Q25 80 15 70 Z" fill="#12A757" opacity="0.8"/>
+    <path d="M15 70 L22 55" stroke="#0A8040" stroke-width="0.7" fill="none"/>
+  </g>
+
+  <!-- Bottom fade -->
+  <rect y="330" width="600" height="270" fill="url(#fade-izol)"/>
+
+  <!-- Left red accent bar -->
+  <rect x="40" y="410" width="6" height="70" fill="#E00808"/>
+
+  <text x="60" y="450" font-family="'Public Sans','Arial Black',sans-serif" font-size="38" font-weight="900" fill="#fff" letter-spacing="1">IZOLATIE STEICO</text>
+  <text x="60" y="485" font-family="'Public Sans','Arial Black',sans-serif" font-size="22" font-weight="700" fill="#fff" opacity="0.95">Fibre de lemn</text>
+
+  <text x="60" y="518" font-family="'Roboto',sans-serif" font-size="18" fill="#fff" opacity="0.85">Ecologica, cu performanta</text>
+  <text x="60" y="540" font-family="'Roboto',sans-serif" font-size="18" fill="#fff" opacity="0.85">termica superioara</text>
+
+  <text x="60" y="578" font-family="'Public Sans',sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="2">VEZI MAI MULTE</text>
+  <path d="M225 568 L245 573 L225 578 M225 573 L245 573" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M245 568 L265 573 L245 578 M245 573 L265 573" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M265 568 L285 573 L265 578 M265 573 L285 573" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
