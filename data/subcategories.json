@@ -834,19 +834,19 @@
     {
         "id": 51,
         "category_id": 2,
-        "name": "Fals solar Metigla",
+        "name": "Falt Solar Metigla",
         "slug": "fals-solar-metigla",
-        "description": "Sistem fals solar Metigla pentru tabla faltuita",
-        "image": "",
+        "description": "Acoperis fotovoltaic integrat Metigla by Roofit.Solar - tabla prefaltuita cu module solare, panouri Mono PERC pana la 175W, garantie 30 ani.",
+        "image": "/uploads/products/falt-solar-metigla/hero-1.jpg",
         "icon": "",
-        "count": 0,
-        "seo_title": "",
-        "seo_description": "",
+        "count": 1,
+        "seo_title": "Falt Solar Metigla - Acoperis fotovoltaic integrat | BDM Systems",
+        "seo_description": "Acoperis Falt Solar Metigla by Roofit.Solar: tabla prefaltuita neagra cu module fotovoltaice integrate pana la 175W, garantie 30 ani, montaj plug & play.",
         "seo_text": "",
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 11:44:04",
-        "updated_at": "2026-03-31 11:44:04"
+        "updated_at": "2026-07-11 10:45:00"
     },
     {
         "id": 52,

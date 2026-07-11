@@ -23465,5 +23465,124 @@
                 "image": "/uploads/products/metigla-edge-sistem-pluvial/13-mufa-burlan.webp"
             }
         ]
+    },
+    {
+        "id": 172,
+        "name": "Falt Solar Metigla by Roofit.Solar",
+        "subtitle": "Acoperis fotovoltaic integrat: tabla prefaltuita cu module Mono PERC pana la 175W - 2 in 1, montaj plug & play, garantie 30 ani.",
+        "slug": "falt-solar-metigla",
+        "category_id": 2,
+        "subcategory_id": 51,
+        "manufacturer": "Metigla",
+        "status": "activ",
+        "image_main": "/uploads/products/falt-solar-metigla/hero-1.jpg",
+        "image_schema": "/uploads/products/falt-solar-metigla/hero-2.jpg",
+        "gallery": [
+            "/uploads/products/falt-solar-metigla/hero-1.jpg",
+            "/uploads/products/falt-solar-metigla/hero-2.jpg",
+            "/uploads/products/falt-solar-metigla/hero-3.jpg",
+            "/uploads/products/falt-solar-metigla/hero-4.jpg",
+            "/uploads/products/falt-solar-metigla/hero-11.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Profil",
+                "value": "Falt vertical",
+                "sort_order": 1
+            },
+            {
+                "key": "Material",
+                "value": "Tabla otel prevopsita + celule fotovoltaice Mono PERC",
+                "sort_order": 2
+            },
+            {
+                "key": "Latime utila",
+                "value": "540 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Grosime tabla",
+                "value": "0.50 mm",
+                "sort_order": 4
+            },
+            {
+                "key": "Inaltime falt (ondula)",
+                "value": "27 mm",
+                "sort_order": 5
+            },
+            {
+                "key": "Greutate",
+                "value": "15.5 kg/m²",
+                "sort_order": 6
+            },
+            {
+                "key": "Eficienta putere",
+                "value": "115W / 145W / 175W per modul",
+                "sort_order": 7
+            },
+            {
+                "key": "Tip celule fotovoltaice",
+                "value": "Mono PERC (monocristaline)",
+                "sort_order": 8
+            },
+            {
+                "key": "Acoperire zinc",
+                "value": "275 g/m²",
+                "sort_order": 9
+            },
+            {
+                "key": "Finisaj vopsea",
+                "value": "PUR50 (50 microni) - lucios",
+                "sort_order": 10
+            },
+            {
+                "key": "Panta minima",
+                "value": "10 grade",
+                "sort_order": 11
+            },
+            {
+                "key": "Clasa foc",
+                "value": "CLASA A (rezistenta maxima incendiu)",
+                "sort_order": 12
+            },
+            {
+                "key": "Test grindina",
+                "value": "165.5 km/h",
+                "sort_order": 13
+            },
+            {
+                "key": "Sistem conectare",
+                "value": "Plug & Play + software proiectare inclus",
+                "sort_order": 14
+            }
+        ],
+        "materials": [
+            {
+                "name": "PUR50 Lucios",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Negru integrat",
+                        "code": "RAL 9005 PUR",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 1
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie 30 de ani. Garantie de putere lineara: 97.5% in anul 1, 80% dupa 25 de ani. Garantia produsului: 10 ani. Certificari IEC 6215, IEC 61730, IEC 62716, IEC 61701.",
+        "description_html": "<h2>Falt Solar Metigla by Roofit.Solar - acoperisul care produce energie</h2>\n<p><strong>Falt Solar Metigla by Roofit.Solar</strong> este un sistem de acoperis <strong>2 in 1</strong>: tabla faltuita neagra din otel prevopsit combinata cu module fotovoltaice de inalta tehnologie, integrate direct in profilul de invelitoare. Rezultatul este un acoperis care <strong>produce energie verde</strong> in timp ce ofera protectia si estetica unui sistem premium de falt vertical.</p>\n\n<h3>Una dintre cele mai durabile si estetice sisteme de acoperis fotovoltaic</h3>\n<p>Celulele solare aproape invizibile integrate in metal fac ca acoperisurile Falt Solar sa <strong>indeplineasca majoritatea standardelor de planificare urbana</strong> - inclusiv pentru cladiri protejate si de patrimoniu. Aspectul curat, cu falt vertical, se potriveste perfect atat arhitecturii moderne minimaliste, cat si constructiilor traditionale nordice.</p>\n\n<h3>De ce Falt Solar Metigla?</h3>\n<ul>\n    <li><strong>Pana la 175W per modul</strong> - celule monocristaline Mono PERC de inalta tehnologie</li>\n    <li><strong>Performanta si in lumina scazuta</strong> - celulele solare monocristaline ofera productie ridicata chiar si in conditii de nori</li>\n    <li><strong>Montaj plug &amp; play</strong> - conectorii precablati simplifica dramatic instalarea</li>\n    <li><strong>Software de proiectare inclus</strong> - fiecare proiect primeste un plan clar de conectare a cablurilor pe acoperis</li>\n    <li><strong>Aspect curat, panouri invizibile</strong> - integrare arhitecturala perfecta, fara panouri standard vizibile deasupra tiglei</li>\n    <li><strong>Test grindina 165.5 km/h</strong> - durabilitate mecanica extrem de ridicata</li>\n    <li><strong>Clasa A la foc</strong> - securitate maxima la incendiu</li>\n    <li><strong>Certificari internationale</strong>: IEC 6215, IEC 61730, IEC 62716, IEC 61701</li>\n</ul>\n\n<h3>Ideal pentru</h3>\n<ul>\n    <li>Constructii noi rezidentiale cu obiectiv de eficienta energetica sau nZEB</li>\n    <li>Renovari de acoperis cu panta - inlocuirea invelitorii existente cu solutie 2 in 1</li>\n    <li>Fatade fotovoltaice cu aspect uniform</li>\n    <li>Cladiri de patrimoniu unde panourile standard nu sunt admise</li>\n    <li>Case pasive si nZEB unde estetica si autonomia energetica conteaza egal</li>\n</ul>\n\n<h3>Garantie 30 de ani - una dintre cele mai lungi din piata</h3>\n<p><strong>Garantia de putere</strong> este liniara si asigurata contractual:</p>\n<ul>\n    <li>In anul 1: <strong>97.5%</strong> din puterea nominala</li>\n    <li>Dupa 25 de ani: minim <strong>80%</strong> din puterea nominala</li>\n    <li>Garantie produs (materiale + finisaj): <strong>10 ani</strong></li>\n</ul>\n\n<h3>Piese de finisaj disponibile</h3>\n<p>Sistemul se completeaza cu piesele de finisaj Metigla dedicate:</p>\n<ul>\n    <li>Sort de streasina cu ventilatie</li>\n    <li>Suport de coama cu ventilatie</li>\n    <li>Coama dreapta cu ventilatie</li>\n</ul>\n\n<h3>Se monteaza ca un acoperis obisnuit</h3>\n<p>Falt Solar by Roofit.Solar este un sistem BIPV (Building Integrated Photovoltaic) autentic - se monteaza <strong>la fel de usor precum un acoperis obisnuit</strong>. Nu ai nevoie de doua meserii diferite (invelitoare + panouri PV) - o singura echipa de montaj instaleaza intreg sistemul.</p>\n\n<p><em>BDM Systems este partener autorizat Metigla si iti poate oferi consultanta completa privind dimensionarea sistemului fotovoltaic in functie de necesarul energetic al casei, orientarea acoperisului si bugetul disponibil.</em></p>",
+        "seo_title": "Falt Solar Metigla by Roofit.Solar - Acoperis fotovoltaic 175W | BDM Systems",
+        "seo_description": "Acoperis Falt Solar Metigla: tabla prefaltuita cu module fotovoltaice integrate Mono PERC pana la 175W per modul. Garantie 30 ani, clasa A la foc, plug & play. Montaj de la partenerul autorizat BDM Systems.",
+        "related_products": [
+            "metigla-falt",
+            "metigla-clic",
+            "metigla-edge-sistem-pluvial"
+        ],
+        "sort_order": 172,
+        "is_active": true,
+        "created_at": "2026-07-11 10:45:00",
+        "updated_at": "2026-07-11 10:45:00"
     }
 ]
