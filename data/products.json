@@ -15729,16 +15729,19 @@
     },
     {
         "id": 77,
-        "name": "Wetterbest Lamela Gard Jaluzea L",
-        "subtitle": "Panou gard tip jaluzea L",
+        "name": "Wetterbest Panou Gard Lamela Tip Jaluzea L",
+        "subtitle": "Panou gard tip jaluzea forma L - lamele orizontale suprapuse pentru intimitate maxima",
         "slug": "wetterbest-lamela-gard-jaluzea-l",
         "category_id": 14,
         "subcategory_id": 41,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/wetterbest-lamela-gard-jaluzea-l/1.jpg",
+        "image_schema": "/uploads/products/wetterbest-lamela-gard-jaluzea-l/2.jpg",
+        "gallery": [
+            "/uploads/products/wetterbest-lamela-gard-jaluzea-l/1.jpg",
+            "/uploads/products/wetterbest-lamela-gard-jaluzea-l/2.jpg"
+        ],
         "specs": [
             {
                 "key": "Lungime",
@@ -15998,28 +16001,35 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 10 ani",
-        "description_html": "<h2>Lamela Gard Tip Jaluzea L - Wetterbest</h2><p>Panourile gard din tabla metalica Wetterbest reprezinta o solutie moderna pentru imprejmuirea si delimitarea spatiului exterior. Design minimalist si elegant, se monteaza cu usurinta pe stalpi de beton sau otel.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie standard pentru finisaj vopsea si suport metalic conform certificat Wetterbest",
+        "description_html": "<h2>Panou gard tip jaluzea L Wetterbest - design minimalist si intimitate garantata</h2>\n<p>Panourile de gard <strong>tip jaluzea profil L</strong> de la Wetterbest sunt confectionate din <strong>otel galvanizat cu grosime 0,60 mm</strong>, protejate cu vopsea disponibila in nuante variate. Sistemul are un <strong>design minimalist si elegant</strong>, include toate accesoriile necesare pentru instalare.</p>\n<h3>Design orizontal contemporan</h3>\n<ul>\n    <li><strong>Lamele orizontale suprapuse in forma L</strong> - blocheaza vizibilitatea perfect</li>\n    <li><strong>Aspect modern si minimalist</strong> - liniile orizontale sunt trend arhitectural</li>\n    <li><strong>Rigiditate structurala</strong> - profilul L asigura rezistenta la vant</li>\n    <li><strong>Intimitate maxima</strong> - lamelele nu lasa spatiu pentru vizibilitate</li>\n    <li><strong>Distanta intre lamele reglabila</strong> conform proiectului</li>\n    <li><strong>Montaj pe stalpi de otel sau beton</strong></li>\n</ul>\n<h3>Specificatii tehnice</h3>\n<p>Grosime tabla: <strong>0,60 mm</strong>. Material: otel zincat cu strat de vopsea multistrat. Design tip jaluzea L cu prindere orizontala. Disponibil in <strong>gama larga de culori</strong> pentru asortare cu acoperisul.</p>",
+        "seo_title": "Panou gard jaluzea L Wetterbest - design minimalist modern | BDM Systems",
+        "seo_description": "Panou gard tip jaluzea profil L Wetterbest, otel 0.60 mm galvanizat prevopsit. Lamele orizontale pentru intimitate maxima si design modern. Instalare BDM Systems.",
+        "related_products": [
+            "wetterbest-lamela-gard-jaluzea-d",
+            "rufster-jaluzele-gard-z95",
+            "rufster-jaluzea-gard-v80"
+        ],
         "sort_order": 77,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:15:00"
     },
     {
         "id": 78,
-        "name": "Wetterbest Lamela Gard Jaluzea D",
-        "subtitle": "Panou gard lamela dreapta",
+        "name": "Wetterbest Panou Gard Lamela Tip Jaluzea D",
+        "subtitle": "Panou gard tip jaluzea forma D - lamele drepte cu profil D pentru aspect industrial modern",
         "slug": "wetterbest-lamela-gard-jaluzea-d",
         "category_id": 14,
         "subcategory_id": 41,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/wetterbest-lamela-gard-jaluzea-d/1.jpg",
+        "image_schema": "/uploads/products/wetterbest-lamela-gard-jaluzea-d/2.jpg",
+        "gallery": [
+            "/uploads/products/wetterbest-lamela-gard-jaluzea-d/1.jpg",
+            "/uploads/products/wetterbest-lamela-gard-jaluzea-d/2.jpg"
+        ],
         "specs": [
             {
                 "key": "Lungime",
@@ -16279,15 +16289,19 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 10 ani",
-        "description_html": "<h2>Lamela Gard Tip Jaluzea D - Wetterbest</h2><p>Elementul component principal al panoului de gard tip jaluzea. Se monteaza in pozitie orizontala intre profilele verticale. Geometrie care confera rezistenta profilului.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie standard pentru finisaj vopsea si suport metalic conform certificat Wetterbest",
+        "description_html": "<h2>Panou gard tip jaluzea D Wetterbest - profil drept pentru arhitectura minimalista</h2>\n<p>Panourile de gard <strong>tip jaluzea profil D</strong> reprezinta varianta cu <strong>lamele orizontale drepte</strong> a sistemului Wetterbest. Fabricate din <strong>otel galvanizat de 0,60 mm</strong> protejat cu vopsea multistrat, aduc un <strong>aspect industrial modern</strong> ce se potriveste caselor cu arhitectura contemporana.</p>\n<h3>De ce panou D?</h3>\n<ul>\n    <li><strong>Lamele drepte orizontale</strong> - linii pure minimaliste</li>\n    <li><strong>Aspect industrial rafinat</strong> - potrivit pentru casele cu design modern</li>\n    <li><strong>Rezistenta ridicata</strong> - profil D optimizat structural</li>\n    <li><strong>Distante variabile</strong> intre lamele conform proiectului</li>\n    <li><strong>Montaj pe stalpi din otel sau beton</strong></li>\n    <li><strong>Culori asortate</strong> cu invelitoarea Wetterbest</li>\n</ul>\n<h3>Perfect pentru</h3>\n<p>Case moderne, hale industriale, spatii comerciale, imprejmuri corporate. Se combina foarte bine cu <strong>porti auto glisante</strong> si stalpi de beton cu capac decorativ.</p>",
+        "seo_title": "Panou gard jaluzea D Wetterbest - profil drept industrial modern | BDM Systems",
+        "seo_description": "Panou gard tip jaluzea profil D Wetterbest, lamele drepte, otel 0.60 mm galvanizat prevopsit. Aspect industrial modern pentru case contemporane. BDM Systems.",
+        "related_products": [
+            "wetterbest-lamela-gard-jaluzea-l",
+            "rufster-jaluzea-gard-v80",
+            "rufster-jaluzele-gard-zt125"
+        ],
         "sort_order": 78,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:15:00"
     },
     {
         "id": 79,
@@ -16297,7 +16311,7 @@
         "category_id": 14,
         "subcategory_id": 41,
         "manufacturer": "Wetterbest",
-        "status": "activ",
+        "status": "inactiv",
         "image_main": "",
         "image_schema": "",
         "gallery": [],
@@ -16561,22 +16575,26 @@
         "seo_description": "",
         "related_products": [],
         "sort_order": 79,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:15:00"
     },
     {
         "id": 80,
         "name": "Wetterbest Sipca Metalica Semirotunda",
-        "subtitle": "Sipca gard semirotunda",
+        "subtitle": "Sipca gard semirotunda din tabla de otel prevopsita - profil curbat elegant, rezistent zeci de ani",
         "slug": "wetterbest-sipca-metalica-semirotunda",
         "category_id": 14,
         "subcategory_id": 41,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/wetterbest-sipca-metalica-semirotunda/1.jpg",
+        "image_schema": "/uploads/products/wetterbest-sipca-metalica-semirotunda/2.jpg",
+        "gallery": [
+            "/uploads/products/wetterbest-sipca-metalica-semirotunda/1.jpg",
+            "/uploads/products/wetterbest-sipca-metalica-semirotunda/2.jpg",
+            "/uploads/products/wetterbest-sipca-metalica-semirotunda/3.jpg"
+        ],
         "specs": [
             {
                 "key": "Lungime",
@@ -16841,28 +16859,35 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 10 ani",
-        "description_html": "<h2>Sipca Metalica Semirotunda - Wetterbest</h2><p>Sipci metalice de gard semirotunde, realizate din otel galvanizat si prevopsite in camp electrostatic. Marginile faltzuite pentru durabilitate sporita la deformarea mecanica. Rezistente la intemperii si raze UV.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie standard pentru finisaj vopsea si suport metalic conform certificat Wetterbest",
+        "description_html": "<h2>Sipca metalica semirotunda Wetterbest - eleganta rotunjita a profilului</h2>\n<p><strong>Sipca metalica semirotunda</strong> Wetterbest este fabricata din <strong>tabla de otel zincata si prevopsita</strong>, cu profil curbat elegant care aduce un aspect placut si natural gardului tau. Rezistenta la factori de mediu si la coroziune, sipca isi pastreaza aspectul si rezistenta zeci de ani in exterior.</p>\n<h3>De ce sipca semirotunda Wetterbest?</h3>\n<ul>\n    <li><strong>Profil semirotund elegant</strong> - imita eleganta gardurilor din lemn</li>\n    <li><strong>Aspect placut</strong> pe orice tip de casa - traditionala sau moderna</li>\n    <li><strong>Rezistenta la coroziune</strong> - zinc + strat de vopsea multistrat</li>\n    <li><strong>Montaj rapid</strong> - se prinde direct pe tevi transversale</li>\n    <li><strong>Producator roman</strong> - livrare rapida, disponibilitate mare</li>\n    <li><strong>Gama variata de culori</strong> compatibila cu invelitoarea acoperisului</li>\n</ul>\n<h3>Utilizare</h3>\n<p>Ideala pentru <strong>garduri residentiale</strong>, delimitare de proprietate, sau imprejmuiri unde e nevoie de <strong>durabilitate si estetica</strong>. Se poate combina cu stalpi de otel, tevi rectangulare sau soclu de beton.</p>",
+        "seo_title": "Sipca metalica gard semirotunda Wetterbest - profil curbat elegant | BDM Systems",
+        "seo_description": "Sipca metalica semirotunda Wetterbest, tabla de otel prevopsita, rezistenta zeci de ani. Aspect elegant, culori asortabile cu acoperisul. Livrare de la BDM Systems.",
+        "related_products": [
+            "wetterbest-sipca-metalica-dreapta",
+            "wetterbest-lamela-gard-jaluzea-l",
+            "rufster-stacheti-metalici"
+        ],
         "sort_order": 80,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:15:00"
     },
     {
         "id": 81,
         "name": "Wetterbest Sipca Metalica Dreapta",
-        "subtitle": "Sipca gard dreapta nervurata",
+        "subtitle": "Sipca gard dreapta cu nervuri de rigidizare - profil clasic modern, cost eficient",
         "slug": "wetterbest-sipca-metalica-dreapta",
         "category_id": 14,
         "subcategory_id": 41,
         "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/wetterbest-sipca-metalica-dreapta/1.jpg",
+        "image_schema": "/uploads/products/wetterbest-sipca-metalica-dreapta/2.jpg",
+        "gallery": [
+            "/uploads/products/wetterbest-sipca-metalica-dreapta/1.jpg",
+            "/uploads/products/wetterbest-sipca-metalica-dreapta/2.jpg"
+        ],
         "specs": [
             {
                 "key": "Lungime",
@@ -17127,15 +17152,19 @@
                 ]
             }
         ],
-        "warranty_text": "Garantie pana la 10 ani",
-        "description_html": "<h2>Sipca Metalica Dreapta - Wetterbest</h2><p>Sipca metalica de gard cu geometrie nervurata, avand pe fata frontala doua gofre trapezoidale. Folosita la constructia gardurilor cu arhitectura ferma, zvelta, cu linii drepte.</p>",
-        "seo_title": "",
-        "seo_description": "",
-        "related_products": [],
+        "warranty_text": "Garantie standard pentru finisaj vopsea si suport metalic conform certificat Wetterbest",
+        "description_html": "<h2>Sipca metalica dreapta Wetterbest - liniile drepte ale gardului modern</h2>\n<p><strong>Sipca metalica dreapta</strong> Wetterbest este varianta de <strong>profil clasic drept</strong> - o alternativa moderna, eficienta ca si cost, la sipca traditionala din lemn. Fabricata din tabla de otel galvanizata si prevopsita, ofera <strong>protectie durabila si aspect estetic</strong> pentru delimitarea proprietatii.</p>\n<h3>Caracteristici</h3>\n<ul>\n    <li><strong>Profil drept cu nervuri</strong> - rigidizare pentru rezistenta mecanica</li>\n    <li><strong>Aspect uniform si curat</strong> - liniile drepte creeaza un gard modern</li>\n    <li><strong>Cost eficient</strong> - alternativa la sipca din lemn cu <strong>zero intretinere</strong></li>\n    <li><strong>Rezistenta la intemperii</strong> - vopsire multistrat protejata la UV</li>\n    <li><strong>Montaj usor</strong> pe cadru de tub rectangular</li>\n    <li><strong>Aliniere cu acoperisul</strong> - culori care se asorteaza cu tigla metalica</li>\n</ul>\n<h3>Ideal pentru</h3>\n<p>Locuinte moderne si contemporane, unde e nevoie de un gard <strong>simplu, elegant si durabil</strong>. Se poate combina cu poarta metalica sau sipca semirotunda pentru zonele de la fatada.</p>",
+        "seo_title": "Sipca metalica gard dreapta Wetterbest - profil clasic modern | BDM Systems",
+        "seo_description": "Sipca metalica dreapta Wetterbest, otel prevopsit cu nervuri de rigidizare, alternativa moderna la sipca din lemn. Zero intretinere, culori variate. BDM Systems.",
+        "related_products": [
+            "wetterbest-sipca-metalica-semirotunda",
+            "wetterbest-lamela-gard-jaluzea-l",
+            "rufster-sipca-gard-v1"
+        ],
         "sort_order": 81,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-07-11 12:15:00"
     },
     {
         "id": 82,
