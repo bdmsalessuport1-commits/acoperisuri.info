@@ -1,0 +1,22 @@
+{
+    "site_title": "BDM Systems - acoperisuri.info",
+    "title_separator": " | ",
+    "default_description": "BDM Systems - solutii complete pentru acoperisuri, tigla metalica, sisteme pluviale si accesorii montaj. Calitate si garantie.",
+    "robots_txt": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /scripts/\nDisallow: /data/\nDisallow: /src/\nDisallow: /vendor/\nDisallow: /control-panel.html\nDisallow: /docs/\n\n# Sitemap\nSitemap: https://acoperisuri.info/sitemap.xml",
+    "analytics_code": "",
+    "tag_manager_id": "",
+    "redirects": [
+        {
+            "from": "/tabla-faltuita/fals-solar-metigla",
+            "to": "/tabla-faltuita/metigla",
+            "active": true,
+            "note": "URL vechi cu typo -> subcategoria Metigla (produsul Falt Solar e acum in Metigla)"
+        },
+        {
+            "from": "/tabla-faltuita/falt-solar-metigla",
+            "to": "/tabla-faltuita/metigla",
+            "active": true,
+            "note": "Subcategoria Falt Solar Metigla eliminata; produsul e acum in Metigla"
+        }
+    ]
+}

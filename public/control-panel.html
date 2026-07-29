@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>BDM Systems — Panou de control</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="theme-color" content="#00204A">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+        html { -webkit-text-size-adjust: 100%; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #00204A 0%, #001030 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+            padding-bottom: 40px;
+        }
+        .wrap { max-width: 480px; margin: 0 auto; }
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: -0.3px;
+        }
+        h1 .brand { color: #12A757; }
+        .sub {
+            text-align: center;
+            font-size: 13px;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 24px;
+        }
+        .section { margin-bottom: 22px; }
+        .section-title {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #12A757;
+            margin-bottom: 10px;
+            padding-left: 4px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            width: 100%;
+            padding: 16px 18px;
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 14px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            transition: all 0.2s ease;
+            -webkit-touch-callout: none;
+        }
+        .btn:active {
+            background: rgba(255,255,255,0.15);
+            transform: scale(0.98);
+        }
+        .btn .icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.1);
+        }
+        .btn .txt { flex: 1; min-width: 0; }
+        .btn .name { display: block; }
+        .btn .desc {
+            display: block;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(255,255,255,0.65);
+            margin-top: 2px;
+        }
+        .btn.primary {
+            background: #12A757;
+            border-color: #12A757;
+        }
+        .btn.primary:active { background: #0e8c48; }
+        .btn.primary .icon { background: rgba(255,255,255,0.2); }
+        .btn.danger {
+            background: rgba(224, 8, 8, 0.15);
+            border-color: rgba(224, 8, 8, 0.3);
+        }
+        .btn.danger .icon { background: rgba(224, 8, 8, 0.25); }
+        .arrow {
+            color: rgba(255,255,255,0.4);
+            font-size: 18px;
+        }
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 14px;
+            background: rgba(18,167,87,0.15);
+            border: 1px solid rgba(18,167,87,0.3);
+            border-radius: 10px;
+            font-size: 13px;
+            margin-bottom: 22px;
+        }
+        .status .dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            background: #12A757;
+            box-shadow: 0 0 8px #12A757;
+            animation: pulse 2s infinite;
+        }
+        .status.error { background: rgba(224,8,8,0.15); border-color: rgba(224,8,8,0.3); }
+        .status.error .dot { background: #e00808; box-shadow: 0 0 8px #e00808; }
+        .status.loading { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.2); }
+        .status.loading .dot { background: #ccc; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        footer {
+            text-align: center;
+            font-size: 11px;
+            color: rgba(255,255,255,0.4);
+            margin-top: 30px;
+        }
+        footer a { color: rgba(255,255,255,0.5); }
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 20px;
+            right: 20px;
+            max-width: 440px;
+            margin: 0 auto;
+            padding: 14px 18px;
+            background: #12A757;
+            color: #fff;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            transform: translateY(120%);
+            transition: transform 0.35s ease;
+            z-index: 100;
+        }
+        .toast.show { transform: translateY(0); }
+        .toast.error { background: #e00808; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1><span class="brand">BDM</span> Systems — Panou control</h1>
+        <p class="sub">acoperisuri.info · deploy · monitor</p>
+
+        <div class="status loading" id="status">
+            <span class="dot"></span>
+            <span id="statusText">Verific status site...</span>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🌐 Live site</div>
+            <a class="btn primary" href="https://acoperisuri-info.onrender.com/" target="_blank">
+                <div class="icon">🏠</div>
+                <div class="txt">
+                    <span class="name">Vezi site-ul live</span>
+                    <span class="desc">acoperisuri-info.onrender.com</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+            <a class="btn" href="https://acoperisuri-info.onrender.com/consultanta-passive-house" target="_blank">
+                <div class="icon">🏗️</div>
+                <div class="txt">
+                    <span class="name">Consultanță Passive House</span>
+                    <span class="desc">/consultanta-passive-house</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+            <a class="btn" href="https://acoperisuri-info.onrender.com/garduri/rufster" target="_blank">
+                <div class="icon">🚧</div>
+                <div class="txt">
+                    <span class="name">Garduri Rufster (13 modele)</span>
+                    <span class="desc">/garduri/rufster</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🚀 Deploy & monitor</div>
+            <a class="btn danger" href="#" id="deployBtn">
+                <div class="icon">🔥</div>
+                <div class="txt">
+                    <span class="name">Trigger deploy pe Render</span>
+                    <span class="desc">Forțează un deploy nou din branch develop</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+            <a class="btn" href="https://dashboard.render.com/web/srv-d758q6shg0os73afdsmg" target="_blank">
+                <div class="icon">📊</div>
+                <div class="txt">
+                    <span class="name">Dashboard Render</span>
+                    <span class="desc">Status deploy + log-uri</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+            <a class="btn" href="https://github.com/bdmsalessuport1-commits/acoperisuri.info" target="_blank">
+                <div class="icon">💻</div>
+                <div class="txt">
+                    <span class="name">Repo GitHub</span>
+                    <span class="desc">Commit-uri, pull requests</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🛠️ Admin site</div>
+            <a class="btn" href="https://acoperisuri-info.onrender.com/admin/login" target="_blank">
+                <div class="icon">🔐</div>
+                <div class="txt">
+                    <span class="name">Login admin panel</span>
+                    <span class="desc">Editare produse, blog, videouri</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📞 Contact rapid</div>
+            <a class="btn" href="tel:+40756034734">
+                <div class="icon">📱</div>
+                <div class="txt">
+                    <span class="name">Sună BDM Systems</span>
+                    <span class="desc">0756.034.734</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+            <a class="btn" href="https://wa.me/40756034734" target="_blank">
+                <div class="icon">💬</div>
+                <div class="txt">
+                    <span class="name">WhatsApp</span>
+                    <span class="desc">Chat direct</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+            <a class="btn" href="mailto:mircea@bdmsystems.ro">
+                <div class="icon">✉️</div>
+                <div class="txt">
+                    <span class="name">Email consultanță</span>
+                    <span class="desc">mircea@bdmsystems.ro</span>
+                </div>
+                <span class="arrow">›</span>
+            </a>
+        </div>
+
+        <footer>
+            BDM Systems · Prelungirea Ghencea 95C, București<br>
+            <br>
+            <a href="/docs/REMOTE_CONTROL" target="_blank">Ghid complet remote control</a>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast">Deploy trigger sent!</div>
+
+    <script>
+    (function() {
+        var statusEl = document.getElementById('status');
+        var statusText = document.getElementById('statusText');
+        var toast = document.getElementById('toast');
+
+        // Status check
+        function checkStatus() {
+            fetch('https://acoperisuri-info.onrender.com/', {method: 'HEAD', mode: 'no-cors'})
+                .then(function() {
+                    statusEl.className = 'status';
+                    statusText.textContent = 'Site live · răspunde OK';
+                })
+                .catch(function() {
+                    statusEl.className = 'status error';
+                    statusText.textContent = 'Site inaccesibil sau slow';
+                });
+        }
+        checkStatus();
+        setInterval(checkStatus, 60000);
+
+        // Deploy trigger with confirmation + status
+        var deployBtn = document.getElementById('deployBtn');
+        deployBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (!confirm('Sigur vrei să declanșezi un deploy nou pe Render?\n\nProcesul durează 2-3 minute.')) return;
+
+            showToast('Trimit trigger de deploy...', false);
+            fetch('https://api.render.com/deploy/srv-d758q6shg0os73afdsmg?key=gNqpQ245Dz4', {
+                method: 'POST',
+                mode: 'no-cors'
+            })
+            .then(function() {
+                showToast('✓ Deploy declanșat! Verifică pe Render dashboard.', false);
+            })
+            .catch(function() {
+                showToast('Deploy pornit (nu pot confirma direct din browser)', false);
+            });
+        });
+
+        function showToast(msg, isError) {
+            toast.textContent = msg;
+            toast.className = 'toast show' + (isError ? ' error' : '');
+            setTimeout(function() { toast.className = 'toast' + (isError ? ' error' : ''); }, 4500);
+        }
+    })();
+    </script>
+</body>
+</html>
