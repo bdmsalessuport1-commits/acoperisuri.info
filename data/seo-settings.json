@@ -2,7 +2,7 @@
     "site_title": "BDM Systems - acoperisuri.info",
     "title_separator": " | ",
     "default_description": "BDM Systems - solutii complete pentru acoperisuri, tigla metalica, sisteme pluviale si accesorii montaj. Calitate si garantie.",
-    "robots_txt": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /scripts/\nDisallow: /data/\nDisallow: /src/\nDisallow: /vendor/\n\n# Sitemap\nSitemap: https://acoperisuri.info/sitemap.xml",
+    "robots_txt": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /scripts/\nDisallow: /data/\nDisallow: /src/\nDisallow: /vendor/\nDisallow: /control-panel.html\nDisallow: /docs/\n\n# Sitemap\nSitemap: https://acoperisuri.info/sitemap.xml",
     "analytics_code": "",
     "tag_manager_id": "",
     "redirects": [
