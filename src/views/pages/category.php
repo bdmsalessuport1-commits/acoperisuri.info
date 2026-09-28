@@ -53,8 +53,14 @@ foreach ($subcategories as $sc) { $totalProducts += $sc['count'] ?? 0; }
                 <!-- GRILA SUBCATEGORII -->
                 <div class="subcat-grid">
                     <?php foreach ($subcategories as $sub): ?>
-                        <a href="/<?= htmlspecialchars($categorySlug) ?>/<?= htmlspecialchars($sub['slug']) ?>" class="subcat-card">
-                            <div class="subcat-card-image"><?= $sub['icon'] ?? $icon ?></div>
+                        <a href="/<?= htmlspecialchars($categorySlug) ?>/<?= htmlspecialchars($sub['slug']) ?>" class="subcat-card <?= !empty($sub['image']) ? 'has-image' : '' ?>">
+                            <?php if (!empty($sub['image'])): ?>
+                                <div class="subcat-card-image subcat-card-image-photo">
+                                    <img src="<?= htmlspecialchars($sub['image']) ?>" alt="<?= htmlspecialchars($sub['name']) ?>" loading="lazy" width="400" height="300">
+                                </div>
+                            <?php else: ?>
+                                <div class="subcat-card-image"><?= $sub['icon'] ?? $icon ?></div>
+                            <?php endif; ?>
                             <div class="subcat-card-body">
                                 <h3><?= htmlspecialchars($sub['name']) ?></h3>
                                 <span class="product-count"><?= $sub['count'] ?? 0 ?> produse</span>
