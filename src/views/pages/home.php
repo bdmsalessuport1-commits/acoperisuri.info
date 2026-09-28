@@ -30,7 +30,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         <!-- Banner slide (image only) -->
         <div class="hero-slide hero-slide-banner <?= $idx === 0 ? 'active' : '' ?>">
             <a href="<?= htmlspecialchars($slide['banner_link'] ?? '#') ?>" class="hero-banner-link" aria-label="<?= htmlspecialchars($slide['title'] ?? '') ?>">
-                <img src="<?= htmlspecialchars($slide['image']) ?>" alt="<?= htmlspecialchars($slide['title'] ?? '') ?>" width="1600" height="670" fetchpriority="<?= $idx === 0 ? 'high' : 'low' ?>">
+                <img src="<?= htmlspecialchars($slide['image']) ?>" alt="<?= htmlspecialchars($slide['title'] ?? '') ?>" width="2000" height="775" fetchpriority="<?= $idx === 0 ? 'high' : 'low' ?>">
             </a>
         </div>
         <?php else: ?>
