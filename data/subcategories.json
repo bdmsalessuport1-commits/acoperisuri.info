@@ -259,17 +259,17 @@
         "category_id": 6,
         "name": "Folii BDM Systems",
         "slug": "folii-bdm",
-        "description": "",
-        "image": "",
+        "description": "Folii anticondens BDM Systems - membrane de difuzie proprii, 125 g/m2 Standard Plus si 140 g/m2 MAXI SK2 (cu benzi autoadezive), pentru acoperisuri cu tigla metalica. Cel mai bun raport calitate-pret.",
+        "image": "/images/subcategories/folii-bdm-folii.jpg",
         "icon": "&#128203;",
         "count": 2,
-        "seo_title": "",
-        "seo_description": "",
+        "seo_title": "Folii anticondens BDM Systems - 125 Standard Plus, 140 MAXI SK2 | BDM Systems",
+        "seo_description": "Folii anticondens BDM Systems - membrane de difuzie proprii, 125 g/m2 Standard Plus si 140 g/m2 MAXI SK2 (cu benzi autoadezive), pentru acoperisuri cu tigla metalica. Cel mai bun raport calitate-pret. Livrare si consultanta de la BDM Systems.",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-09-28 16:20:00"
     },
     {
         "id": 17,
@@ -736,13 +736,15 @@
         "name": "Membrane difuzie acoperis",
         "slug": "membrane-difuzie-acoperis",
         "description": "Membrane de difuzie pentru acoperis Riwega - protectie impotriva apei si vantului",
-        "image": "",
+        "image": "/images/subcategories/membrane-difuzie-acoperis-folii.jpg",
         "icon": "&#9650;",
         "count": 8,
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "seo_title": "Membrane difuzie acoperis Riwega - USB Classic, Protector, Reflex Plus | BDM Systems",
+        "seo_description": "Membrane de difuzie pentru acoperis Riwega - USB Classic, Elefant, Protector Gold 330 / Silver 230, Reflex Plus (termo-reflexiva), Weld AS si DO 135 / DO 155. Protectie la condens si infiltratii, permeabile la vapori. Livrare si consultanta de la BDM Systems."
     },
     {
         "id": 45,
@@ -750,13 +752,15 @@
         "name": "Membrane control vapori",
         "slug": "membrane-control-vapori",
         "description": "Membrane de control vapori Riwega - regleaza migrarea vaporilor pentru evitarea condensului",
-        "image": "",
+        "image": "/images/subcategories/membrane-control-vapori-folii.jpg",
         "icon": "&#128167;",
         "count": 4,
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "seo_title": "Membrane control vapori Riwega - USB Micro, Vario V7 | BDM Systems",
+        "seo_description": "Membrane de control al vaporilor Riwega - USB Micro, Micro Light, Micro Strong si Micro 200 Vario V7 (Sd variabil). Bariera inteligenta la interior, pentru mansarde si case pasive. Livrare si consultanta de la BDM Systems."
     },
     {
         "id": 46,
@@ -764,13 +768,15 @@
         "name": "Bariere de vapori",
         "slug": "bariere-vapori",
         "description": "Bariere de vapori Riwega - opresc complet trecerea vaporilor de apa",
-        "image": "",
+        "image": "/images/subcategories/bariere-vapori-folii.jpg",
         "icon": "&#128683;",
         "count": 3,
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "seo_title": "Bariere de vapori Riwega - DS 65 PE, DS 188 ALU, DS 1500 SYN | BDM Systems",
+        "seo_description": "Bariere de vapori Riwega - DS 65 PE, DS 188 ALU (cu folie de aluminiu) si DS 1500 SYN. Etanseitate la vapori si aer pentru acoperisuri si pereti. Livrare si consultanta de la BDM Systems."
     },
     {
         "id": 47,
@@ -778,13 +784,15 @@
         "name": "Membrane fatada",
         "slug": "membrane-fatada",
         "description": "Membrane de difuzie pentru fatade ventilate Riwega - protectie UV si rezistenta la vant",
-        "image": "",
+        "image": "/images/subcategories/membrane-fatada-folii.jpg",
         "icon": "&#127970;",
         "count": 2,
         "sort_order": 6,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "seo_title": "Membrane fatada Riwega - USB Wall 120, Windtop UV | BDM Systems",
+        "seo_description": "Membrane pentru fatade ventilate Riwega - USB Wall 120 si USB Windtop UV 30/160 (rezistenta UV pentru fatade cu rosturi deschise). Livrare si consultanta de la BDM Systems."
     },
     {
         "id": 48,
@@ -792,13 +800,15 @@
         "name": "Covoare tabla faltuita",
         "slug": "covoare-tabla-faltuita",
         "description": "Covoare separator si ventilatie Riwega pentru tabla faltuita",
-        "image": "",
+        "image": "/images/subcategories/covoare-tabla-faltuita-folii.jpg",
         "icon": "&#9638;",
         "count": 2,
         "sort_order": 7,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "seo_title": "Covoare ventilatie tabla faltuita Riwega - Drenlam | BDM Systems",
+        "seo_description": "Covoare de ventilatie pentru tabla faltuita si tabla click Riwega - USB Drenlam Bluetech si Drenlam Light. Strat drenant si anti-zgomot sub invelitorile metalice plane. Livrare si consultanta de la BDM Systems."
     },
     {
         "id": 49,
@@ -806,13 +816,15 @@
         "name": "Membrane autoadezive",
         "slug": "membrane-autoadezive",
         "description": "Membrane autoadezive Riwega - etanseizare rapida fara adeziv suplimentar",
-        "image": "",
+        "image": "/images/subcategories/membrane-autoadezive-folii.jpg",
         "icon": "&#128204;",
         "count": 3,
         "sort_order": 8,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "seo_title": "Membrane autoadezive Riwega - VSK Bitum Reflex, VSK Clear, VSK DS | BDM Systems",
+        "seo_description": "Membrane autoadezive Riwega - VSK Bitum Reflex 1200, VSK Clear 280 si VSK DS 1500 SYN. Etansare integrala pe suport, pentru acoperisuri si detalii critice. Livrare si consultanta de la BDM Systems."
     },
     {
         "id": 50,

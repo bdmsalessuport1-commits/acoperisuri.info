@@ -5058,7 +5058,8 @@
         "sort_order": 42,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/bdm-125-standard-plus/card.jpg"
     },
     {
         "id": 43,
@@ -5147,7 +5148,8 @@
         "sort_order": 43,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/bdm-140-maxi-sk2/card.jpg"
     },
     {
         "id": 44,
@@ -5232,7 +5234,8 @@
         "sort_order": 44,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-reflex-plus/card.jpg"
     },
     {
         "id": 45,
@@ -17920,7 +17923,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-protector-gold-330/card.jpg"
     },
     {
         "id": 87,
@@ -17996,7 +18000,8 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-protector-silver-230/card.jpg"
     },
     {
         "id": 88,
@@ -18066,7 +18071,8 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-weld-as/card.jpg"
     },
     {
         "id": 89,
@@ -18142,7 +18148,8 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-classic/card.jpg"
     },
     {
         "id": 90,
@@ -18218,7 +18225,8 @@
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-elefant/card.jpg"
     },
     {
         "id": 91,
@@ -18284,7 +18292,8 @@
         "sort_order": 6,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-do-155/card.jpg"
     },
     {
         "id": 92,
@@ -18350,7 +18359,8 @@
         "sort_order": 7,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-do-135/card.jpg"
     },
     {
         "id": 93,
@@ -18416,7 +18426,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-micro-strong/card.jpg"
     },
     {
         "id": 94,
@@ -18482,7 +18493,8 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-micro/card.jpg"
     },
     {
         "id": 95,
@@ -18548,7 +18560,8 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-micro-light/card.jpg"
     },
     {
         "id": 96,
@@ -18614,7 +18627,8 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-micro-200-vario/card.jpg"
     },
     {
         "id": 97,
@@ -18680,7 +18694,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-ds-188-alu/card.jpg"
     },
     {
         "id": 98,
@@ -18741,7 +18756,8 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-ds-1500-syn/card.jpg"
     },
     {
         "id": 99,
@@ -18801,7 +18817,8 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-ds-65-pe/card.jpg"
     },
     {
         "id": 100,
@@ -18876,7 +18893,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-windtop-uv/card.jpg"
     },
     {
         "id": 101,
@@ -18941,7 +18959,8 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-wall-120/card.jpg"
     },
     {
         "id": 102,
@@ -19006,7 +19025,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-drenlam-bluetech/card.jpg"
     },
     {
         "id": 103,
@@ -19017,7 +19037,7 @@
         "subcategory_id": 48,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-drenlam-light/card.jpg",
         "image_schema": "",
         "gallery": [],
         "specs": [
@@ -19068,7 +19088,8 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-03-31 10:17:27"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-usb-drenlam-light/card.jpg"
     },
     {
         "id": 104,
@@ -19129,7 +19150,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-vsk-bitum-reflex-1200/card.jpg"
     },
     {
         "id": 105,
@@ -19190,7 +19212,8 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-vsk-clear-280/card.jpg"
     },
     {
         "id": 106,
@@ -19256,7 +19279,8 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
-        "updated_at": "2026-04-27 13:00:00"
+        "updated_at": "2026-09-28 16:20:00",
+        "image_card": "/uploads/products/riwega-vsk-ds-1500-syn/card.jpg"
     },
     {
         "id": 107,
