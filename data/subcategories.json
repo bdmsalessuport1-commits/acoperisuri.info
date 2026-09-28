@@ -80,9 +80,9 @@
         "seo_description": "Tabla faltuita Metigla - producator roman cu sistemele Falt (falt vertical dublu, panta minima 4 grade), Clic (imbinare click) si Falt Solar (acoperis fotovoltaic integrat). Otel S250GD, finisaje SuperMat si PUR NOVA. Instalare de la BDM Systems.",
         "seo_text": "",
         "sort_order": 1,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-09-28 13:05:00"
+        "updated_at": "2026-09-28 15:30:00"
     },
     {
         "id": 6,
@@ -97,9 +97,9 @@
         "seo_description": "Tabla faltuita click Voestalpine - producator austriac premium. Grosime 0.50 mm, culori RAL cu rezistenta UV exceptionala, aspect arhitectural modern cu fixare ascunsa. Instalare de la BDM Systems.",
         "seo_text": "",
         "sort_order": 2,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-09-28 13:05:00"
+        "updated_at": "2026-09-28 15:30:00"
     },
     {
         "id": 7,
@@ -114,9 +114,9 @@
         "seo_description": "Tabla faltuita click Wetterbest - producator roman, latime utila 500 mm, falt 29 mm, panta minima 8 grade. Finisaj Neomat 30 cu garantie 30 ani. Instalare de la BDM Systems.",
         "seo_text": "",
         "sort_order": 3,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-09-28 13:05:00"
+        "updated_at": "2026-09-28 15:30:00"
     },
     {
         "id": 8,
@@ -131,9 +131,9 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-28 15:30:00"
     },
     {
         "id": 9,
@@ -148,9 +148,9 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-28 15:30:00"
     },
     {
         "id": 10,
@@ -881,5 +881,39 @@
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
         "updated_at": "2026-04-03 10:00:00"
+    },
+    {
+        "id": 55,
+        "category_id": 2,
+        "name": "Tabla Click",
+        "slug": "click",
+        "description": "Tabla click - invelitoare metalica plana cu imbinare rapida prin apasare si fixare ascunsa, fara suruburi vizibile. Metigla Clic, Wetterbest Click si Wetterbest Click Elegant.",
+        "image": "/uploads/products/metigla-clic/card.jpg",
+        "icon": "&#9645;",
+        "count": 3,
+        "seo_title": "Tabla click - Metigla Clic, Wetterbest Click, Click Elegant | BDM Systems",
+        "seo_description": "Tabla click - invelitoare metalica plana cu imbinare rapida prin apasare si fixare ascunsa, fara suruburi vizibile. Metigla Clic, Wetterbest Click si Wetterbest Click Elegant. Consultanta si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-09-28 15:30:00",
+        "updated_at": "2026-09-28 15:30:00"
+    },
+    {
+        "id": 56,
+        "category_id": 2,
+        "name": "Tabla faltuita",
+        "slug": "faltuita",
+        "description": "Tabla faltuita cu falt vertical dublu - cel mai sigur sistem de invelitoare metalica, pentru pante de la 4 grade. Metigla Falt, Wetterbest Falt, Voestalpine Falt si Falt Solar Metigla.",
+        "image": "/uploads/products/metigla-falt/card.jpg",
+        "icon": "&#9645;",
+        "count": 4,
+        "seo_title": "Tabla faltuita - Metigla Falt, Wetterbest Falt, Voestalpine Falt | BDM Systems",
+        "seo_description": "Tabla faltuita cu falt vertical dublu - cel mai sigur sistem de invelitoare metalica, pentru pante de la 4 grade. Metigla Falt, Wetterbest Falt, Voestalpine Falt si Falt Solar Metigla. Consultanta si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-09-28 15:30:00",
+        "updated_at": "2026-09-28 15:30:00"
     }
 ]

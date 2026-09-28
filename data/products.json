@@ -2203,12 +2203,21 @@
         "subtitle": "Sistem tabla faltuita cu imbinare click, latime utila 515mm, panta minima 8 grade.",
         "slug": "metigla-clic",
         "category_id": 2,
-        "subcategory_id": 5,
+        "subcategory_id": 55,
         "manufacturer": "Metigla",
         "status": "activ",
         "image_main": "/uploads/products/metigla-clic/1.png",
         "image_schema": "/uploads/products/metigla-clic/2.png",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/metigla-clic/gal-1.jpg",
+            "/uploads/products/metigla-clic/gal-2.jpg",
+            "/uploads/products/metigla-clic/gal-3.jpg",
+            "/uploads/products/metigla-clic/gal-4.jpg",
+            "/uploads/products/metigla-clic/gal-5.jpg",
+            "/uploads/products/metigla-clic/gal-6.jpg",
+            "/uploads/products/metigla-clic/sectiune-515.png",
+            "/uploads/products/metigla-clic/sectiune-306.png"
+        ],
         "specs": [
             {
                 "key": "Grosime tabla",
@@ -2319,14 +2328,14 @@
         "seo_title": "Metigla Clic — Tabla faltuita | BDM Systems",
         "seo_description": "Sistem tabla faltuita cu imbinare click, latime utila 515mm, panta minima 8 grade. Montaj si consultanta de la BDM Systems.",
         "related_products": [
-            "metigla-falt",
-            "vestalpin-click",
-            "wetterbest-click"
+            "wetterbest-click",
+            "wetterbest-click-elegant",
+            "metigla-falt"
         ],
         "sort_order": 17,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 13:05:00",
+        "updated_at": "2026-09-28 15:30:00",
         "image_card": "/uploads/products/metigla-clic/card.jpg"
     },
     {
@@ -2335,12 +2344,20 @@
         "subtitle": "Sistem tabla faltuita cu falt vertical dublu, panta minima 4 grade - cea mai mica panta disponibila.",
         "slug": "metigla-falt",
         "category_id": 2,
-        "subcategory_id": 5,
+        "subcategory_id": 56,
         "manufacturer": "Metigla",
         "status": "activ",
         "image_main": "/uploads/products/metigla-falt/3.png",
         "image_schema": "/uploads/products/metigla-falt/4.png",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/metigla-falt/gal-1.jpg",
+            "/uploads/products/metigla-falt/gal-2.jpg",
+            "/uploads/products/metigla-falt/gal-3.jpg",
+            "/uploads/products/metigla-falt/gal-4.jpg",
+            "/uploads/products/metigla-falt/gal-5.jpg",
+            "/uploads/products/metigla-falt/sectiune-550.png",
+            "/uploads/products/metigla-falt/sectiune-340.png"
+        ],
         "specs": [
             {
                 "key": "Grosime tabla",
@@ -2465,23 +2482,23 @@
         "seo_title": "Metigla Falt — Tabla faltuita | BDM Systems",
         "seo_description": "Sistem tabla faltuita cu falt vertical dublu, panta minima 4 grade - cea mai mica panta disponibila. Montaj si consultanta de la BDM Systems.",
         "related_products": [
-            "metigla-clic",
-            "vestalpin-click",
-            "wetterbest-click"
+            "wetterbest-falt",
+            "voestalpine-falt",
+            "falt-solar-metigla"
         ],
         "sort_order": 18,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 13:05:00",
+        "updated_at": "2026-09-28 15:30:00",
         "image_card": "/uploads/products/metigla-falt/card.jpg"
     },
     {
         "id": 19,
-        "name": "Voestalpine Tabla Click",
-        "subtitle": "Tabla faltuita click Voestalpine (Austria) - 0.50mm, culori RAL premium, aspect arhitectural modern.",
-        "slug": "vestalpin-click",
+        "name": "Voestalpine Falt",
+        "subtitle": "Tabla faltuita Voestalpine (Austria) - falt vertical dublu, 0.50 mm, culori RAL premium, aspect arhitectural modern.",
+        "slug": "voestalpine-falt",
         "category_id": 2,
-        "subcategory_id": 6,
+        "subcategory_id": 56,
         "manufacturer": "Voestalpine",
         "status": "activ",
         "image_main": "/uploads/products/vestalpin-click/1.png",
@@ -2495,7 +2512,7 @@
             },
             {
                 "key": "Tip sistem",
-                "value": "Click (falt ascuns)",
+                "value": "Falt vertical dublu",
                 "sort_order": 2
             },
             {
@@ -2560,18 +2577,18 @@
             }
         ],
         "warranty_text": "Garantie producator Voestalpine Austria. Tabla premium cu calitate austriaca.",
-        "description_html": "<h2>Tabla faltuita click Voestalpine</h2>\n                <p>Voestalpine este un producator austriac de renume pentru tabla faltuita de calitate superioara. Sistemul click Voestalpine se remarca prin simplitatea montajului si aspectul arhitectural curat, fara elemente de fixare vizibile.</p>\n                <h3>Calitatea austriaca Voestalpine</h3>\n                <ul>\n                    <li>Producator austriac cu traditie in tabla pentru acoperisuri</li>\n                    <li>Grosime 0.50mm - rigiditate si durabilitate superioare</li>\n                    <li>Sistem click cu fixare ascunsa - aspect curat</li>\n                    <li>Culori RAL premium cu rezistenta UV exceptionala</li>\n                    <li>Potrivit pentru acoperisuri rezidentiale si comerciale</li>\n                </ul>",
-        "seo_title": "Voestalpine Tabla Click — Tabla faltuita | BDM Systems",
-        "seo_description": "Tabla faltuita click Voestalpine (Austria) - 0.50mm, culori RAL premium, aspect arhitectural modern. Montaj si consultanta de la BDM Systems.",
+        "description_html": "<h2>Tabla faltuita Voestalpine</h2>\n<p>Voestalpine este un producator austriac de renume pentru tabla de acoperis de calitate superioara. Sistemul de <strong>tabla faltuita</strong> Voestalpine, cu <strong>falt vertical dublu</strong>, se remarca prin etanseitate maxima, durabilitate si aspectul arhitectural curat, fara elemente de fixare vizibile.</p>\n<h3>Calitatea austriaca Voestalpine</h3>\n<ul>\n    <li>Producator austriac cu traditie in otel pentru acoperisuri</li>\n    <li>Grosime 0.50 mm - rigiditate si durabilitate superioare</li>\n    <li>Falt vertical dublu - etanseitate si rezistenta la vant</li>\n    <li>Culori RAL premium cu rezistenta UV exceptionala</li>\n    <li>Potrivit pentru acoperisuri rezidentiale premium si cladiri de patrimoniu</li>\n</ul>",
+        "seo_title": "Tabla faltuita Voestalpine - falt vertical dublu, calitate austriaca | BDM Systems",
+        "seo_description": "Tabla faltuita Voestalpine (Austria) - falt vertical dublu, 0.50 mm, culori RAL premium, aspect arhitectural modern. Consultanta si montaj de la BDM Systems.",
         "related_products": [
-            "metigla-clic",
             "metigla-falt",
-            "wetterbest-click"
+            "wetterbest-falt",
+            "falt-solar-metigla"
         ],
         "sort_order": 19,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 13:05:00",
+        "updated_at": "2026-09-28 15:30:00",
         "image_card": "/uploads/products/vestalpin-click/card.jpg"
     },
     {
@@ -2580,12 +2597,18 @@
         "subtitle": "Tabla faltuita click Wetterbest - latime utila 500mm, falt 29mm, panta min 8 grade.",
         "slug": "wetterbest-click",
         "category_id": 2,
-        "subcategory_id": 7,
+        "subcategory_id": 55,
         "manufacturer": "Wetterbest",
         "status": "activ",
         "image_main": "/uploads/products/wetterbest-click/3.png",
         "image_schema": "/uploads/products/wetterbest-click/4.png",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/wetterbest-click/render.jpg",
+            "/uploads/products/wetterbest-click/gal-1.jpg",
+            "/uploads/products/wetterbest-click/gal-2.jpg",
+            "/uploads/products/wetterbest-click/gal-3.jpg",
+            "/uploads/products/wetterbest-click/gal-4.jpg"
+        ],
         "specs": [
             {
                 "key": "Grosime tabla",
@@ -2616,6 +2639,11 @@
                 "key": "Lungime",
                 "value": "la comanda",
                 "sort_order": 6
+            },
+            {
+                "key": "Lungimi",
+                "value": "800 - 10000 mm",
+                "sort_order": 7
             }
         ],
         "materials": [
@@ -2693,14 +2721,14 @@
         "seo_title": "Wetterbest Click — Tabla faltuita | BDM Systems",
         "seo_description": "Tabla faltuita click Wetterbest - latime utila 500mm, falt 29mm, panta min 8 grade. Montaj si consultanta de la BDM Systems.",
         "related_products": [
+            "wetterbest-click-elegant",
             "metigla-clic",
-            "metigla-falt",
-            "vestalpin-click"
+            "wetterbest-falt"
         ],
         "sort_order": 20,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 13:05:00",
+        "updated_at": "2026-09-28 15:30:00",
         "image_card": "/uploads/products/wetterbest-click/card.jpg"
     },
     {
@@ -23614,7 +23642,7 @@
         "subtitle": "Acoperis fotovoltaic integrat: tabla prefaltuita cu module Mono PERC pana la 175W - 2 in 1, montaj plug & play, garantie 30 ani.",
         "slug": "falt-solar-metigla",
         "category_id": 2,
-        "subcategory_id": 5,
+        "subcategory_id": 56,
         "manufacturer": "Metigla",
         "status": "activ",
         "image_main": "/uploads/products/falt-solar-metigla/hero-1.jpg",
@@ -23719,13 +23747,13 @@
         "seo_description": "Acoperis Falt Solar Metigla: tabla prefaltuita cu module fotovoltaice integrate Mono PERC pana la 175W per modul. Garantie 30 ani, clasa A la foc, plug & play. Montaj de la partenerul autorizat BDM Systems.",
         "related_products": [
             "metigla-falt",
-            "metigla-clic",
+            "wetterbest-falt",
             "metigla-edge-sistem-pluvial"
         ],
         "sort_order": 172,
         "is_active": true,
         "created_at": "2026-07-11 10:45:00",
-        "updated_at": "2026-09-28 13:05:00",
+        "updated_at": "2026-09-28 15:30:00",
         "image_card": "/uploads/products/falt-solar-metigla/card.jpg"
     },
     {
@@ -24898,5 +24926,269 @@
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
         "updated_at": "2026-07-11 12:00:00"
+    },
+    {
+        "id": 181,
+        "name": "Wetterbest Click Elegant",
+        "subtitle": "Tabla click Elegant - linii fine pe suprafata profilului, falt ranforsat cu clapeta de protectie, 0.50 mm, inaltime profil 25 mm.",
+        "slug": "wetterbest-click-elegant",
+        "category_id": 2,
+        "subcategory_id": 55,
+        "manufacturer": "Wetterbest",
+        "status": "activ",
+        "image_main": "/uploads/products/wetterbest-click-elegant/render.jpg",
+        "image_card": "/uploads/products/wetterbest-click-elegant/card.jpg",
+        "image_schema": "",
+        "gallery": [
+            "/uploads/products/wetterbest-click-elegant/render.jpg",
+            "/uploads/products/wetterbest-click-elegant/gal-1.jpg",
+            "/uploads/products/wetterbest-click-elegant/gal-2.jpg",
+            "/uploads/products/wetterbest-click-elegant/gal-3.jpg",
+            "/uploads/products/wetterbest-click-elegant/gal-4.jpg",
+            "/uploads/products/wetterbest-click-elegant/gal-5.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Grosime tabla",
+                "value": "0.50 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Inaltime profil",
+                "value": "25 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Latime utila",
+                "value": "300 mm / 510 mm",
+                "sort_order": 3
+            },
+            {
+                "key": "Lungimi",
+                "value": "400 - 10000 mm",
+                "sort_order": 4
+            },
+            {
+                "key": "Tip sistem",
+                "value": "Click (fixare ascunsa)",
+                "sort_order": 5
+            },
+            {
+                "key": "Suprafata",
+                "value": "Plana, liniara, micro-profilata sau cu nervuri trapezoidale",
+                "sort_order": 6
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat (35um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Negru mat",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro mat",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Gri antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Maro-gri",
+                        "code": "RAL 8019",
+                        "hex": "#4a4039",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            },
+            {
+                "name": "Neomat 30",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Negru Neomat",
+                        "code": "RAL 9005",
+                        "hex": "#111111",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro Neomat",
+                        "code": "RAL 8017",
+                        "hex": "#4a3530",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Gri antracit Neomat",
+                        "code": "RAL 7016",
+                        "hex": "#2e3335",
+                        "swatch": "",
+                        "sort_order": 3
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie producator Wetterbest conform certificatului pentru finisajul ales (Neomat 30 - 30 ani).",
+        "description_html": "<h2>Wetterbest Click Elegant - linii fine, protectie superioara</h2>\n<p><strong>Click Elegant</strong> este varianta rafinata a sistemului click Wetterbest: o invelitoare metalica plana de <strong>0.50 mm</strong>, cu inaltimea profilului de <strong>25 mm</strong>, profilata pe lungimi intre 400 si 10.000 mm si protejata cu vopsea multistrat. Liniile fine de pe suprafata profilului dau acoperisului distinctie, iar faltul ranforsat cu <strong>clapeta de protectie</strong> imbunatateste rezistenta la vant puternic si la infiltratii.</p>\n<h3>Avantaje</h3>\n<ul>\n    <li><strong>Profilare speciala</strong> - rigiditate si rezistenta la deformare</li>\n    <li><strong>Fixare ascunsa</strong> - fara gauri vizibile, aspect impecabil</li>\n    <li><strong>Clapeta de inchidere</strong> - protejeaza imbinarea de infiltratii</li>\n    <li><strong>Montaj / demontaj repetat</strong> fara deteriorarea sistemului</li>\n    <li><strong>Variante dimensionale</strong> pentru acoperisuri si fatade (latime utila 300 sau 510 mm)</li>\n    <li><strong>Suprafata la alegere</strong>: plana, liniara, micro-profilata sau cu nervuri trapezoidale</li>\n    <li><strong>Gama larga de finisaje si culori</strong>, adaptate conditiilor de mediu locale</li>\n</ul>\n<h3>Ideal pentru</h3>\n<p>Case moderne cu acoperis in pante, fatade metalice, cladiri unde aspectul liniilor drepte si continue conteaza. Producator roman - livrare rapida si debitare la lungimea proiectului.</p>",
+        "seo_title": "Wetterbest Click Elegant - tabla click cu linii fine si falt ranforsat | BDM Systems",
+        "seo_description": "Tabla click Elegant - linii fine pe suprafata profilului, falt ranforsat cu clapeta de protectie, 0.50 mm, inaltime profil 25 mm. Consultanta si montaj de la BDM Systems.",
+        "related_products": [
+            "wetterbest-click",
+            "metigla-clic",
+            "wetterbest-falt"
+        ],
+        "sort_order": 181,
+        "is_active": true,
+        "created_at": "2026-09-28 15:30:00",
+        "updated_at": "2026-09-28 15:30:00"
+    },
+    {
+        "id": 182,
+        "name": "Wetterbest Falt (Faltz)",
+        "subtitle": "Tabla faltuita Wetterbest Faltz - falt dublu traditional, 0.45 / 0.50 / 0.60 mm, lungimi 500 - 8000 mm, disponibila si dublu-prevopsita.",
+        "slug": "wetterbest-falt",
+        "category_id": 2,
+        "subcategory_id": 56,
+        "manufacturer": "Wetterbest",
+        "status": "activ",
+        "image_main": "/uploads/products/wetterbest-falt/render.jpg",
+        "image_card": "/uploads/products/wetterbest-falt/card.jpg",
+        "image_schema": "",
+        "gallery": [
+            "/uploads/products/wetterbest-falt/render.jpg",
+            "/uploads/products/wetterbest-falt/gal-1.jpg",
+            "/uploads/products/wetterbest-falt/gal-2.jpg"
+        ],
+        "specs": [
+            {
+                "key": "Grosime tabla",
+                "value": "0.45 / 0.50 / 0.60 mm",
+                "sort_order": 1
+            },
+            {
+                "key": "Lungimi",
+                "value": "500 - 8000 mm",
+                "sort_order": 2
+            },
+            {
+                "key": "Tip sistem",
+                "value": "Falt dublu (fasonat pe santier)",
+                "sort_order": 3
+            },
+            {
+                "key": "Panta minima",
+                "value": "3.5 grade (fara intersectii / strapungeri); 6 - 90 grade standard",
+                "sort_order": 4
+            },
+            {
+                "key": "Optiune",
+                "value": "Dublu-prevopsit (ambele fete)",
+                "sort_order": 5
+            }
+        ],
+        "materials": [
+            {
+                "name": "Mat (35um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Negru mat",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro mat",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Gri antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Maro-gri",
+                        "code": "RAL 8019",
+                        "hex": "#4a4039",
+                        "swatch": "",
+                        "sort_order": 5
+                    }
+                ]
+            },
+            {
+                "name": "Neomat 30",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Negru Neomat",
+                        "code": "RAL 9005",
+                        "hex": "#111111",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Maro Neomat",
+                        "code": "RAL 8017",
+                        "hex": "#4a3530",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Gri antracit Neomat",
+                        "code": "RAL 7016",
+                        "hex": "#2e3335",
+                        "swatch": "",
+                        "sort_order": 3
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie producator Wetterbest conform certificatului pentru finisajul ales (Neomat 30 - 30 ani).",
+        "description_html": "<h2>Wetterbest Falt (Faltz) - falt dublu traditional, eleganta clasica</h2>\n<p><strong>Tabla Wetterbest Faltz</strong> este o invelitoare de acoperis cu profilatura plana, de <strong>0.45, 0.50 sau 0.60 mm</strong> grosime, profilata pe lungimi intre 500 si 8.000 mm, acoperita cu vopsea si protectie multistrat - disponibila si in varianta <strong>dublu-prevopsita</strong>. Sistemul cu <strong>falt dublu</strong> este solutia traditionala pentru proiecte rezidentiale, comerciale si industriale, aducand o frumusete naturala atat cladirilor moderne, cat si celor istorice.</p>\n<h3>Avantaje</h3>\n<ul>\n    <li><strong>Falt dublu</strong> - siguranta sporita impotriva infiltratiilor</li>\n    <li><strong>Pante foarte mici</strong> - de la 3.5 grade (fara intersectii sau strapungeri), 6 - 90 grade in configuratii standard</li>\n    <li><strong>Rezistenta la coroziune si zgarieturi</strong>, durabilitate la factori de mediu si UV</li>\n    <li><strong>Design versatil</strong> - eleganta minimalista, potrivita stilurilor clasice si inovatoare</li>\n    <li><strong>Trei grosimi</strong> in functie de proiect si cerintele structurale</li>\n</ul>\n<h3>Ideal pentru</h3>\n<p>Acoperisuri cu panta redusa, cladiri de patrimoniu, case cu arhitectura clasica sau contemporana unde se doreste aspectul autentic al tablei faltuite. Producator roman - livrare rapida.</p>",
+        "seo_title": "Wetterbest Falt (Faltz) - tabla faltuita cu falt dublu | BDM Systems",
+        "seo_description": "Tabla faltuita Wetterbest Faltz - falt dublu traditional, 0.45 / 0.50 / 0.60 mm, lungimi 500 - 8000 mm, disponibila si dublu-prevopsita. Consultanta si montaj de la BDM Systems.",
+        "related_products": [
+            "metigla-falt",
+            "voestalpine-falt",
+            "wetterbest-click"
+        ],
+        "sort_order": 182,
+        "is_active": true,
+        "created_at": "2026-09-28 15:30:00",
+        "updated_at": "2026-09-28 15:30:00"
     }
 ]

@@ -151,8 +151,8 @@
             },
             {
                 "id": 2,
-                "name": "Tabla faltuita",
-                "description": "Sisteme de invelitoare cu falt vertical si orizontal",
+                "name": "Tabla faltuita/Click",
+                "description": "Tabla click si tabla faltuita - Metigla, Wetterbest, Voestalpine",
                 "icon": "&#9645;",
                 "link": "/tabla-faltuita",
                 "sort_order": 1,
@@ -164,9 +164,9 @@
                 "name": "Tabla click",
                 "description": "Montaj rapid cu sistem click fara suruburi vizibile",
                 "icon": "&#9646;",
-                "link": "/tabla-click",
+                "link": "/tabla-faltuita/click",
                 "sort_order": 2,
-                "is_active": true,
+                "is_active": false,
                 "image": "/images/categories/tabla-click.jpg"
             },
             {
@@ -347,7 +347,7 @@
                 "id": 7,
                 "name": "VOESTALPINE",
                 "logo": "/images/brands/voestalpine.svg",
-                "link": "/tabla-faltuita/vestalpin",
+                "link": "/tabla-faltuita/faltuita",
                 "sort_order": 6,
                 "is_active": true
             },

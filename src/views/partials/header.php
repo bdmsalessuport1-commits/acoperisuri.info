@@ -41,8 +41,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                             <!-- Coloana stanga: Categorii -->
                             <div class="mega-categories">
                                 <a href="/tigla-metalica" class="mega-cat-link has-sub" data-panel="panel-tigla">Tigla metalica <span class="cat-arrow">&#9654;</span></a>
-                                <a href="/tabla-faltuita" class="mega-cat-link has-sub" data-panel="panel-tabla-falt">Tabla faltuita <span class="cat-arrow">&#9654;</span></a>
-                                <a href="/tabla-click" class="mega-cat-link has-sub" data-panel="panel-tabla-click">Tabla click <span class="cat-arrow">&#9654;</span></a>
+                                <a href="/tabla-faltuita" class="mega-cat-link has-sub" data-panel="panel-tabla-falt">Tabla faltuita/Click <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/tabla-cutata" class="mega-cat-link has-sub" data-panel="panel-tabla-cutata">Tabla cutata <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/sisteme-pluviale" class="mega-cat-link has-sub" data-panel="panel-pluviale">Sisteme pluviale <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/folii-anticondens" class="mega-cat-link has-sub" data-panel="panel-folii">Folii si membrane <span class="cat-arrow">&#9654;</span></a>
@@ -93,16 +92,23 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 </div>
 
                                 <div class="mega-sub-panel" id="panel-tabla-falt">
-                                    <h4>Tabla faltuita</h4>
-                                    <a href="/tabla-faltuita/metigla">Metigla</a>
-                                    <a href="/tabla-faltuita/vestalpin">Voestalpine</a>
-                                    <a href="/tabla-faltuita/wetterbest">Wetterbest</a>
-                                </div>
-
-                                <div class="mega-sub-panel" id="panel-tabla-click">
-                                    <h4>Tabla click</h4>
-                                    <a href="/tabla-click/metigla">Metigla</a>
-                                    <a href="/tabla-click/wetterbest">Wetterbest</a>
+                                    <h4>Tabla faltuita/Click</h4>
+                                    <div class="sub-group">
+                                        <a href="/tabla-faltuita/click" class="sub-group-title">Tabla Click</a>
+                                        <div class="sub-items">
+                                            <a href="/produs/metigla-clic">Metigla Clic</a>
+                                            <a href="/produs/wetterbest-click">Wetterbest Click</a>
+                                            <a href="/produs/wetterbest-click-elegant">Wetterbest Click Elegant</a>
+                                        </div>
+                                    </div>
+                                    <div class="sub-group">
+                                        <a href="/tabla-faltuita/faltuita" class="sub-group-title">Tabla faltuita</a>
+                                        <div class="sub-items">
+                                            <a href="/produs/metigla-falt">Metigla Falt</a>
+                                            <a href="/produs/wetterbest-falt">Wetterbest Falt</a>
+                                            <a href="/produs/voestalpine-falt">Voestalpine Falt</a>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="mega-sub-panel" id="panel-tabla-cutata">
@@ -208,8 +214,9 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
             <div class="mobile-subnav" id="mobile-produse">
                 <div class="sub-heading">Acoperisuri</div>
                 <a href="/tigla-metalica">Tigla metalica</a>
-                <a href="/tabla-faltuita">Tabla faltuita</a>
-                <a href="/tabla-click">Tabla click</a>
+                <a href="/tabla-faltuita">Tabla faltuita/Click</a>
+                <a href="/tabla-faltuita/click">&nbsp;&nbsp;Tabla Click</a>
+                <a href="/tabla-faltuita/faltuita">&nbsp;&nbsp;Tabla faltuita</a>
                 <a href="/tabla-cutata">Tabla cutata</a>
                 <a href="/folii-anticondens">Folii si membrane Riwega</a>
                 <a href="/accesorii-acoperis">Accesorii acoperis</a>

@@ -8,15 +8,57 @@
     "redirects": [
         {
             "from": "/tabla-faltuita/fals-solar-metigla",
-            "to": "/tabla-faltuita/metigla",
+            "to": "/tabla-faltuita/faltuita",
             "active": true,
-            "note": "URL vechi cu typo -> subcategoria Metigla (produsul Falt Solar e acum in Metigla)"
+            "note": "Falt Solar e acum in subcategoria Tabla faltuita (fara lant de redirecturi)"
         },
         {
             "from": "/tabla-faltuita/falt-solar-metigla",
-            "to": "/tabla-faltuita/metigla",
+            "to": "/tabla-faltuita/faltuita",
             "active": true,
-            "note": "Subcategoria Falt Solar Metigla eliminata; produsul e acum in Metigla"
+            "note": "Falt Solar e acum in subcategoria Tabla faltuita (fara lant de redirecturi)"
+        },
+        {
+            "from": "/tabla-click",
+            "to": "/tabla-faltuita/click",
+            "active": true,
+            "note": "Categoria Tabla click a fost unita in Tabla faltuita/Click"
+        },
+        {
+            "from": "/tabla-click/metigla",
+            "to": "/tabla-faltuita/click",
+            "active": true,
+            "note": "Categoria Tabla click unita"
+        },
+        {
+            "from": "/tabla-click/wetterbest",
+            "to": "/tabla-faltuita/click",
+            "active": true,
+            "note": "Categoria Tabla click unita"
+        },
+        {
+            "from": "/tabla-faltuita/metigla",
+            "to": "/tabla-faltuita",
+            "active": true,
+            "note": "Subcategorii pe brand inlocuite cu Click / Faltuita"
+        },
+        {
+            "from": "/tabla-faltuita/vestalpin",
+            "to": "/tabla-faltuita/faltuita",
+            "active": true,
+            "note": "Subcategorii pe brand inlocuite cu Click / Faltuita"
+        },
+        {
+            "from": "/tabla-faltuita/wetterbest",
+            "to": "/tabla-faltuita",
+            "active": true,
+            "note": "Subcategorii pe brand inlocuite cu Click / Faltuita"
+        },
+        {
+            "from": "/produs/vestalpin-click",
+            "to": "/produs/voestalpine-falt",
+            "active": true,
+            "note": "Produs redenumit: Voestalpine Tabla Click -> Voestalpine Falt"
         }
     ]
 }

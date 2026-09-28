@@ -26,7 +26,7 @@
                 <h4>Categorii principale</h4>
                 <div class="footer-links">
                     <a href="/tigla-metalica">Tigla metalica</a>
-                    <a href="/tabla-faltuita">Tabla faltuita</a>
+                    <a href="/tabla-faltuita">Tabla faltuita/Click</a>
                     <a href="/sisteme-pluviale">Sisteme pluviale</a>
                     <a href="/folii-anticondens">Folii anticondens</a>
                     <a href="/tamplarie-pvc-aluminiu">Tamplarie PVC si Aluminiu</a>
