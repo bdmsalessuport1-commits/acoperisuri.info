@@ -12702,9 +12702,12 @@
         "subcategory_id": 39,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-r8a/1.webp",
+        "image_schema": "/uploads/products/rufster-r8a/2.png",
+        "gallery": [
+            "/uploads/products/rufster-r8a/1.webp",
+            "/uploads/products/rufster-r8a/2.png"
+        ],
         "specs": [
             {
                 "key": "Inaltime profil",
@@ -12975,7 +12978,7 @@
         "sort_order": 64,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-09-28 13:40:00",
+        "updated_at": "2026-09-28 14:01:00",
         "image_card": "/uploads/products/rufster-r8a/card.jpg"
     },
     {
@@ -12987,9 +12990,12 @@
         "subcategory_id": 39,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-r8f/1.webp",
+        "image_schema": "/uploads/products/rufster-r8f/2.png",
+        "gallery": [
+            "/uploads/products/rufster-r8f/1.webp",
+            "/uploads/products/rufster-r8f/2.png"
+        ],
         "specs": [
             {
                 "key": "Inaltime profil",
@@ -13260,7 +13266,7 @@
         "sort_order": 65,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-09-28 13:40:00",
+        "updated_at": "2026-09-28 14:01:00",
         "image_card": "/uploads/products/rufster-r8f/card.jpg"
     },
     {
@@ -14432,9 +14438,12 @@
         "subcategory_id": 39,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-r35a/1.webp",
+        "image_schema": "/uploads/products/rufster-r35a/2.png",
+        "gallery": [
+            "/uploads/products/rufster-r35a/1.webp",
+            "/uploads/products/rufster-r35a/2.png"
+        ],
         "specs": [
             {
                 "key": "Inaltime profil",
@@ -14710,7 +14719,7 @@
         "sort_order": 70,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-09-28 13:40:00",
+        "updated_at": "2026-09-28 14:01:00",
         "image_card": "/uploads/products/rufster-r35a/card.jpg"
     },
     {
@@ -14722,9 +14731,12 @@
         "subcategory_id": 39,
         "manufacturer": "Rufster",
         "status": "activ",
-        "image_main": "",
-        "image_schema": "",
-        "gallery": [],
+        "image_main": "/uploads/products/rufster-r35f/1.webp",
+        "image_schema": "/uploads/products/rufster-r35f/2.png",
+        "gallery": [
+            "/uploads/products/rufster-r35f/1.webp",
+            "/uploads/products/rufster-r35f/2.png"
+        ],
         "specs": [
             {
                 "key": "Inaltime profil",
@@ -14995,7 +15007,7 @@
         "sort_order": 71,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-09-28 13:40:00",
+        "updated_at": "2026-09-28 14:01:00",
         "image_card": "/uploads/products/rufster-r35f/card.jpg"
     },
     {
