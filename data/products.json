@@ -2800,7 +2800,8 @@
         "sort_order": 21,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/blachotrapez-t18/card.jpg"
     },
     {
         "id": 22,
@@ -2913,7 +2914,8 @@
         "sort_order": 22,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/blachotrapez-t35/card.jpg"
     },
     {
         "id": 23,
@@ -3012,7 +3014,8 @@
         "sort_order": 23,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/blachotrapez-t55/card.jpg"
     },
     {
         "id": 24,
@@ -6759,7 +6762,8 @@
         "sort_order": 49,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:00:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/metigla-tr8/card.jpg"
     },
     {
         "id": 50,
@@ -7037,7 +7041,8 @@
         "sort_order": 50,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:00:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/metigla-tr30/card.jpg"
     },
     {
         "id": 51,
@@ -7315,7 +7320,8 @@
         "sort_order": 51,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:00:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/metigla-tr35/card.jpg"
     },
     {
         "id": 52,
@@ -7593,7 +7599,8 @@
         "sort_order": 52,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:00:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/metigla-tr45/card.jpg"
     },
     {
         "id": 53,
@@ -7871,7 +7878,8 @@
         "sort_order": 53,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:00:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/metigla-ondu18/card.jpg"
     },
     {
         "id": 54,
@@ -8149,7 +8157,8 @@
         "sort_order": 54,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:00:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/metigla-ondu18-curb/card.jpg"
     },
     {
         "id": 55,
@@ -8649,7 +8658,8 @@
         "sort_order": 55,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-w8/card.jpg"
     },
     {
         "id": 56,
@@ -9144,7 +9154,8 @@
         "sort_order": 56,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-w10/card.jpg"
     },
     {
         "id": 57,
@@ -9644,7 +9655,8 @@
         "sort_order": 57,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-w18/card.jpg"
     },
     {
         "id": 58,
@@ -10144,7 +10156,8 @@
         "sort_order": 58,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-w35/card.jpg"
     },
     {
         "id": 59,
@@ -10644,7 +10657,8 @@
         "sort_order": 59,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-w60/card.jpg"
     },
     {
         "id": 60,
@@ -11644,7 +11658,8 @@
         "sort_order": 61,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-jis-16-5/card.jpg"
     },
     {
         "id": 62,
@@ -12144,7 +12159,8 @@
         "sort_order": 62,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:15:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/wetterbest-jis-35/card.jpg"
     },
     {
         "id": 63,
@@ -12639,7 +12655,8 @@
         "sort_order": 63,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/blachotrapez-t-50/card.jpg"
     },
     {
         "id": 64,
@@ -12923,7 +12940,8 @@
         "sort_order": 64,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r8a/card.jpg"
     },
     {
         "id": 65,
@@ -13207,7 +13225,8 @@
         "sort_order": 65,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r8f/card.jpg"
     },
     {
         "id": 66,
@@ -13496,7 +13515,8 @@
         "sort_order": 66,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r12a/card.jpg"
     },
     {
         "id": 67,
@@ -13785,7 +13805,8 @@
         "sort_order": 67,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r12f/card.jpg"
     },
     {
         "id": 68,
@@ -14074,7 +14095,8 @@
         "sort_order": 68,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r18a/card.jpg"
     },
     {
         "id": 69,
@@ -14363,7 +14385,8 @@
         "sort_order": 69,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-04-24 23:25:00"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r18f/card.jpg"
     },
     {
         "id": 70,
@@ -14652,7 +14675,8 @@
         "sort_order": 70,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r35a/card.jpg"
     },
     {
         "id": 71,
@@ -14936,7 +14960,8 @@
         "sort_order": 71,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-09-28 13:40:00",
+        "image_card": "/uploads/products/rufster-r35f/card.jpg"
     },
     {
         "id": 72,
