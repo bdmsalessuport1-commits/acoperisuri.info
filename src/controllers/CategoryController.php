@@ -113,6 +113,8 @@ class CategoryController
                         'name'  => $sub['name'],
                         'count' => $sub['count'] ?? 0,
                         'icon'  => $sub['icon'] ?? $cat['icon'] ?? '',
+                        'image' => $sub['image'] ?? '',
+                        'sort_order' => $sub['sort_order'] ?? 0,
                     ];
                 }
             }
