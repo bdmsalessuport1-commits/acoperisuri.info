@@ -45,7 +45,7 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 <a href="/tabla-cutata" class="mega-cat-link has-sub" data-panel="panel-tabla-cutata">Tabla cutata <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/sisteme-pluviale" class="mega-cat-link has-sub" data-panel="panel-pluviale">Sisteme pluviale <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/folii-anticondens" class="mega-cat-link has-sub" data-panel="panel-folii">Folii si membrane <span class="cat-arrow">&#9654;</span></a>
-                                <a href="/accesorii-acoperis" class="mega-cat-link">Accesorii acoperis</a>
+                                <a href="/accesorii-acoperis" class="mega-cat-link has-sub" data-panel="panel-accesorii">Accesorii acoperis <span class="cat-arrow">&#9654;</span></a>
                                 <a href="/sipci-metalice" class="mega-cat-link">Sipci metalice</a>
                                 <a href="/sageac-metalic" class="mega-cat-link">Sageac metalic</a>
                                 <a href="/tamplarie-pvc-aluminiu" class="mega-cat-link">Tamplarie PVC si Aluminiu</a>
@@ -109,6 +109,15 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                             <a href="/produs/voestalpine-falt">Voestalpine Falt</a>
                                         </div>
                                     </div>
+                                </div>
+
+                                <div class="mega-sub-panel" id="panel-accesorii">
+                                    <h4>Accesorii acoperis</h4>
+                                    <a href="/accesorii-acoperis/accesorii-tigla-metalica">Accesorii tigla metalica</a>
+                                    <a href="/accesorii-acoperis/accesorii-tabla-faltuita-click">Accesorii tabla faltuita/click</a>
+                                    <a href="/accesorii-acoperis/parazapezi">Parazapezi</a>
+                                    <a href="/accesorii-acoperis/ventilare-acoperis">Ventilare acoperis</a>
+                                    <a href="/accesorii-acoperis/etansari">Etansari si benzi</a>
                                 </div>
 
                                 <div class="mega-sub-panel" id="panel-tabla-cutata">
@@ -220,6 +229,8 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/tabla-cutata">Tabla cutata</a>
                 <a href="/folii-anticondens">Folii si membrane Riwega</a>
                 <a href="/accesorii-acoperis">Accesorii acoperis</a>
+                <a href="/accesorii-acoperis/accesorii-tigla-metalica">&nbsp;&nbsp;Accesorii tigla metalica</a>
+                <a href="/accesorii-acoperis/accesorii-tabla-faltuita-click">&nbsp;&nbsp;Accesorii tabla faltuita/click</a>
                 <a href="/sipci-metalice">Sipci metalice</a>
                 <a href="/sageac-metalic">Sageac metalic</a>
                 <div class="sub-heading">Sisteme pluviale</div>

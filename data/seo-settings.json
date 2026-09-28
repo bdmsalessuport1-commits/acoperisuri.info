@@ -59,6 +59,18 @@
             "to": "/produs/voestalpine-falt",
             "active": true,
             "note": "Produs redenumit: Voestalpine Tabla Click -> Voestalpine Falt"
+        },
+        {
+            "from": "/accesorii-acoperis/coame-si-sortimente",
+            "to": "/accesorii-acoperis/accesorii-tigla-metalica",
+            "active": true,
+            "note": "Subcategorie goala inlocuita de Accesorii tigla metalica"
+        },
+        {
+            "from": "/accesorii-acoperis/suruburi-autoforante",
+            "to": "/accesorii-acoperis/accesorii-tigla-metalica",
+            "active": true,
+            "note": "Subcategorie goala inlocuita de Accesorii tigla metalica"
         }
     ]
 }

@@ -93,7 +93,7 @@
         "id": 7,
         "name": "Accesorii acoperis",
         "slug": "accesorii-acoperis",
-        "description": "Accesorii complete pentru montajul si finisarea acoperisului: coame, suruburi, etansari, parazapezi, treceri de ventilatie.",
+        "description": "Accesorii si piese de finisaj pentru acoperis: piese de finisaj si accesorii pentru tigla metalica si pentru tabla faltuita/click (Metigla), parazapezi, ventilare acoperis, etansari si benzi.",
         "image": "",
         "icon": "&#128295;",
         "seo_title": "Accesorii Acoperis - Sortimente Complete",
@@ -102,7 +102,7 @@
         "sort_order": 7,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-30 19:24:00"
+        "updated_at": "2026-09-28 18:00:00"
     },
     {
         "id": 8,

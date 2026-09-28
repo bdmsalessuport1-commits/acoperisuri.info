@@ -301,9 +301,9 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-28 18:00:00"
     },
     {
         "id": 19,
@@ -318,9 +318,9 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 2,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-28 18:00:00"
     },
     {
         "id": 20,
@@ -927,5 +927,39 @@
         "is_active": true,
         "created_at": "2026-09-28 15:30:00",
         "updated_at": "2026-09-28 15:30:00"
+    },
+    {
+        "id": 57,
+        "category_id": 7,
+        "name": "Accesorii tigla metalica",
+        "slug": "accesorii-tigla-metalica",
+        "description": "Piese de finisaj si accesorii Metigla pentru tigla metalica: sort de streasina, dolie, borduri de fronton si calcan, coame, semicoama, opritori de zapada, tabla lisa, lambriu, suruburi, bureti de etansare, Bandex, Pipeco. Aceeasi tabla prevopsita si aceleasi culori ca invelitoarea.",
+        "image": "/images/subcategories/accesorii-tigla-metalica.jpg",
+        "icon": "&#128295;",
+        "count": 30,
+        "seo_title": "Accesorii si piese de finisaj tigla metalica Metigla | BDM Systems",
+        "seo_description": "Piese de finisaj si accesorii Metigla pentru tigla metalica: sort de streasina, dolie, borduri de fronton si calcan, coame, semicoama, opritori de zapada, tabla lisa, lambriu, suruburi, bureti de etansare, Bandex, Pipeco. Aceeasi tabla prevopsita si aceleasi culori ca invelitoarea. Livrare si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-09-28 18:00:00",
+        "updated_at": "2026-09-28 18:00:00"
+    },
+    {
+        "id": 58,
+        "category_id": 7,
+        "name": "Accesorii tabla faltuita/click",
+        "slug": "accesorii-tabla-faltuita-click",
+        "description": "Piese de finisaj si accesorii Metigla pentru tabla faltuita si tabla click: sorturi de streasina (si ventilate), dolie, contrapicurator, brida de suprapunere, borduri, coame si semicoame (si ventilate), suporti C si L, cleme fixe si mobile, sistem parazapada cu bara, suruburi.",
+        "image": "/images/subcategories/accesorii-tabla-faltuita-click.jpg",
+        "icon": "&#128295;",
+        "count": 27,
+        "seo_title": "Accesorii si piese de finisaj tabla faltuita / click Metigla | BDM Systems",
+        "seo_description": "Piese de finisaj si accesorii Metigla pentru tabla faltuita si tabla click: sorturi de streasina (si ventilate), dolie, contrapicurator, brida de suprapunere, borduri, coame si semicoame (si ventilate), suporti C si L, cleme fixe si mobile, sistem parazapada cu bara, suruburi. Livrare si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-09-28 18:00:00",
+        "updated_at": "2026-09-28 18:00:00"
     }
 ]
