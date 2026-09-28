@@ -20972,283 +20972,376 @@
     },
     {
         "id": 131,
-        "name": "Evotek Banda Coama",
-        "subtitle": "Banda ventilata pentru coama acoperisului, 150mm x 5m, aluminiu cu plasa PP",
+        "name": "Evotek Banda Coama tip T 310 mm",
+        "subtitle": "Banda de coama ventilata din aluminiu laminat cu netesut PP si butil, 310 mm x 5 m, laterale plisate extensibile",
         "slug": "evotek-banda-coama",
         "category_id": 7,
         "subcategory_id": 21,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-banda-coama/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-banda-coama/1.jpg",
+            "/uploads/products/evotek-banda-coama/2.jpg",
+            "/uploads/products/evotek-banda-coama/3.jpg"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "150 mm",
+                "key": "Dimensiune rola",
+                "value": "310 mm x 5 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "5 m",
+                "key": "Material",
+                "value": "Folie laminata din aluminiu + folie poliester + netesut PP central + benzi butilice laterale",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Aluminiu + plasa PP + banda butilic laterala",
+                "key": "Utilizare",
+                "value": "Etansarea si ventilarea coamei si a muchiilor la tigla ceramica, beton, metalica si tabla profilata",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Ventilatie si etansare la coama",
+                "key": "Particularitate",
+                "value": "Laterale plisate, extensibile cu pana la 40 % - se muleaza pe profilul invelitorii",
                 "sort_order": 4
             },
             {
-                "key": "Ventilatie",
-                "value": "Plasa PP centrala permite circulatia aerului",
+                "key": "Culori",
+                "value": "RAL 8004 (caramiziu), RAL 8019 (maro inchis), RAL 7021 (antracit)",
                 "sort_order": 5
             },
             {
-                "key": "Compatibilitate",
-                "value": "Tigla metalica, tabla cutata",
+                "key": "Greutate",
+                "value": "cca. 1 kg / rola",
                 "sort_order": 6
+            },
+            {
+                "key": "Ambalare",
+                "value": "4 role / bax",
+                "sort_order": 7
+            },
+            {
+                "key": "Alte variante Evotek",
+                "value": "tip S 310 / 390 mm (aluminiu profilat + netesut PP dublu), tip M 310 mm (aluminiu profilat + butil, fara PP), tip E 150 / 240 mm",
+                "sort_order": 8
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Banda Coama</h2><p>Banda ventilata pentru coama acoperisului din aluminiu cu plasa PP centrala si benzi butilic laterale. Asigura ventilatie continua la coama si protectie impotriva infiltratiilor.</p><ul><li>Ventilatie pasiva la coama</li><li>Aluminiu flexibil</li><li>Benzi butilic laterale pentru etansare</li><li>Previne condensul in pod</li></ul>",
-        "seo_title": "Evotek Banda Coama — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda ventilata pentru coama acoperisului, 150mm x 5m, aluminiu cu plasa PP. Montaj si consultanta de la BDM Systems.",
+        "description_html": "<h2>Evotek Banda Coama tip T 310 mm</h2><p>Banda de coama ventilata Evotek tip T: folie laminata din aluminiu si poliester, cu zona centrala din netesut PP care lasa aerul sa circule pe sub coama si benzi butilice laterale care se lipesc pe invelitoare. Marginile plisate se intind cu pana la 40 % si urmaresc profilul tiglei, oprind patrunderea apei, zapezii spulberate si a insectelor.</p><ul><li>Ventilatie continua la coama, protectie impotriva infiltratiilor</li><li>Laterale plisate extensibile, benzi butilice pe toata lungimea</li><li>Pentru tigla ceramica, beton, metalica si tabla profilata</li><li>3 culori: caramiziu, maro inchis, antracit</li><li>Gama Evotek include si variantele tip S (310 / 390 mm), tip M (310 mm) si tip E (150 / 240 mm) - va ajutam sa alegeti in functie de invelitoare</li></ul>",
+        "seo_title": "Evotek Banda Coama tip T 310 mm — Accesorii acoperis | BDM Systems",
+        "seo_description": "Evotek Banda Coama tip T 310 mm x 5 m - banda de coama ventilata din aluminiu laminat cu netesut PP si butil, laterale plisate, 3 culori. De la BDM Systems.",
         "related_products": [],
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:51:19",
+        "image_card": "/uploads/products/evotek-banda-coama/card.jpg"
     },
     {
         "id": 132,
         "name": "Evotek Coloana Aerisire Sanitara N",
-        "subtitle": "Coloana de aerisire pentru canalizare, trecere prin acoperis, DN 100-150mm",
+        "subtitle": "Coloana de aerisire pentru canalizare cu trecere prin acoperis, intrare Ø150 / iesire Ø170 mm, baza pentru tigla metalica profil N25, panta 5-45°",
         "slug": "evotek-coloana-aerisire-sanitara-n",
         "category_id": 7,
         "subcategory_id": 21,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-coloana-aerisire-sanitara-n/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-coloana-aerisire-sanitara-n/1.jpg",
+            "/uploads/products/evotek-coloana-aerisire-sanitara-n/2.jpg",
+            "/uploads/products/evotek-coloana-aerisire-sanitara-n/3.jpg",
+            "/uploads/products/evotek-coloana-aerisire-sanitara-n/4.jpg"
+        ],
         "specs": [
             {
-                "key": "Diametru evacuare",
-                "value": "170 mm",
+                "key": "Tip",
+                "value": "Coloana de aerisire sanitara (exhaustor pentru ventilatie gravitationala sau mecanica)",
                 "sort_order": 1
             },
             {
-                "key": "Diametru admisie",
-                "value": "150 mm",
+                "key": "Diametru",
+                "value": "Intrare Ø150 mm, evacuare Ø170 mm",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Polipropilena (PP)",
+                "key": "Baza",
+                "value": "N - tigla metalica cu profil N25 (tip Monterrey, cuta cca. 33 mm); baza 325 x 245 mm",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Aerisire canalizare prin acoperis",
+                "key": "Dimensiuni",
+                "value": "Inaltime totala cca. 500 mm (corp 410 mm)",
                 "sort_order": 4
             },
             {
-                "key": "Panta acoperis",
-                "value": "5° - 45°",
+                "key": "Material",
+                "value": "Polimer de inalta calitate, rezistent UV, cu sistem anti-condens",
                 "sort_order": 5
             },
             {
-                "key": "Culori",
-                "value": "Maro RAL 8017, Negru RAL 9005",
+                "key": "Panta acoperis",
+                "value": "5° - 45° (baza reglabila)",
                 "sort_order": 6
             },
             {
-                "key": "Include",
-                "value": "Guler EPDM, capac, flansa",
+                "key": "Continut set",
+                "value": "Coloana + baza N25 + suruburi de montaj",
                 "sort_order": 7
+            },
+            {
+                "key": "Culori",
+                "value": "Conform paletarului RAL (la cerere)",
+                "sort_order": 8
+            },
+            {
+                "key": "Greutate",
+                "value": "cca. 2,5 kg",
+                "sort_order": 9
+            },
+            {
+                "key": "Norma",
+                "value": "PN-83/B-03430 + Az3",
+                "sort_order": 10
+            },
+            {
+                "key": "Alte variante Evotek",
+                "value": "Profil F (F22), W (W35), O (invelitori plane: sindrila, tabla plana / faltuita), Universal (baza plata + guler EPDM, pentru tabla trapezoidala)",
+                "sort_order": 11
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Coloana Aerisire Sanitara N</h2><p>Coloana de aerisire pentru canalizarea sanitara cu trecere etansa prin acoperis. Include guler EPDM pentru etansare pe invelitoare si capac de protectie.</p><ul><li>Trecere etansa prin acoperis</li><li>Guler EPDM inclus</li><li>Compatibila cu pante 5°-45°</li><li>PP rezistent UV</li></ul>",
+        "description_html": "<h2>Evotek Coloana Aerisire Sanitara N</h2><p>Coloana de aerisire Evotek pentru ventilarea coloanelor de canalizare prin acoperis, cu sistem anti-condens integrat. Se racordeaza la teava de Ø150 mm si evacueaza prin Ø170 mm; baza profilata N se aseaza etans pe tigla metalica cu profil N25 (tip Monterrey) si se regleaza pentru pante intre 5° si 45°.</p><ul><li>Racord Ø150 mm, evacuare Ø170 mm, sistem anti-condens</li><li>Polimer rezistent la UV, inaltime totala cca. 500 mm</li><li>Baza 325 x 245 mm cu reglaj de panta 5-45°</li><li>Set complet: coloana + baza N25 + suruburi</li><li>Pentru alte invelitori exista variantele F (F22), W (W35), O (plane) si Universal (guler EPDM)</li></ul>",
         "seo_title": "Evotek Coloana Aerisire Sanitara N | BDM Systems",
-        "seo_description": "Coloana de aerisire pentru canalizare, trecere prin acoperis, DN 100-150mm. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Evotek Coloana Aerisire Sanitara N - coloana de aerisire canalizare prin acoperis Ø150/170 mm, baza pentru tigla metalica profil N25, panta 5-45°, anti-condens. De la BDM Systems.",
         "related_products": [],
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:51:19",
+        "image_card": "/uploads/products/evotek-coloana-aerisire-sanitara-n/card.jpg"
     },
     {
         "id": 133,
         "name": "Evotek Ventilatie Acoperis N",
-        "subtitle": "Cos ventilatie plat pentru acoperis, evacuare aer din pod, panta 5-45°",
+        "subtitle": "Element de ventilatie plat pentru acoperisuri inclinate, baza pentru tigla metalica profil N25, panta 5-45°",
         "slug": "evotek-ventilatie-acoperis-n",
         "category_id": 7,
         "subcategory_id": 21,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-ventilatie-acoperis-n/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-ventilatie-acoperis-n/1.jpg",
+            "/uploads/products/evotek-ventilatie-acoperis-n/2.jpg"
+        ],
         "specs": [
             {
                 "key": "Tip",
-                "value": "Cos ventilatie plat",
+                "value": "Element de ventilatie plat (cos de ventilatie cu profil jos) pentru evacuarea aerului din pod / spatiul de sub invelitoare",
                 "sort_order": 1
             },
             {
-                "key": "Material",
-                "value": "Polipropilena (PP)",
+                "key": "Baza",
+                "value": "N - tigla metalica cu profil N25 (tip Monterrey, cuta cca. 33 mm)",
                 "sort_order": 2
+            },
+            {
+                "key": "Material",
+                "value": "Polimer rezistent la UV",
+                "sort_order": 3
             },
             {
                 "key": "Panta acoperis",
                 "value": "5° - 45°",
-                "sort_order": 3
-            },
-            {
-                "key": "Debit aer",
-                "value": "Pana la 200 m³/h",
                 "sort_order": 4
             },
             {
-                "key": "Culori",
-                "value": "Maro RAL 8017, Negru RAL 9005, Gri RAL 7024",
+                "key": "Continut set",
+                "value": "Element de ventilatie + suruburi de montaj",
                 "sort_order": 5
             },
             {
-                "key": "Include",
-                "value": "Guler EPDM, grila anti-insecte, flansa",
+                "key": "Culori",
+                "value": "Conform paletarului RAL (la cerere)",
                 "sort_order": 6
+            },
+            {
+                "key": "Greutate",
+                "value": "cca. 1 kg",
+                "sort_order": 7
+            },
+            {
+                "key": "Alte variante Evotek",
+                "value": "Profil F (F22), W (W35), O (invelitori plane) - pentru tigla beton, ceramica sau sindrila bituminoasa",
+                "sort_order": 8
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Ventilatie Acoperis N</h2><p>Cos de ventilatie plat pentru evacuarea aerului din podul acoperisului. Design aerodinamic, cu guler EPDM pentru etansare si grila anti-insecte.</p><ul><li>Design aerodinamic plat</li><li>Debit pana la 200 m³/h</li><li>Guler EPDM inclus</li><li>Grila anti-insecte</li></ul>",
+        "description_html": "<h2>Evotek Ventilatie Acoperis N</h2><p>Element de ventilatie plat Evotek pentru acoperisuri inclinate: evacueaza aerul umed din pod si din spatiul de ventilare de sub invelitoare, cu un profil discret care se integreaza in campul de tigla. Varianta N are baza profilata pentru tigla metalica cu cuta de tip N25 si se monteaza la pante intre 5° si 45°.</p><ul><li>Profil plat, discret, integrat in invelitoare</li><li>Polimer rezistent la UV, greutate redusa (cca. 1 kg)</li><li>Baza N25 pentru tigla metalica tip Monterrey</li><li>Set: element + suruburi de montaj</li><li>Variante pentru tigla beton, ceramica si sindrila bituminoasa (profil F, W, O)</li></ul>",
         "seo_title": "Evotek Ventilatie Acoperis N — Accesorii acoperis | BDM Systems",
-        "seo_description": "Cos ventilatie plat pentru acoperis, evacuare aer din pod, panta 5-45°. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Evotek Ventilatie Acoperis N - element de ventilatie plat pentru acoperisuri inclinate, baza pentru tigla metalica profil N25, panta 5-45°, polimer UV. De la BDM Systems.",
         "related_products": [],
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:51:19",
+        "image_card": "/uploads/products/evotek-ventilatie-acoperis-n/card.jpg"
     },
     {
         "id": 134,
         "name": "Eurovent Ventos X Roto B26",
-        "subtitle": "Palarie rotativa pentru cosuri, diametru 150mm, aluminiu",
+        "subtitle": "Cos de ventilatie rotativ (turbina eoliana) Ø150 mm cu baza pentru tigla metalica profil B26, panta 5-45°",
         "slug": "eurovent-ventos-x-roto-b26",
         "category_id": 7,
         "subcategory_id": 21,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-ventos-x-roto-b26/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-ventos-x-roto-b26/1.png",
+            "/uploads/products/eurovent-ventos-x-roto-b26/2.png"
+        ],
         "specs": [
             {
-                "key": "Diametru",
-                "value": "150 mm",
+                "key": "Tip",
+                "value": "Cos de ventilatie rotativ - turbina cu 15 palete din aluminiu pe rulment cu bile",
                 "sort_order": 1
             },
             {
-                "key": "Material",
-                "value": "Aluminiu",
+                "key": "Diametru racord",
+                "value": "Ø150 mm",
                 "sort_order": 2
             },
             {
-                "key": "Tip",
-                "value": "Rotativ (eolian)",
+                "key": "Baza",
+                "value": "B26 - tigla metalica cu profil B26 (inaltime cuta cca. 40 mm); baza 325 x 245 mm, inaltime 182 mm",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Ventilatie cosuri de fum inactive, canalizare, pod",
+                "key": "Material",
+                "value": "Corp PP colorat in masa cu stabilizator UV, turbina aluminiu, elemente din tabla zincata",
                 "sort_order": 4
             },
             {
-                "key": "Debit",
-                "value": "Variabil, in functie de vant",
+                "key": "Etansare",
+                "value": "Garnitura butilica integrata in baza",
                 "sort_order": 5
             },
             {
-                "key": "Montaj",
-                "value": "Pe cosuri existente sau tevi ventilatie",
+                "key": "Panta acoperis",
+                "value": "5° - 45° (baza reglabila)",
                 "sort_order": 6
+            },
+            {
+                "key": "Continut set",
+                "value": "Cos rotativ + trecere de acoperis + suruburi",
+                "sort_order": 7
+            },
+            {
+                "key": "Culori",
+                "value": "RAL 9005, 7021, 7024, 8004, 8017, 8019 (3009, 6020, 7036 la comanda)",
+                "sort_order": 8
+            },
+            {
+                "key": "Greutate",
+                "value": "cca. 2,5 kg",
+                "sort_order": 9
+            },
+            {
+                "key": "Norma",
+                "value": "PN-83/B-03430/Az3",
+                "sort_order": 10
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Ventos X Roto B26</h2><p>Palarie rotativa eoliana Eurovent pentru cosuri de fum inactive sau tevi de ventilatie. Se roteste cu forta vantului, creand un efect de aspiratie care imbunatateste ventilarea.</p><ul><li>Rotativa eoliana - fara consum electric</li><li>Aluminiu rezistent la coroziune</li><li>Efect de aspiratie la vant</li><li>Pentru cosuri si tevi ventilatie</li></ul>",
+        "description_html": "<h2>Eurovent VENTOS X ROTO B26</h2><p>Cos de ventilatie rotativ Eurovent din familia VENTOS X: turbina eoliana cu 15 palete din aluminiu, montata pe rulment cu bile, se roteste la cea mai mica adiere si creeaza un efect de aspiratie care intensifica ventilarea podului, a canalizarii sau a incaperilor, fara consum electric. Baza B26 este profilata pentru tigla metalica cu cuta de tip B26 si se regleaza pentru pante intre 5° si 45°.</p><ul><li>Turbina din aluminiu pe rulment - functionare silentioasa, fara curent</li><li>Corp din PP colorat in masa, stabilizat UV; garnitura butilica integrata</li><li>Racord Ø150 mm, baza 325 x 245 mm cu reglaj de panta 5-45°</li><li>Set complet: cos + trecere de acoperis + suruburi</li><li>Baza B26 compatibila cu tigle metalice cu profil B26 (ex. Blachdach Bolero, Blachdom Beskid, Bratex Centro, Markosteel Strato); pentru alte profile exista bazele N25, M11, G18, F22, R28, W35, T18, BITU si tigla beton</li></ul><p><em>Cum se citeste denumirea: VENTOS = cos de ventilatie, ROTO = varianta rotativa, B26 = tipul de baza (profilul invelitorii), nu o dimensiune. Va ajutam sa alegeti baza potrivita tiglei dumneavoastra.</em></p>",
         "seo_title": "Eurovent Ventos X Roto B26 — Accesorii acoperis | BDM Systems",
-        "seo_description": "Palarie rotativa pentru cosuri, diametru 150mm, aluminiu. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Eurovent Ventos X Roto B26 - cos de ventilatie rotativ cu turbina din aluminiu Ø150 mm, baza pentru tigla metalica profil B26, panta 5-45°, set complet. De la BDM Systems.",
         "related_products": [],
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:51:19",
+        "image_card": "/uploads/products/eurovent-ventos-x-roto-b26/card.jpg"
     },
     {
         "id": 135,
         "name": "Eurovent Sattos X N25",
-        "subtitle": "Adaptor trecere antena prin acoperis, pentru catarge 15-90mm",
+        "subtitle": "Trecere de acoperis pentru catarg de antena Ø15-90 mm, baza pentru tigla metalica profil N25, panta 5-45°",
         "slug": "eurovent-sattos-x-n25",
         "category_id": 7,
         "subcategory_id": 21,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-sattos-x-n25/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-sattos-x-n25/1.png",
+            "/uploads/products/eurovent-sattos-x-n25/2.png"
+        ],
         "specs": [
             {
-                "key": "Diametru catarg",
-                "value": "15 - 90 mm",
+                "key": "Tip",
+                "value": "Trecere de acoperis pentru antena / catarg",
                 "sort_order": 1
             },
             {
-                "key": "Material baza",
-                "value": "Polipropilena (PP)",
+                "key": "Diametru catarg",
+                "value": "Ø15 - 90 mm",
                 "sort_order": 2
             },
             {
-                "key": "Material guler",
-                "value": "EPDM flexibil",
+                "key": "Baza",
+                "value": "N25 - tigla metalica cu profil N25 (cel mai raspandit, tip Monterrey, inaltime cuta cca. 33 mm); baza 325 x 245 mm",
                 "sort_order": 3
             },
             {
-                "key": "Panta acoperis",
-                "value": "5° - 45°",
+                "key": "Material",
+                "value": "Polimer PP stabilizat UV, manson din elastomer, colier metalic, garnitura butilica",
                 "sort_order": 4
             },
             {
-                "key": "Utilizare",
-                "value": "Trecere antena, catarg, cablu prin acoperis",
+                "key": "Panta acoperis",
+                "value": "5° - 45° (baza reglabila)",
                 "sort_order": 5
             },
             {
-                "key": "Culori",
-                "value": "Maro, negru, gri",
+                "key": "Continut set",
+                "value": "Trecere de acoperis + manson + colier metalic + suruburi",
                 "sort_order": 6
+            },
+            {
+                "key": "Culori",
+                "value": "RAL 9005, 7021, 7024, 7035, 8004, 8017, 8019, 3009, 6020",
+                "sort_order": 7
+            },
+            {
+                "key": "Greutate",
+                "value": "cca. 1,75 kg",
+                "sort_order": 8
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Sattos X N25</h2><p>Adaptor de trecere prin acoperis pentru antene, catarge si cabluri cu diametrul intre 15 si 90mm. Guler EPDM flexibil asigura etansarea pe catarg.</p><ul><li>Compatibil catarge 15-90mm</li><li>Guler EPDM flexibil</li><li>Baza PP rezistenta UV</li><li>Panta acoperis 5°-45°</li></ul>",
+        "description_html": "<h2>Eurovent SATTOS X N25</h2><p>Trecere de acoperis Eurovent pentru catarge de antena cu diametrul intre 15 si 90 mm. Mansonul din elastomer si colierul metalic strang etans pe catarg, iar baza profilata N25 cu garnitura butilica integrata se aseaza perfect pe tigla metalica cu profil de tip Monterrey, la pante intre 5° si 45°.</p><ul><li>Etansare sigura pe catarg Ø15-90 mm (manson elastomer + colier metalic)</li><li>Baza 325 x 245 mm cu reglaj de panta 5-45° si garnitura butilica</li><li>PP rezistent la UV, disponibil in 9 culori RAL</li><li>Set complet: trecere + manson + colier + suruburi</li><li>Baza N25 compatibila cu peste 100 de modele de tigla metalica (Blachotrapez Kingas / Talia, Ruukki Monterrey, Budmat Sara, Pruszynski Szafir, Balex Horyzont, Bratex Hera etc.); pentru alte invelitori exista bazele B26, M11, G18, F22, R28, W35, T18, BITU si tigla beton</li></ul><p><em>Cum se citeste denumirea: SATTOS = trecere antena, N25 = tipul de baza (profilul invelitorii), nu o dimensiune.</em></p>",
         "seo_title": "Eurovent Sattos X N25 — Accesorii acoperis | BDM Systems",
-        "seo_description": "Adaptor trecere antena prin acoperis, pentru catarge 15-90mm. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Eurovent Sattos X N25 - trecere de acoperis pentru catarg antena Ø15-90 mm, baza pentru tigla metalica profil N25 (Monterrey), panta 5-45°. De la BDM Systems.",
         "related_products": [],
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:51:19",
+        "image_card": "/uploads/products/eurovent-sattos-x-n25/card.jpg"
     },
     {
         "id": 136,
