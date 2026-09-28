@@ -481,16 +481,16 @@
         "name": "Ferestre mansarda",
         "slug": "ferestre-mansarda",
         "description": "Ferestre de mansarda FAKRO cu deschidere mediana, preSelect MAX, PVC si supertermoizolante",
-        "image": "",
+        "image": "/images/subcategories/ferestre-mansarda-fakro.jpg",
         "icon": "&#127968;",
         "count": 15,
-        "seo_title": "",
-        "seo_description": "",
+        "seo_title": "Ferestre de mansarda FAKRO - lemn si PVC, pivotante si articulate | BDM Systems",
+        "seo_description": "Ferestre de mansarda FAKRO - pivotante, cu articulare ridicata, cu deschidere laterala, din lemn sau PVC, inclusiv modele pentru case pasive (FTT U8 Thermo). Iluminare naturala si ventilatie pentru mansarda. Montaj autorizat FAKRO de la BDM Systems.",
         "seo_text": "",
         "sort_order": 1,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-09-28 17:10:00"
     },
     {
         "id": 30,
@@ -849,16 +849,16 @@
         "name": "Ferestre acoperis terasa",
         "slug": "ferestre-acoperis-terasa",
         "description": "Ferestre FAKRO pentru acoperis plat si terasa - tip C, tip F, circulabile DXW, acces si evacuare fum",
-        "image": "",
+        "image": "/images/subcategories/ferestre-acoperis-terasa-fakro.jpg",
         "icon": "&#9632;",
         "count": 8,
-        "seo_title": "",
-        "seo_description": "",
+        "seo_title": "Ferestre acoperis terasa FAKRO - ferestre plate si cupole | BDM Systems",
+        "seo_description": "Ferestre pentru acoperis terasa FAKRO - ferestre plate si cupole pentru acoperisuri cu panta mica, cu geam plan sau cupola, fixe sau cu deschidere electrica. Lumina naturala pentru acoperisurile plate. Montaj autorizat FAKRO de la BDM Systems.",
         "seo_text": "",
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-09-28 17:10:00"
     },
     {
         "id": 53,
@@ -866,16 +866,16 @@
         "name": "Tunele de lumina",
         "slug": "tunele-de-lumina",
         "description": "Tunele de lumina FAKRO cu tub rigid SRT si flexibil SLT pentru iluminare naturala",
-        "image": "",
+        "image": "/images/subcategories/tunele-de-lumina-fakro.jpg",
         "icon": "&#9728;",
         "count": 4,
-        "seo_title": "",
-        "seo_description": "",
+        "seo_title": "Tunele de lumina FAKRO - lumina naturala fara ferestre | BDM Systems",
+        "seo_description": "Tunele de lumina FAKRO - aduc lumina naturala in incaperile fara acces direct la acoperis (holuri, bai, dressinguri) prin tuburi rigide sau flexibile cu reflexie ridicata. Montaj autorizat FAKRO de la BDM Systems.",
         "seo_text": "",
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-09-28 17:10:00"
     },
     {
         "id": 54,
@@ -883,16 +883,16 @@
         "name": "Luminatoare",
         "slug": "luminatoare",
         "description": "Luminatoare FAKRO WLI, WGI, WGT pentru acces si iluminare pod",
-        "image": "",
+        "image": "/images/subcategories/luminatoare-fakro.jpg",
         "icon": "&#128161;",
         "count": 3,
-        "seo_title": "",
-        "seo_description": "",
+        "seo_title": "Luminatoare FAKRO - iluminare si ventilatie acoperis | BDM Systems",
+        "seo_description": "Luminatoare FAKRO - iluminare naturala si ventilatie pentru spatii comerciale, industriale si rezidentiale, cu deschidere pentru acces pe acoperis sau evacuare fum. Montaj autorizat FAKRO de la BDM Systems.",
         "seo_text": "",
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-03 10:00:00"
+        "updated_at": "2026-09-28 17:10:00"
     },
     {
         "id": 55,
