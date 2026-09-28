@@ -123,7 +123,7 @@ $productCount = count($products);
                     <p>Consultanta gratuita, masuratori si montaj profesional in toata tara.</p>
                     <div class="subcat-cta-actions">
                         <a href="/contact" class="btn btn-primary">Cerere oferta</a>
-                        <a href="tel:+40756034734" class="btn btn-outline">&#128222; 0756.034.734</a>
+                        <a href="tel:+40756034734" class="btn btn-outline-white">&#128222; 0756.034.734</a>
                     </div>
                 </div>
 

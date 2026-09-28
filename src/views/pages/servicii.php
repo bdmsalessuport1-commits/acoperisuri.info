@@ -116,7 +116,7 @@
             <p>Indiferent de dimensiunea proiectului, suntem aici sa va ajutam cu solutii profesionale si preturi corecte.</p>
             <div class="services-cta-actions">
                 <a href="/contact" class="btn btn-primary">Solicita oferta gratuita</a>
-                <a href="tel:+40756034734" class="btn btn-outline">&#128222; 0756.034.734</a>
+                <a href="tel:+40756034734" class="btn btn-outline-white">&#128222; 0756.034.734</a>
             </div>
         </div>
 

@@ -161,7 +161,7 @@
             <p>Contacteaza-ne pentru o consultatie gratuita si o oferta personalizata pentru proiectul tau.</p>
             <div class="about-cta-actions">
                 <a href="/contact" class="btn btn-primary">Solicita oferta</a>
-                <a href="tel:+40756034734" class="btn btn-outline">&#128222; 0756.034.734</a>
+                <a href="tel:+40756034734" class="btn btn-outline-white">&#128222; 0756.034.734</a>
             </div>
         </div>
 

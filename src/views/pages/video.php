@@ -178,7 +178,7 @@ foreach (array_slice($videos, 0, 10) as $idx => $sv) {
                     <a href="https://www.tiktok.com/@bdmsystems" target="_blank" rel="noopener" class="btn btn-primary">
                         Urmareste pe TikTok
                     </a>
-                    <a href="/contact" class="btn btn-outline">Solicita oferta</a>
+                    <a href="/contact" class="btn btn-outline-white">Solicita oferta</a>
                 </div>
             </div>
         </div>
