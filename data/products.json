@@ -19289,1307 +19289,1686 @@
     {
         "id": 107,
         "name": "Riwega USB Coll 150 X",
-        "subtitle": "Banda etansare universala autoadeziva, 150mm x 25m, pentru racorduri si suprapuneri membrane",
+        "subtitle": "Banda monoadeziva butilica lata, 150 mm x 15 m, grosime 2 mm, pentru orice etansare liniara la interior si exterior",
         "slug": "riwega-usb-coll-150-x",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-coll-150-x/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-coll-150-x/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "150 mm",
+                "key": "Dimensiune rola",
+                "value": "150 mm x 15 m (gama Coll: 50 / 80 / 150 / 150X)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Adeziv butilic pe suport LDPE",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Fleece PP cu adeziv butilic",
+                "key": "Utilizare",
+                "value": "Etansari liniare: racorduri, suprapuneri, strapungeri la membrane",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Etansare racorduri membrane, strapungeri, suprapuneri",
+                "key": "Grosime",
+                "value": "2,0 mm",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Tip banda",
+                "value": "Monoadeziva, fara solventi",
                 "sort_order": 5
             },
             {
-                "key": "Aderenta",
-                "value": "Pe membrane, lemn, metal, beton",
+                "key": "Aplicare",
+                "value": "Interior si exterior (suprafata rezistenta la apa)",
                 "sort_order": 6
+            },
+            {
+                "key": "Stabilitate UV",
+                "value": "3 luni",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-40°C / +100°C",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "2 role / cutie",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega USB Coll 150 X</h2><p>Banda etansare universala autoadeziva cu suport fleece PP si adeziv butilic de inalta performanta. Ideala pentru racorduri, suprapuneri si strapungeri la membrane de difuzie.</p><ul><li>Autoadeziva cu butilic</li><li>Fleece PP flexibil</li><li>Aderenta excelenta pe multiple suprafete</li><li>Rezistenta UV si la intemperii</li></ul>",
+        "description_html": "<h2>Riwega USB Coll 150 X</h2><p>Banda monoadeziva butilica semiflexibila Riwega, varianta cea mai lata si mai groasa din gama Coll (150 mm, 2 mm). Adezivul butilic cu aderenta puternica, fara solventi, se adapteaza oricarui tip de suprafata si asigura etansari liniare durabile la membrane, racorduri si strapungeri.</p><ul><li>Adeziv butilic cu aderenta puternica, fara solventi</li><li>Gama Coll acopera mai multe latimi si grosimi (50, 80, 150, 150X)</li><li>Utilizare dubla, la interior si la exterior, datorita suprafetei rezistente la apa</li><li>Vascozitate stabila, rezistenta la temperaturi de la -40°C la +100°C</li></ul>",
         "seo_title": "Riwega USB Coll 150 X — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare universala autoadeziva, 150mm x 25m, pentru racorduri si suprapuneri membrane. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Coll 150 X - banda monoadeziva butilica 150 mm x 15 m, 2 mm, pentru etansari liniare la membrane, interior si exterior. De la BDM Systems.",
         "related_products": [],
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-usb-coll-150-x/card.jpg"
     },
     {
         "id": 108,
         "name": "Riwega USB Coll Flexi",
-        "subtitle": "Banda etansare flexibila pentru racorduri curbe si neregulate, autoadeziva butilic",
+        "subtitle": "Cea mai flexibila banda butilica din gama, 100 mm x 15 m, pentru racorduri curbe si elemente cu sectiune circulara",
         "slug": "riwega-usb-coll-flexi",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-usb-coll-flexi/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-usb-coll-flexi/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "100 mm",
+                "key": "Dimensiune rola",
+                "value": "100 mm x 15 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Adeziv butilic pe suport LDPE extrem de flexibil",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Cauciuc butilic cu fleece extensibil",
+                "key": "Utilizare",
+                "value": "Racorduri curbe, tevi si elemente cu sectiune circulara, strapungeri",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Racorduri curbe, colturi, strapungeri rotunde",
+                "key": "Grosime",
+                "value": "1,5 mm",
                 "sort_order": 4
             },
             {
-                "key": "Extensibilitate",
-                "value": "Pana la 100%",
+                "key": "Tip banda",
+                "value": "Monoadeziva, fara solventi",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Aplicare",
+                "value": "Interior si exterior (suprafata rezistenta la apa)",
                 "sort_order": 6
+            },
+            {
+                "key": "Stabilitate UV",
+                "value": "3 luni",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-40°C / +90°C",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "4 role / cutie",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega USB Coll Flexi</h2><p>Banda etansare extrem de flexibila, cu extensibilitate pana la 100%, perfecta pentru racorduri curbe, colturi si strapungeri de forma neregulata.</p><ul><li>Extensibila pana la 100%</li><li>Se adapteaza formelor curbe</li><li>Adeziv butilic permanent</li><li>Ideala pentru cosuri si tuburi</li></ul>",
+        "description_html": "<h2>Riwega USB Coll Flexi</h2><p>Banda monoadeziva butilica Riwega cu suport LDPE extrem de flexibil - cea mai flexibila din gama. Se muleaza pe orice situatie de montaj si asigura o etansare perfecta chiar si la trecerea prin membrana a elementelor cu sectiune circulara (tevi, cosuri de ventilatie, cabluri).</p><ul><li>Flexibilitate ridicata, adaptabila oricarei situatii de instalare</li><li>Etansare perfecta la elemente cu sectiune circulara</li><li>Adeziv butilic puternic, fara solventi</li><li>Utilizare dubla, la interior si la exterior</li></ul>",
         "seo_title": "Riwega USB Coll Flexi — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare flexibila pentru racorduri curbe si neregulate, autoadeziva butilic. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Coll Flexi - banda butilica extrem de flexibila 100 mm x 15 m pentru etansarea racordurilor curbe si a trecerilor de tevi prin membrane. De la BDM Systems.",
         "related_products": [],
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-usb-coll-flexi/card.jpg"
     },
     {
         "id": 109,
         "name": "Riwega Roll Flex Top Alu",
-        "subtitle": "Banda etansare cu insertie de aluminiu, pentru racorduri perete-acoperis, 300mm x 5m",
+        "subtitle": "Banda plisata modelabila 3D din aluminiu si butil, 300 mm x 5 m, pentru racorduri la pereti, cosuri si strapungeri",
         "slug": "riwega-roll-flex-top-alu",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-roll-flex-top-alu/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-roll-flex-top-alu/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "300 mm",
+                "key": "Dimensiune rola",
+                "value": "300 mm x 5 m (disponibil si 450 / 600 mm)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "5 m",
+                "key": "Material",
+                "value": "Aluminiu 0,15 mm plisat + adeziv butilic 1,5 mm",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Aluminiu lacuit cu adeziv butilic",
+                "key": "Utilizare",
+                "value": "Racorduri acoperis-perete, cosuri, lucarne, orice strapungere pe acoperis inclinat",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Racorduri perete-acoperis, cosuri, lucarne",
+                "key": "Tip banda",
+                "value": "Tridimensionala, modelabila, complet autoadeziva pe fata inferioara",
                 "sort_order": 4
             },
             {
-                "key": "Culori disponibile",
-                "value": "Maro, gri, rosu, negru",
+                "key": "Temperatura de lucru",
+                "value": "+5°C / +40°C",
                 "sort_order": 5
             },
             {
-                "key": "Rezistenta temperatura",
-                "value": "-30°C / +80°C",
+                "key": "Rezistenta",
+                "value": "Impermeabila la apa, rezistenta la razele UV",
                 "sort_order": 6
+            },
+            {
+                "key": "Variante",
+                "value": "Alu 300 / 450 / 600; variante din plumb (Pb) si cupru (Cu)",
+                "sort_order": 7
+            },
+            {
+                "key": "Ambalare",
+                "value": "1 rola / cutie",
+                "sort_order": 8
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Roll Flex Top Alu</h2><p>Banda de racord din aluminiu lacuit cu adeziv butilic, pentru etansarea jonctiunilor perete-acoperis, cosuri de fum si alte strapungeri. Se modeleaza usor pe suprafete neregulate.</p><ul><li>Aluminiu lacuit - aspect estetic</li><li>Adeziv butilic de lunga durata</li><li>Se modeleaza pe suprafete neregulate</li><li>Disponibila in mai multe culori</li></ul>",
+        "description_html": "<h2>Riwega ROLL Flex Top Alu</h2><p>Banda plisata tridimensionala Riwega din aluminiu cu adeziv butilic, conexiunea ideala intre invelitoare si pereti, cosuri de fum sau lucarne. Se modeleaza pe profilul invelitorii si etanseaza orice trecere sau strapungere a unui acoperis inclinat.</p><ul><li>Banda plisata modelabila, tridimensionala</li><li>Suprafata inferioara complet autoadeziva (butil 1,5 mm)</li><li>Trei latimi: 30, 45 si 60 cm - unice pe piata</li><li>Impermeabila la apa si rezistenta la razele UV</li><li>Disponibila si in variantele plumb (Pb) si cupru (Cu)</li></ul>",
         "seo_title": "Riwega Roll Flex Top Alu — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare cu insertie de aluminiu, pentru racorduri perete-acoperis, 300mm x 5m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega ROLL Flex Top Alu - banda plisata 3D aluminiu/butil 300 mm x 5 m pentru etansarea racordurilor la pereti, cosuri si lucarne pe acoperis inclinat. De la BDM Systems.",
         "related_products": [],
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-roll-flex-top-alu/card.jpg"
     },
     {
         "id": 110,
-        "name": "Evotek Banda 3D",
-        "subtitle": "Banda etansare tridimensionala pentru racorduri complexe, autoadeziva pe ambele fete",
+        "name": "Evotek Banda 3D perete si cos de fum",
+        "subtitle": "Banda autoadeziva din aluminiu profilat 3D cu butil, 300 mm x 5 m, pentru racorduri la cosuri, pereti si ferestre de mansarda",
         "slug": "evotek-banda-3d",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-banda-3d/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-banda-3d/1.jpg"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "300 mm x 5 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Aluminiu profilat tridimensional + adeziv butilic",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "EPDM cu adeziv acrilic pe ambele fete",
+                "key": "Utilizare",
+                "value": "Etansarea racordurilor la cosuri de fum, pereti si ferestre de mansarda",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Racorduri 3D complexe, colturi, intersectii",
+                "key": "Tip banda",
+                "value": "Autoadeziva, modelabila pe profilul invelitorii",
                 "sort_order": 4
             },
             {
-                "key": "Grosime",
-                "value": "1.2 mm",
+                "key": "Compatibilitate",
+                "value": "Aproape toate tipurile de invelitori",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +40°C",
+                "key": "Aplicare",
+                "value": "Exterior",
                 "sort_order": 6
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Banda 3D</h2><p>Banda de etansare tridimensionala cu adeziv pe ambele fete, pentru racorduri complexe la intersectii de membrane, colturi si zone cu geometrie dificila.</p><ul><li>Adeziv pe ambele fete</li><li>EPDM flexibil si durabil</li><li>Pentru geometrii complexe</li><li>Rezistenta la UV si intemperii</li></ul>",
-        "seo_title": "Evotek Banda 3D — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare tridimensionala pentru racorduri complexe, autoadeziva pe ambele fete. Montaj si consultanta de la BDM Systems.",
+        "description_html": "<h2>Evotek Banda 3D perete si cos de fum</h2><p>Banda autoadeziva Evotek din aluminiu cu model tridimensional si adeziv butilic, proiectata pentru etansarea racordurilor dintre invelitoare si cosuri de fum, pereti sau ferestre de mansarda. Profilul 3D permite modelarea benzii pe forma invelitorii, inclusiv in zonele greu accesibile ale acoperisului.</p><ul><li>Aluminiu profilat 3D - se muleaza pe profilul tiglei</li><li>Adeziv butilic pe toata suprafata inferioara</li><li>Pentru cosuri de fum, ferestre de mansarda si imbinari acoperis-perete</li><li>Potrivita pentru aproape toate tipurile de invelitori</li></ul>",
+        "seo_title": "Evotek Banda 3D perete si cos de fum — Accesorii acoperis | BDM Systems",
+        "seo_description": "Evotek Banda 3D perete si cos de fum - banda autoadeziva aluminiu profilat 3D cu butil, 300 mm x 5 m, pentru racorduri la cosuri si ferestre de mansarda. De la BDM Systems.",
         "related_products": [],
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/evotek-banda-3d/card.jpg"
     },
     {
         "id": 111,
-        "name": "Evotek Banda Sipca",
-        "subtitle": "Banda etansare pentru sipci si contrasipcii, autoadeziva butilic, 60mm x 30m",
+        "name": "Evotek Banda Sipca Verticala",
+        "subtitle": "Banda de etansare sub contrasipci din spuma PE cu celule inchise, 40 mm x 25 m, adeziv acrilic pe o fata",
         "slug": "evotek-banda-sipca",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-banda-sipca/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-banda-sipca/1.jpg",
+            "/uploads/products/evotek-banda-sipca/2.jpg"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "40 mm x 25 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "30 m",
+                "key": "Material",
+                "value": "Spuma de polietilena cu structura de celule inchise, adeziv dispersie acrilica pe o fata",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "EPDM expandat cu adeziv butilic",
+                "key": "Utilizare",
+                "value": "Sub contrasipca: etanseaza perforatiile de la fixarea membranei de acoperis",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Etansare sub sipci si contrasipcii",
+                "key": "Functie",
+                "value": "Structura elastica niveleaza punctele inegale ale contrasipcii",
                 "sort_order": 4
             },
             {
-                "key": "Grosime",
-                "value": "3 mm",
+                "key": "Temperatura aplicare",
+                "value": "De la +5°C",
                 "sort_order": 5
             },
             {
-                "key": "Compresie",
-                "value": "Se comprima la fixarea sipcii",
+                "key": "Aplicare",
+                "value": "Exterior, sub contrasipca",
                 "sort_order": 6
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Banda Sipca</h2><p>Banda de etansare din EPDM expandat cu adeziv butilic, special conceputa pentru montaj sub sipci si contrasipcii. Se comprima la fixare, etansand perforatiile cuielor/suruburilor.</p><ul><li>EPDM expandat - se comprima la fixare</li><li>Etanseaza perforatiile de fixare</li><li>Adeziv butilic pe o fata</li><li>Previne infiltratiile la sipci</li></ul>",
-        "seo_title": "Evotek Banda Sipca — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare pentru sipci si contrasipcii, autoadeziva butilic, 60mm x 30m. Montaj si consultanta de la BDM Systems.",
+        "description_html": "<h2>Evotek Banda Sipca Verticala</h2><p>Banda de etansare Evotek din spuma de polietilena cu celule inchise, acoperita pe o parte cu adeziv acrilic. Se aplica sub contrasipca instalata pe membrana de acoperis: structura elastica se aliniaza la neregularitatile lemnului si etanseaza strapungerile facute de cuie si capse la fixarea membranei.</p><ul><li>Spuma PE cu celule inchise, elastica</li><li>Etanseaza perforatiile de la montajul membranelor si foliilor de acoperis</li><li>Niveleaza punctele inegale ale contrasipcii</li><li>Aplicare de la +5°C</li></ul>",
+        "seo_title": "Evotek Banda Sipca Verticala — Accesorii acoperis | BDM Systems",
+        "seo_description": "Evotek Banda Sipca Verticala - banda din spuma PE 40 mm x 25 m sub contrasipci, etanseaza perforatiile de cuie la membrana de acoperis. De la BDM Systems.",
         "related_products": [],
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/evotek-banda-sipca/card.jpg"
     },
     {
         "id": 112,
-        "name": "Riwega TIP Kont",
-        "subtitle": "Adeziv de contact pentru membrane, aplicare cu pensula, 1L",
+        "name": "Riwega Tip KONT",
+        "subtitle": "Banda de etansare la cuie din spuma PE, 60 mm x 30 m, sub contrasipci, pentru impermeabilizarea continua a strapungerilor",
         "slug": "riwega-tip-kont",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tip-kont/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tip-kont/1.png"
+        ],
         "specs": [
             {
-                "key": "Volum",
-                "value": "1 litru",
+                "key": "Dimensiune rola",
+                "value": "60 mm x 30 m (disponibil si 70 / 80 mm)",
                 "sort_order": 1
             },
             {
-                "key": "Tip",
-                "value": "Adeziv de contact",
+                "key": "Material",
+                "value": "Spuma din PE cu adeziv acrilic",
                 "sort_order": 2
             },
             {
-                "key": "Aplicare",
-                "value": "Cu pensula pe ambele suprafete",
+                "key": "Utilizare",
+                "value": "Sub contrasipca: etanseaza perforatiile cuielor si capselor in membrana de difuzie",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Lipire membrane pe suprafete dificile",
+                "key": "Grosime",
+                "value": "3 mm",
                 "sort_order": 4
             },
             {
-                "key": "Timp deschis",
-                "value": "10-30 minute",
+                "key": "Forta adeziva",
+                "value": ">= 5 N / 25 mm",
                 "sort_order": 5
             },
             {
-                "key": "Consum",
-                "value": "Aprox. 200-300 g/m²",
+                "key": "Stabilitate UV",
+                "value": "Nelimitata",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +80°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta la imbatranire",
+                "value": "Nelimitata",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "10 role / cutie",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega TIP Kont</h2><p>Adeziv de contact profesional pentru lipirea membranelor pe suprafete unde benzile autoadezive nu au aderenta suficienta: beton, tencuiala, caramida.</p><ul><li>Adeziv de contact puternic</li><li>Aplicare cu pensula</li><li>Pentru suprafete poroase si dificile</li><li>Compatibil cu toate membranele Riwega</li></ul>",
-        "seo_title": "Riwega TIP Kont — Accesorii acoperis | BDM Systems",
-        "seo_description": "Adeziv de contact pentru membrane, aplicare cu pensula, 1L. Montaj si consultanta de la BDM Systems.",
+        "description_html": "<h2>Riwega Tip KONT</h2><p>Banda monoadeziva continua Riwega din spuma PE, montata sub contrasipca pentru impermeabilizarea strapungerilor produse de cuie si capse in membrana de difuzie. Elasticitatea ridicata o face rezistenta la dilatatii si vibratii, pastrand etanseitatea la apa, aer si vant a stratului de membrana.</p><ul><li>Banda monoadeziva continua pentru strapungeri (etansare la cuie)</li><li>Ideala pentru etansarea la apa, aer si vant a membranelor de difuzie</li><li>Rezistenta la dilatatii si vibratii datorita elasticitatii sale ridicate</li><li>Versatila: se foloseste atat la acoperis, cat si la fatade</li></ul>",
+        "seo_title": "Riwega Tip KONT — Accesorii acoperis | BDM Systems",
+        "seo_description": "Riwega Tip KONT - banda de etansare la cuie din spuma PE 60 mm x 30 m, montata sub contrasipci pentru impermeabilizarea strapungerilor membranei. De la BDM Systems.",
         "related_products": [],
         "sort_order": 6,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tip-kont/card.jpg"
     },
     {
         "id": 113,
         "name": "Riwega Tape 2 CO",
-        "subtitle": "Banda dublu-adeziva pentru suprapuneri membrane, 60mm x 25m",
+        "subtitle": "Cordon adeziv butilic, 6 mm x 7 m, sigilantul ideal pentru etansarea suprafetelor din lemn",
         "slug": "riwega-tape-2-co",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-2-co/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-2-co/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune",
+                "value": "6 mm x 7 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Cordon din butil, fara solventi",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Suport PE cu adeziv acrilic dublu",
+                "key": "Utilizare",
+                "value": "Etansarea suprafetelor si imbinarilor din lemn (case din lemn)",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri si jonctiuni membrane",
+                "key": "Forma",
+                "value": "Cordon cu sectiune rotunda",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Vascozitate",
+                "value": "Stabila (DIN EN ISO 7390)",
                 "sort_order": 5
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic modificat",
+                "key": "Temperatura de exercitiu",
+                "value": "-40°C / +100°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Ambalare",
+                "value": "22 bucati / cutie",
+                "sort_order": 7
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape 2 CO</h2><p>Banda dublu-adeziva profesionala pentru suprapunerile membranelor de difuzie si barierelor de vapori. Adeziv acrilic de inalta performanta pe ambele fete.</p><ul><li>Dublu-adeziva</li><li>Adeziv acrilic de inalta performanta</li><li>Pentru suprapuneri membrane</li><li>Aderenta permanenta</li></ul>",
+        "description_html": "<h2>Riwega USB Tape 2 CO</h2><p>Cordon adeziv butilic Riwega - sigilantul ideal pentru casele din lemn. Forma sa de cordon il face perfect pentru etansarea imbinarilor dintre elementele din lemn, cu aderenta garantata chiar si atunci cand structura de sprijin se misca.</p><ul><li>Cordon adeziv butilic cu aderenta puternica</li><li>Ideal pentru etansarea suprafetelor de lemn</li><li>Aderenta garantata si in caz de miscare a structurii</li><li>Fara solventi, vascozitate stabila</li></ul>",
         "seo_title": "Riwega Tape 2 CO — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda dublu-adeziva pentru suprapuneri membrane, 60mm x 25m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape 2 CO - cordon adeziv butilic 6 mm x 7 m pentru etansarea imbinarilor din lemn la case pe structura de lemn. De la BDM Systems.",
         "related_products": [],
         "sort_order": 7,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-2-co/card.jpg"
     },
     {
         "id": 114,
         "name": "Evotek Banda Acrilica Dublu-Adeziva",
-        "subtitle": "Banda dublu-adeziva acrilica universala, 20mm x 25m, pentru suprapuneri membrane",
+        "subtitle": "Banda dublu-adeziva acrilica cu plasa din poliester, 20 mm x 25 m, pentru suprapuneri de membrane si bariere de vapori",
         "slug": "evotek-banda-acrilica-dublu-adeziva",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-banda-acrilica-dublu-adeziva/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-banda-acrilica-dublu-adeziva/1.jpg",
+            "/uploads/products/evotek-banda-acrilica-dublu-adeziva/2.jpg"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "20 mm",
+                "key": "Dimensiune rola",
+                "value": "20 mm x 25 m (disponibil si 50 mm)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Plasa din poliester cu adeziv acrilic pe ambele fete",
                 "sort_order": 2
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic",
+                "key": "Utilizare",
+                "value": "Lipirea suprapunerilor la membrane de acoperis si bariere de vapori",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane, bariere vapori",
+                "key": "Tip banda",
+                "value": "Dublu-adeziva, cu liner",
                 "sort_order": 4
             },
             {
                 "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "value": "De la +5°C",
                 "sort_order": 5
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Banda Acrilica Dublu-Adeziva</h2><p>Banda dublu-adeziva universala cu adeziv acrilic, pentru lipirea suprapunerilor la membrane de difuzie si bariere de vapori.</p><ul><li>Adeziv acrilic puternic</li><li>Dublu-adeziva</li><li>Universala - compatibila cu diverse membrane</li></ul>",
+        "description_html": "<h2>Evotek Banda Acrilica Dublu-Adeziva</h2><p>Banda dublu-adeziva Evotek pe suport de plasa din poliester, cu adeziv acrilic pe ambele fete. Se foloseste pentru lipirea suprapunerilor la membranele de acoperis si la barierele de vapori, asigurand un strat continuu, etans la aer si vant.</p><ul><li>Adeziv acrilic pe ambele fete</li><li>Plasa din poliester care da stabilitate benzii</li><li>Pentru suprapuneri de membrane si bariere de vapori</li><li>Aplicare de la +5°C</li></ul>",
         "seo_title": "Evotek Banda Acrilica Dublu-Adeziva | BDM Systems",
-        "seo_description": "Banda dublu-adeziva acrilica universala, 20mm x 25m, pentru suprapuneri membrane. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Evotek Banda Acrilica Dublu-Adeziva - banda dublu-adeziva acrilica cu plasa poliester 20 mm x 25 m pentru suprapuneri de membrane si bariere de vapori. De la BDM Systems.",
         "related_products": [],
         "sort_order": 8,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/evotek-banda-acrilica-dublu-adeziva/card.jpg"
     },
     {
         "id": 115,
         "name": "Riwega Tape 1 PAP",
-        "subtitle": "Banda adeziva pentru membrane, suport hartie, 60mm x 25m",
+        "subtitle": "Banda monoadeziva acrilica cu suport din hartie, 60 mm x 25 m, pentru interior - membrane de control vapori si lemn",
         "slug": "riwega-tape-1-pap",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-1-pap/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-1-pap/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "60 mm x 25 m (variante cu liner pre-taiat: 30+30 mm, 30+15+15 mm)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Hartie cu acoperire PE, adeziv dispersie pe baza de poliacrilat",
                 "sort_order": 2
             },
             {
-                "key": "Material suport",
-                "value": "Hartie kraft",
+                "key": "Utilizare",
+                "value": "Etansarea intreruperilor membranei de control vapori si a suprafetelor din lemn",
                 "sort_order": 3
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic",
+                "key": "Aplicare",
+                "value": "Doar la interior",
                 "sort_order": 4
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane difuzie",
+                "key": "Valoare Sd",
+                "value": "~5 m",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Grosime",
+                "value": "0,32 - 0,34 mm",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta la rupere",
+                "value": ">= 150 N / 25 mm; elasticitate 3-5 %",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +100°C",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "10 role / cutie",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape 1 PAP</h2><p>Banda adeziva cu suport din hartie kraft si adeziv acrilic, pentru suprapunerile membranelor de difuzie. Liner usor de indepartat, aplicare rapida.</p><ul><li>Suport hartie kraft</li><li>Adeziv acrilic de lunga durata</li><li>Liner cu pre-taiere</li><li>Aplicare rapida si curata</li></ul>",
+        "description_html": "<h2>Riwega USB Tape 1 PAP</h2><p>Banda monoadeziva acrilica Riwega cu suport din hartie acoperita cu PE, ideala pentru uz intern: etansarea oricaror intreruperi ale membranei de control vapori si a suprafetelor din lemn. Adeziv acrilic de ultima generatie, cu adeziune puternica si fara solventi.</p><ul><li>Suport din hartie - utilizabila doar la interior</li><li>Perfecta pentru bariere si membrane de control vapori</li><li>Adeziv acrilic fara solventi, cu adeziune puternica</li><li>Disponibila si cu liner pre-taiat (30+30, 30+15+15 mm) pentru colturi</li></ul>",
         "seo_title": "Riwega Tape 1 PAP — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva pentru membrane, suport hartie, 60mm x 25m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape 1 PAP - banda monoadeziva acrilica cu suport hartie 60 mm x 25 m pentru etansarea membranelor de control vapori la interior. De la BDM Systems.",
         "related_products": [],
         "sort_order": 9,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-1-pap/card.jpg"
     },
     {
         "id": 116,
         "name": "Riwega Tape 1 PE",
-        "subtitle": "Banda adeziva cu suport PE pentru membrane, 60mm x 25m",
+        "subtitle": "Banda monoadeziva acrilica universala cu folie LDPE, 60 mm x 25 m, interior si exterior",
         "slug": "riwega-tape-1-pe",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-1-pe/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-1-pe/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "60 mm x 25 m (disponibil si 100 mm - 1 PE 100 X, 150 mm)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Folie LDPE, adeziv dispersie pe baza de poliacrilat",
                 "sort_order": 2
             },
             {
-                "key": "Material suport",
-                "value": "Polietilena (PE)",
+                "key": "Utilizare",
+                "value": "Suprapuneri si racorduri la membrane de difuzie si bariere de vapori",
                 "sort_order": 3
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic",
+                "key": "Aplicare",
+                "value": "Interior si exterior (suprafata rezistenta la apa)",
                 "sort_order": 4
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane si bariere vapori",
+                "key": "Valoare Sd",
+                "value": "~12 m",
                 "sort_order": 5
             },
             {
-                "key": "Rezistenta la rupere",
-                "value": "Ridicata",
+                "key": "Grosime",
+                "value": "0,27 - 0,29 mm",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta la rupere",
+                "value": ">= 25 N / 25 mm; elasticitate 300 %",
+                "sort_order": 7
+            },
+            {
+                "key": "Stabilitate UV",
+                "value": "24 luni",
+                "sort_order": 8
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +100°C",
+                "sort_order": 9
+            },
+            {
+                "key": "Ambalare",
+                "value": "10 role / cutie",
+                "sort_order": 10
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape 1 PE</h2><p>Banda adeziva cu suport din polietilena si adeziv acrilic, pentru suprapunerile membranelor si barierelor de vapori. Mai rezistenta la rupere decat versiunea PAP.</p><ul><li>Suport PE rezistent</li><li>Adeziv acrilic puternic</li><li>Nu se rupe la aplicare</li><li>Compatibila cu membrane si bariere</li></ul>",
+        "description_html": "<h2>Riwega USB Tape 1 PE</h2><p>Banda monoadeziva acrilica universala Riwega, cu folie LDPE extrem de flexibila - se adapteaza usor oricarei situatii de instalare. Adeziv acrilic de ultima generatie, fara solventi, cu adeziune puternica pe membrane, lemn si materiale de constructie.</p><ul><li>Flexibilitate extrema, elasticitate 300 %</li><li>Utilizare dubla, la interior si la exterior</li><li>Rezistenta in mod special la razele UV (24 luni) si la imbatranire</li><li>Disponibila in latimi de 60, 100 si 150 mm</li></ul>",
         "seo_title": "Riwega Tape 1 PE — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva cu suport PE pentru membrane, 60mm x 25m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape 1 PE - banda monoadeziva acrilica universala 60 mm x 25 m, folie LDPE flexibila, rezistenta UV 24 luni, interior si exterior. De la BDM Systems.",
         "related_products": [],
         "sort_order": 10,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-1-pe/card.jpg"
     },
     {
         "id": 117,
         "name": "Riwega Tape Corner",
-        "subtitle": "Banda adeziva pentru colturi si racorduri la 90°, preformata",
+        "subtitle": "Banda monoadeziva acrilica pre-pliata pentru imbinari unghiulare, 30+30 mm x 25 m",
         "slug": "riwega-tape-corner",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-corner/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-corner/1.png"
+        ],
         "specs": [
             {
-                "key": "Dimensiuni",
-                "value": "Preformata 90°",
+                "key": "Dimensiune rola",
+                "value": "30 + 30 mm x 25 m (disponibil si 12 + 48 mm)",
                 "sort_order": 1
             },
             {
                 "key": "Material",
-                "value": "PE cu adeziv acrilic",
+                "value": "Folie LDPE, adeziv dispersie pe baza de poliacrilat",
                 "sort_order": 2
             },
             {
                 "key": "Utilizare",
-                "value": "Colturi interioare si exterioare la membrane",
+                "value": "Imbinari unghiulare: colturi membrana-perete, tocuri de ferestre, capriori",
                 "sort_order": 3
             },
             {
-                "key": "Pachet",
-                "value": "2 bucati/set",
+                "key": "Particularitate",
+                "value": "Pre-pliata si partial fara liner, pentru instalare rapida",
                 "sort_order": 4
             },
             {
-                "key": "Compatibilitate",
-                "value": "Toate membranele Riwega",
+                "key": "Aplicare",
+                "value": "Interior si exterior (suprafata rezistenta la apa)",
                 "sort_order": 5
+            },
+            {
+                "key": "Valoare Sd",
+                "value": "~0,5 m",
+                "sort_order": 6
+            },
+            {
+                "key": "Stabilitate UV",
+                "value": "4 luni",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-40°C / +80°C",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "7 role / cutie",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape Corner</h2><p>Piese de colt preformate la 90° cu adeziv acrilic, pentru etansarea perfecta a colturilor interioare si exterioare la membrane de difuzie si bariere de vapori.</p><ul><li>Preformata la 90°</li><li>Montaj rapid si precis</li><li>Elimina riscul de fisurare la colturi</li><li>Adeziv acrilic permanent</li></ul>",
+        "description_html": "<h2>Riwega USB Tape Corner</h2><p>Banda monoadeziva acrilica Riwega, cea mai buna pentru imbinarile unghiulare. Este livrata pre-pliata si partial lipsita de liner, astfel incat se aplica rapid si precis in colturi - intre membrana si perete, in jurul tocurilor de ferestre sau la capriori.</p><ul><li>Pre-pliata si partial fara liner, pentru instalare rapida</li><li>Adeziv acrilic cu adeziune puternica pe orice tip de suprafata</li><li>Utilizare dubla, la interior si la exterior</li><li>Doua variante de impartire a latimii: 30/30 si 12/48 mm</li></ul>",
         "seo_title": "Riwega Tape Corner — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva pentru colturi si racorduri la 90°, preformata. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape Corner - banda acrilica pre-pliata 30+30 mm x 25 m pentru imbinari unghiulare la membrane, colturi si tocuri de ferestre. De la BDM Systems.",
         "related_products": [],
         "sort_order": 11,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-corner/card.jpg"
     },
     {
         "id": 118,
         "name": "Riwega Tape Green",
-        "subtitle": "Banda adeziva ecologica pentru membrane, fara solventi, 60mm x 25m",
+        "subtitle": "Banda monoadeziva acrilica cu raport optim calitate/pret, 50 mm x 25 m, pentru membrane de control vapori si lemn",
         "slug": "riwega-tape-green",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-green/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-green/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "50 mm x 25 m (disponibil si 60 mm, 100 X)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Folie PE, adeziv din poliacrilat pur",
                 "sort_order": 2
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic fara solventi",
+                "key": "Utilizare",
+                "value": "Etansarea intreruperilor membranei de control vapori si a suprafetelor din lemn",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane - varianta eco",
+                "key": "Aplicare",
+                "value": "Interior si exterior (suprafata rezistenta la apa)",
                 "sort_order": 4
             },
             {
-                "key": "Certificari",
-                "value": "Ecologica, fara solventi",
+                "key": "Valoare Sd",
+                "value": "~40 m",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Grosime",
+                "value": "~0,28 mm",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta la rupere",
+                "value": ">= 22 N / 10 mm; elasticitate 586 %",
+                "sort_order": 7
+            },
+            {
+                "key": "Stabilitate UV",
+                "value": "3 luni",
+                "sort_order": 8
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-40°C / +80°C",
+                "sort_order": 9
+            },
+            {
+                "key": "Ambalare",
+                "value": "12 role / cutie",
+                "sort_order": 10
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape Green</h2><p>Banda adeziva ecologica cu adeziv acrilic fara solventi, pentru suprapunerile membranelor. Varianta sustenabila din gama Riwega.</p><ul><li>Fara solventi - ecologica</li><li>Adeziv acrilic de inalta calitate</li><li>Aceeasi performanta ca benzile standard</li><li>Certificata ecologic</li></ul>",
+        "description_html": "<h2>Riwega USB Tape Green</h2><p>Banda monoadeziva acrilica Riwega, esentiala pentru etansare, cu raport optim calitate/pret. Perfecta pentru etansarea oricaror intreruperi ale membranei de control vapori si a suprafetelor din lemn, cu adeziv acrilic de ultima generatie, fara solventi.</p><ul><li>Raport optim calitate / pret</li><li>Elasticitate foarte mare (586 %)</li><li>Utilizare dubla, la interior si la exterior</li><li>Adeziv din poliacrilat pur, cu adeziune puternica, fara solventi</li></ul>",
         "seo_title": "Riwega Tape Green — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva ecologica pentru membrane, fara solventi, 60mm x 25m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape Green - banda monoadeziva acrilica 50 mm x 25 m pentru etansarea membranelor de control vapori si a lemnului, interior si exterior. De la BDM Systems.",
         "related_products": [],
         "sort_order": 12,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-green/card.jpg"
     },
     {
         "id": 119,
         "name": "Riwega Tape Reflex",
-        "subtitle": "Banda adeziva aluminizata reflectiva, 75mm x 25m, pentru bariere de vapori",
+        "subtitle": "Banda monoadeziva acrilica cu suprafata reflectorizanta, 80 mm x 25 m, pentru membrane aluminizate",
         "slug": "riwega-tape-reflex",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-reflex/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-reflex/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "75 mm",
+                "key": "Dimensiune rola",
+                "value": "80 mm x 25 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Folie PP metalizata cu aluminiu, adeziv dispersie de poliacrilat",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Aluminiu cu adeziv acrilic",
+                "key": "Utilizare",
+                "value": "Etansarea membranelor reflectorizante USB Reflex Plus si DS 188 Alu",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri bariere de vapori aluminizate",
+                "key": "Aplicare",
+                "value": "Interior si exterior",
                 "sort_order": 4
             },
             {
-                "key": "Reflexivitate",
-                "value": "Suprafata aluminiu reflectiv",
+                "key": "Valoare Sd",
+                "value": "~42 m",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Grosime",
+                "value": "0,20 - 0,25 mm",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta la rupere",
+                "value": ">= 70 N / 25 mm; elasticitate 80 %",
+                "sort_order": 7
+            },
+            {
+                "key": "Stabilitate UV",
+                "value": "1 luna",
+                "sort_order": 8
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +100°C",
+                "sort_order": 9
+            },
+            {
+                "key": "Ambalare",
+                "value": "6 role / cutie",
+                "sort_order": 10
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape Reflex</h2><p>Banda adeziva cu suprafata aluminizata reflectiva, special conceputa pentru suprapunerile barierelor de vapori cu strat de aluminiu. Mentine continuitatea stratului reflectiv.</p><ul><li>Suprafata aluminiu reflectiv</li><li>Mentine continuitatea barierei</li><li>Adeziv acrilic permanent</li><li>Pentru bariere aluminizate</li></ul>",
+        "description_html": "<h2>Riwega USB Tape Reflex</h2><p>Singura banda Riwega cu suprafata reflectorizanta: folie PP metalizata cu aluminiu si adeziv acrilic de ultima generatie, fara solventi. Recomandata in mod special pentru etansarea suprapunerilor la membranele reflectorizante USB Reflex Plus si DS 188 Alu, pastrand continuitatea stratului reflectorizant.</p><ul><li>Suprafata reflectorizanta din aluminiu</li><li>Recomandata pentru USB Reflex Plus si DS 188 Alu</li><li>Utilizare dubla, la interior si la exterior</li><li>Adeziv acrilic cu adeziune puternica, fara solventi</li></ul>",
         "seo_title": "Riwega Tape Reflex — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva aluminizata reflectiva, 75mm x 25m, pentru bariere de vapori. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape Reflex - banda acrilica reflectorizanta 80 mm x 25 m pentru etansarea membranelor aluminizate USB Reflex Plus si DS 188 Alu. De la BDM Systems.",
         "related_products": [],
         "sort_order": 13,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-reflex/card.jpg"
     },
     {
         "id": 120,
         "name": "Riwega Tape UV",
-        "subtitle": "Banda adeziva rezistenta UV pentru expuneri prelungite, 60mm x 25m",
+        "subtitle": "Banda monoadeziva acrilica cu rezistenta UV 24 luni, 60 mm x 25 m, pentru fatade ventilate cu rosturi deschise",
         "slug": "riwega-tape-uv",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-uv/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-uv/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "60 mm x 25 m (disponibil si 80 mm, 300 X)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Folie PP, adeziv dispersie pe baza de poliacrilat",
                 "sort_order": 2
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic stabilizat UV",
+                "key": "Utilizare",
+                "value": "Etansarea membranelor de fatada la fatade ventilate cu imbinari deschise",
                 "sort_order": 3
             },
             {
-                "key": "Rezistenta UV",
-                "value": "Pana la 12 luni",
+                "key": "Stabilitate UV",
+                "value": "24 luni",
                 "sort_order": 4
             },
             {
-                "key": "Utilizare",
-                "value": "Membrane expuse temporar la UV",
+                "key": "Valoare Sd",
+                "value": "~16 m",
                 "sort_order": 5
             },
             {
-                "key": "Culoare",
-                "value": "Neagra",
+                "key": "Grosime",
+                "value": "0,30 - 0,32 mm",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta la rupere",
+                "value": ">= 60 N / 25 mm; elasticitate 450 %",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +100°C",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "10 role / cutie",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape UV</h2><p>Banda adeziva cu stabilizare UV avansata, pentru utilizare pe membrane expuse temporar razelor ultraviolete. Rezista pana la 12 luni la expunere directa.</p><ul><li>Stabilizata UV - 12 luni</li><li>Adeziv acrilic rezistent</li><li>Pentru zone expuse temporar</li><li>Culoare neagra - discreta</li></ul>",
+        "description_html": "<h2>Riwega USB Tape UV</h2><p>Banda monoadeziva acrilica Riwega realizata special pentru a rezista razelor UV: etansarea ideala a membranelor de fatada in sistemele de fatada ventilata cu rosturi deschise. Rigiditatea sa particulara reduce deformarile excesive, iar adezivul acrilic fara solventi asigura adeziune puternica.</p><ul><li>Rezistenta insurmontabila la razele UV (24 luni) si la imbatranire</li><li>Ideala pentru fatade ventilate cu imbinari deschise</li><li>Rigiditate care reduce deformarile excesive</li><li>Disponibila in 60, 80 si 300 mm</li></ul>",
         "seo_title": "Riwega Tape UV — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva rezistenta UV pentru expuneri prelungite, 60mm x 25m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape UV - banda acrilica neagra rezistenta UV 24 luni, 60 mm x 25 m, pentru membrane la fatade ventilate cu rosturi deschise. De la BDM Systems.",
         "related_products": [],
         "sort_order": 14,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-uv/card.jpg"
     },
     {
         "id": 121,
         "name": "Riwega Tape 2 BU",
-        "subtitle": "Banda dublu-adeziva butilic, 20mm x 25m, pentru suprapuneri membrane",
+        "subtitle": "Banda dublu-adeziva butilica cu cea mai puternica aderenta, 20 mm x 25 m, pentru membrane de difuzie pe orice suprafata",
         "slug": "riwega-tape-2-bu",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-2-bu/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-2-bu/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "20 mm",
+                "key": "Dimensiune rola",
+                "value": "20 mm x 25 m (disponibil si Tape 2 BU 50)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Butil, fara solventi",
                 "sort_order": 2
             },
             {
-                "key": "Tip adeziv",
-                "value": "Butilic",
+                "key": "Utilizare",
+                "value": "Lipirea membranelor de difuzie pe orice tip de suprafata: lemn, metal, beton, zidarie",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane, lipiri permanente",
+                "key": "Tip banda",
+                "value": "Dublu-adeziva",
                 "sort_order": 4
             },
             {
-                "key": "Aderenta",
-                "value": "Excelenta pe PE, PP, metal",
+                "key": "Grosime",
+                "value": "1,5 mm",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "0°C / +40°C",
+                "key": "Vascozitate",
+                "value": "Stabila pana la +100°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Temperatura de exercitiu",
+                "value": "-40°C / +100°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Ambalare",
+                "value": "14 role / cutie",
+                "sort_order": 8
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape 2 BU</h2><p>Banda dublu-adeziva cu adeziv butilic, pentru suprapuneri permanente la membrane. Adezivul butilic ofera aderenta superioara si flexibilitate la temperaturi scazute.</p><ul><li>Adeziv butilic - aderenta superioara</li><li>Flexibila la frig (de la 0°C)</li><li>Dublu-adeziva</li><li>Lipire permanenta</li></ul>",
+        "description_html": "<h2>Riwega USB Tape 2 BU</h2><p>Banda dublu-adeziva butilica Riwega - cea mai puternica aderenta din gama. Ideala pentru etansarea si lipirea membranelor de difuzie pe orice tip de suprafata, cu aderenta garantata chiar si in cazul miscarii structurii de sprijin.</p><ul><li>Banda dublu-adeziva butilica, grosime 1,5 mm</li><li>Ideala pentru membrane de difuzie pe orice suprafata</li><li>Aderenta garantata si in caz de miscare a structurii</li><li>Adeziv butilic puternic, fara solventi</li></ul>",
         "seo_title": "Riwega Tape 2 BU — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda dublu-adeziva butilic, 20mm x 25m, pentru suprapuneri membrane. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape 2 BU - banda dublu-adeziva butilica 20 mm x 25 m, 1,5 mm, pentru lipirea membranelor de difuzie pe orice suprafata. De la BDM Systems.",
         "related_products": [],
         "sort_order": 15,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-2-bu/card.jpg"
     },
     {
         "id": 122,
         "name": "Evotek Banda Butilica",
-        "subtitle": "Banda butilic dublu-adeziva, 15mm x 25m, pentru membrane si folii",
+        "subtitle": "Banda butilica dublu-adeziva fara solventi, 15 mm x 25 m, pentru bariere de vapori, membrane de acoperis si folii de fundatie",
         "slug": "evotek-banda-butilica",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Evotek",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/evotek-banda-butilica/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/evotek-banda-butilica/1.jpg"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "15 mm",
+                "key": "Dimensiune rola",
+                "value": "15 mm x 25 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Butil fara solventi, acoperit cu folie de protectie (liner)",
                 "sort_order": 2
             },
             {
-                "key": "Tip adeziv",
-                "value": "Butilic",
+                "key": "Utilizare",
+                "value": "Imbinarea si etansarea barierelor de vapori, membranelor de acoperis si foliilor de fundatie",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane, folii, bariere vapori",
+                "key": "Aderenta",
+                "value": "Folii din materiale plastice, beton, caramida, metal",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "0°C / +40°C",
+                "key": "Etanseitate",
+                "value": "La apa",
                 "sort_order": 5
+            },
+            {
+                "key": "Temperatura aplicare",
+                "value": "De la +5°C",
+                "sort_order": 6
+            },
+            {
+                "key": "Greutate rola",
+                "value": "cca. 0,7 kg",
+                "sort_order": 7
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Evotek.",
-        "description_html": "<h2>Evotek Banda Butilica</h2><p>Banda dublu-adeziva butilic pentru lipirea suprapunerilor la membrane de difuzie, folii anticondens si bariere de vapori. Alternativa economica la benzile Riwega.</p><ul><li>Adeziv butilic puternic</li><li>Pret competitiv</li><li>Compatibila cu diverse membrane</li><li>Aplicare de la 0°C</li></ul>",
+        "description_html": "<h2>Evotek Banda Butilica</h2><p>Banda butilica dublu-adeziva Evotek, realizata pe baza de butil fara solventi si acoperita cu folie de protectie. Este proiectata pentru imbinarea si etansarea barierelor de vapori, a membranelor de acoperis, a foliilor de fundatie si a altor produse de constructie din materiale plastice.</p><ul><li>Butil fara solventi, etans la apa</li><li>Fixeaza eficient toate tipurile de folii din materiale plastice</li><li>Adera pe beton, caramida si metal</li><li>Aplicare de la +5°C</li></ul>",
         "seo_title": "Evotek Banda Butilica — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda butilic dublu-adeziva, 15mm x 25m, pentru membrane si folii. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Evotek Banda Butilica - banda butilica dublu-adeziva 15 mm x 25 m pentru imbinarea si etansarea barierelor de vapori, membranelor de acoperis si foliilor de fundatie. De la BDM Systems.",
         "related_products": [],
         "sort_order": 16,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/evotek-banda-butilica/card.jpg"
     },
     {
         "id": 123,
         "name": "Riwega Tape 2 AC",
-        "subtitle": "Banda dublu-adeziva acrilica, 20mm x 25m, universala",
+        "subtitle": "Banda dublu-adeziva acrilica pentru suprapunerile membranelor de difuzie, 20 mm x 50 m",
         "slug": "riwega-tape-2-ac",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Riwega",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/riwega-tape-2-ac/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/riwega-tape-2-ac/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "20 mm",
+                "key": "Dimensiune rola",
+                "value": "20 mm x 50 m (disponibil si 50 mm x 50 m)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Adeziv dispersie de poliacrilat, fara suport",
                 "sort_order": 2
             },
             {
-                "key": "Tip adeziv",
-                "value": "Acrilic",
+                "key": "Utilizare",
+                "value": "Etansarea suprapunerilor membranelor de difuzie",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane, jonctiuni universale",
+                "key": "Tip banda",
+                "value": "Dublu-adeziva",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +35°C",
+                "key": "Grosime",
+                "value": "0,22 - 0,24 mm",
                 "sort_order": 5
             },
             {
                 "key": "Aderenta",
-                "value": "Pe PE, PP, fleece, hartie",
+                "value": "Pe toate suprafetele de constructie",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +120°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Ambalare",
+                "value": "12 role / cutie",
+                "sort_order": 8
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Riwega.",
-        "description_html": "<h2>Riwega Tape 2 AC</h2><p>Banda dublu-adeziva universala cu adeziv acrilic, pentru suprapuneri la membrane de difuzie si bariere de vapori. Cea mai utilizata banda din gama Riwega.</p><ul><li>Adeziv acrilic universal</li><li>Cea mai populara din gama</li><li>Dublu-adeziva</li><li>Compatibila cu toate membranele</li></ul>",
+        "description_html": "<h2>Riwega USB Tape 2 AC</h2><p>Banda dublu-adeziva acrilica Riwega - adeziune dubla intr-o singura banda. Recomandata pentru etansarea suprapunerilor membranelor de difuzie: se instaleaza simplu si rapid si adera la toate suprafetele de constructie.</p><ul><li>Adeziv acrilic de ultima generatie, fara solventi</li><li>Recomandata pentru suprapunerile membranelor de difuzie</li><li>Simplu si rapid de instalat</li><li>Rola lunga de 50 m; disponibila si in latime de 50 mm</li></ul>",
         "seo_title": "Riwega Tape 2 AC — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda dublu-adeziva acrilica, 20mm x 25m, universala. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Riwega USB Tape 2 AC - banda dublu-adeziva acrilica 20 mm x 50 m pentru etansarea suprapunerilor membranelor de difuzie. De la BDM Systems.",
         "related_products": [],
         "sort_order": 17,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/riwega-tape-2-ac/card.jpg"
     },
     {
         "id": 124,
         "name": "Eurovent Unisan",
-        "subtitle": "Banda adeziva universala pentru membrane, 60mm x 25m",
+        "subtitle": "Banda adeziva universala unilaterala, 60 mm x 25 m, pentru lipiri, reparatii si etansari la membrane si bariere de vapori",
         "slug": "eurovent-unisan",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-unisan/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-unisan/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Dimensiune rola",
+                "value": "60 mm x 25 m (disponibil si 100 / 150 mm cu liner impartit)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Folie PE armata cu plasa poliester, adeziv dispersie acrilica 230 g/m²",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "PP fleece cu adeziv acrilic",
+                "key": "Utilizare",
+                "value": "Lipire, reparatii si etansare treceri de tevi si conducte prin folii si membrane",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Suprapuneri membrane difuzie si bariere vapori",
+                "key": "Tip banda",
+                "value": "Unilaterala, cu liner",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +40°C",
+                "key": "Aderenta",
+                "value": "PP, PE, folii armate cu hartie, lemn, metal, gips-carton, piatra",
                 "sort_order": 5
             },
             {
-                "key": "Aderenta",
-                "value": "PE, PP, fleece, lemn",
+                "key": "Aplicare",
+                "value": "Interior si exterior, de la +5°C la +40°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-40°C / +80°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta UV",
+                "value": "Da",
+                "sort_order": 8
+            },
+            {
+                "key": "Certificari",
+                "value": "Passive House Institute, EMICODE EC1 Plus (emisii foarte reduse)",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Unisan</h2><p>Banda adeziva universala Eurovent pentru lipirea suprapunerilor la membrane de difuzie si bariere de vapori. Adeziv acrilic de inalta performanta.</p><ul><li>Universala - pentru toate tipurile de membrane</li><li>Adeziv acrilic puternic</li><li>Suport PP fleece flexibil</li><li>Aplicare usoara</li></ul>",
+        "description_html": "<h2>Eurovent UNISAN</h2><p>Banda adeziva universala Eurovent, cu folie PE armata cu plasa din poliester si adeziv acrilic fara solventi. Se foloseste pentru lipirea, repararea si etansarea membranelor de acoperis si a barierelor de vapori, in special la trecerile de tevi de canalizare, ventilatie sau cabluri prin folii.</p><ul><li>Lipeste PP, PE, folii armate cu hartie, lemn, metal, gips-carton si piatra</li><li>Se muleaza pe suprafete rotunjite sau neregulate</li><li>Ideala pentru reparatii: gauri, taieturi, intreruperi de montaj</li><li>Fara solventi, rezistenta UV, certificata Passive House Institute</li><li>Suprafetele trebuie sa fie uscate si curate la aplicare</li></ul>",
         "seo_title": "Eurovent Unisan — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva universala pentru membrane, 60mm x 25m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Banda adeziva universala Eurovent Unisan 60 mm x 25 m: lipiri, reparatii si etansari la membrane de acoperis si bariere de vapori. Certificata Passive House. De la BDM Systems.",
         "related_products": [],
         "sort_order": 18,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-unisan/card.jpg"
     },
     {
         "id": 125,
         "name": "Eurovent Multi",
-        "subtitle": "Banda adeziva multi-suprafete, 60mm x 25m, pentru racorduri complexe",
+        "subtitle": "Masa de lipire si etansare fara solventi, cartus 320 g, pentru membrane, folii bariera de vapori si rosturi de dilatatie",
         "slug": "eurovent-multi",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-multi/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-multi/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "60 mm",
+                "key": "Ambalaj",
+                "value": "Cartus 320 g",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "25 m",
+                "key": "Material",
+                "value": "Emulsie acrilica fara solventi",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "PE cu adeziv acrilic modificat",
+                "key": "Utilizare",
+                "value": "Lipirea si etansarea membranelor si foliilor bariera de vapori, rosturi de dilatatie",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Racorduri membrane pe lemn, beton, metal, plastic",
+                "key": "Grosime strat recomandata",
+                "value": "6 - 8 mm",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +40°C",
+                "key": "Aplicare",
+                "value": "Interior, de la +5°C la +30°C, pe suprafete curate, degresate si absorbante",
                 "sort_order": 5
             },
             {
-                "key": "Aderenta",
-                "value": "Multi-suprafete inclusiv poroase",
+                "key": "Uscare",
+                "value": "12 - 24 ore; resturile proaspete se curata cu apa",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-20°C / +80°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Finisare",
+                "value": "Poate fi tencuita si vopsita",
+                "sort_order": 8
+            },
+            {
+                "key": "Certificari",
+                "value": "Passive House Institute; etanseitate la aer conform DIN 4108-11",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Multi</h2><p>Banda adeziva multi-suprafete Eurovent, cu aderenta superioara pe lemn, beton, metal si plastic. Ideala pentru racorduri la pereti, cosuri si strapungeri.</p><ul><li>Aderenta pe suprafete multiple</li><li>Inclusiv suprafete poroase</li><li>Adeziv acrilic modificat</li><li>Pentru racorduri complexe</li></ul>",
+        "description_html": "<h2>Eurovent MULTI</h2><p>Masa de etansare si lipire de uz general Eurovent, fara solventi, livrata in cartus de 320 g. Este destinata lipirii si etansarii membranelor si foliilor bariera de vapori, a membranelor de acoperis cu difuzie ridicata si a foliilor interioare, precum si realizarii si etansarii rosturilor de dilatatie.</p><ul><li>Elastica si extensibila - compenseaza miscarile constructiei</li><li>Foarte rezistenta la imbatranire</li><li>Etanseitate la aer conform DIN 4108-11, certificata Passive House Institute</li><li>Poate fi tencuita si vopsita dupa uscare</li><li>Pe suporturi slab legate sau prafuite se aplica in prealabil un grund adecvat; se lucreaza in spatii bine ventilate</li></ul>",
         "seo_title": "Eurovent Multi — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda adeziva multi-suprafete, 60mm x 25m, pentru racorduri complexe. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Eurovent Multi - masa de lipire si etansare fara solventi, cartus 320 g, pentru membrane si bariere de vapori, etanseitate la aer DIN 4108-11. De la BDM Systems.",
         "related_products": [],
         "sort_order": 19,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-multi/card.jpg"
     },
     {
         "id": 126,
         "name": "Eurovent Seal",
-        "subtitle": "Banda etansare autoadeziva butilic, pentru strapungeri si racorduri, 50mm x 10m",
+        "subtitle": "Manseta de etansare autoadeziva pentru treceri de tevi si cabluri, Ø 15-22 mm, placa 150 x 150 mm",
         "slug": "eurovent-seal",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-seal/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-seal/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "50 mm",
+                "key": "Dimensiune",
+                "value": "R1: Ø 15 - 22 mm, placa 150 x 150 mm",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "10 m",
+                "key": "Material",
+                "value": "Folie suport HDPE + manson EPDM + adeziv dispersie acrilica",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Cauciuc butilic cu suport aluminiu",
+                "key": "Utilizare",
+                "value": "Etansarea trecerilor de tevi si cabluri prin folii si membrane",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Etansare strapungeri, racorduri, reparatii",
+                "key": "Aplicatii tipice",
+                "value": "Instalatii electrice, racorduri solare, tevi de incalzire, canalizare, ventilatie",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "-10°C / +40°C",
+                "key": "Aplicare",
+                "value": "Interior - acoperis, mansarda, pereti, pardoseli",
                 "sort_order": 5
             },
             {
                 "key": "Rezistenta temperatura",
-                "value": "-40°C / +90°C",
+                "value": "-30°C / +100°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta UV",
+                "value": "Da",
+                "sort_order": 7
+            },
+            {
+                "key": "Liner",
+                "value": "Cu liner",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "Carton 10 bucati",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Seal</h2><p>Banda de etansare butilic cu suport din aluminiu, pentru etansarea strapungerilor, racordurilor si reparatiilor la membrane si invelitori. Aplicabila si la temperaturi scazute.</p><ul><li>Adeziv butilic - aplicare de la -10°C</li><li>Suport aluminiu modelabil</li><li>Etansare permanenta</li><li>Pentru reparatii si strapungeri</li></ul>",
+        "description_html": "<h2>Eurovent SEAL</h2><p>Manseta de etansare autoadeziva Eurovent pentru tevi si conducte de diametru mediu si mare (Ø 15-22 mm). Placa de 150 x 150 mm din folie HDPE cu adeziv acrilic si manson EPDM asigura etansarea perfecta a trecerilor de instalatii prin folii si membrane bariera de vapori, membrane cu difuzie si straturi izolatoare.</p><ul><li>Autoadeziva, montaj rapid fara scule</li><li>Etanseaza trecerile de cabluri electrice, racorduri solare, tevi de incalzire, canalizare si ventilatie</li><li>Pentru acoperisuri, mansarde, pereti si pardoseli, in toate tehnologiile de constructie</li><li>Recomandata in special pentru constructii pe structura de lemn si case pasive</li></ul>",
         "seo_title": "Eurovent Seal — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare autoadeziva butilic, pentru strapungeri si racorduri, 50mm x 10m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Eurovent Seal - manseta de etansare autoadeziva pentru treceri de tevi si cabluri Ø 15-22 mm prin membrane si bariere de vapori. Placa 150 x 150 mm. De la BDM Systems.",
         "related_products": [],
         "sort_order": 20,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-seal/card.jpg"
     },
     {
         "id": 127,
         "name": "Eurovent Mini Seal",
-        "subtitle": "Banda etansare subtire butilic, 20mm x 10m, pentru detalii fine",
+        "subtitle": "Manseta de etansare autoadeziva pentru treceri de cabluri subtiri, Ø 4-8 mm, placa 150 x 150 mm",
         "slug": "eurovent-mini-seal",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-mini-seal/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-mini-seal/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "20 mm",
+                "key": "Dimensiune",
+                "value": "K1: Ø 4 - 8 mm, placa 150 x 150 mm",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "10 m",
+                "key": "Material",
+                "value": "Folie suport HDPE + manson EPDM + adeziv dispersie acrilica",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Cauciuc butilic",
+                "key": "Utilizare",
+                "value": "Etansarea trecerilor de cabluri de diametru mic prin folii si membrane",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Detalii fine, etansare capete sipci, cuie",
+                "key": "Aplicatii tipice",
+                "value": "Instalatii electrice si de comanda / automatizare",
                 "sort_order": 4
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "-10°C / +40°C",
+                "key": "Aplicare",
+                "value": "Interior - acoperis, mansarda, pereti, pardoseli",
                 "sort_order": 5
             },
             {
-                "key": "Grosime",
-                "value": "1 mm",
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +100°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta UV",
+                "value": "Da",
+                "sort_order": 7
+            },
+            {
+                "key": "Liner",
+                "value": "Cu liner",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "Carton 10 bucati",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Mini Seal</h2><p>Banda de etansare butilic subtire pentru detalii fine: etansare capete de sipci, zone de fixare cu cuie/suruburi, jonctiuni mici.</p><ul><li>Subtire si flexibila</li><li>Pentru detalii fine</li><li>Butilic - aderenta la frig</li><li>Ideala pentru perforatii cuie/suruburi</li></ul>",
+        "description_html": "<h2>Eurovent MINI SEAL</h2><p>Manseta de etansare autoadeziva Eurovent pentru cabluri de diametru mic (Ø 4-8 mm), tipice instalatiilor electrice si de comanda. Placa de 150 x 150 mm din folie HDPE cu adeziv acrilic si manson EPDM etanseaza durabil trecerea cablului prin folii si membrane bariera de vapori, membrane cu difuzie si straturi izolatoare.</p><ul><li>Autoadeziva, montaj rapid</li><li>Pastreaza continuitatea stratului etans la aer in jurul cablurilor</li><li>Pentru acoperisuri, mansarde, pereti si pardoseli</li><li>Recomandata pentru constructii pe structura de lemn si case pasive</li></ul>",
         "seo_title": "Eurovent Mini Seal — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda etansare subtire butilic, 20mm x 10m, pentru detalii fine. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Eurovent Mini Seal - manseta autoadeziva pentru etansarea trecerilor de cabluri Ø 4-8 mm prin membrane si bariere de vapori. Placa 150 x 150 mm. De la BDM Systems.",
         "related_products": [],
         "sort_order": 21,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-mini-seal/card.jpg"
     },
     {
         "id": 128,
         "name": "Eurovent Topband",
-        "subtitle": "Banda de coama ventilata, 240mm x 5m, pentru ventilatie la coama",
+        "subtitle": "Banda unilaterala din fleece PP, 50 mm x 25 m, pentru lipirea si repararea membranelor de acoperis",
         "slug": "eurovent-topband",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-topband/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-topband/1.png"
+        ],
         "specs": [
             {
-                "key": "Latime",
-                "value": "240 mm",
+                "key": "Dimensiune rola",
+                "value": "50 mm x 25 m",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "5 m",
+                "key": "Material",
+                "value": "Fleece polipropilena, adeziv dispersie acrilica 230 g/m²",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Aluminiu cu plasa PP si adeziv butilic",
+                "key": "Utilizare",
+                "value": "Lipirea si repararea membranelor de acoperis si anti-vant pe baza de PP",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Etansare si ventilatie la coama acoperisului",
+                "key": "Tip banda",
+                "value": "Unilaterala, cu liner",
                 "sort_order": 4
             },
             {
-                "key": "Ventilatie",
-                "value": "Plasa PP permite circulatia aerului",
+                "key": "Aderenta",
+                "value": "Membrane PP, lemn, caramida, beton neted",
                 "sort_order": 5
             },
             {
-                "key": "Compatibilitate",
-                "value": "Tigla metalica, tabla cutata, tigla ceramica",
+                "key": "Aplicare",
+                "value": "Exterior, de la +5°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-40°C / +100°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta UV",
+                "value": "Da",
+                "sort_order": 8
+            },
+            {
+                "key": "Certificari",
+                "value": "EMICODE EC1 Plus (emisii foarte reduse)",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Topband</h2><p>Banda de coama ventilata Eurovent pentru etansarea si ventilarea zonei de coama la acoperisuri. Combina etansarea la apa cu ventilatie pasiva prin plasa PP.</p><ul><li>Ventilatie la coama</li><li>Etansare la apa si zapada</li><li>Aluminiu flexibil cu plasa PP</li><li>Compatibila cu diverse invelitori</li></ul>",
+        "description_html": "<h2>Eurovent TOPBAND</h2><p>Banda adeziva unilaterala Eurovent din fleece de polipropilena cu adeziv acrilic dispersiv, destinata lipirii si repararii membranelor de acoperis, membranelor anti-vant si a altor produse pe baza de polipropilena.</p><ul><li>Forta mare de lipire si rezistenta ridicata la rupere</li><li>Repara gauri, taieturi si intreruperi de montaj la membrane</li><li>Adera si pe lemn, caramida si beton neted</li><li>Rezistenta UV, pentru aplicare la exterior</li><li>Emisii foarte reduse de substante nocive - EMICODE EC1 Plus</li></ul>",
         "seo_title": "Eurovent Topband — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda de coama ventilata, 240mm x 5m, pentru ventilatie la coama. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Banda Eurovent Topband 50 mm x 25 m din fleece PP cu adeziv acrilic pentru lipirea si repararea membranelor de acoperis. Rezistenta UV, EC1 Plus. De la BDM Systems.",
         "related_products": [],
         "sort_order": 22,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-topband/card.jpg"
     },
     {
         "id": 129,
         "name": "Eurovent PUR",
-        "subtitle": "Spuma poliuretanica pentru etansari la acoperis, 750ml",
+        "subtitle": "Banda de etansare din spuma PE sub contrasipci, 40 mm x 25 m, etanseaza perforatiile de cuie si capse",
         "slug": "eurovent-pur",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-pur/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-pur/1.png"
+        ],
         "specs": [
             {
-                "key": "Volum",
-                "value": "750 ml",
+                "key": "Dimensiune rola",
+                "value": "40 mm x 25 m",
                 "sort_order": 1
             },
             {
-                "key": "Tip",
-                "value": "Spuma poliuretanica monocomponenta",
+                "key": "Material",
+                "value": "Spuma polietilenica",
                 "sort_order": 2
             },
             {
-                "key": "Expandare",
-                "value": "Aprox. 40-45 litri",
+                "key": "Utilizare",
+                "value": "Sub contrasipca, la fixarea membranei de acoperis pe capriori",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Etansare goluri, strapungeri, spatii la acoperis",
+                "key": "Functie",
+                "value": "Etanseaza perforatiile cuielor si capselor, niveleaza neregularitatile contrasipcii",
                 "sort_order": 4
             },
             {
-                "key": "Timp uscare",
-                "value": "30-60 minute (suprafata)",
+                "key": "Tip banda",
+                "value": "Unilaterala, fara liner",
                 "sort_order": 5
             },
             {
-                "key": "Temperatura aplicare",
-                "value": "+5°C / +30°C",
+                "key": "Aplicare",
+                "value": "Interior si exterior, de la +5°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-30°C / +90°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Rezistenta UV",
+                "value": "Da",
+                "sort_order": 8
+            },
+            {
+                "key": "Ambalare",
+                "value": "Carton 24 role",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent PUR</h2><p>Spuma poliuretanica monocomponenta pentru etansarea golurilor, strapungerilor si spatiilor la nivelul acoperisului. Expandare controlata si aderenta pe lemn, beton, metal.</p><ul><li>Expandare controlata</li><li>Aderenta pe multiple suprafete</li><li>Uscare rapida</li><li>Pentru goluri si strapungeri</li></ul>",
+        "description_html": "<h2>Eurovent PUR</h2><p>Banda de etansare Eurovent din spuma polietilenica, montata sub contrasipca la fixarea membranei de acoperis pe structura. Datorita elasticitatii compenseaza neregularitatile contrasipcii, iar toate perforatiile membranei produse de capse si cuie raman etansate - apa si umiditatea nu ajung la capriori si la termoizolatie.</p><ul><li>Fara solventi, impermeabila, rezistenta la UV</li><li>Reduce riscul de infiltratii prin punctele de fixare ale membranei</li><li>Poate fi folosita si ca material de izolatie acustica</li><li>Pentru interior si exterior</li></ul>",
         "seo_title": "Eurovent PUR — Accesorii acoperis | BDM Systems",
-        "seo_description": "Spuma poliuretanica pentru etansari la acoperis, 750ml. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Banda Eurovent PUR din spuma PE 40 mm x 25 m, montata sub contrasipci: etanseaza perforatiile de cuie si capse la membrana de acoperis. De la BDM Systems.",
         "related_products": [],
         "sort_order": 23,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-pur/card.jpg"
     },
     {
         "id": 130,
         "name": "Eurovent Compre X",
-        "subtitle": "Banda compriband precomprimata pentru etansare la ferestre si strapungeri, 20/8mm x 6m",
+        "subtitle": "Banda precomprimata expandabila din spuma PU, 15 x 30 mm x 5,6 m, pentru coame, dolii si ferestre de mansarda",
         "slug": "eurovent-compre-x",
         "category_id": 7,
         "subcategory_id": 22,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-compre-x/1.png",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-compre-x/1.png"
+        ],
         "specs": [
             {
-                "key": "Dimensiuni",
-                "value": "20/8 mm (expandat/comprimat)",
+                "key": "Dimensiune rola",
+                "value": "15 mm x 30 mm x 5,6 m (disponibil si 15x40, 20x40, 20x50 mm)",
                 "sort_order": 1
             },
             {
-                "key": "Lungime rola",
-                "value": "6 m",
+                "key": "Material",
+                "value": "Spuma poliuretanica expandabila impregnata",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Spuma PU impregnata",
+                "key": "Utilizare",
+                "value": "Etansarea golurilor la coama, dolie si ferestre de mansarda",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Etansare ferestre mansarda, strapungeri acoperis",
+                "key": "Clasa etanseitate",
+                "value": "Pana la 600 hPa (BG1)",
                 "sort_order": 4
             },
             {
-                "key": "Expandare",
-                "value": "De la 8mm la 20mm",
+                "key": "Aderenta",
+                "value": "Lemn, caramida, metal, beton neted",
                 "sort_order": 5
             },
             {
-                "key": "Rezistenta vant",
-                "value": "Clasa E (>600 Pa)",
+                "key": "Aplicare",
+                "value": "Interior si exterior, de la +5°C",
                 "sort_order": 6
+            },
+            {
+                "key": "Rezistenta temperatura",
+                "value": "-20°C / +60°C",
+                "sort_order": 7
+            },
+            {
+                "key": "Reactie la foc",
+                "value": "B1 conform DIN 4102-1",
+                "sort_order": 8
+            },
+            {
+                "key": "Rezistenta UV",
+                "value": "Da; cu liner",
+                "sort_order": 9
             }
         ],
         "materials": [],
         "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Compre X</h2><p>Banda compriband precomprimata din spuma PU impregnata, pentru etansarea perimeterelor ferestrelor de mansarda si strapungerilor de acoperis. Se expandeaza dupa montaj umplind golul uniform.</p><ul><li>Precomprimata - se expandeaza dupa montaj</li><li>Umple goluri neregulate</li><li>Rezistenta la vant clasa E</li><li>Ideala pentru ferestre mansarda</li></ul>",
+        "description_html": "<h2>Eurovent COMPRE X</h2><p>Banda precomprimata expandabila Eurovent din spuma poliuretanica impregnata, pentru etansarea golurilor din constructii si acoperisuri in zona coamei, a doliilor si a ferestrelor de mansarda. Dupa montaj se expandeaza si umple uniform rosturile si fisurile neregulate.</p><ul><li>Izoleaza impotriva umiditatii, vantului, ploii si frigului</li><li>Clasa de etanseitate pana la 600 hPa</li><li>Elasticitate mare, adera la lemn, caramida, metal si beton neted</li><li>Contribuie la izolatia termica si acustica</li><li>Reactie la foc B1 (DIN 4102-1), rezistenta UV</li></ul>",
         "seo_title": "Eurovent Compre X — Accesorii acoperis | BDM Systems",
-        "seo_description": "Banda compriband precomprimata pentru etansare la ferestre si strapungeri, 20/8mm x 6m. Montaj si consultanta de la BDM Systems.",
+        "seo_description": "Eurovent Compre X - banda precomprimata expandabila din spuma PU 15x30 mm x 5,6 m pentru etansarea golurilor la coama, dolie si ferestre de mansarda. De la BDM Systems.",
         "related_products": [],
         "sort_order": 24,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-28 13:32:29",
+        "image_card": "/uploads/products/eurovent-compre-x/card.jpg"
     },
     {
         "id": 131,
