@@ -158,6 +158,7 @@ class ProductController
             'materials' => $materials,
             'components' => $p['components'] ?? [],
             'image_main' => $p['image_main'] ?? '',
+            'image_card' => $p['image_card'] ?? ($p['image_main'] ?? ''),
             'image_schema' => $p['image_schema'] ?? '',
             'gallery' => $p['gallery'] ?? [],
             'warranty' => $p['warranty_text'] ?? '',
