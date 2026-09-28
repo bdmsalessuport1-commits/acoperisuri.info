@@ -1105,8 +1105,8 @@
         "sort_order": 8,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/blachotrapez-enigma/card.jpg"
+        "updated_at": "2026-09-28 12:40:00",
+        "image_card": "/uploads/products/blachotrapez-enigma/card.jpg?v=2"
     },
     {
         "id": 9,
@@ -1214,8 +1214,8 @@
         "sort_order": 9,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/blachotrapez-germania-simetric/card.jpg"
+        "updated_at": "2026-09-28 12:40:00",
+        "image_card": "/uploads/products/blachotrapez-germania-simetric/card.jpg?v=2"
     },
     {
         "id": 10,
@@ -1330,8 +1330,8 @@
         "sort_order": 10,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/blachotrapez-kingas/card.jpg"
+        "updated_at": "2026-09-28 12:40:00",
+        "image_card": "/uploads/products/blachotrapez-kingas/card.jpg?v=2"
     },
     {
         "id": 11,
@@ -1459,8 +1459,8 @@
         "sort_order": 11,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/blachotrapez-diament/card.jpg"
+        "updated_at": "2026-09-28 12:40:00",
+        "image_card": "/uploads/products/blachotrapez-diament/card.jpg?v=2"
     },
     {
         "id": 12,
