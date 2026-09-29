@@ -719,3 +719,36 @@
         bottom: 16px;
     }
 }
+
+/* Desktop: banner slides contained (content width, rounded), slider shrinks to the banner */
+@media (min-width: 1025px) {
+    .hero-slider,
+    .hero-slides,
+    .hero-slide {
+        min-height: 520px;
+    }
+
+    .hero-slide-banner {
+        min-height: auto;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .hero-banner-link {
+        flex: none;
+        max-width: var(--content-width);
+        margin: 0 auto;
+        padding: 0 var(--spacing-md);
+    }
+
+    .hero-banner-link img {
+        height: auto;
+        object-fit: contain;
+        border-radius: 12px;
+    }
+
+    .hero-banner-active,
+    .hero-banner-active .hero-slides {
+        min-height: auto;
+    }
+}
