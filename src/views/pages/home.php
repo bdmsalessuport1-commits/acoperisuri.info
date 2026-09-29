@@ -24,13 +24,15 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
 <?php $slides = $hero['slides'] ?? []; $activeSlides = array_filter($slides, fn($s) => !empty($s['is_active'])); if (!empty($activeSlides)): ?>
 <!-- HERO SLIDER -->
 <section class="hero-slider" id="heroSlider">
+    <?php $hasTextSlide = false; foreach ($activeSlides as $s) { if (empty($s['banner_mode']) || empty($s['image'])) { $hasTextSlide = true; break; } } ?>
+    <?php if (!$hasTextSlide && !empty($hero['seo_h1'])): ?><h1 class="sr-only"><?= htmlspecialchars($hero['seo_h1']) ?></h1><?php endif; ?>
     <div class="hero-slides">
         <?php foreach ($activeSlides as $idx => $slide): ?>
         <?php if (!empty($slide['banner_mode']) && !empty($slide['image'])): ?>
         <!-- Banner slide (image only) -->
         <div class="hero-slide hero-slide-banner <?= $idx === 0 ? 'active' : '' ?>">
             <a href="<?= htmlspecialchars($slide['banner_link'] ?? '#') ?>" class="hero-banner-link" aria-label="<?= htmlspecialchars($slide['title'] ?? '') ?>">
-                <img src="<?= htmlspecialchars($slide['image']) ?>" alt="<?= htmlspecialchars($slide['title'] ?? '') ?>" width="2000" height="775" fetchpriority="<?= $idx === 0 ? 'high' : 'low' ?>">
+                <img src="<?= htmlspecialchars($slide['image']) ?>" alt="<?= htmlspecialchars($slide['title'] ?? '') ?>" width="2000" height="717" fetchpriority="<?= $idx === 0 ? 'high' : 'low' ?>">
             </a>
         </div>
         <?php else: ?>

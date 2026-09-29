@@ -776,3 +776,11 @@
 .feature-icon img { width: 32px; height: 32px; object-fit: contain; }
 .service-icon img { width: 40px; height: 40px; object-fit: contain; }
 .about-image img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
+
+/* Banners delivered in slightly different heights: unify at 2000x717 (35.85vw), crop <= 5% top/bottom */
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.hero-banner-link { aspect-ratio: 2000 / 717; overflow: hidden; }
+.hero-banner-link img { height: 100%; object-fit: cover; object-position: center; }
+@media (min-width: 1025px) {
+    .hero-slider, .hero-slides, .hero-slide { min-height: min(600px, 35.85vw); }
+}

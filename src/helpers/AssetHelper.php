@@ -79,7 +79,7 @@ a:hover{color:var(--color-primary)}
 .btn-outline-white:hover{background:#fff;color:var(--color-primary);border-color:#fff}
 @media(max-width:1024px){.site-nav{display:none}.header-cta .btn-text{display:none}.header-cta .btn{padding:10px;min-width:auto}.hamburger{display:flex}.mobile-nav-overlay{display:block}.site-logo img{height:45px}}
 @media(max-width:768px){.hero-slider,.hero-slides,.hero-slide{min-height:450px}.hero{min-height:400px}.hero-slide h1,.hero-title,.hero h1{font-size:2rem}}
-@media(min-width:1025px){.hero-slider,.hero-slides,.hero-slide{min-height:min(600px,31vw)}.hero-slide-banner{min-height:auto;align-items:center;padding:0}.hero-banner-link{display:block;width:100%}.hero-banner-link img{width:100%;height:auto}}
+@media(min-width:1025px){.hero-slider,.hero-slides,.hero-slide{min-height:min(600px,35.85vw)}.hero-slide-banner{min-height:auto;align-items:center;padding:0}}.hero-banner-link{display:block;width:100%;aspect-ratio:2000/717;overflow:hidden}.hero-banner-link img{width:100%;height:100%;object-fit:cover;object-position:center}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:480px){.container{padding:0 var(--spacing-md)}h1{font-size:var(--text-2xl)}h2{font-size:var(--text-xl)}h3{font-size:var(--text-lg)}.top-bar-left{font-size:0.65rem}.top-bar-right .delivery-text{display:none}.site-logo img{height:38px}.hero h1{font-size:1.6rem}.hero-buttons{flex-direction:column}.hero-buttons .btn{width:100%}}
 CSS;
 
