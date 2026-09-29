@@ -414,7 +414,7 @@
     "about": {
         "title": "De ce BDM Systems?",
         "text": "Suntem partenerul dumneavoastra de incredere pentru orice proiect de acoperis, oferind materiale premium si consultanta de specialitate.",
-        "image": "/images/about/de-ce-bdm-systems.webp",
+        "image": "/images/about/de-ce-bdm-systems-cutout.webp",
         "features": [
             {
                 "id": 1,
@@ -444,7 +444,8 @@
                 "text": "Asistenta la montaj, calcul materiale si documentatie tehnica.",
                 "sort_order": 3
             }
-        ]
+        ],
+        "image_cutout": true
     },
     "services": {
         "title": "Servicii si consultanta",

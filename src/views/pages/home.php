@@ -238,8 +238,8 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
                 <?php endif; ?>
             </div>
             <?php $ai = (string)($about['image'] ?? ''); ?>
-            <?php $aiIsFile = ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))); $aiCls = $aiIsFile ? (preg_match('/.png(?.*)?$/i', $ai) ? ' about-image-cutout' : ' about-image-photo') : ''; ?>
-            <div class="about-image<?= $aiCls ?>"><?php if ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))): ?><img src="<?= htmlspecialchars($ai) ?>" alt="<?= htmlspecialchars($about['title'] ?? '') ?>" width="1464" height="1075" loading="lazy"><?php else: ?><?= $ai ?><?php endif; ?></div>
+            <?php $aiIsFile = ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))); $aiCls = $aiIsFile ? (!empty($about['image_cutout']) ? ' about-image-cutout' : ' about-image-photo') : ''; ?>
+            <div class="about-image<?= $aiCls ?>"><?php if ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))): ?><img src="<?= htmlspecialchars($ai) ?>" alt="<?= htmlspecialchars($about['title'] ?? '') ?>" width="1195" height="1316" loading="lazy"><?php else: ?><?= $ai ?><?php endif; ?></div>
         </div>
     </div>
 </section>
