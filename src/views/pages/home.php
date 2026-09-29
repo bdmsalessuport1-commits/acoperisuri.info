@@ -124,7 +124,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
             <a href="<?= htmlspecialchars($cat['link'] ?? '#') ?>" class="category-card">
                 <?php if (!empty($cat['image'])): ?>
                 <div class="category-card-image">
-                    <img src="<?= htmlspecialchars($cat['image']) ?>" alt="<?= htmlspecialchars($cat['name'] ?? '') ?>" loading="lazy" width="600" height="600">
+                    <img src="<?= htmlspecialchars($cat['image']) ?>" alt="<?= htmlspecialchars($cat['name'] ?? '') ?>" loading="lazy" width="800" height="800">
                 </div>
                 <?php else: ?>
                 <div class="category-card-image"><?= $cat['icon'] ?? '' ?></div>

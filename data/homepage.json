@@ -144,54 +144,74 @@
         "subtitle": "Gama completa de materiale pentru acoperis, tamplarie si izolatie.",
         "items": [
             {
-                "id": 1,
-                "name": "Tigla metalica",
-                "description": "Profile elegante de la Budmat, Metigla, Wetterbest",
+                "id": 16,
+                "name": "Tigla metalica Budmat",
+                "description": "Sistemul revolutionar de tigla metalica care rezista PE BUNE 50 de ani",
                 "icon": "&#9650;",
-                "link": "/tigla-metalica",
+                "link": "/tigla-metalica/budmat",
+                "image": "/images/categories/v2/tigla-metalica-budmat.jpg",
                 "sort_order": 0,
-                "is_active": true,
-                "image": "/images/categories/tigla-metalica.jpg"
+                "is_active": true
+            },
+            {
+                "id": 17,
+                "name": "Tigla metalica Metigla",
+                "description": "Tigla metalica PREMIUM cu protectie de zinc 275 g/m²",
+                "icon": "&#9650;",
+                "link": "/tigla-metalica/metigla",
+                "image": "/images/categories/v2/tigla-metalica-metigla.jpg",
+                "sort_order": 1,
+                "is_active": true
+            },
+            {
+                "id": 18,
+                "name": "Tigla metalica Wetterbest",
+                "description": "Tigla metalica PREMIUM cu protectie de zinc de pana la 275 g/m²",
+                "icon": "&#9650;",
+                "link": "/tigla-metalica/wetterbest",
+                "image": "/images/categories/v2/tigla-metalica-wetterbest.jpg",
+                "sort_order": 2,
+                "is_active": true
             },
             {
                 "id": 2,
-                "name": "Tabla faltuita/Click",
-                "description": "Tabla click si tabla faltuita - Metigla, Wetterbest, Voestalpine",
+                "name": "Tabla faltuita",
+                "description": "Solutia ideala pentru acoperisurile cu panta mica si conditii meteo extreme",
                 "icon": "&#9645;",
                 "link": "/tabla-faltuita",
-                "sort_order": 1,
+                "sort_order": 3,
                 "is_active": true,
-                "image": "/images/categories/tabla-faltuita.jpg"
+                "image": "/images/categories/v2/tabla-faltuita.jpg"
             },
             {
                 "id": 3,
-                "name": "Tabla click",
-                "description": "Montaj rapid cu sistem click fara suruburi vizibile",
+                "name": "Tabla prefaltuita (Click)",
+                "description": "Elimina erorile de imbinare si asigura o etanseitate superioara",
                 "icon": "&#9646;",
                 "link": "/tabla-faltuita/click",
-                "sort_order": 2,
-                "is_active": false,
-                "image": "/images/categories/tabla-click.jpg"
+                "sort_order": 4,
+                "is_active": true,
+                "image": "/images/categories/v2/tabla-prefaltuita.jpg"
             },
             {
                 "id": 14,
                 "name": "Tabla cutata",
                 "description": "Solutia versatila si economica pentru acoperisuri si fatade",
                 "icon": "&#9646;",
-                "image": "/images/categories/tabla-cutata.jpg",
+                "image": "/images/categories/v2/tabla-cutata.jpg",
                 "link": "/tabla-cutata",
-                "sort_order": 3,
+                "sort_order": 5,
                 "is_active": true
             },
             {
                 "id": 4,
-                "name": "Sisteme pluviale",
+                "name": "Sisteme de scurgere",
                 "description": "Jgheaburi si burlane Metigla, Wetterbest si Flamingo iQ",
                 "icon": "&#128167;",
                 "link": "/sisteme-pluviale",
-                "sort_order": 4,
+                "sort_order": 6,
                 "is_active": true,
-                "image": "/images/categories/sisteme-pluviale.jpg"
+                "image": "/images/categories/v2/sisteme-pluviale.jpg"
             },
             {
                 "id": 5,
@@ -199,59 +219,9 @@
                 "description": "Protectie eficienta pentru structura acoperisului",
                 "icon": "&#128203;",
                 "link": "/folii-anticondens",
-                "sort_order": 5,
-                "is_active": true,
-                "image": "/images/categories/folii-anticondens.svg"
-            },
-            {
-                "id": 6,
-                "name": "Tamplarie PVC si Aluminiu",
-                "description": "Ferestre si usi de inalta calitate si eficienta",
-                "icon": "&#128311;",
-                "link": "/tamplarie-pvc-aluminiu",
-                "sort_order": 6,
-                "is_active": true,
-                "image": "/images/categories/tamplarie-pvc-aluminiu.svg"
-            },
-            {
-                "id": 7,
-                "name": "Ferestre mansarda FAKRO",
-                "description": "Iluminare naturala si ventilatie pentru mansarda",
-                "icon": "&#127968;",
-                "link": "/ferestre-mansarda-fakro",
                 "sort_order": 7,
                 "is_active": true,
-                "image": "/images/categories/ferestre-mansarda.jpg"
-            },
-            {
-                "id": 8,
-                "name": "Scari de pod FAKRO",
-                "description": "Acces sigur si confortabil la podul casei",
-                "icon": "&#128682;",
-                "link": "/scari-pod-fakro",
-                "sort_order": 8,
-                "is_active": true,
-                "image": "/images/categories/scari-pod-fakro.svg"
-            },
-            {
-                "id": 9,
-                "name": "Izolatie fibre lemn STEICO",
-                "description": "Izolatie ecologica cu performanta termica superioara",
-                "icon": "&#127777;",
-                "link": "/izolatie",
-                "sort_order": 9,
-                "is_active": true,
-                "image": "/images/categories/izolatie-steico.svg"
-            },
-            {
-                "id": 10,
-                "name": "Hidroizolatii terase",
-                "description": "Sisteme de hidroizolatie impermeabile de durata",
-                "icon": "&#128166;",
-                "link": "/hidroizolatii-terase",
-                "sort_order": 10,
-                "is_active": true,
-                "image": "/images/categories/hidroizolatii-terase.svg"
+                "image": "/images/categories/v2/folii-anticondens.jpg"
             },
             {
                 "id": 11,
@@ -259,29 +229,79 @@
                 "description": "Sipci metalice, etansari si accesorii montaj",
                 "icon": "&#128295;",
                 "link": "/accesorii-acoperis",
-                "sort_order": 11,
+                "sort_order": 8,
                 "is_active": true,
-                "image": "/images/categories/accesorii-acoperis.jpg"
+                "image": "/images/categories/v2/accesorii-acoperis.jpg"
             },
             {
                 "id": 15,
                 "name": "Sageac metalic",
                 "description": "Finisajul esential al streasinii, protectie si ventilatie",
                 "icon": "&#128295;",
-                "image": "/images/categories/sageac-metalic.jpg",
+                "image": "/images/categories/v2/sageac-metalic.jpg",
                 "link": "/sageac-metalic",
-                "sort_order": 12,
+                "sort_order": 9,
                 "is_active": true
             },
             {
+                "id": 7,
+                "name": "Ferestre mansarda FAKRO",
+                "description": "Iluminare naturala si ventilatie pentru mansarda",
+                "icon": "&#127968;",
+                "link": "/ferestre-mansarda-fakro",
+                "sort_order": 10,
+                "is_active": true,
+                "image": "/images/categories/v2/ferestre-mansarda-fakro.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Scari de pod FAKRO",
+                "description": "Acces sigur si confortabil la podul casei",
+                "icon": "&#128682;",
+                "link": "/scari-pod-fakro",
+                "sort_order": 11,
+                "is_active": true,
+                "image": "/images/categories/v2/scari-pod-fakro.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Tamplarie PVC si Aluminiu",
+                "description": "Ferestre si usi de inalta calitate si eficienta",
+                "icon": "&#128311;",
+                "link": "/tamplarie-pvc-aluminiu",
+                "sort_order": 12,
+                "is_active": true,
+                "image": "/images/categories/v2/tamplarie-pvc-aluminiu.jpg"
+            },
+            {
+                "id": 9,
+                "name": "Izolatie fibre lemn STEICO",
+                "description": "Izolatie ecologica cu performanta termica superioara",
+                "icon": "&#127777;",
+                "link": "/izolatie",
+                "sort_order": 13,
+                "is_active": true,
+                "image": "/images/categories/v2/izolatie-steico.jpg"
+            },
+            {
+                "id": 10,
+                "name": "Hidroizolatii terase",
+                "description": "Sisteme de hidroizolatie impermeabile de durata",
+                "icon": "&#128166;",
+                "link": "/hidroizolatii-terase",
+                "sort_order": 14,
+                "is_active": true,
+                "image": "/images/categories/v2/hidroizolatii-terase.jpg"
+            },
+            {
                 "id": 12,
-                "name": "Sisteme de garduri",
+                "name": "Garduri si porti",
                 "description": "Garduri metalice rezistente si estetice",
                 "icon": "&#127981;",
                 "link": "/garduri",
-                "sort_order": 13,
+                "sort_order": 15,
                 "is_active": true,
-                "image": "/images/categories/garduri.jpg"
+                "image": "/images/categories/v2/garduri.jpg"
             },
             {
                 "id": 13,
@@ -289,9 +309,19 @@
                 "description": "Calculeaza rapid costul acoperisului tau",
                 "icon": "&#128202;",
                 "link": "/calculator",
-                "sort_order": 14,
+                "sort_order": 16,
                 "is_active": true,
-                "image": "/images/categories/calculator.jpg"
+                "image": "/images/categories/v2/calculator.jpg"
+            },
+            {
+                "id": 1,
+                "name": "Tigla metalica",
+                "description": "Profile elegante de la Budmat, Metigla, Wetterbest",
+                "icon": "&#9650;",
+                "link": "/tigla-metalica",
+                "sort_order": 99,
+                "is_active": false,
+                "image": "/images/categories/tigla-metalica.jpg"
             }
         ]
     },

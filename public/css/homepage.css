@@ -752,3 +752,9 @@
         min-height: auto;
     }
 }
+
+/* Category cards: square designed banners (text baked in) - never crop */
+.category-card-image {
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
