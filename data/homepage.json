@@ -418,28 +418,28 @@
         "features": [
             {
                 "id": 1,
-                "icon": "&#127942;",
+                "icon": "/images/icons/about/experienta-din-2010.svg",
                 "title": "Experienta din 2010",
                 "text": "Peste 4000 de acoperisuri livrate cu succes in toata tara.",
                 "sort_order": 0
             },
             {
                 "id": 2,
-                "icon": "&#127968;",
+                "icon": "/images/icons/about/passive-house-nzeb.svg",
                 "title": "Consultanta NZEB si Passive House",
                 "text": "Echipa certificata pentru cladiri la standard nZEB si case pasive, cu consum redus de energie.",
                 "sort_order": 1
             },
             {
                 "id": 3,
-                "icon": "&#128666;",
+                "icon": "/images/icons/about/livrare-in-toata-tara.svg",
                 "title": "Livrare in toata tara",
                 "text": "Transport rapid si sigur, direct la santierul dumneavoastra.",
                 "sort_order": 2
             },
             {
                 "id": 4,
-                "icon": "&#128736;",
+                "icon": "/images/icons/about/suport-tehnic-complet.svg",
                 "title": "Suport tehnic complet",
                 "text": "Asistenta la montaj, calcul materiale si documentatie tehnica.",
                 "sort_order": 3

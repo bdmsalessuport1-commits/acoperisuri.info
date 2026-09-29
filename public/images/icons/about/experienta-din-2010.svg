@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Experiență din 2010</title>
+  <g fill="none" stroke="#092B59" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="26" width="92" height="83" rx="11"/>
+    <path d="M18 51h92M43 18v17M85 18v17"/>
+  </g>
+  <text x="64" y="85" fill="#092B59" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="middle" letter-spacing="-1">2010</text>
+</svg>
