@@ -590,26 +590,26 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 1,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-29 18:00:00"
     },
     {
         "id": 36,
         "category_id": 14,
-        "name": "Stalpi gard",
+        "name": "Stalpi si accesorii gard",
         "slug": "stalpi-gard",
-        "description": "",
-        "image": "",
+        "description": "Stalpi 40x40 si cu talpa sudata 60x40 / 100x40, rigle 30x20, suporti, prelungitoare, capace si suruburi autoforante la culoare - tot ce trebuie pentru montajul gardurilor BDM.",
+        "image": "/images/subcategories/stalpi-gard.jpg",
         "icon": "&#127981;",
         "count": 0,
-        "seo_title": "",
-        "seo_description": "",
+        "seo_title": "Stalpi si accesorii pentru garduri metalice | BDM Systems",
+        "seo_description": "Stalpi 40x40 si cu talpa sudata 60x40 / 100x40, rigle 30x20, suporti, prelungitoare, capace si suruburi autoforante la culoare - tot ce trebuie pentru montajul gardurilor BDM. Livrare in toata tara.",
         "seo_text": "",
-        "sort_order": 2,
+        "sort_order": 4,
         "is_active": true,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-29 18:00:00"
     },
     {
         "id": 37,
@@ -624,9 +624,9 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 3,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2024-01-01 00:00:00",
-        "updated_at": "2026-03-31 11:38:21"
+        "updated_at": "2026-09-29 18:00:00"
     },
     {
         "id": 38,
@@ -674,7 +674,7 @@
         "seo_title": "Garduri metalice Rufster - 13 modele profesionale | BDM Systems",
         "seo_description": "Toata gama de garduri metalice Rufster: stacheti, jaluzele (Z95, V58, V80, V75, ZT125, Dubla), sipca V1, rectangular 80x20, elemente orizontale si Combi. Instalare de la BDM Systems.",
         "seo_text": "",
-        "sort_order": 4,
+        "sort_order": 5,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-07-11 12:00:00"
@@ -691,7 +691,7 @@
         "seo_title": "",
         "seo_description": "",
         "seo_text": "",
-        "sort_order": 5,
+        "sort_order": 6,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-03-31 08:12:34"
@@ -708,7 +708,7 @@
         "seo_title": "Garduri metalice Budmat - Sistem Variante + Colectii Sicuro, Forte, Spazio, Unico | BDM Systems",
         "seo_description": "Sistemul palisada Budmat Variante (100/150/200 mm) si cele 4 colectii premium Sicuro, Forte, Spazio, Unico. Design polonez, otel prevopsit. Instalare de la BDM Systems.",
         "seo_text": "",
-        "sort_order": 6,
+        "sort_order": 7,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-07-11 12:30:00"
@@ -726,9 +726,9 @@
         "seo_description": "",
         "seo_text": "",
         "sort_order": 7,
-        "is_active": true,
+        "is_active": false,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-03-31 08:12:34"
+        "updated_at": "2026-09-29 18:00:00"
     },
     {
         "id": 44,
@@ -961,5 +961,73 @@
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
         "updated_at": "2026-09-28 18:00:00"
+    },
+    {
+        "id": 59,
+        "category_id": 14,
+        "name": "Sipca gard BDM",
+        "slug": "sipca-gard-bdm",
+        "description": "Sipca metalica de gard BDM Nervura 115: tabla de 0,5 mm cu 2 nervuri, varf semirotund sau capete drepte, 8 bucati pe metru, Extramat, Mat Dublu si Imitatie lemn. Produsa la comanda, garantie 20 ani.",
+        "image": "/images/subcategories/sipca-gard-bdm.jpg",
+        "icon": "&#127981;",
+        "count": 0,
+        "seo_title": "Sipca gard BDM | BDM Systems",
+        "seo_description": "Sipca metalica de gard BDM Nervura 115: tabla de 0,5 mm cu 2 nervuri, varf semirotund sau capete drepte, 8 bucati pe metru, Extramat, Mat Dublu si Imitatie lemn. Produsa la comanda, garantie 20 ani. Oferta si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-09-29 18:00:00",
+        "updated_at": "2026-09-29 18:00:00"
+    },
+    {
+        "id": 60,
+        "category_id": 14,
+        "name": "Panouri jaluzea BDM",
+        "slug": "panouri-jaluzea-bdm",
+        "description": "Panouri de gard tip jaluzea BDM: Persiana (lamele suprapuse, fara vedere), Linia (lamele drepte), Curba (lamele curbate), Eco Lamela (lamele late, economic) si Simetric 360 (identic pe ambele fete). Kituri complete, dimensiuni la comanda, pana la 26 de culori.",
+        "image": "/images/subcategories/panouri-jaluzea-bdm.jpg",
+        "icon": "&#127981;",
+        "count": 0,
+        "seo_title": "Panouri jaluzea BDM | BDM Systems",
+        "seo_description": "Panouri de gard tip jaluzea BDM: Persiana (lamele suprapuse, fara vedere), Linia (lamele drepte), Curba (lamele curbate), Eco Lamela (lamele late, economic) si Simetric 360 (identic pe ambele fete). Kituri complete, dimensiuni la comanda, pana la 26 de culori. Oferta si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-09-29 18:00:00",
+        "updated_at": "2026-09-29 18:00:00"
+    },
+    {
+        "id": 61,
+        "category_id": 14,
+        "name": "Panouri caseta BDM",
+        "slug": "panouri-caseta-bdm",
+        "description": "Garduri orizontale cu casete inchise BDM: Prisma (casete romboidale 11 / 17 / 25 / 27 cm) si Cubic (casete dreptunghiulare 108 / 160 / 220 mm). Aspect masiv, fara vedere, 26 de culori, garantie 30 ani.",
+        "image": "/images/subcategories/panouri-caseta-bdm.jpg",
+        "icon": "&#127981;",
+        "count": 0,
+        "seo_title": "Panouri caseta BDM | BDM Systems",
+        "seo_description": "Garduri orizontale cu casete inchise BDM: Prisma (casete romboidale 11 / 17 / 25 / 27 cm) si Cubic (casete dreptunghiulare 108 / 160 / 220 mm). Aspect masiv, fara vedere, 26 de culori, garantie 30 ani. Oferta si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 3,
+        "is_active": true,
+        "created_at": "2026-09-29 18:00:00",
+        "updated_at": "2026-09-29 18:00:00"
+    },
+    {
+        "id": 62,
+        "category_id": 15,
+        "name": "Lambriu metalic BDM",
+        "slug": "lambriu-metalic-bdm",
+        "description": "Lambriu metalic BDM pentru streasina si fatada: panouri 2500 x 260 mm din otel prevopsit 0,45 mm, prindere ascunsa, variante Drept, Riflat si Perforat (ventilare), 16 culori, garantie 30 ani.",
+        "image": "/images/subcategories/lambriu-metalic-bdm.jpg",
+        "icon": "&#127981;",
+        "count": 0,
+        "seo_title": "Lambriu metalic BDM | BDM Systems",
+        "seo_description": "Lambriu metalic BDM pentru streasina si fatada: panouri 2500 x 260 mm din otel prevopsit 0,45 mm, prindere ascunsa, variante Drept, Riflat si Perforat (ventilare), 16 culori, garantie 30 ani. Oferta si montaj de la BDM Systems.",
+        "seo_text": "",
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-09-29 18:00:00",
+        "updated_at": "2026-09-29 18:00:00"
     }
 ]

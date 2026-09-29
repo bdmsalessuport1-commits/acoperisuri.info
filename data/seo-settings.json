@@ -71,6 +71,36 @@
             "to": "/accesorii-acoperis/accesorii-tigla-metalica",
             "active": true,
             "note": "Subcategorie goala inlocuita de Accesorii tigla metalica"
+        },
+        {
+            "from": "/garduri/bdm",
+            "to": "/garduri/sipca-gard-bdm",
+            "active": true,
+            "note": "Sistem Gard BDM impartit pe tipuri de produs"
+        },
+        {
+            "from": "/garduri/panouri-gard",
+            "to": "/garduri/panouri-jaluzea-bdm",
+            "active": true,
+            "note": "Subcategorie goala inlocuita de Panouri jaluzea BDM"
+        },
+        {
+            "from": "/garduri/porti",
+            "to": "/garduri",
+            "active": true,
+            "note": "Subcategorie goala dezactivata"
+        },
+        {
+            "from": "/produs/bdm-sipca-gard",
+            "to": "/produs/bdm-nervura-115",
+            "active": true,
+            "note": "Produs generic inlocuit de BDM Nervura 115"
+        },
+        {
+            "from": "/produs/bdm-panou-gard-jaluzea",
+            "to": "/produs/bdm-persiana",
+            "active": true,
+            "note": "Produs generic inlocuit de BDM Persiana"
         }
     ]
 }

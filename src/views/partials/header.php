@@ -147,11 +147,15 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                                 </div>
 
                                 <div class="mega-sub-panel" id="panel-garduri">
-                                    <h4>Sisteme de garduri</h4>
+                                    <h4>Garduri BDM</h4>
+                                    <a href="/garduri/sipca-gard-bdm">Sipca gard BDM</a>
+                                    <a href="/garduri/panouri-jaluzea-bdm">Panouri jaluzea BDM</a>
+                                    <a href="/garduri/panouri-caseta-bdm">Panouri caseta BDM</a>
+                                    <a href="/garduri/stalpi-gard">Stalpi si accesorii gard</a>
+                                    <h4>Alte sisteme de garduri</h4>
                                     <a href="/garduri/rufster">Sistem Gard Rufster</a>
                                     <a href="/garduri/wetterbest">Sistem Gard Wetterbest</a>
                                     <a href="/garduri/budmat">Sistem Gard Budmat</a>
-                                    <a href="/garduri/bdm">Sistem Gard BDM <span style="color: var(--color-primary); font-weight: 600;">- Cel mai bun pret</span></a>
                                 </div>
                             </div>
                         </div>
@@ -245,10 +249,13 @@ $currentUri = rtrim($currentUri, '/') ?: '/';
                 <a href="/izolatie">Izolatie fibre lemn STEICO</a>
                 <a href="/hidroizolatii-terase">Hidroizolatii terase</a>
                 <div class="sub-heading">Garduri</div>
+                <a href="/garduri/sipca-gard-bdm">Sipca gard BDM</a>
+                <a href="/garduri/panouri-jaluzea-bdm">Panouri jaluzea BDM</a>
+                <a href="/garduri/panouri-caseta-bdm">Panouri caseta BDM</a>
+                <a href="/garduri/stalpi-gard">Stalpi si accesorii gard</a>
                 <a href="/garduri/rufster">Sistem Gard Rufster</a>
                 <a href="/garduri/wetterbest">Sistem Gard Wetterbest</a>
                 <a href="/garduri/budmat">Sistem Gard Budmat</a>
-                <a href="/garduri/bdm">Sistem Gard BDM</a>
             </div>
         </li>
         <li class="mobile-nav-item"><a href="/servicii" class="mobile-nav-link">Servicii</a></li>
