@@ -176,11 +176,16 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         <div class="products-scroll">
             <?php foreach ($featuredProducts as $prod): ?>
             <a href="/produs/<?= htmlspecialchars($prod['slug'] ?? '') ?>" class="product-card">
+                <?php $pimg = $prod['image_card'] ?? ($prod['image_main'] ?? ''); ?>
+                <?php if ($pimg): ?>
+                <div class="product-card-image product-card-image-photo"><img src="<?= htmlspecialchars($pimg) ?>" alt="<?= htmlspecialchars($prod['name'] ?? '') ?>" loading="lazy" width="1200" height="900"></div>
+                <?php else: ?>
                 <div class="product-card-image"><?= $prod['image_icon'] ?? '&#9650;' ?></div>
+                <?php endif; ?>
                 <div class="product-card-body">
                     <h4><?= htmlspecialchars($prod['name'] ?? '') ?></h4>
-                    <?php if (!empty($prod['brand'])): ?>
-                        <span class="product-brand"><?= htmlspecialchars($prod['brand']) ?></span>
+                    <?php $pbrand = $prod['brand'] ?? ($prod['manufacturer'] ?? ''); if (!empty($pbrand)): ?>
+                        <span class="product-brand"><?= htmlspecialchars($pbrand) ?></span>
                     <?php endif; ?>
                 </div>
             </a>
@@ -219,7 +224,8 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
                 <div class="features-list">
                     <?php foreach ($features as $feat): ?>
                     <div class="feature-item">
-                        <div class="feature-icon"><?= $feat['icon'] ?? '' ?></div>
+                        <?php $fi = (string)($feat['icon'] ?? ''); ?>
+                        <div class="feature-icon"><?php if ($fi !== '' && ($fi[0] === '/' || str_starts_with($fi, 'http'))): ?><img src="<?= htmlspecialchars($fi) ?>" alt="" width="32" height="32" loading="lazy"><?php else: ?><?= $fi ?><?php endif; ?></div>
                         <div class="feature-text">
                             <h4><?= htmlspecialchars($feat['title'] ?? '') ?></h4>
                             <p><?= htmlspecialchars($feat['text'] ?? '') ?></p>
@@ -229,7 +235,8 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
                 </div>
                 <?php endif; ?>
             </div>
-            <div class="about-image"><?= $about['image'] ?? '' ?></div>
+            <?php $ai = (string)($about['image'] ?? ''); ?>
+            <div class="about-image"><?php if ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))): ?><img src="<?= htmlspecialchars($ai) ?>" alt="<?= htmlspecialchars($about['title'] ?? '') ?>" width="1200" height="800" loading="lazy"><?php else: ?><?= $ai ?><?php endif; ?></div>
         </div>
     </div>
 </section>
@@ -247,7 +254,8 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         <div class="grid grid-3">
             <?php foreach ($svcItems as $svc): ?>
             <div class="service-card">
-                <div class="service-icon"><?= $svc['icon'] ?? '' ?></div>
+                <?php $si = (string)($svc['icon'] ?? ''); ?>
+                <div class="service-icon"><?php if ($si !== '' && ($si[0] === '/' || str_starts_with($si, 'http'))): ?><img src="<?= htmlspecialchars($si) ?>" alt="" width="40" height="40" loading="lazy"><?php else: ?><?= $si ?><?php endif; ?></div>
                 <h3><?= htmlspecialchars($svc['title'] ?? '') ?></h3>
                 <p><?= htmlspecialchars($svc['text'] ?? '') ?></p>
             </div>

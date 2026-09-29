@@ -758,3 +758,21 @@
     height: auto;
     aspect-ratio: 1 / 1;
 }
+
+/* Featured products: real product photos (4:3, whole image visible) */
+.product-card-image-photo {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    background: #fff;
+    overflow: hidden;
+}
+.product-card-image-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+/* Custom icon / image files in About and Services (instead of emoji) */
+.feature-icon img { width: 32px; height: 32px; object-fit: contain; }
+.service-icon img { width: 40px; height: 40px; object-fit: contain; }
+.about-image img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }

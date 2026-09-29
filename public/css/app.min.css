@@ -6,3 +6,5 @@
 @media (min-width:1025px){.hero-slider,.hero-slides,.hero-slide{min-height:min(600px,31vw)}.hero-slide-banner{min-height:auto;align-items:center;padding:0}.hero-banner-link{flex:none;width:100%}.hero-banner-link img{width:100%;height:auto;object-fit:contain;border-radius:0}.hero-banner-active,.hero-banner-active .hero-slides{min-height:auto}}
 
 .category-card-image{height:auto;aspect-ratio:1/1}
+
+.product-card-image-photo{height:auto;aspect-ratio:4/3;background:#fff;overflow:hidden}.product-card-image-photo img{width:100%;height:100%;object-fit:contain;display:block}.feature-icon img{width:32px;height:32px;object-fit:contain}.service-icon img{width:40px;height:40px;object-fit:contain}.about-image img{width:100%;height:100%;object-fit:cover;border-radius:inherit}
