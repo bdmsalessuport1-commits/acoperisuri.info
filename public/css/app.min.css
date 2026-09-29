@@ -26,3 +26,5 @@
 @media (min-width:2000px){.about-section-cutout .container{max-width:1760px}.about-section-cutout .about-text{max-width:720px}.about-section-cutout .about-image-cutout img{width:824px}}
 
 @media (min-width:1025px){.about-section-cutout .about-text h2{font-size:2.25rem}.about-section-cutout .about-text > p{font-size:1.0625rem}.about-section-cutout .features-list{gap:var(--spacing-md)}.about-section-cutout .feature-item{gap:var(--spacing-md)}.about-section-cutout .feature-text h4{font-size:1.125rem}.about-section-cutout .feature-text p{font-size:1rem}}.about-section-cutout .feature-icon{width:40px;height:40px;flex-basis:40px;margin-top:5px}.about-section-cutout .feature-icon img{width:40px;height:40px}
+
+.service-card-home{background:var(--color-primary);border-color:var(--color-primary)}.service-card-home:hover{background:#032a5e;border-color:#032a5e}.service-card-home h3{color:#fff}.service-card-home p{color:rgba(255,255,255,0.85)}.service-card-home .service-icon{background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.22);color:#fff}.service-card-home .service-icon img{width:44px;height:44px;object-fit:contain}

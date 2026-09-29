@@ -453,21 +453,21 @@
         "items": [
             {
                 "id": 1,
-                "icon": "&#127793;",
+                "icon": "/images/icons/services/consultanta-energetica.png",
                 "title": "Consultanta energetica",
                 "text": "Evaluarea si optimizarea performantei energetice a cladirii dumneavoastra pentru confort maxim si costuri reduse.",
                 "sort_order": 0
             },
             {
                 "id": 2,
-                "icon": "&#127968;",
+                "icon": "/images/icons/services/consultanta-passive-house.png",
                 "title": "Consultanta NZEB si Passive House",
                 "text": "Proiectare si consultanta pentru cladiri la standard nZEB si Passive House - eficienta energetica maxima si costuri de exploatare minime.",
                 "sort_order": 1
             },
             {
                 "id": 3,
-                "icon": "&#128736;",
+                "icon": "/images/icons/services/asistenta-tehnica-montaj.png",
                 "title": "Asistenta tehnica montaj",
                 "text": "Suport complet la montaj, detalii de executie si calcul precis al cantitatilor necesare.",
                 "sort_order": 2
