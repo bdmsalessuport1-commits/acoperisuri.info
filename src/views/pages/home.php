@@ -216,7 +216,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
 <?php elseif ($section === 'about'): ?>
 <?php if (!empty($about['title'])): ?>
 <!-- DESPRE BDM SYSTEMS -->
-<section class="section bg-light">
+<section class="section bg-light<?= (!empty($about['image_cutout']) && !empty($about['image'])) ? ' about-section-cutout' : '' ?>">
     <div class="container">
         <div class="about-grid">
             <div class="about-text">
