@@ -238,7 +238,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
                 <?php endif; ?>
             </div>
             <?php $ai = (string)($about['image'] ?? ''); ?>
-            <div class="about-image"><?php if ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))): ?><img src="<?= htmlspecialchars($ai) ?>" alt="<?= htmlspecialchars($about['title'] ?? '') ?>" width="1200" height="800" loading="lazy"><?php else: ?><?= $ai ?><?php endif; ?></div>
+            <div class="about-image<?= ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))) ? ' about-image-photo' : '' ?>"><?php if ($ai !== '' && ($ai[0] === '/' || str_starts_with($ai, 'http'))): ?><img src="<?= htmlspecialchars($ai) ?>" alt="<?= htmlspecialchars($about['title'] ?? '') ?>" width="1464" height="1075" loading="lazy"><?php else: ?><?= $ai ?><?php endif; ?></div>
         </div>
     </div>
 </section>

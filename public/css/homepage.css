@@ -816,3 +816,6 @@
     line-height:1.6;
     font-size:var(--text-base)}
 
+
+/* About image: box follows the image ratio, never cropped (also on mobile) */
+.about-image.about-image-photo{height:auto;aspect-ratio:1464/1075;overflow:hidden;background:transparent;border:0}
