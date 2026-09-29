@@ -720,31 +720,31 @@
     }
 }
 
-/* Desktop: banner slides contained (content width, rounded), slider shrinks to the banner */
+/* Desktop: banner slides full width, proportional (no crop); slider follows the banner height.
+   31vw = banner ratio 2000x620. The text slide matches it so height does not jump between slides. */
 @media (min-width: 1025px) {
     .hero-slider,
     .hero-slides,
     .hero-slide {
-        min-height: 520px;
+        min-height: min(600px, 31vw);
     }
 
     .hero-slide-banner {
         min-height: auto;
         align-items: center;
-        padding: 20px 0;
+        padding: 0;
     }
 
     .hero-banner-link {
         flex: none;
-        max-width: var(--content-width);
-        margin: 0 auto;
-        padding: 0 var(--spacing-md);
+        width: 100%;
     }
 
     .hero-banner-link img {
+        width: 100%;
         height: auto;
         object-fit: contain;
-        border-radius: 12px;
+        border-radius: 0;
     }
 
     .hero-banner-active,
