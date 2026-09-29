@@ -255,7 +255,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         </div>
         <div class="grid grid-3">
             <?php foreach ($svcItems as $svc): ?>
-            <div class="service-card">
+            <div class="service-card service-card-home">
                 <?php $si = (string)($svc['icon'] ?? ''); ?>
                 <div class="service-icon"><?php if ($si !== '' && ($si[0] === '/' || str_starts_with($si, 'http'))): ?><img src="<?= htmlspecialchars($si) ?>" alt="" width="40" height="40" loading="lazy"><?php else: ?><?= $si ?><?php endif; ?></div>
                 <h3><?= htmlspecialchars($svc['title'] ?? '') ?></h3>
