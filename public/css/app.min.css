@@ -14,3 +14,5 @@
 .service-card-home{display:flex;flex-direction:column;align-items:center;text-align:center;gap:var(--spacing-sm);padding:var(--spacing-xl) var(--spacing-lg)}.service-card-home .service-icon{width:72px;height:72px;margin:0 0 var(--spacing-xs);border-radius:50%;background:var(--color-bg-light);border:1px solid var(--color-border-light);color:var(--color-primary);font-size:2rem;display:flex;align-items:center;justify-content:center}.service-card-home h3{font-size:var(--text-xl);line-height:1.25;margin:0;color:var(--color-primary)}.service-card-home p{margin:0;color:var(--color-text);line-height:1.6;font-size:var(--text-base)}
 
 .about-image.about-image-photo{height:auto;aspect-ratio:1464/1075;overflow:hidden;background:transparent;border:0}
+
+.about-image.about-image-cutout{height:auto;aspect-ratio:auto;background:transparent;border:0;border-radius:0;display:block;padding:0}.about-image-cutout img{width:100%;height:auto;object-fit:contain;display:block;border-radius:0}
