@@ -834,3 +834,6 @@
 
 /* Ultra-wide screens: centred 1760px stage instead of edge bleed (margins stay symmetric) */
 @media (min-width:2000px){.about-section-cutout .container{max-width:1760px}.about-section-cutout .about-text{max-width:720px}.about-section-cutout .about-image-cutout img{width:824px}}
+
+/* About list one step smaller (client feedback) */
+@media (min-width:1025px){.about-section-cutout .about-text h2{font-size:2.25rem}.about-section-cutout .about-text > p{font-size:1.0625rem}.about-section-cutout .features-list{gap:var(--spacing-md)}.about-section-cutout .feature-item{gap:var(--spacing-md)}.about-section-cutout .feature-text h4{font-size:1.125rem}.about-section-cutout .feature-text p{font-size:1rem}}.about-section-cutout .feature-icon{width:40px;height:40px;flex-basis:40px;margin-top:5px}.about-section-cutout .feature-icon img{width:40px;height:40px}
