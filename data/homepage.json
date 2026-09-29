@@ -425,14 +425,14 @@
             },
             {
                 "id": 2,
-                "icon": "/images/icons/about/passive-house-nzeb.svg",
+                "icon": "/images/icons/about/passive-house-nzeb-v2.svg",
                 "title": "Consultanta NZEB si Passive House",
                 "text": "Echipa certificata pentru cladiri la standard nZEB si case pasive, cu consum redus de energie.",
                 "sort_order": 1
             },
             {
                 "id": 3,
-                "icon": "/images/icons/about/livrare-in-toata-tara.svg",
+                "icon": "/images/icons/about/livrare-in-toata-tara-v2.svg",
                 "title": "Livrare in toata tara",
                 "text": "Transport rapid si sigur, direct la santierul dumneavoastra.",
                 "sort_order": 2

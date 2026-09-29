@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Consultanță Passive House și nZEB</title>
+  <defs>
+    <linearGradient id="beam" x1="48" y1="45" x2="72" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAF8FF"/>
+      <stop offset=".42" stop-color="#A8DDFA"/>
+      <stop offset="1" stop-color="#70BCEB"/>
+    </linearGradient>
+  </defs>
+  <path d="M12 59 64 17l52 42M25 49v61h78V49" fill="none" stroke="#092B59" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Continuous light cone from the circle into the bowl of the original P. -->
+  <path d="M48.5 38 C58 39 72 42 79 44 C71 47 65 65 60 81 C52 80 48 75 48 67 L48 51 C55 50 57 43 48.5 38Z" fill="url(#beam)"/>
+  <path d="M75.5 43.2 C69.2 47 63.2 65.8 60 80.9 C72.9 78.4 82.9 64.2 82.9 52.2 C82.9 45.5 80.5 41.7 75.5 43.2Z" fill="url(#beam)"/>
+  <!-- Smooth curves follow the reference P: flat left arm, sweeping bowl, slanted stem. -->
+  <path fill="#092B59" fill-rule="evenodd" d="M76.5 37.5 C87.5 36.3 93.2 43.4 92.5 53.4 C91.3 69 77.5 82.2 58.9 84.3 L52.1 104.5 H45.7 L52.1 84.4 C41.5 82.8 35.6 76.7 35.6 68.1 V63.2 H45.8 V73.4 C45.8 77.9 48.5 80.6 53.1 80.9 L60.2 57.3 C64.5 44.6 69.9 38.6 76.5 37.5 Z M75.5 43.2 C69.2 47 63.2 65.8 60 80.9 C72.9 78.4 82.9 64.2 82.9 52.2 C82.9 45.5 80.5 41.7 75.5 43.2 Z"/>
+  <circle cx="48.6" cy="44" r="6.4" fill="#E8F7FF" stroke="#092B59" stroke-width="2.2"/>
+</svg>
