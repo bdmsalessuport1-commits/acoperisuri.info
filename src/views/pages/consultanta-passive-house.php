@@ -142,7 +142,7 @@ $hasErrors = !empty($fe);
 
             <div class="ch-cert-card ch-cert-card-company">
                 <div class="ch-company-logo">
-                    <img src="/images/logo/logo-full.png" alt="BDM Systems logo" height="48" width="176">
+                    <img src="/images/logo/logo-full-v2.png" alt="BDM Systems logo" height="48" width="176">
                 </div>
                 <h3>BDM Systems — trei divizii, o singură anvelopă</h3>
                 <ul class="ch-divisions">

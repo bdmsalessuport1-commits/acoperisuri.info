@@ -18,7 +18,7 @@ class SchemaMarkup
             '@type' => 'Organization',
             'name' => 'BDM Systems',
             'url' => self::$baseUrl,
-            'logo' => self::$baseUrl . '/images/logo/logo-full.png',
+            'logo' => self::$baseUrl . '/images/logo/logo-full-v2.png',
             'description' => 'Solutii complete pentru acoperisuri - tigla metalica, tabla faltuita, sisteme pluviale, ferestre FAKRO, izolatie STEICO.',
             'address' => [
                 '@type' => 'PostalAddress',
@@ -36,7 +36,7 @@ class SchemaMarkup
             '@type' => 'LocalBusiness',
             'name' => 'BDM Systems',
             'url' => self::$baseUrl,
-            'logo' => self::$baseUrl . '/images/logo/logo-full.png',
+            'logo' => self::$baseUrl . '/images/logo/logo-full-v2.png',
             'description' => 'Montaj acoperisuri, tigla metalica, sisteme pluviale, ferestre mansarda FAKRO, izolatie STEICO.',
             'address' => [
                 '@type' => 'PostalAddress',
@@ -103,7 +103,7 @@ class SchemaMarkup
                 'name' => 'BDM Systems',
                 'logo' => [
                     '@type' => 'ImageObject',
-                    'url' => self::$baseUrl . '/images/logo/logo-full.png',
+                    'url' => self::$baseUrl . '/images/logo/logo-full-v2.png',
                 ],
             ],
             'url' => self::$baseUrl . '/blog/' . ($article['slug'] ?? ''),

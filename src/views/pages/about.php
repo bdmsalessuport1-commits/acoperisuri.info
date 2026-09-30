@@ -5,7 +5,7 @@
     "@type": "Organization",
     "name": "BDM Systems",
     "url": "https://acoperisuri.info",
-    "logo": "https://acoperisuri.info/images/logo/logo-full.png",
+    "logo": "https://acoperisuri.info/images/logo/logo-full-v2.png",
     "description": "BDM Systems - solutii complete pentru acoperisuri din 2010. Tigla metalica, tabla faltuita, sisteme pluviale, ferestre FAKRO, izolatie STEICO.",
     "foundingDate": "2010",
     "telephone": "+40756034734",

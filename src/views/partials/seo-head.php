@@ -11,7 +11,7 @@ $baseUrl = 'https://acoperisuri.info';
 $requestPath = strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
 $canonicalUrl = $baseUrl . $requestPath;
 $fullUrl = $pageUrl ?? $canonicalUrl;
-$image = $pageImage ?? '/images/logo/logo-full.png';
+$image = $pageImage ?? '/images/logo/logo-full-v2.png';
 $absImage = str_starts_with($image, 'http') ? $image : $baseUrl . $image;
 $ogType = $pageType ?? 'website';
 ?>

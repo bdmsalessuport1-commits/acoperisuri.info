@@ -36,7 +36,7 @@ $formSent   = $formSent   ?? false;
             "closes": "14:00"
         }
     ],
-    "image": "https://acoperisuri.info/images/logo/logo-full.png",
+    "image": "https://acoperisuri.info/images/logo/logo-full-v2.png",
     "priceRange": "$$"
 }
 </script>

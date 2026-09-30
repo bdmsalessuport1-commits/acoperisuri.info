@@ -150,13 +150,13 @@ foreach (array_slice($videos, 0, 10) as $idx => $sv) {
                     "description": "<?= addslashes(htmlspecialchars($v['description'])) ?>",
                     "uploadDate": "<?= htmlspecialchars($v['published_at']) ?>",
                     "contentUrl": "<?= htmlspecialchars($v['tiktok_url']) ?>",
-                    "thumbnailUrl": "https://acoperisuri.info/images/logo/logo-full.png",
+                    "thumbnailUrl": "https://acoperisuri.info/images/logo/logo-full-v2.png",
                     "publisher": {
                         "@type": "Organization",
                         "name": "BDM Systems",
                         "logo": {
                             "@type": "ImageObject",
-                            "url": "https://acoperisuri.info/images/logo/logo-full.png"
+                            "url": "https://acoperisuri.info/images/logo/logo-full-v2.png"
                         }
                     }
                 }
