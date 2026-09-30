@@ -21390,115 +21390,237 @@
     },
     {
         "id": 137,
-        "name": "Wetterbest Bara Parazapada Click - set 1 bara",
-        "subtitle": "Bara parazapada de 2 m cu 3 suporti cu clema pe falt, conectori si capace - pentru tabla faltuita / Click, fara perforarea invelitorii",
+        "name": "Figo Bara Parazapada - set 1 bara",
+        "subtitle": "Set parazapada FIGO pentru tabla faltuita: 1 bara de 3 m + 4 console Sailer cu clema pe falt dublu, fara perforarea invelitorii; otel zincat / vopsit, aluminiu, cupru, inox",
         "slug": "bara-simpla-parazapada-tabla-faltuita",
         "category_id": 7,
         "subcategory_id": 20,
-        "manufacturer": "Wetterbest",
+        "manufacturer": "Figo",
         "status": "activ",
         "image_main": "/uploads/products/bara-simpla-parazapada-tabla-faltuita/1.jpg",
         "image_schema": "",
         "gallery": [
             "/uploads/products/bara-simpla-parazapada-tabla-faltuita/1.jpg",
-            "/uploads/products/bara-simpla-parazapada-tabla-faltuita/2.jpg",
-            "/uploads/products/bara-simpla-parazapada-tabla-faltuita/3.jpg"
+            "/uploads/products/bara-simpla-parazapada-tabla-faltuita/2.jpg"
         ],
         "specs": [
             {
                 "key": "Continut set",
-                "value": "1 bara parazapada 2 m + 3 suporti Click + conectori + capace de capat",
+                "value": "1 bara parazapada 3 m + 4 console simple cu clema pe falt + mufe de imbinare",
                 "sort_order": 1
             },
             {
-                "key": "Lungime bara",
-                "value": "2000 mm (se imbina cap la cap cu conector)",
+                "key": "Bara",
+                "value": "Teava 3/4\" (Ø 26,9 mm otel DIN 2440; Ø 28 mm la aluminiu, inox, cupru), lungime 3 m",
                 "sort_order": 2
             },
             {
-                "key": "Material bara",
-                "value": "Tabla de otel zincata termic, prevopsita; teava cu nervuri (rigidizata)",
+                "key": "Consola",
+                "value": "Clema Sailer (Vorens, brevet cu nervuri) din platbanda 50 x 4 mm, lungime 140 mm - se strange pe faltul dublu, fara perforarea invelitorii",
                 "sort_order": 3
             },
             {
-                "key": "Fixare",
-                "value": "Suport parazapada Click cu clema pe faltul tablei - fara gauri in invelitoare; 3 suporti la 2 m",
+                "key": "Compatibil cu",
+                "value": "Tabla faltuita cu falt dublu (otel, aluminiu, cupru, zinc); pentru profile Click exista suport dedicat",
                 "sort_order": 4
             },
             {
-                "key": "Compatibil cu",
-                "value": "Tabla faltuita si tabla Click (Wetterbest Faltz / Click, alte profile cu falt vertical)",
+                "key": "Materiale",
+                "value": "Otel zincat / otel zincat vopsit / aluminiu natural sau vopsit / cupru / inox - bara si consola in acelasi material",
                 "sort_order": 5
             },
             {
-                "key": "Culori bara",
-                "value": "RAL 7024 Gri Grafit, RAL 9005 Negru",
+                "key": "Culori",
+                "value": "Culorile FIGO (Antracit, Testa di Moro, Gri praf, Maro cupru), 12 RAL uzuale, orice RAL la cerere",
                 "sort_order": 6
             },
             {
-                "key": "Culori suport",
-                "value": "Toate culorile Wetterbest",
+                "key": "Accesorii",
+                "value": "Mufa de imbinare bara (cu opritor si crestatura de scurgere), opritor de gheata 75 mm, conector de colt (aluminiu)",
                 "sort_order": 7
             },
             {
-                "key": "Suportul accepta",
-                "value": "2 bare - se poate completa ulterior cu a doua bara",
+                "key": "Dimensionare",
+                "value": "Randuri conform ONORM B 3418 / EN 1991-1-3, factor de siguranta 2,0",
                 "sort_order": 8
+            },
+            {
+                "key": "Origine",
+                "value": "Austria - FIGO / Filli Stahl (console Vorens, Mittersill)",
+                "sort_order": 9
             }
         ],
         "materials": [
             {
-                "name": "Bara - tabla zincata termic, prevopsita",
+                "name": "Otel zincat vopsit - culorile FIGO",
                 "sort_order": 1,
                 "colors": [
                     {
-                        "name": "Gri Grafit",
-                        "code": "RAL 7024",
-                        "hex": "#474a51",
+                        "name": "Antracit",
+                        "code": "FIGO Anthrazit",
+                        "hex": "#2f3437",
                         "swatch": "",
                         "sort_order": 1
                     },
                     {
-                        "name": "Negru",
-                        "code": "RAL 9005",
-                        "hex": "#0a0a0a",
+                        "name": "Testa di Moro",
+                        "code": "FIGO",
+                        "hex": "#3d2b24",
                         "swatch": "",
                         "sort_order": 2
+                    },
+                    {
+                        "name": "Gri praf",
+                        "code": "FIGO Staubgrau",
+                        "hex": "#7d8288",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Maro cupru",
+                        "code": "FIGO Kupferbraun",
+                        "hex": "#6e3f2a",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru intens",
+                        "code": "la cerere",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
                     }
                 ]
             },
             {
-                "name": "Suport, conector, capac",
+                "name": "Otel zincat vopsit - RAL uzuale (distribuitor FIGO Romania)",
                 "sort_order": 2,
                 "colors": [
+                    {
+                        "name": "Gri Deschis",
+                        "code": "RAL 7035",
+                        "hex": "#c5c7c4",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Gri Piatra",
+                        "code": "RAL 7030",
+                        "hex": "#8b8c7a",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Aluminiu Alb",
+                        "code": "RAL 9006",
+                        "hex": "#a5a8a6",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Alb Gri",
+                        "code": "RAL 9002",
+                        "hex": "#e7ebda",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Rosu Oxid",
+                        "code": "RAL 3009",
+                        "hex": "#703731",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Maro Ciocolata",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 6
+                    },
+                    {
+                        "name": "Maro Inchis",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 7
+                    },
+                    {
+                        "name": "Verde Crom",
+                        "code": "RAL 6020",
+                        "hex": "#2e3b2b",
+                        "swatch": "",
+                        "sort_order": 8
+                    },
+                    {
+                        "name": "Gri Antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 9
+                    },
                     {
                         "name": "Gri Grafit",
                         "code": "RAL 7024",
                         "hex": "#474a51",
                         "swatch": "",
-                        "sort_order": 1
+                        "sort_order": 10
+                    },
+                    {
+                        "name": "Maro Cupru",
+                        "code": "RAL 8004",
+                        "hex": "#8f4e35",
+                        "swatch": "",
+                        "sort_order": 11
                     },
                     {
                         "name": "Negru",
                         "code": "RAL 9005",
                         "hex": "#0a0a0a",
                         "swatch": "",
+                        "sort_order": 12
+                    }
+                ]
+            },
+            {
+                "name": "Alte materiale",
+                "sort_order": 3,
+                "colors": [
+                    {
+                        "name": "Otel zincat natural",
+                        "code": "zincat",
+                        "hex": "#b9bcbf",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Aluminiu natural",
+                        "code": "aluminiu",
+                        "hex": "#c9ccd0",
+                        "swatch": "",
                         "sort_order": 2
                     },
                     {
-                        "name": "Alte culori Wetterbest (suport)",
-                        "code": "la comanda",
-                        "hex": "#8a8f96",
+                        "name": "Cupru",
+                        "code": "cupru",
+                        "hex": "#b87333",
                         "swatch": "",
                         "sort_order": 3
+                    },
+                    {
+                        "name": "Inox",
+                        "code": "inox",
+                        "hex": "#d0d3d6",
+                        "swatch": "",
+                        "sort_order": 4
                     }
                 ]
             }
         ],
-        "warranty_text": "Garantie producator Wetterbest, conform finisajului (tabla zincata termic, prevopsita).",
-        "description_html": "<h2>Wetterbest Bara Parazapada Click - set cu 1 bara</h2><p>Sistem parazapada tip bara pentru acoperisurile din <strong>tabla faltuita si Click</strong>: suportii se strang cu clema pe faltul tablei, fara nicio gaura in invelitoare, iar bara de 2 m opreste alunecarea zapezii. Varianta cu o singura bara este suficienta pentru pante moderate si zone cu zapada obisnuita.</p><ul><li>Bara din tabla zincata termic prevopsita, cu nervuri de rigidizare, 2 m</li><li>3 suporti cu clema pe falt la 2 m; suportul are 2 locasuri, deci se poate adauga oricand a doua bara</li><li>Conectori pentru imbinarea barelor cap la cap si capace de capat</li><li>Bara in RAL 7024 sau 9005, suportii in orice culoare Wetterbest</li></ul><p>Pentru pante mari sau zone cu zapada abundenta recomandam setul cu 2 bare. Sisteme echivalente sunt disponibile si pentru tabla prefaltuita Metigla (bara Ø32 aluminiu cu consola pe falt).</p>",
-        "seo_title": "Wetterbest Bara Parazapada Click - set 1 bara - parazapada | BDM Systems",
-        "seo_description": "Wetterbest Bara Parazapada Click - set cu 1 bara de 2 m, 3 suporti cu clema pe falt, fara perforarea tablei faltuite / Click, RAL 7024 / 9005. De la BDM Systems.",
+        "warranty_text": "Garantie producator FIGO (Filli Stahl, Austria). Sistemul de protectie la zapada este testat la MA 39 Viena si se dimensioneaza conform ONORM B 3418 si EN 1991-1-3 (numarul de randuri depinde de zona de zapada, panta si lungimea versantului).",
+        "description_html": "<h2>Figo Bara Parazapada - set cu 1 bara</h2><p>Sistemul austriac <strong>FIGO</strong> de protectie la zapada pentru acoperisurile din <strong>tabla faltuita</strong>: consolele Sailer se strang direct pe faltul dublu, fara nicio gaura in invelitoare, iar bara de 3/4\" retine zapada si o lasa sa se topeasca treptat. Varianta cu o singura bara este potrivita pentru pante moderate si zone cu incarcare normala de zapada.</p><ul><li>Bara din teava 3/4\" (Ø 26,9 mm otel; Ø 28 mm aluminiu, inox, cupru), 3 m</li><li>4 console cu clema pe falt (platbanda 50 x 4 mm, 140 mm, brevet cu nervuri) - montaj fara perforare, etanseitatea ramane intacta</li><li>Bara si consola in acelasi material si aceeasi culoare: otel zincat sau vopsit, aluminiu, cupru, inox</li><li>Mufe de imbinare cu opritor si crestatura de scurgere; optional opritor de gheata</li><li>Sistem testat MA 39 Viena, dimensionat conform ONORM B 3418</li></ul><p>Pentru pante mari, versanti lungi sau zone montane recomandam setul cu 2 bare (consola dubla, 115 mm). Va calculam numarul de randuri necesar in functie de zona de zapada si de acoperis.</p>",
+        "seo_title": "Figo Bara Parazapada - set 1 bara - parazapada tabla faltuita | BDM Systems",
+        "seo_description": "Figo Bara Parazapada - set cu 1 bara 3/4\" de 3 m si 4 console Sailer cu clema pe falt dublu, fara perforarea tablei faltuite; otel zincat / vopsit, aluminiu, cupru, inox. De la BDM Systems.",
         "related_products": [
             "bare-duble-parazapada-tabla-faltuita",
             "bara-parazapada-32",
@@ -21507,122 +21629,247 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-09-30 10:48:28",
+        "updated_at": "2026-09-30 11:07:12",
         "image_card": "/uploads/products/bara-simpla-parazapada-tabla-faltuita/card.jpg"
     },
     {
         "id": 138,
-        "name": "Wetterbest Set Parazapada Cilindrica - 2 bare",
-        "subtitle": "Set parazapada cu 2 bare x 2 m, 3 suporti cu clema pe falt, conectori si capace - pentru tabla faltuita / Click, pante mari si zapada abundenta",
+        "name": "Figo Set Parazapada - 2 bare",
+        "subtitle": "Set parazapada FIGO pentru tabla faltuita: 2 bare de 3 m + 4 console duble Sailer (115 mm) cu clema pe falt dublu - pante mari si zapada abundenta",
         "slug": "bare-duble-parazapada-tabla-faltuita",
         "category_id": 7,
         "subcategory_id": 20,
-        "manufacturer": "Wetterbest",
+        "manufacturer": "Figo",
         "status": "activ",
         "image_main": "/uploads/products/bare-duble-parazapada-tabla-faltuita/1.jpg",
         "image_schema": "",
         "gallery": [
             "/uploads/products/bare-duble-parazapada-tabla-faltuita/1.jpg",
-            "/uploads/products/bare-duble-parazapada-tabla-faltuita/2.jpg",
-            "/uploads/products/bare-duble-parazapada-tabla-faltuita/3.jpg",
-            "/uploads/products/bare-duble-parazapada-tabla-faltuita/4.jpg",
-            "/uploads/products/bare-duble-parazapada-tabla-faltuita/5.jpg"
+            "/uploads/products/bare-duble-parazapada-tabla-faltuita/2.jpg"
         ],
         "specs": [
             {
                 "key": "Continut set",
-                "value": "2 bare parazapada x 2 m + 3 suporti Click + conectori + capace de capat",
+                "value": "2 bare parazapada 3 m + 4 console duble cu clema pe falt + mufe de imbinare",
                 "sort_order": 1
             },
             {
-                "key": "Lungime bare",
-                "value": "2000 mm (se imbina cap la cap cu conector)",
+                "key": "Consola dubla",
+                "value": "Inaltime 115 mm, bare la 48 si 100 mm; exista si consola cu 3 bare (170 / 250 mm) pentru incarcari mari",
                 "sort_order": 2
             },
             {
-                "key": "Material bare",
-                "value": "Tabla de otel zincata termic, prevopsita; teava cu nervuri (rigidizata)",
+                "key": "Bara",
+                "value": "Teava 3/4\" (Ø 26,9 mm otel DIN 2440; Ø 28 mm la aluminiu, inox, cupru), lungime 3 m",
                 "sort_order": 3
             },
             {
-                "key": "Fixare",
-                "value": "Suport parazapada Click cu clema pe faltul tablei - fara gauri in invelitoare; 3 suporti la 2 m",
+                "key": "Consola",
+                "value": "Clema Sailer (Vorens, brevet cu nervuri) din platbanda 50 x 4 mm, lungime 140 mm - se strange pe faltul dublu, fara perforarea invelitorii",
                 "sort_order": 4
             },
             {
                 "key": "Compatibil cu",
-                "value": "Tabla faltuita si tabla Click (Wetterbest Faltz / Click, alte profile cu falt vertical)",
+                "value": "Tabla faltuita cu falt dublu (otel, aluminiu, cupru, zinc); pentru profile Click exista suport dedicat",
                 "sort_order": 5
             },
             {
-                "key": "Recomandat pentru",
-                "value": "Pante mari, zone cu zapada abundenta, deasupra intrarilor si a jgheaburilor",
+                "key": "Materiale",
+                "value": "Otel zincat / otel zincat vopsit / aluminiu natural sau vopsit / cupru / inox - bara si consola in acelasi material",
                 "sort_order": 6
             },
             {
-                "key": "Culori bare",
-                "value": "RAL 7024 Gri Grafit, RAL 9005 Negru",
+                "key": "Culori",
+                "value": "Culorile FIGO (Antracit, Testa di Moro, Gri praf, Maro cupru), 12 RAL uzuale, orice RAL la cerere",
                 "sort_order": 7
             },
             {
-                "key": "Culori suport",
-                "value": "Toate culorile Wetterbest",
+                "key": "Accesorii",
+                "value": "Mufa de imbinare bara (cu opritor si crestatura de scurgere), opritor de gheata 75 mm, conector de colt (aluminiu)",
                 "sort_order": 8
+            },
+            {
+                "key": "Dimensionare",
+                "value": "Randuri conform ONORM B 3418 / EN 1991-1-3, factor de siguranta 2,0",
+                "sort_order": 9
+            },
+            {
+                "key": "Origine",
+                "value": "Austria - FIGO / Filli Stahl (console Vorens, Mittersill)",
+                "sort_order": 10
             }
         ],
         "materials": [
             {
-                "name": "Bara - tabla zincata termic, prevopsita",
+                "name": "Otel zincat vopsit - culorile FIGO",
                 "sort_order": 1,
                 "colors": [
                     {
-                        "name": "Gri Grafit",
-                        "code": "RAL 7024",
-                        "hex": "#474a51",
+                        "name": "Antracit",
+                        "code": "FIGO Anthrazit",
+                        "hex": "#2f3437",
                         "swatch": "",
                         "sort_order": 1
                     },
                     {
-                        "name": "Negru",
-                        "code": "RAL 9005",
-                        "hex": "#0a0a0a",
+                        "name": "Testa di Moro",
+                        "code": "FIGO",
+                        "hex": "#3d2b24",
                         "swatch": "",
                         "sort_order": 2
+                    },
+                    {
+                        "name": "Gri praf",
+                        "code": "FIGO Staubgrau",
+                        "hex": "#7d8288",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Maro cupru",
+                        "code": "FIGO Kupferbraun",
+                        "hex": "#6e3f2a",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Negru intens",
+                        "code": "la cerere",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 5
                     }
                 ]
             },
             {
-                "name": "Suport, conector, capac",
+                "name": "Otel zincat vopsit - RAL uzuale (distribuitor FIGO Romania)",
                 "sort_order": 2,
                 "colors": [
+                    {
+                        "name": "Gri Deschis",
+                        "code": "RAL 7035",
+                        "hex": "#c5c7c4",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Gri Piatra",
+                        "code": "RAL 7030",
+                        "hex": "#8b8c7a",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Aluminiu Alb",
+                        "code": "RAL 9006",
+                        "hex": "#a5a8a6",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Alb Gri",
+                        "code": "RAL 9002",
+                        "hex": "#e7ebda",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Rosu Oxid",
+                        "code": "RAL 3009",
+                        "hex": "#703731",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Maro Ciocolata",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 6
+                    },
+                    {
+                        "name": "Maro Inchis",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 7
+                    },
+                    {
+                        "name": "Verde Crom",
+                        "code": "RAL 6020",
+                        "hex": "#2e3b2b",
+                        "swatch": "",
+                        "sort_order": 8
+                    },
+                    {
+                        "name": "Gri Antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 9
+                    },
                     {
                         "name": "Gri Grafit",
                         "code": "RAL 7024",
                         "hex": "#474a51",
                         "swatch": "",
-                        "sort_order": 1
+                        "sort_order": 10
+                    },
+                    {
+                        "name": "Maro Cupru",
+                        "code": "RAL 8004",
+                        "hex": "#8f4e35",
+                        "swatch": "",
+                        "sort_order": 11
                     },
                     {
                         "name": "Negru",
                         "code": "RAL 9005",
                         "hex": "#0a0a0a",
                         "swatch": "",
+                        "sort_order": 12
+                    }
+                ]
+            },
+            {
+                "name": "Alte materiale",
+                "sort_order": 3,
+                "colors": [
+                    {
+                        "name": "Otel zincat natural",
+                        "code": "zincat",
+                        "hex": "#b9bcbf",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Aluminiu natural",
+                        "code": "aluminiu",
+                        "hex": "#c9ccd0",
+                        "swatch": "",
                         "sort_order": 2
                     },
                     {
-                        "name": "Alte culori Wetterbest (suport)",
-                        "code": "la comanda",
-                        "hex": "#8a8f96",
+                        "name": "Cupru",
+                        "code": "cupru",
+                        "hex": "#b87333",
                         "swatch": "",
                         "sort_order": 3
+                    },
+                    {
+                        "name": "Inox",
+                        "code": "inox",
+                        "hex": "#d0d3d6",
+                        "swatch": "",
+                        "sort_order": 4
                     }
                 ]
             }
         ],
-        "warranty_text": "Garantie producator Wetterbest, conform finisajului (tabla zincata termic, prevopsita).",
-        "description_html": "<h2>Wetterbest Set Parazapada Cilindrica - 2 bare</h2><p>Setul complet cu <strong>doua bare</strong> pentru tabla faltuita si Click: aceiasi suporti cu clema pe falt (fara gauri in invelitoare), cu ambele locasuri ocupate, pentru o retinere sigura a zapezii pe pante mari si in zonele cu ninsori abundente.</p><ul><li>2 bare x 2 m din tabla zincata termic prevopsita, cu nervuri de rigidizare</li><li>3 suporti cu clema pe falt la 2 m, conectori si capace incluse</li><li>Montaj fara perforarea tablei - etanseitatea invelitorii ramane intacta</li><li>Bare in RAL 7024 sau 9005, suporti in orice culoare Wetterbest</li></ul><p>Echivalentul pentru tabla prefaltuita Metigla: bara Ø32 din aluminiu cu consola simpla si extensie pentru a doua bara.</p>",
-        "seo_title": "Wetterbest Set Parazapada Cilindrica - 2 bare - parazapada | BDM Systems",
-        "seo_description": "Wetterbest Set Parazapada Cilindrica cu 2 bare x 2 m si 3 suporti cu clema pe falt pentru tabla faltuita / Click - montaj fara perforare, RAL 7024 / 9005. De la BDM Systems.",
+        "warranty_text": "Garantie producator FIGO (Filli Stahl, Austria). Sistemul de protectie la zapada este testat la MA 39 Viena si se dimensioneaza conform ONORM B 3418 si EN 1991-1-3 (numarul de randuri depinde de zona de zapada, panta si lungimea versantului).",
+        "description_html": "<h2>Figo Set Parazapada - 2 bare</h2><p>Setul <strong>FIGO</strong> cu doua bare pentru tabla faltuita: consola dubla Sailer de 115 mm poarta doua tevi de 3/4\" (la 48 si 100 mm inaltime) si se strange pe faltul dublu fara perforarea invelitorii. Este solutia pentru pante mari, versanti lungi si zone cu ninsori abundente, unde o singura bara nu retine suficient.</p><ul><li>2 bare din teava 3/4\" (otel Ø 26,9 mm; aluminiu, inox, cupru Ø 28 mm), 3 m</li><li>4 console duble cu clema pe falt, brevet cu nervuri - fara gauri in tabla</li><li>Acelasi material si aceeasi culoare la bare si console: otel zincat sau vopsit, aluminiu, cupru, inox</li><li>Mufe de imbinare cu opritor si crestatura de scurgere; optional opritor de gheata</li><li>Pentru incarcari extreme: consola cu 3 bare (170 sau 250 mm)</li></ul><p>Sistem testat MA 39 Viena, dimensionat conform ONORM B 3418 / EN 1991-1-3. Va calculam numarul de randuri necesar.</p>",
+        "seo_title": "Figo Set Parazapada - 2 bare - parazapada tabla faltuita | BDM Systems",
+        "seo_description": "Figo Set Parazapada cu 2 bare 3/4\" de 3 m si 4 console duble Sailer (115 mm) cu clema pe falt dublu, fara perforarea tablei faltuite; otel, aluminiu, cupru, inox. De la BDM Systems.",
         "related_products": [
             "bara-simpla-parazapada-tabla-faltuita",
             "bara-parazapada-32",
@@ -21631,7 +21878,7 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-09-30 10:48:28",
+        "updated_at": "2026-09-30 11:07:12",
         "image_card": "/uploads/products/bare-duble-parazapada-tabla-faltuita/card.jpg"
     },
     {
