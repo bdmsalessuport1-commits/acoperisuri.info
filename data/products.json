@@ -21329,146 +21329,64 @@
     },
     {
         "id": 136,
-        "name": "Eurovent Snowstopper Set Metal 350 / 400",
-        "subtitle": "Grilaj parazapada pentru tigla metalica clasica cu modul de 350 mm (ex. Wetterbest Clasic) sau 400 mm, inaltime 20 cm, seturi de 1 / 2 / 3 m",
+        "name": "Grilaje Parazapada Tigla Metalica",
+        "subtitle": "Grilaj parazapada pentru tigla metalica, 3m, otel galvanizat vopsit",
         "slug": "grilaje-parazapada-tigla-metalica",
         "category_id": 7,
         "subcategory_id": 20,
-        "manufacturer": "Eurovent",
+        "manufacturer": "",
         "status": "activ",
-        "image_main": "/uploads/products/grilaje-parazapada-tigla-metalica/1.jpg",
+        "image_main": "",
         "image_schema": "",
-        "gallery": [
-            "/uploads/products/grilaje-parazapada-tigla-metalica/1.jpg",
-            "/uploads/products/grilaje-parazapada-tigla-metalica/2.jpg"
-        ],
+        "gallery": [],
         "specs": [
             {
-                "key": "Tip",
-                "value": "Grilaj parazapada (gard de zapada) cu suporti FIX METAL 350 sau FIX METAL 400 si conectori CLIP",
+                "key": "Lungime",
+                "value": "3 m",
                 "sort_order": 1
             },
             {
-                "key": "Compatibil cu",
-                "value": "Tigla metalica clasica cu modul 350 / 20 mm (ex. Wetterbest Clasic) - varianta 350; modul 400 / 25 mm - varianta 400. Se alege dupa profilul tiglei",
+                "key": "Material",
+                "value": "Otel galvanizat vopsit",
                 "sort_order": 2
             },
             {
                 "key": "Inaltime grilaj",
-                "value": "cca. 200 mm",
+                "value": "200 mm",
                 "sort_order": 3
             },
             {
-                "key": "Lungimi set",
-                "value": "1 m (1 grilaj + 2 suporti), 2 m (2 + 4 suporti + 2 CLIP), 3 m (3 + 6 suporti + 4 CLIP)",
+                "key": "Utilizare",
+                "value": "Tigla metalica (toate profilurile)",
                 "sort_order": 4
             },
             {
-                "key": "Material",
-                "value": "Otel S235JR zincat termic la cald (55 um) + vopsea in pulbere (60 um), imbinari TOX",
+                "key": "Culori RAL",
+                "value": "3011, 3005, 6020, 7024, 8004, 8017, 8019, 9005",
                 "sort_order": 5
             },
             {
-                "key": "Panta acoperis",
-                "value": "10° - 90°",
+                "key": "Include",
+                "value": "Grilaj + suporti + suruburi fixare",
                 "sort_order": 6
             },
             {
-                "key": "Culori",
-                "value": "RAL 3004, 3009, 7016, 7024, 8004, 8017, 8019, 9005 sau zincat",
+                "key": "Nr. suporti/grilaj",
+                "value": "4 bucati",
                 "sort_order": 7
-            },
-            {
-                "key": "Alternativa",
-                "value": "Parazapada ranforsata Wetterbest (profil din tabla, 2 m) - la cerere",
-                "sort_order": 8
             }
         ],
-        "materials": [
-            {
-                "name": "Vopsit in camp electrostatic (zincat termic 55 um + pulbere 60 um)",
-                "sort_order": 1,
-                "colors": [
-                    {
-                        "name": "Rosu Vin",
-                        "code": "RAL 3004",
-                        "hex": "#6b1c23",
-                        "swatch": "",
-                        "sort_order": 1
-                    },
-                    {
-                        "name": "Rosu Oxid",
-                        "code": "RAL 3009",
-                        "hex": "#703731",
-                        "swatch": "",
-                        "sort_order": 2
-                    },
-                    {
-                        "name": "Gri Antracit",
-                        "code": "RAL 7016",
-                        "hex": "#293133",
-                        "swatch": "",
-                        "sort_order": 3
-                    },
-                    {
-                        "name": "Gri Grafit",
-                        "code": "RAL 7024",
-                        "hex": "#474a51",
-                        "swatch": "",
-                        "sort_order": 4
-                    },
-                    {
-                        "name": "Maro Cupru",
-                        "code": "RAL 8004",
-                        "hex": "#8f4e35",
-                        "swatch": "",
-                        "sort_order": 5
-                    },
-                    {
-                        "name": "Maro Ciocolata",
-                        "code": "RAL 8017",
-                        "hex": "#45322e",
-                        "swatch": "",
-                        "sort_order": 6
-                    },
-                    {
-                        "name": "Maro Inchis",
-                        "code": "RAL 8019",
-                        "hex": "#403a3a",
-                        "swatch": "",
-                        "sort_order": 7
-                    },
-                    {
-                        "name": "Negru",
-                        "code": "RAL 9005",
-                        "hex": "#0a0a0a",
-                        "swatch": "",
-                        "sort_order": 8
-                    },
-                    {
-                        "name": "Zincat natural",
-                        "code": "fara vopsea",
-                        "hex": "#b9bcbf",
-                        "swatch": "",
-                        "sort_order": 9
-                    }
-                ]
-            }
-        ],
-        "warranty_text": "Garantie producator Eurovent pentru sistemul Snowstopper (otel S235JR zincat termic la cald si vopsit in camp electrostatic).",
-        "description_html": "<h2>Eurovent Snowstopper Set Metal 350 / 400 - grilaj parazapada tigla metalica</h2><p>Grilajul parazapada Eurovent pentru <strong>tigla metalica clasica</strong>: suportii FIX METAL 350 (modul 350 mm, de exemplu Wetterbest Clasic) sau FIX METAL 400 (modul 400 mm) se aseaza pe treapta tiglei si se prind in sipca, iar grilajul de cca. 20 cm inaltime retine zapada pe acoperis si protejeaza jgheaburile, intrarile si trecatorii.</p><ul><li>Set complet: grilaj + suporti + conectori CLIP; elemente de 1 m, se prelungesc la orice lungime</li><li>Otel S235JR zincat termic la cald si vopsit in pulbere - fara rugina, in culoarea invelitorii</li><li>8 culori RAL sau zincat natural; pante 10-90°</li><li>Ne spuneti modelul de tigla si va livram varianta potrivita (350 sau 400)</li></ul><p>Pentru tigla metalica tip panou (Metro Shake II, Novatik Premium) vedeti Snowstopper Set Metal 35/370. Pentru un opritor punctual, mai economic, exista si opritorii de zapada Metigla.</p>",
-        "seo_title": "Eurovent Snowstopper Set Metal 350 / 400 - parazapada | BDM Systems",
-        "seo_description": "Grilaj parazapada tigla metalica Eurovent Snowstopper Set Metal 350 / 400 - inaltime 20 cm, seturi 1-3 m, otel zincat termic vopsit, 8 culori RAL. De la BDM Systems.",
-        "related_products": [
-            "eurovent-snowstopper-set-metal-panel",
-            "opritor-zapada-mare",
-            "opritor-zapada-omega"
-        ],
+        "materials": [],
+        "warranty_text": "10 ani garantie anticoroziune.",
+        "description_html": "<h2>Grilaje Parazapada Tigla Metalica</h2><p>Sistem grilaj parazapada pentru tigla metalica, din otel galvanizat si vopsit in culoarea acoperisului. Include grilajul, suportii si suruburile de fixare.</p><ul><li>3 metri lungime</li><li>8 culori RAL disponibile</li><li>Include suporti si suruburi</li><li>Compatibil cu toate profilurile tigla metalica</li></ul>",
+        "seo_title": "Grilaje Parazapada Tigla Metalica | BDM Systems",
+        "seo_description": "Grilaj parazapada pentru tigla metalica, 3m, otel galvanizat vopsit. Montaj si consultanta de la BDM Systems.",
+        "related_products": [],
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-09-30 10:48:28",
-        "image_card": "/uploads/products/grilaje-parazapada-tigla-metalica/card.jpg"
+        "updated_at": "2026-09-30 10:56:06",
+        "image_card": ""
     },
     {
         "id": 137,
