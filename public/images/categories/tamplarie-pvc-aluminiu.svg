@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Tamplarie PVC si Aluminiu">
+  <defs>
+    <linearGradient id="bg-tampl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2540"/>
+      <stop offset="0.55" stop-color="#00204A"/>
+      <stop offset="1" stop-color="#001030"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7AC7E2" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3A8AB2" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#14A4D4" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="fade-tampl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00204A" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#00204A" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg-tampl)"/>
+
+  <!-- Frame - window -->
+  <g transform="translate(300,60)">
+    <!-- Outer frame -->
+    <rect x="0" y="0" width="270" height="360" fill="none" stroke="#F5F7FA" stroke-width="10"/>
+    <rect x="0" y="0" width="270" height="360" fill="none" stroke="#9BA4B0" stroke-width="1" opacity="0.4"/>
+
+    <!-- Glass panels -->
+    <rect x="15" y="15" width="115" height="150" fill="url(#glass)"/>
+    <rect x="140" y="15" width="115" height="150" fill="url(#glass)"/>
+    <rect x="15" y="175" width="115" height="170" fill="url(#glass)"/>
+    <rect x="140" y="175" width="115" height="170" fill="url(#glass)"/>
+
+    <!-- Cross frames -->
+    <rect x="130" y="15" width="10" height="330" fill="#F5F7FA"/>
+    <rect x="15" y="165" width="240" height="10" fill="#F5F7FA"/>
+
+    <!-- Handles -->
+    <circle cx="120" cy="80" r="4" fill="#12A757"/>
+    <circle cx="120" cy="255" r="4" fill="#12A757"/>
+
+    <!-- Sky reflection lines -->
+    <path d="M25 30 L110 100 M30 40 L100 90 M28 60 L108 130" stroke="#fff" stroke-width="1" opacity="0.35"/>
+    <path d="M150 30 L235 100 M155 40 L225 90 M153 60 L233 130" stroke="#fff" stroke-width="1" opacity="0.35"/>
+    <path d="M25 190 L110 260 M30 200 L100 250 M28 220 L108 290" stroke="#fff" stroke-width="1" opacity="0.35"/>
+    <path d="M150 190 L235 260 M155 200 L225 250 M153 220 L233 290" stroke="#fff" stroke-width="1" opacity="0.35"/>
+  </g>
+
+  <!-- Small door illustration on left -->
+  <g transform="translate(50,120)">
+    <rect x="0" y="0" width="120" height="220" fill="none" stroke="#F5F7FA" stroke-width="6" opacity="0.75"/>
+    <rect x="0" y="0" width="120" height="220" fill="url(#glass)" opacity="0.5"/>
+    <rect x="12" y="15" width="96" height="80" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+    <rect x="12" y="105" width="96" height="100" fill="none" stroke="#fff" stroke-width="1" opacity="0.3"/>
+    <circle cx="100" cy="110" r="3" fill="#12A757"/>
+  </g>
+
+  <!-- Bottom fade -->
+  <rect y="330" width="600" height="270" fill="url(#fade-tampl)"/>
+
+  <!-- Left red accent bar -->
+  <rect x="40" y="410" width="6" height="70" fill="#E00808"/>
+
+  <text x="60" y="450" font-family="'Public Sans','Arial Black',sans-serif" font-size="40" font-weight="900" fill="#fff" letter-spacing="1">TAMPLARIE</text>
+  <text x="60" y="490" font-family="'Public Sans','Arial Black',sans-serif" font-size="24" font-weight="700" fill="#fff" opacity="0.95">PVC + Aluminiu</text>
+
+  <text x="60" y="524" font-family="'Roboto',sans-serif" font-size="18" fill="#fff" opacity="0.85">Ferestre si usi de inalta calitate</text>
+  <text x="60" y="546" font-family="'Roboto',sans-serif" font-size="18" fill="#fff" opacity="0.85">si eficienta energetica</text>
+
+  <text x="60" y="582" font-family="'Public Sans',sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="2">VEZI MAI MULTE</text>
+  <path d="M225 572 L245 577 L225 582 M225 577 L245 577" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M245 572 L265 577 L245 582 M245 577 L265 577" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M265 572 L285 577 L265 582 M265 577 L285 577" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,106 @@
+{
+    "site_title": "BDM Systems - acoperisuri.info",
+    "title_separator": " | ",
+    "default_description": "BDM Systems - solutii complete pentru acoperisuri, tigla metalica, sisteme pluviale si accesorii montaj. Calitate si garantie.",
+    "robots_txt": "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /scripts/\nDisallow: /data/\nDisallow: /src/\nDisallow: /vendor/\nDisallow: /control-panel.html\nDisallow: /docs/\n\n# Sitemap\nSitemap: https://acoperisuri.info/sitemap.xml",
+    "analytics_code": "",
+    "tag_manager_id": "",
+    "redirects": [
+        {
+            "from": "/tabla-faltuita/fals-solar-metigla",
+            "to": "/tabla-faltuita/faltuita",
+            "active": true,
+            "note": "Falt Solar e acum in subcategoria Tabla faltuita (fara lant de redirecturi)"
+        },
+        {
+            "from": "/tabla-faltuita/falt-solar-metigla",
+            "to": "/tabla-faltuita/faltuita",
+            "active": true,
+            "note": "Falt Solar e acum in subcategoria Tabla faltuita (fara lant de redirecturi)"
+        },
+        {
+            "from": "/tabla-click",
+            "to": "/tabla-faltuita/click",
+            "active": true,
+            "note": "Categoria Tabla click a fost unita in Tabla faltuita/Click"
+        },
+        {
+            "from": "/tabla-click/metigla",
+            "to": "/tabla-faltuita/click",
+            "active": true,
+            "note": "Categoria Tabla click unita"
+        },
+        {
+            "from": "/tabla-click/wetterbest",
+            "to": "/tabla-faltuita/click",
+            "active": true,
+            "note": "Categoria Tabla click unita"
+        },
+        {
+            "from": "/tabla-faltuita/metigla",
+            "to": "/tabla-faltuita",
+            "active": true,
+            "note": "Subcategorii pe brand inlocuite cu Click / Faltuita"
+        },
+        {
+            "from": "/tabla-faltuita/vestalpin",
+            "to": "/tabla-faltuita/faltuita",
+            "active": true,
+            "note": "Subcategorii pe brand inlocuite cu Click / Faltuita"
+        },
+        {
+            "from": "/tabla-faltuita/wetterbest",
+            "to": "/tabla-faltuita",
+            "active": true,
+            "note": "Subcategorii pe brand inlocuite cu Click / Faltuita"
+        },
+        {
+            "from": "/produs/vestalpin-click",
+            "to": "/produs/voestalpine-falt",
+            "active": true,
+            "note": "Produs redenumit: Voestalpine Tabla Click -> Voestalpine Falt"
+        },
+        {
+            "from": "/accesorii-acoperis/coame-si-sortimente",
+            "to": "/accesorii-acoperis/accesorii-tigla-metalica",
+            "active": true,
+            "note": "Subcategorie goala inlocuita de Accesorii tigla metalica"
+        },
+        {
+            "from": "/accesorii-acoperis/suruburi-autoforante",
+            "to": "/accesorii-acoperis/accesorii-tigla-metalica",
+            "active": true,
+            "note": "Subcategorie goala inlocuita de Accesorii tigla metalica"
+        },
+        {
+            "from": "/garduri/bdm",
+            "to": "/garduri/sipca-gard-bdm",
+            "active": true,
+            "note": "Sistem Gard BDM impartit pe tipuri de produs"
+        },
+        {
+            "from": "/garduri/panouri-gard",
+            "to": "/garduri/panouri-jaluzea-bdm",
+            "active": true,
+            "note": "Subcategorie goala inlocuita de Panouri jaluzea BDM"
+        },
+        {
+            "from": "/garduri/porti",
+            "to": "/garduri",
+            "active": true,
+            "note": "Subcategorie goala dezactivata"
+        },
+        {
+            "from": "/produs/bdm-sipca-gard",
+            "to": "/produs/bdm-nervura-115",
+            "active": true,
+            "note": "Produs generic inlocuit de BDM Nervura 115"
+        },
+        {
+            "from": "/produs/bdm-panou-gard-jaluzea",
+            "to": "/produs/bdm-persiana",
+            "active": true,
+            "note": "Produs generic inlocuit de BDM Persiana"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Folii anticondens">
+  <defs>
+    <linearGradient id="bg-folii" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2540"/>
+      <stop offset="0.55" stop-color="#00204A"/>
+      <stop offset="1" stop-color="#001030"/>
+    </linearGradient>
+    <linearGradient id="roll-folii" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A9B5D"/>
+      <stop offset="1" stop-color="#12A757"/>
+    </linearGradient>
+    <linearGradient id="fade-folii" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00204A" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#00204A" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="hex" x="0" y="0" width="42" height="36" patternUnits="userSpaceOnUse">
+      <path d="M21 4 L37 12 L37 24 L21 32 L5 24 L5 12 Z" fill="none" stroke="#12A757" stroke-width="1" stroke-opacity="0.28"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg-folii)"/>
+  <rect width="600" height="600" fill="url(#hex)" opacity="0.6"/>
+
+  <!-- Rulou de folie (giant, offset right) -->
+  <g transform="translate(320,80) rotate(-8)">
+    <ellipse cx="130" cy="60" rx="130" ry="45" fill="#0d0d0d" opacity="0.35"/>
+    <rect x="0" y="60" width="260" height="290" fill="url(#roll-folii)" opacity="0.85" rx="4"/>
+    <ellipse cx="130" cy="60" rx="130" ry="45" fill="url(#roll-folii)" opacity="0.9"/>
+    <ellipse cx="130" cy="60" rx="115" ry="38" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.4"/>
+    <ellipse cx="130" cy="60" rx="90" ry="30" fill="none" stroke="#fff" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Text on roll -->
+    <text x="130" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="900" fill="#fff" opacity="0.85" transform="rotate(90 130 180)">RIWEGA</text>
+
+    <!-- Unrolled sheet -->
+    <path d="M0 350 L260 350 L280 500 L-20 500 Z" fill="url(#roll-folii)" opacity="0.75"/>
+    <path d="M20 380 L240 385 M25 410 L245 415 M30 440 L250 445 M35 470 L255 475" stroke="#fff" stroke-width="1" stroke-opacity="0.35"/>
+  </g>
+
+  <!-- Bottom fade for text legibility -->
+  <rect y="330" width="600" height="270" fill="url(#fade-folii)"/>
+
+  <!-- Left red accent bar -->
+  <rect x="40" y="410" width="6" height="70" fill="#E00808"/>
+
+  <!-- Title -->
+  <text x="60" y="450" font-family="'Public Sans','Arial Black',sans-serif" font-size="42" font-weight="900" fill="#fff" letter-spacing="1">FOLII ANTICONDENS</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="490" font-family="'Roboto',sans-serif" font-size="20" fill="#fff" opacity="0.9">Protectie eficienta pentru</text>
+  <text x="60" y="516" font-family="'Roboto',sans-serif" font-size="20" fill="#fff" opacity="0.9">structura acoperisului</text>
+
+  <!-- Read more -->
+  <text x="60" y="560" font-family="'Public Sans',sans-serif" font-size="14" font-weight="700" fill="#fff" letter-spacing="2">VEZI MAI MULTE</text>
+  <path d="M225 550 L245 555 L225 560 M225 555 L245 555" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M245 550 L265 555 L245 560 M245 555 L265 555" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M265 550 L285 555 L265 560 M265 555 L285 555" stroke="#E00808" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

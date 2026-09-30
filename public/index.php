@@ -1,43 +1,114 @@
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BDM Systems - acoperisuri.info</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background-color: #F5FAFF;
-            color: #00204A;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            text-align: center;
-        }
-        .container {
-            padding: 2rem;
-        }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-        p {
-            font-size: 1.2rem;
-            opacity: 0.8;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>BDM Systems - acoperisuri.info</h1>
-        <p>Site in constructie. Deploy reusit.</p>
-    </div>
-</body>
-</html>
+<?php
+
+/**
+ * Front Controller - acoperisuri.info
+ * Toate cererile trec prin acest fisier
+ */
+
+// Defineste root-ul proiectului
+define('ROOT_PATH', dirname(__DIR__));
+
+// Autoloader simplu PSR-4
+spl_autoload_register(function (string $class) {
+    $prefix = 'App\\';
+    $baseDir = ROOT_PATH . '/src/';
+
+    $len = strlen($prefix);
+    if (strncmp($prefix, $class, $len) !== 0) {
+        return;
+    }
+
+    $relativeClass = substr($class, $len);
+    $file = $baseDir . str_replace('\\', '/', $relativeClass) . '.php';
+
+    if (file_exists($file)) {
+        require $file;
+        return;
+    }
+
+    // Fallback: lowercase directory, keep filename (for Linux case-sensitivity)
+    $parts = explode('\\', $relativeClass);
+    $className = array_pop($parts);
+    $dirs = array_map('strtolower', $parts);
+    $file = $baseDir . implode('/', $dirs) . '/' . $className . '.php';
+
+    if (file_exists($file)) {
+        require $file;
+    }
+});
+
+// Incarca variabilele de mediu
+\App\Helpers\Env::load(ROOT_PATH);
+
+// Incarca configurarea aplicatiei
+$appConfig = require ROOT_PATH . '/src/config/app.php';
+
+// Seteaza timezone
+date_default_timezone_set($appConfig['timezone']);
+
+// Error reporting
+if ($appConfig['debug']) {
+    error_reporting(E_ALL);
+    ini_set('display_errors', '1');
+} else {
+    error_reporting(E_ALL);
+    ini_set('display_errors', '0');
+    ini_set('log_errors', '1');
+    ini_set('error_log', ROOT_PATH . '/storage/logs/php-errors.log');
+}
+
+// Porneste sesiunea securizata (necesara pentru admin auth + CSRF)
+\App\Helpers\Auth::startSession();
+
+// Verifica redirecturi 301
+$cleanUri = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$cleanUri = rtrim($cleanUri, '/') ?: '/';
+\App\Helpers\SeoHelper::checkRedirect($cleanUri);
+
+// Initializeaza router-ul
+$router = new \App\Helpers\Router();
+$uri = $_SERVER['REQUEST_URI'] ?? '/';
+
+// Rezolva ruta
+$route = $router->resolve($uri);
+
+if ($route === null) {
+    // 404 - pagina nu a fost gasita
+    \App\Helpers\View::render404();
+    exit;
+}
+
+// Handle route-level redirects
+if (!empty($route['redirect'])) {
+    header('Location: ' . $route['redirect'], true, 301);
+    exit;
+}
+
+// Determina controller-ul si actiunea
+$controllerName = 'App\\Controllers\\' . $route['controller'];
+$action = $route['action'];
+$params = $router->getParams();
+
+// Verifica ca controller-ul exista
+if (!class_exists($controllerName)) {
+    \App\Helpers\View::render404();
+    exit;
+}
+
+// Instantiaza controller-ul si executa actiunea
+$controller = new $controllerName();
+
+if (!method_exists($controller, $action)) {
+    \App\Helpers\View::render404();
+    exit;
+}
+
+// Cache control: HTML pages not cached
+if (!headers_sent()) {
+    header('Cache-Control: no-cache, no-store, must-revalidate');
+    header('Pragma: no-cache');
+    header('Expires: 0');
+}
+
+// Executa actiunea
+$controller->$action($params, $route);

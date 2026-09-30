@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "Montaj acoperis",
+        "slug": "montaj-acoperis",
+        "icon": "&#128295;",
+        "parent_id": 0,
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 2,
+        "name": "Tigla metalica",
+        "slug": "tigla-metalica",
+        "icon": "",
+        "parent_id": 1,
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 3,
+        "name": "Tabla faltuita",
+        "slug": "tabla-faltuita",
+        "icon": "",
+        "parent_id": 1,
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 4,
+        "name": "Tabla click",
+        "slug": "tabla-click",
+        "icon": "",
+        "parent_id": 1,
+        "sort_order": 3,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 5,
+        "name": "Sisteme pluviale",
+        "slug": "sisteme-pluviale",
+        "icon": "&#127783;",
+        "parent_id": 0,
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 6,
+        "name": "Montaj jgheaburi",
+        "slug": "montaj-jgheaburi",
+        "icon": "",
+        "parent_id": 5,
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 7,
+        "name": "Montaj burlane",
+        "slug": "montaj-burlane",
+        "icon": "",
+        "parent_id": 5,
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 8,
+        "name": "Sfaturi tehnice",
+        "slug": "sfaturi-tehnice",
+        "icon": "&#128161;",
+        "parent_id": 0,
+        "sort_order": 3,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 9,
+        "name": "Alegere materiale",
+        "slug": "alegere-materiale",
+        "icon": "",
+        "parent_id": 8,
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 10,
+        "name": "Izolatie",
+        "slug": "izolatie",
+        "icon": "",
+        "parent_id": 8,
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 11,
+        "name": "Ventilatie pod",
+        "slug": "ventilatie-pod",
+        "icon": "",
+        "parent_id": 8,
+        "sort_order": 3,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 12,
+        "name": "Studii de caz",
+        "slug": "studii-de-caz",
+        "icon": "&#127968;",
+        "parent_id": 0,
+        "sort_order": 4,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 13,
+        "name": "Proiecte finalizate",
+        "slug": "proiecte-finalizate",
+        "icon": "",
+        "parent_id": 12,
+        "sort_order": 1,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    },
+    {
+        "id": 14,
+        "name": "Transformari before/after",
+        "slug": "transformari-before-after",
+        "icon": "",
+        "parent_id": 12,
+        "sort_order": 2,
+        "is_active": true,
+        "created_at": "2026-03-31 05:20:15",
+        "updated_at": "2026-03-31 05:20:15"
+    }
+]

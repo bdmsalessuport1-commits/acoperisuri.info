@@ -4,11 +4,13 @@
  * Configurare generala aplicatie
  */
 
+use App\Helpers\Env;
+
 return [
     'name' => 'BDM Systems - acoperisuri.info',
-    'url' => getenv('APP_URL') ?: 'http://localhost:8000',
-    'env' => getenv('APP_ENV') ?: 'development',
-    'debug' => getenv('APP_DEBUG') ?: true,
+    'url' => Env::get('APP_URL', 'http://localhost'),
+    'env' => Env::get('APP_ENV', 'development'),
+    'debug' => Env::get('APP_DEBUG', 'true') === 'true',
     'timezone' => 'Europe/Bucharest',
     'charset' => 'UTF-8',
 ];
