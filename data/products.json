@@ -21329,243 +21329,535 @@
     },
     {
         "id": 136,
-        "name": "Grilaje Parazapada Tigla Metalica",
-        "subtitle": "Grilaj parazapada pentru tigla metalica, 3m, otel galvanizat vopsit",
+        "name": "Eurovent Snowstopper Set Metal 350 / 400",
+        "subtitle": "Grilaj parazapada pentru tigla metalica clasica cu modul de 350 mm (ex. Wetterbest Clasic) sau 400 mm, inaltime 20 cm, seturi de 1 / 2 / 3 m",
         "slug": "grilaje-parazapada-tigla-metalica",
         "category_id": 7,
         "subcategory_id": 20,
-        "manufacturer": "Generic",
+        "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/grilaje-parazapada-tigla-metalica/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/grilaje-parazapada-tigla-metalica/1.jpg",
+            "/uploads/products/grilaje-parazapada-tigla-metalica/2.jpg"
+        ],
         "specs": [
             {
-                "key": "Lungime",
-                "value": "3 m",
+                "key": "Tip",
+                "value": "Grilaj parazapada (gard de zapada) cu suporti FIX METAL 350 sau FIX METAL 400 si conectori CLIP",
                 "sort_order": 1
             },
             {
-                "key": "Material",
-                "value": "Otel galvanizat vopsit",
+                "key": "Compatibil cu",
+                "value": "Tigla metalica clasica cu modul 350 / 20 mm (ex. Wetterbest Clasic) - varianta 350; modul 400 / 25 mm - varianta 400. Se alege dupa profilul tiglei",
                 "sort_order": 2
             },
             {
                 "key": "Inaltime grilaj",
-                "value": "200 mm",
+                "value": "cca. 200 mm",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Tigla metalica (toate profilurile)",
+                "key": "Lungimi set",
+                "value": "1 m (1 grilaj + 2 suporti), 2 m (2 + 4 suporti + 2 CLIP), 3 m (3 + 6 suporti + 4 CLIP)",
                 "sort_order": 4
             },
             {
-                "key": "Culori RAL",
-                "value": "3011, 3005, 6020, 7024, 8004, 8017, 8019, 9005",
+                "key": "Material",
+                "value": "Otel S235JR zincat termic la cald (55 um) + vopsea in pulbere (60 um), imbinari TOX",
                 "sort_order": 5
             },
             {
-                "key": "Include",
-                "value": "Grilaj + suporti + suruburi fixare",
+                "key": "Panta acoperis",
+                "value": "10° - 90°",
                 "sort_order": 6
             },
             {
-                "key": "Nr. suporti/grilaj",
-                "value": "4 bucati",
+                "key": "Culori",
+                "value": "RAL 3004, 3009, 7016, 7024, 8004, 8017, 8019, 9005 sau zincat",
                 "sort_order": 7
+            },
+            {
+                "key": "Alternativa",
+                "value": "Parazapada ranforsata Wetterbest (profil din tabla, 2 m) - la cerere",
+                "sort_order": 8
             }
         ],
-        "materials": [],
-        "warranty_text": "10 ani garantie anticoroziune.",
-        "description_html": "<h2>Grilaje Parazapada Tigla Metalica</h2><p>Sistem grilaj parazapada pentru tigla metalica, din otel galvanizat si vopsit in culoarea acoperisului. Include grilajul, suportii si suruburile de fixare.</p><ul><li>3 metri lungime</li><li>8 culori RAL disponibile</li><li>Include suporti si suruburi</li><li>Compatibil cu toate profilurile tigla metalica</li></ul>",
-        "seo_title": "Grilaje Parazapada Tigla Metalica | BDM Systems",
-        "seo_description": "Grilaj parazapada pentru tigla metalica, 3m, otel galvanizat vopsit. Montaj si consultanta de la BDM Systems.",
-        "related_products": [],
+        "materials": [
+            {
+                "name": "Vopsit in camp electrostatic (zincat termic 55 um + pulbere 60 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Rosu Vin",
+                        "code": "RAL 3004",
+                        "hex": "#6b1c23",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Rosu Oxid",
+                        "code": "RAL 3009",
+                        "hex": "#703731",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Gri Antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri Grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Maro Cupru",
+                        "code": "RAL 8004",
+                        "hex": "#8f4e35",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Maro Ciocolata",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 6
+                    },
+                    {
+                        "name": "Maro Inchis",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 7
+                    },
+                    {
+                        "name": "Negru",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 8
+                    },
+                    {
+                        "name": "Zincat natural",
+                        "code": "fara vopsea",
+                        "hex": "#b9bcbf",
+                        "swatch": "",
+                        "sort_order": 9
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie producator Eurovent pentru sistemul Snowstopper (otel S235JR zincat termic la cald si vopsit in camp electrostatic).",
+        "description_html": "<h2>Eurovent Snowstopper Set Metal 350 / 400 - grilaj parazapada tigla metalica</h2><p>Grilajul parazapada Eurovent pentru <strong>tigla metalica clasica</strong>: suportii FIX METAL 350 (modul 350 mm, de exemplu Wetterbest Clasic) sau FIX METAL 400 (modul 400 mm) se aseaza pe treapta tiglei si se prind in sipca, iar grilajul de cca. 20 cm inaltime retine zapada pe acoperis si protejeaza jgheaburile, intrarile si trecatorii.</p><ul><li>Set complet: grilaj + suporti + conectori CLIP; elemente de 1 m, se prelungesc la orice lungime</li><li>Otel S235JR zincat termic la cald si vopsit in pulbere - fara rugina, in culoarea invelitorii</li><li>8 culori RAL sau zincat natural; pante 10-90°</li><li>Ne spuneti modelul de tigla si va livram varianta potrivita (350 sau 400)</li></ul><p>Pentru tigla metalica tip panou (Metro Shake II, Novatik Premium) vedeti Snowstopper Set Metal 35/370. Pentru un opritor punctual, mai economic, exista si opritorii de zapada Metigla.</p>",
+        "seo_title": "Eurovent Snowstopper Set Metal 350 / 400 - parazapada | BDM Systems",
+        "seo_description": "Grilaj parazapada tigla metalica Eurovent Snowstopper Set Metal 350 / 400 - inaltime 20 cm, seturi 1-3 m, otel zincat termic vopsit, 8 culori RAL. De la BDM Systems.",
+        "related_products": [
+            "eurovent-snowstopper-set-metal-panel",
+            "opritor-zapada-mare",
+            "opritor-zapada-omega"
+        ],
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-30 10:48:28",
+        "image_card": "/uploads/products/grilaje-parazapada-tigla-metalica/card.jpg"
     },
     {
         "id": 137,
-        "name": "Bara Simpla Parazapada Tabla Faltuita",
-        "subtitle": "Bara parazapada simpla pentru tabla faltuita, 3m, otel/cupru/aluminiu",
+        "name": "Wetterbest Bara Parazapada Click - set 1 bara",
+        "subtitle": "Bara parazapada de 2 m cu 3 suporti cu clema pe falt, conectori si capace - pentru tabla faltuita / Click, fara perforarea invelitorii",
         "slug": "bara-simpla-parazapada-tabla-faltuita",
         "category_id": 7,
         "subcategory_id": 20,
-        "manufacturer": "Figo",
+        "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/bara-simpla-parazapada-tabla-faltuita/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/bara-simpla-parazapada-tabla-faltuita/1.jpg",
+            "/uploads/products/bara-simpla-parazapada-tabla-faltuita/2.jpg",
+            "/uploads/products/bara-simpla-parazapada-tabla-faltuita/3.jpg"
+        ],
         "specs": [
             {
-                "key": "Lungime",
-                "value": "3 m",
+                "key": "Continut set",
+                "value": "1 bara parazapada 2 m + 3 suporti Click + conectori + capace de capat",
                 "sort_order": 1
             },
             {
-                "key": "Material bara",
-                "value": "Otel galvanizat / Cupru / Aluminiu",
+                "key": "Lungime bara",
+                "value": "2000 mm (se imbina cap la cap cu conector)",
                 "sort_order": 2
             },
             {
-                "key": "Diametru bara",
-                "value": "32 mm",
+                "key": "Material bara",
+                "value": "Tabla de otel zincata termic, prevopsita; teava cu nervuri (rigidizata)",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Tabla faltuita (falt drept si falt dublu)",
+                "key": "Fixare",
+                "value": "Suport parazapada Click cu clema pe faltul tablei - fara gauri in invelitoare; 3 suporti la 2 m",
                 "sort_order": 4
             },
             {
-                "key": "Producator",
-                "value": "Figo Austria",
+                "key": "Compatibil cu",
+                "value": "Tabla faltuita si tabla Click (Wetterbest Faltz / Click, alte profile cu falt vertical)",
                 "sort_order": 5
             },
             {
-                "key": "Montaj",
-                "value": "Pe faltul tablei, fara perforarea invelitorii",
+                "key": "Culori bara",
+                "value": "RAL 7024 Gri Grafit, RAL 9005 Negru",
                 "sort_order": 6
             },
             {
-                "key": "Include",
-                "value": "Bara + cleme falt + capace",
+                "key": "Culori suport",
+                "value": "Toate culorile Wetterbest",
                 "sort_order": 7
+            },
+            {
+                "key": "Suportul accepta",
+                "value": "2 bare - se poate completa ulterior cu a doua bara",
+                "sort_order": 8
             }
         ],
-        "materials": [],
-        "warranty_text": "Garantie producator Figo Austria.",
-        "description_html": "<h2>Bara Simpla Parazapada Tabla Faltuita</h2><p>Bara parazapada simpla de la Figo Austria pentru acoperisuri cu tabla faltuita. Se monteaza pe falt fara a perfora invelitoarea, mentinand etanseitatea.</p><ul><li>Montaj pe falt - fara perforare</li><li>Disponibila in otel, cupru si aluminiu</li><li>Producator Figo Austria</li><li>Include cleme si capace</li></ul>",
-        "seo_title": "Bara Simpla Parazapada Tabla Faltuita | BDM Systems",
-        "seo_description": "Bara parazapada simpla pentru tabla faltuita, 3m, otel/cupru/aluminiu. Montaj si consultanta de la BDM Systems.",
-        "related_products": [],
+        "materials": [
+            {
+                "name": "Bara - tabla zincata termic, prevopsita",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Gri Grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Negru",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            },
+            {
+                "name": "Suport, conector, capac",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Gri Grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Negru",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Alte culori Wetterbest (suport)",
+                        "code": "la comanda",
+                        "hex": "#8a8f96",
+                        "swatch": "",
+                        "sort_order": 3
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie producator Wetterbest, conform finisajului (tabla zincata termic, prevopsita).",
+        "description_html": "<h2>Wetterbest Bara Parazapada Click - set cu 1 bara</h2><p>Sistem parazapada tip bara pentru acoperisurile din <strong>tabla faltuita si Click</strong>: suportii se strang cu clema pe faltul tablei, fara nicio gaura in invelitoare, iar bara de 2 m opreste alunecarea zapezii. Varianta cu o singura bara este suficienta pentru pante moderate si zone cu zapada obisnuita.</p><ul><li>Bara din tabla zincata termic prevopsita, cu nervuri de rigidizare, 2 m</li><li>3 suporti cu clema pe falt la 2 m; suportul are 2 locasuri, deci se poate adauga oricand a doua bara</li><li>Conectori pentru imbinarea barelor cap la cap si capace de capat</li><li>Bara in RAL 7024 sau 9005, suportii in orice culoare Wetterbest</li></ul><p>Pentru pante mari sau zone cu zapada abundenta recomandam setul cu 2 bare. Sisteme echivalente sunt disponibile si pentru tabla prefaltuita Metigla (bara Ø32 aluminiu cu consola pe falt).</p>",
+        "seo_title": "Wetterbest Bara Parazapada Click - set 1 bara - parazapada | BDM Systems",
+        "seo_description": "Wetterbest Bara Parazapada Click - set cu 1 bara de 2 m, 3 suporti cu clema pe falt, fara perforarea tablei faltuite / Click, RAL 7024 / 9005. De la BDM Systems.",
+        "related_products": [
+            "bare-duble-parazapada-tabla-faltuita",
+            "bara-parazapada-32",
+            "consola-parazapada-simpla"
+        ],
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-30 10:48:28",
+        "image_card": "/uploads/products/bara-simpla-parazapada-tabla-faltuita/card.jpg"
     },
     {
         "id": 138,
-        "name": "Bare Duble Parazapada Tabla Faltuita",
-        "subtitle": "Sistem parazapada cu 2 bare pentru tabla faltuita, 3m, protectie sporita",
+        "name": "Wetterbest Set Parazapada Cilindrica - 2 bare",
+        "subtitle": "Set parazapada cu 2 bare x 2 m, 3 suporti cu clema pe falt, conectori si capace - pentru tabla faltuita / Click, pante mari si zapada abundenta",
         "slug": "bare-duble-parazapada-tabla-faltuita",
         "category_id": 7,
         "subcategory_id": 20,
-        "manufacturer": "Figo",
+        "manufacturer": "Wetterbest",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/bare-duble-parazapada-tabla-faltuita/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/bare-duble-parazapada-tabla-faltuita/1.jpg",
+            "/uploads/products/bare-duble-parazapada-tabla-faltuita/2.jpg",
+            "/uploads/products/bare-duble-parazapada-tabla-faltuita/3.jpg",
+            "/uploads/products/bare-duble-parazapada-tabla-faltuita/4.jpg",
+            "/uploads/products/bare-duble-parazapada-tabla-faltuita/5.jpg"
+        ],
         "specs": [
             {
-                "key": "Lungime",
-                "value": "3 m",
+                "key": "Continut set",
+                "value": "2 bare parazapada x 2 m + 3 suporti Click + conectori + capace de capat",
                 "sort_order": 1
             },
             {
-                "key": "Nr. bare",
-                "value": "2",
+                "key": "Lungime bare",
+                "value": "2000 mm (se imbina cap la cap cu conector)",
                 "sort_order": 2
             },
             {
                 "key": "Material bare",
-                "value": "Otel galvanizat / Cupru / Aluminiu",
+                "value": "Tabla de otel zincata termic, prevopsita; teava cu nervuri (rigidizata)",
                 "sort_order": 3
             },
             {
-                "key": "Diametru bare",
-                "value": "32 mm",
+                "key": "Fixare",
+                "value": "Suport parazapada Click cu clema pe faltul tablei - fara gauri in invelitoare; 3 suporti la 2 m",
                 "sort_order": 4
             },
             {
-                "key": "Utilizare",
-                "value": "Tabla faltuita - pante mari sau zone cu zapada abundenta",
+                "key": "Compatibil cu",
+                "value": "Tabla faltuita si tabla Click (Wetterbest Faltz / Click, alte profile cu falt vertical)",
                 "sort_order": 5
             },
             {
-                "key": "Producator",
-                "value": "Figo Austria",
+                "key": "Recomandat pentru",
+                "value": "Pante mari, zone cu zapada abundenta, deasupra intrarilor si a jgheaburilor",
                 "sort_order": 6
             },
             {
-                "key": "Montaj",
-                "value": "Pe faltul tablei, fara perforarea invelitorii",
+                "key": "Culori bare",
+                "value": "RAL 7024 Gri Grafit, RAL 9005 Negru",
                 "sort_order": 7
             },
             {
-                "key": "Include",
-                "value": "2 bare + cleme falt + capace",
+                "key": "Culori suport",
+                "value": "Toate culorile Wetterbest",
                 "sort_order": 8
             }
         ],
-        "materials": [],
-        "warranty_text": "Garantie producator Figo Austria.",
-        "description_html": "<h2>Bare Duble Parazapada Tabla Faltuita</h2><p>Sistem parazapada cu doua bare de la Figo Austria, pentru acoperisuri cu tabla faltuita in zone cu pante mari sau zapada abundenta. Retentie sporita fata de bara simpla.</p><ul><li>2 bare - retentie sporita</li><li>Montaj pe falt - fara perforare</li><li>Ideal pentru pante mari</li><li>Disponibil in otel, cupru, aluminiu</li></ul>",
-        "seo_title": "Bare Duble Parazapada Tabla Faltuita | BDM Systems",
-        "seo_description": "Sistem parazapada cu 2 bare pentru tabla faltuita, 3m, protectie sporita. Montaj si consultanta de la BDM Systems.",
-        "related_products": [],
+        "materials": [
+            {
+                "name": "Bara - tabla zincata termic, prevopsita",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Gri Grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Negru",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 2
+                    }
+                ]
+            },
+            {
+                "name": "Suport, conector, capac",
+                "sort_order": 2,
+                "colors": [
+                    {
+                        "name": "Gri Grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Negru",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Alte culori Wetterbest (suport)",
+                        "code": "la comanda",
+                        "hex": "#8a8f96",
+                        "swatch": "",
+                        "sort_order": 3
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie producator Wetterbest, conform finisajului (tabla zincata termic, prevopsita).",
+        "description_html": "<h2>Wetterbest Set Parazapada Cilindrica - 2 bare</h2><p>Setul complet cu <strong>doua bare</strong> pentru tabla faltuita si Click: aceiasi suporti cu clema pe falt (fara gauri in invelitoare), cu ambele locasuri ocupate, pentru o retinere sigura a zapezii pe pante mari si in zonele cu ninsori abundente.</p><ul><li>2 bare x 2 m din tabla zincata termic prevopsita, cu nervuri de rigidizare</li><li>3 suporti cu clema pe falt la 2 m, conectori si capace incluse</li><li>Montaj fara perforarea tablei - etanseitatea invelitorii ramane intacta</li><li>Bare in RAL 7024 sau 9005, suporti in orice culoare Wetterbest</li></ul><p>Echivalentul pentru tabla prefaltuita Metigla: bara Ø32 din aluminiu cu consola simpla si extensie pentru a doua bara.</p>",
+        "seo_title": "Wetterbest Set Parazapada Cilindrica - 2 bare - parazapada | BDM Systems",
+        "seo_description": "Wetterbest Set Parazapada Cilindrica cu 2 bare x 2 m si 3 suporti cu clema pe falt pentru tabla faltuita / Click - montaj fara perforare, RAL 7024 / 9005. De la BDM Systems.",
+        "related_products": [
+            "bara-simpla-parazapada-tabla-faltuita",
+            "bara-parazapada-32",
+            "extensie-consola-parazapada"
+        ],
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-30 10:48:28",
+        "image_card": "/uploads/products/bare-duble-parazapada-tabla-faltuita/card.jpg"
     },
     {
         "id": 139,
-        "name": "Eurovent Snowstopper Set Metal Panel",
-        "subtitle": "Grilaj parazapada Eurovent pentru panouri metalice, 370/35mm, 1-3m",
+        "name": "Eurovent Snowstopper Set Metal 35/370",
+        "subtitle": "Grilaj parazapada pentru tigla metalica tip panou cu modul 35/370 mm (Metro Shake II, Novatik Premium, Harnas, Pruszynski Regle), seturi de 1 / 2 / 3 m",
         "slug": "eurovent-snowstopper-set-metal-panel",
         "category_id": 7,
         "subcategory_id": 20,
         "manufacturer": "Eurovent",
         "status": "activ",
-        "image_main": "",
+        "image_main": "/uploads/products/eurovent-snowstopper-set-metal-panel/1.jpg",
         "image_schema": "",
-        "gallery": [],
+        "gallery": [
+            "/uploads/products/eurovent-snowstopper-set-metal-panel/1.jpg",
+            "/uploads/products/eurovent-snowstopper-set-metal-panel/2.jpg"
+        ],
         "specs": [
             {
-                "key": "Inaltime grilaj",
-                "value": "370 mm (grilaj) / 35 mm (profil)",
+                "key": "Tip",
+                "value": "Grilaj parazapada (gard de zapada) cu suporti FIX METAL 35/370 si conectori CLIP",
                 "sort_order": 1
             },
             {
-                "key": "Lungimi disponibile",
-                "value": "1 m / 2 m / 3 m",
+                "key": "Compatibil cu",
+                "value": "Tigla metalica tip panou, modul 35 / 370 mm: Metro Shake II, Pruszynski Regle, Novatik Premium, Harnas (nu pentru Click sau tabla cutata)",
                 "sort_order": 2
             },
             {
-                "key": "Material",
-                "value": "Otel galvanizat vopsit",
+                "key": "Inaltime grilaj",
+                "value": "cca. 200 mm",
                 "sort_order": 3
             },
             {
-                "key": "Utilizare",
-                "value": "Panouri metalice (tabla cutata, tigla metalica)",
+                "key": "Lungimi set",
+                "value": "1 m (1 grilaj + 2 suporti), 2 m (2 + 4 suporti + 2 CLIP), 3 m (3 + 6 suporti + 4 CLIP) - elemente de 1 m imbinate cu CLIP",
                 "sort_order": 4
             },
             {
-                "key": "Include",
-                "value": "Grilaj + suporti universali + fixari",
+                "key": "Material",
+                "value": "Otel S235JR zincat termic la cald (55 um) + vopsea in pulbere (60 um), imbinari TOX",
                 "sort_order": 5
             },
             {
-                "key": "Culori",
-                "value": "RAL 3011, 7024, 8017, 9005 si altele",
+                "key": "Panta acoperis",
+                "value": "10° - 90°",
                 "sort_order": 6
+            },
+            {
+                "key": "Culori",
+                "value": "RAL 3004, 3009, 7016, 7024, 8004, 8017, 8019, 9005 sau zincat",
+                "sort_order": 7
+            },
+            {
+                "key": "Greutate",
+                "value": "cca. 3,2 kg / set de 1 m, ambalat in cutie",
+                "sort_order": 8
             }
         ],
-        "materials": [],
-        "warranty_text": "Garantie producator Eurovent.",
-        "description_html": "<h2>Eurovent Snowstopper Set Metal Panel</h2><p>Set complet grilaj parazapada Eurovent pentru panouri metalice (tabla cutata si tigla metalica). Grilaj inalt de 370mm pentru retentie maxima, cu suporti universali.</p><ul><li>Grilaj inalt 370mm - retentie maxima</li><li>Suporti universali</li><li>Disponibil in 1m, 2m si 3m</li><li>Mai multe culori RAL</li></ul>",
-        "seo_title": "Eurovent Snowstopper Set Metal Panel | BDM Systems",
-        "seo_description": "Grilaj parazapada Eurovent pentru panouri metalice, 370/35mm, 1-3m. Montaj si consultanta de la BDM Systems.",
-        "related_products": [],
+        "materials": [
+            {
+                "name": "Vopsit in camp electrostatic (zincat termic 55 um + pulbere 60 um)",
+                "sort_order": 1,
+                "colors": [
+                    {
+                        "name": "Rosu Vin",
+                        "code": "RAL 3004",
+                        "hex": "#6b1c23",
+                        "swatch": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "name": "Rosu Oxid",
+                        "code": "RAL 3009",
+                        "hex": "#703731",
+                        "swatch": "",
+                        "sort_order": 2
+                    },
+                    {
+                        "name": "Gri Antracit",
+                        "code": "RAL 7016",
+                        "hex": "#293133",
+                        "swatch": "",
+                        "sort_order": 3
+                    },
+                    {
+                        "name": "Gri Grafit",
+                        "code": "RAL 7024",
+                        "hex": "#474a51",
+                        "swatch": "",
+                        "sort_order": 4
+                    },
+                    {
+                        "name": "Maro Cupru",
+                        "code": "RAL 8004",
+                        "hex": "#8f4e35",
+                        "swatch": "",
+                        "sort_order": 5
+                    },
+                    {
+                        "name": "Maro Ciocolata",
+                        "code": "RAL 8017",
+                        "hex": "#45322e",
+                        "swatch": "",
+                        "sort_order": 6
+                    },
+                    {
+                        "name": "Maro Inchis",
+                        "code": "RAL 8019",
+                        "hex": "#403a3a",
+                        "swatch": "",
+                        "sort_order": 7
+                    },
+                    {
+                        "name": "Negru",
+                        "code": "RAL 9005",
+                        "hex": "#0a0a0a",
+                        "swatch": "",
+                        "sort_order": 8
+                    },
+                    {
+                        "name": "Zincat natural",
+                        "code": "fara vopsea",
+                        "hex": "#b9bcbf",
+                        "swatch": "",
+                        "sort_order": 9
+                    }
+                ]
+            }
+        ],
+        "warranty_text": "Garantie producator Eurovent pentru sistemul Snowstopper (otel S235JR zincat termic la cald si vopsit in camp electrostatic).",
+        "description_html": "<h2>Eurovent Snowstopper Set Metal 35/370</h2><p><strong>Snowstopper Set Metal 35/370</strong> este grilajul parazapada Eurovent dedicat tiglei metalice tip panou cu modulul de 35 x 370 mm (Metro Shake II, Novatik Premium, Harnas, Pruszynski Regle). Suportii FIX METAL se aseaza pe treapta panoului si se fixeaza in sipca, iar grilajul de cca. 20 cm inaltime opreste alunecarea zapezii de pe acoperis.</p><ul><li>Set complet: grilaj + suporti FIX METAL 35/370 + conectori CLIP (la 2 si 3 m)</li><li>Elemente de 1 m, imbinate cu CLIP - se poate prelungi oricat</li><li>Otel S235JR zincat termic la cald si vopsit in pulbere, imbinari TOX fara sudura</li><li>8 culori RAL in ton cu invelitoarea sau zincat natural; pante 10-90°</li></ul><p>Pentru tigla metalica clasica (modul 350 sau 400 mm) folositi <strong>Snowstopper Set Metal 350 / 400</strong>, iar pentru tabla faltuita seturile cu bara sau varianta Snowstopper Set Metal Flat.</p>",
+        "seo_title": "Eurovent Snowstopper Set Metal 35/370 - parazapada | BDM Systems",
+        "seo_description": "Eurovent Snowstopper Set Metal 35/370 - grilaj parazapada pentru tigla metalica tip panou (modul 35/370), inaltime 20 cm, seturi 1-3 m, otel zincat termic vopsit, 8 culori RAL. De la BDM Systems.",
+        "related_products": [
+            "grilaje-parazapada-tigla-metalica",
+            "bara-simpla-parazapada-tabla-faltuita",
+            "opritor-zapada-mare"
+        ],
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
-        "updated_at": "2026-03-31 10:48:55"
+        "updated_at": "2026-09-30 10:48:28",
+        "image_card": "/uploads/products/eurovent-snowstopper-set-metal-panel/card.jpg"
     },
     {
         "id": 140,
