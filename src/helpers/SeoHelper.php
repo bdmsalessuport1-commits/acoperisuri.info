@@ -195,7 +195,8 @@ class SeoHelper
      */
     public static function imageAlt(string $name, string $subtitle = '', string $fallback = '', int $index = 0): string
     {
-        $parts = preg_split('/[,;(]|\s-\s/u', $subtitle ?: '');
+        // prima propozitie / primul segment: taie la punct urmat de spatiu, virgula, punct si virgula, paranteza sau " - "
+        $parts = preg_split('/\.\s|[,;(]|\s-\s/u', $subtitle ?: '');
         $d = trim($parts[0] ?? '');
         if (mb_strlen($d) > 90) { $d = preg_replace('/\s+\S*$/u', '', mb_substr($d, 0, 87)) . '...'; }
         if ($d === '') { $d = mb_strtolower($fallback); }
