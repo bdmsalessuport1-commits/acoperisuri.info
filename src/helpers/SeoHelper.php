@@ -189,4 +189,17 @@ class SeoHelper
         $xml .= '</urlset>';
         return $xml;
     }
+    /**
+     * Alt text implicit pentru imaginile de produs: "Nume - prima propozitie din subtitlu" (max ~90 caractere),
+     * cu fallback pe categorie. Sufixul (imagine N) diferentiaza pozele din galerie.
+     */
+    public static function imageAlt(string $name, string $subtitle = '', string $fallback = '', int $index = 0): string
+    {
+        $parts = preg_split('/[,;(]|\s-\s/u', $subtitle ?: '');
+        $d = trim($parts[0] ?? '');
+        if (mb_strlen($d) > 90) { $d = preg_replace('/\s+\S*$/u', '', mb_substr($d, 0, 87)) . '...'; }
+        if ($d === '') { $d = mb_strtolower($fallback); }
+        $alt = trim($name) . ($d !== '' ? ' - ' . $d : '');
+        return $index > 0 ? $alt . ' (imagine ' . $index . ')' : $alt;
+    }
 }

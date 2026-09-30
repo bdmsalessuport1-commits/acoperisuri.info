@@ -65,13 +65,13 @@ if ($warranty) {
             <div class="product-gallery">
                 <?php if (!empty($galleryImages)): ?>
                 <div class="gallery-main" id="galleryMain">
-                    <img src="<?= htmlspecialchars($galleryImages[0]) ?>" alt="<?= htmlspecialchars($productName) ?>" id="galleryMainImg">
+                    <img src="<?= htmlspecialchars($galleryImages[0]) ?>" alt="<?= htmlspecialchars($p['gallery_alts'][0] ?? ($p['image_alt'] ?? $productName)) ?>" id="galleryMainImg">
                 </div>
                 <?php if (count($galleryImages) > 1): ?>
                 <div class="gallery-thumbs">
                     <?php foreach ($galleryImages as $i => $img): ?>
                         <div class="gallery-thumb <?= $i === 0 ? 'active' : '' ?>" data-img="<?= htmlspecialchars($img) ?>">
-                            <img src="<?= htmlspecialchars($img) ?>" alt="thumb <?= $i + 1 ?>" loading="lazy">
+                            <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($p['gallery_alts'][$i] ?? ($productName . ' - imagine ' . ($i + 1))) ?>" loading="lazy">
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -214,7 +214,7 @@ if ($warranty) {
                         <div class="component-card-name"><?= htmlspecialchars($comp['name']) ?></div>
                         <div class="component-img">
                             <?php if (!empty($comp['image'])): ?>
-                                <img src="<?= htmlspecialchars($comp['image']) ?>" alt="<?= htmlspecialchars($comp['name']) ?>" loading="lazy">
+                                <img src="<?= htmlspecialchars($comp['image']) ?>" alt="<?= htmlspecialchars(!empty($comp['alt']) ? $comp['alt'] : ($comp['name'] . ' - ' . $productName)) ?>" loading="lazy">
                             <?php endif; ?>
                             <div class="component-number"><?= $i + 1 ?></div>
                         </div>

@@ -160,6 +160,15 @@ class ProductController
             'components' => $p['components'] ?? [],
             'image_main' => $p['image_main'] ?? '',
             'image_card' => $p['image_card'] ?? ($p['image_main'] ?? ''),
+            'image_alt' => !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? ''),
+            'gallery_alts' => (function () use ($p, $cat) {
+                $out = []; $main = $p['image_main'] ?? ''; $ov = $p['gallery_alt'] ?? []; $n = 0;
+                foreach ($p['gallery'] ?? [] as $i => $g) {
+                    if ($g === $main) { $out[$i] = !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? ''); continue; }
+                    $n++; $out[$i] = !empty($ov[$i]) ? $ov[$i] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? '', $n);
+                }
+                return $out;
+            })(),
             'image_schema' => $p['image_schema'] ?? '',
             'gallery' => $p['gallery'] ?? [],
             'warranty' => $p['warranty_text'] ?? '',

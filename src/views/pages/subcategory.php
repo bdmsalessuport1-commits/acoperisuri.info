@@ -61,7 +61,7 @@ $productCount = count($products);
                     <a href="/produs/<?= htmlspecialchars($slug) ?>" class="product-card">
                         <?php if (!empty($p['image_card'])): ?>
                         <div class="product-card-img product-card-img-photo">
-                            <img src="<?= htmlspecialchars($p['image_card']) ?>" alt="<?= htmlspecialchars($p['name'] ?? '') ?>" loading="lazy" width="400" height="300">
+                            <img src="<?= htmlspecialchars($p['image_card']) ?>" alt="<?= htmlspecialchars($p['image_alt'] ?? ($p['name'] ?? '')) ?>" loading="lazy" width="400" height="300">
                         </div>
                         <?php else: ?>
                         <div class="product-card-img">
