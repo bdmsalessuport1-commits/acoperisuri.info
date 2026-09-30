@@ -78,19 +78,75 @@ $action = $isEdit ? '/admin/produse/editeaza/' . ($formData['id'] ?? 0) : '/admi
         <div class="admin-card">
             <div class="admin-card-header">Imagini</div>
             <div class="admin-card-body">
-                <div class="admin-field">
-                    <label>Imagine principala (1400 x 1000 px)</label>
-                    <input type="text" name="image_main" value="<?= htmlspecialchars($formData['image_main'] ?? '') ?>" placeholder="URL imagine principala">
-                    <small class="admin-field-hint">Rezolutie recomandata: 1400 x 1000 px</small>
+                <?php
+                // alt text automat (acelasi calcul ca pe site) - afisat ca placeholder, ca sa se vada ce genereaza site-ul
+                $altCatName = '';
+                foreach ($categories as $c) { if ((int) ($c['id'] ?? 0) === (int) ($formData['category_id'] ?? 0)) { $altCatName = $c['name'] ?? ''; break; } }
+                $autoAlt = \App\Helpers\SeoHelper::imageAlt($formData['name'] ?? '', $formData['subtitle'] ?? '', $altCatName);
+                $galleryUrls = array_values($formData['gallery'] ?? []);
+                $galleryAlts = $formData['gallery_alt'] ?? [];
+                ?>
+                <div class="admin-img-block">
+                    <div class="admin-img-preview"><img src="<?= htmlspecialchars($formData['image_main'] ?? '') ?>" alt="" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>
+                    <div class="admin-img-fields">
+                        <div class="admin-field">
+                            <label>Imagine principala (1400 x 1000 px)</label>
+                            <input type="text" name="image_main" value="<?= htmlspecialchars($formData['image_main'] ?? '') ?>" placeholder="URL imagine principala" oninput="previewImg(this)">
+                        </div>
+                        <div class="admin-field">
+                            <label>Alt text imagine principala <span class="admin-label-note">(SEO Google Images)</span></label>
+                            <input type="text" name="image_alt" value="<?= htmlspecialchars($formData['image_alt'] ?? '') ?>" maxlength="160" placeholder="<?= htmlspecialchars($autoAlt) ?>">
+                            <small class="admin-field-hint">Gol = se foloseste textul automat de mai sus (nume produs + prima propozitie din subtitlu). Scrie ce se vede in imagine, natural, sub 125 de caractere.</small>
+                        </div>
+                    </div>
                 </div>
                 <div class="admin-field">
                     <label>Schema tehnica</label>
                     <input type="text" name="image_schema" value="<?= htmlspecialchars($formData['image_schema'] ?? '') ?>" placeholder="URL schema tehnica">
+                    <small class="admin-field-hint">Alt text automat: &bdquo;<?= htmlspecialchars($autoAlt) ?> (schema tehnica)&rdquo;</small>
                 </div>
                 <div class="admin-field">
-                    <label>Galerie (un URL per rand)</label>
-                    <textarea name="gallery_urls" rows="4" placeholder="https://example.com/img1.jpg&#10;https://example.com/img2.jpg"><?= htmlspecialchars(implode("\n", $formData['gallery'] ?? [])) ?></textarea>
+                    <label>Imagine card listare (4:3, 1200 x 900 px)</label>
+                    <input type="text" name="image_card" value="<?= htmlspecialchars($formData['image_card'] ?? '') ?>" placeholder="URL imagine card (gol = imaginea principala)">
+                    <small class="admin-field-hint">Poza din lista de produse si din &bdquo;Produse similare&rdquo;; foloseste alt-ul imaginii principale.</small>
                 </div>
+                <div class="admin-field">
+                    <label>Galerie <span class="admin-label-note">(URL + alt text pentru fiecare imagine)</span>
+                        <button type="button" class="btn btn-sm btn-outline" onclick="addGalleryRow()" style="margin-left: auto;">+ Adauga imagine</button>
+                    </label>
+                    <div id="galleryContainer">
+                        <?php foreach ($galleryUrls as $gi => $gUrl): $gn = $gi + 1; ?>
+                        <div class="admin-gallery-row">
+                            <div class="admin-img-preview small"><img src="<?= htmlspecialchars($gUrl) ?>" alt="" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>
+                            <input type="text" name="gallery_url[]" value="<?= htmlspecialchars($gUrl) ?>" placeholder="URL imagine" oninput="previewImg(this)">
+                            <input type="text" name="gallery_alt[]" value="<?= htmlspecialchars($galleryAlts[$gi] ?? '') ?>" maxlength="160" placeholder="<?= htmlspecialchars($autoAlt . ' (imagine ' . $gn . ')') ?>" title="Alt text (gol = automat)">
+                            <button type="button" class="btn btn-sm btn-danger admin-dynamic-remove" onclick="this.closest('.admin-gallery-row').remove(); renumberGallery()" title="Sterge">&times;</button>
+                        </div>
+                        <?php endforeach; ?>
+                    </div>
+                    <small class="admin-field-hint">Ordinea de aici este ordinea din galerie. Alt-ul gol = automat: &bdquo;<?= htmlspecialchars($autoAlt) ?> (imagine N)&rdquo;.</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Componentele sistemului (optional - sisteme pluviale, garduri etc.) -->
+        <div class="admin-card">
+            <div class="admin-card-header">
+                Componentele sistemului <span class="admin-label-note">(optional)</span>
+                <button type="button" class="btn btn-sm btn-outline" onclick="addComponentRow()" style="margin-left: auto;">+ Adauga componenta</button>
+            </div>
+            <div class="admin-card-body" id="componentsContainer">
+                <?php foreach (($formData['components'] ?? []) as $ci => $comp): ?>
+                <div class="admin-component-row">
+                    <div class="admin-img-preview small"><img src="<?= htmlspecialchars($comp['image'] ?? '') ?>" alt="" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>
+                    <input type="text" name="comp_name[]" value="<?= htmlspecialchars($comp['name'] ?? '') ?>" placeholder="Nume piesa (ex: Jgheab rectangular)">
+                    <input type="text" name="comp_desc[]" value="<?= htmlspecialchars($comp['desc'] ?? '') ?>" placeholder="Descriere scurta">
+                    <input type="text" name="comp_image[]" value="<?= htmlspecialchars($comp['image'] ?? '') ?>" placeholder="URL imagine" oninput="previewImg(this)">
+                    <input type="text" name="comp_alt[]" value="<?= htmlspecialchars($comp['alt'] ?? '') ?>" maxlength="160" placeholder="<?= htmlspecialchars(($comp['name'] ?? 'Piesa') . ' - ' . ($formData['name'] ?? '')) ?>" title="Alt text (gol = automat: Nume piesa - Nume produs)">
+                    <button type="button" class="btn btn-sm btn-danger admin-dynamic-remove" onclick="this.closest('.admin-component-row').remove()" title="Sterge">&times;</button>
+                </div>
+                <?php endforeach; ?>
+                <small class="admin-field-hint">Apar pe pagina produsului in sectiunea &bdquo;Componentele sistemului&rdquo;, numerotate in ordinea de aici. Alt-ul gol = &bdquo;Nume piesa - Nume produs&rdquo;.</small>
             </div>
         </div>
 
@@ -314,6 +370,51 @@ function addSpecRow() {
     `;
     container.appendChild(row);
     row.querySelector('.admin-dynamic-key').focus();
+}
+
+// --- imagini: previzualizare, galerie si componente cu alt text ---
+function previewImg(input) {
+    const wrap = input.closest('.admin-img-block, .admin-gallery-row, .admin-component-row');
+    const img = wrap ? wrap.querySelector('.admin-img-preview img') : null;
+    if (!img) return;
+    img.style.visibility = 'hidden';
+    img.src = input.value.trim();
+}
+const autoAltBase = <?= json_encode($autoAlt ?? '', JSON_UNESCAPED_UNICODE) ?>;
+function renumberGallery() {
+    document.querySelectorAll('#galleryContainer .admin-gallery-row').forEach((row, i) => {
+        row.querySelector('input[name="gallery_alt[]"]').placeholder = autoAltBase + ' (imagine ' + (i + 1) + ')';
+    });
+}
+function addGalleryRow() {
+    const container = document.getElementById('galleryContainer');
+    const n = container.querySelectorAll('.admin-gallery-row').length + 1;
+    const row = document.createElement('div');
+    row.className = 'admin-gallery-row';
+    row.innerHTML = `
+        <div class="admin-img-preview small"><img src="" alt="" style="visibility:hidden" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>
+        <input type="text" name="gallery_url[]" placeholder="URL imagine" oninput="previewImg(this)">
+        <input type="text" name="gallery_alt[]" maxlength="160" placeholder="${autoAltBase} (imagine ${n})" title="Alt text (gol = automat)">
+        <button type="button" class="btn btn-sm btn-danger admin-dynamic-remove" onclick="this.closest('.admin-gallery-row').remove(); renumberGallery()" title="Sterge">&times;</button>
+    `;
+    container.appendChild(row);
+    row.querySelector('input[name="gallery_url[]"]').focus();
+}
+function addComponentRow() {
+    const container = document.getElementById('componentsContainer');
+    const hint = container.querySelector(':scope > small');
+    const row = document.createElement('div');
+    row.className = 'admin-component-row';
+    row.innerHTML = `
+        <div class="admin-img-preview small"><img src="" alt="" style="visibility:hidden" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'"></div>
+        <input type="text" name="comp_name[]" placeholder="Nume piesa">
+        <input type="text" name="comp_desc[]" placeholder="Descriere scurta">
+        <input type="text" name="comp_image[]" placeholder="URL imagine" oninput="previewImg(this)">
+        <input type="text" name="comp_alt[]" maxlength="160" placeholder="Alt text (gol = automat)">
+        <button type="button" class="btn btn-sm btn-danger admin-dynamic-remove" onclick="this.closest('.admin-component-row').remove()" title="Sterge">&times;</button>
+    `;
+    if (hint) container.insertBefore(row, hint); else container.appendChild(row);
+    row.querySelector('input[name="comp_name[]"]').focus();
 }
 
 let matCounter = <?= count($formData['materials'] ?? []) ?>;

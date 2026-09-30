@@ -1989,3 +1989,20 @@ a {
     cursor: pointer;
     font-weight: 400;
 }
+
+/* Imagini produs: previzualizare + alt text; galerie si componente pe randuri */
+.admin-img-block { display: grid; grid-template-columns: 160px 1fr; gap: 1rem; align-items: start; margin-bottom: 1rem; }
+.admin-img-preview { width: 160px; height: 120px; background: #fff; border: 1px solid var(--color-border-light); border-radius: 6px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.admin-img-preview img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.admin-img-preview.small { width: 72px; height: 54px; flex-shrink: 0; }
+.admin-label-note { font-weight: 400; color: var(--color-text-light); font-size: 0.8rem; }
+.admin-field label { display: flex; align-items: center; gap: 0.5rem; }
+.admin-gallery-row, .admin-component-row { display: grid; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; }
+.admin-gallery-row { grid-template-columns: 72px minmax(0, 1.2fr) minmax(0, 1fr) auto; }
+.admin-component-row { grid-template-columns: 72px minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1.2fr) minmax(0, 1fr) auto; }
+.admin-gallery-row input, .admin-component-row input { min-width: 0; }
+@media (max-width: 900px) {
+  .admin-img-block { grid-template-columns: 1fr; }
+  .admin-gallery-row, .admin-component-row { grid-template-columns: 72px 1fr auto; }
+  .admin-gallery-row input[name="gallery_alt[]"], .admin-component-row input[name="comp_desc[]"], .admin-component-row input[name="comp_image[]"], .admin-component-row input[name="comp_alt[]"] { grid-column: 2 / 3; }
+}

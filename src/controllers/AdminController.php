@@ -1794,7 +1794,7 @@ class AdminController
             'name' => '', 'subtitle' => '', 'slug' => '',
             'category_id' => 0, 'subcategory_id' => 0,
             'manufacturer' => '', 'status' => 'draft',
-            'image_main' => '', 'image_schema' => '', 'gallery' => [],
+            'image_main' => '', 'image_alt' => '', 'image_schema' => '', 'image_card' => '', 'gallery' => [], 'gallery_alt' => [], 'components' => [],
             'specs' => [], 'materials' => [],
             'warranty_text' => '', 'description_html' => '',
             'seo_title' => '', 'seo_description' => '',
@@ -1874,8 +1874,35 @@ class AdminController
             ];
         }
 
-        // Parse gallery
-        $galleryRaw = array_filter(array_map('trim', explode("\n", $_POST['gallery_urls'] ?? '')));
+        // Parse gallery: randuri URL + alt (formularul nou); fallback pe textarea-ul vechi "gallery_urls"
+        $galleryRaw = [];
+        $galleryAlts = [];
+        if (isset($_POST['gallery_url']) && is_array($_POST['gallery_url'])) {
+            $altsIn = $_POST['gallery_alt'] ?? [];
+            foreach ($_POST['gallery_url'] as $gi => $gUrl) {
+                $gUrl = trim((string) $gUrl);
+                if ($gUrl === '') { continue; }
+                $galleryAlts[count($galleryRaw)] = trim((string) ($altsIn[$gi] ?? ''));
+                $galleryRaw[] = $gUrl;
+            }
+        } else {
+            $galleryRaw = array_values(array_filter(array_map('trim', explode("\n", $_POST['gallery_urls'] ?? ''))));
+        }
+
+        // Parse components (componentele sistemului): nume obligatoriu, restul optional
+        $components = [];
+        foreach (($_POST['comp_name'] ?? []) as $ci => $cName) {
+            $cName = trim((string) $cName);
+            if ($cName === '') { continue; }
+            $comp = [
+                'name'  => $cName,
+                'desc'  => trim((string) ($_POST['comp_desc'][$ci] ?? '')),
+                'image' => trim((string) ($_POST['comp_image'][$ci] ?? '')),
+            ];
+            $cAlt = trim((string) ($_POST['comp_alt'][$ci] ?? ''));
+            if ($cAlt !== '') { $comp['alt'] = $cAlt; }
+            $components[] = $comp;
+        }
 
         // Parse related products
         $relatedRaw = $_POST['related_products'] ?? [];
@@ -1892,8 +1919,12 @@ class AdminController
             'manufacturer'     => trim($_POST['manufacturer'] ?? ''),
             'status'           => $_POST['status'] ?? 'draft',
             'image_main'       => trim($_POST['image_main'] ?? ''),
+            'image_alt'        => trim($_POST['image_alt'] ?? ''),
             'image_schema'     => trim($_POST['image_schema'] ?? ''),
+            'image_card'       => trim($_POST['image_card'] ?? ''),
             'gallery'          => $galleryRaw,
+            'gallery_alt'      => $galleryAlts,
+            'components'       => $components,
             'specs'            => $specs,
             'materials'        => $materials,
             'warranty_text'    => trim($_POST['warranty_text'] ?? ''),

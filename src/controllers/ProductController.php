@@ -138,7 +138,7 @@ class ProductController
                     'slug' => $rSlug,
                     'name' => preg_replace('/^.+?\s/', '', $rProd['name'], 1) ?: $rProd['name'],
                     'brand' => $rProd['manufacturer'] ?? '',
-                    'image' => $rProd['image_card'] ?? ($rProd['image_main'] ?? ''),
+                    'image' => !empty($rProd['image_card']) ? $rProd['image_card'] : ($rProd['image_main'] ?? ''),
                 ];
             }
         }
@@ -159,7 +159,7 @@ class ProductController
             'materials' => $materials,
             'components' => $p['components'] ?? [],
             'image_main' => $p['image_main'] ?? '',
-            'image_card' => $p['image_card'] ?? ($p['image_main'] ?? ''),
+            'image_card' => !empty($p['image_card']) ? $p['image_card'] : ($p['image_main'] ?? ''),
             'image_alt' => !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? ''),
             // alt text per URL de imagine: principala, schema, apoi galeria numerotata (fara duplicatele principalei)
             'image_alts' => (function () use ($p, $cat) {

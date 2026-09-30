@@ -178,7 +178,7 @@ $months = [1=>'Ianuarie',2=>'Februarie',3=>'Martie',4=>'Aprilie',5=>'Mai',6=>'Iu
         <div class="products-scroll">
             <?php foreach ($featuredProducts as $prod): ?>
             <a href="/produs/<?= htmlspecialchars($prod['slug'] ?? '') ?>" class="product-card">
-                <?php $pimg = $prod['image_card'] ?? ($prod['image_main'] ?? ''); ?>
+                <?php $pimg = !empty($prod['image_card']) ? $prod['image_card'] : ($prod['image_main'] ?? ''); ?>
                 <?php if ($pimg): ?>
                 <div class="product-card-image product-card-image-photo"><img src="<?= htmlspecialchars($pimg) ?>" alt="<?= htmlspecialchars($prod['name'] ?? '') ?>" loading="lazy" width="1200" height="900"></div>
                 <?php else: ?>
