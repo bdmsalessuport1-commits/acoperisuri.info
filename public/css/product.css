@@ -606,3 +606,6 @@
         gap: var(--spacing-md) var(--spacing-sm);
     }
 }
+
+/* Related products: real product photo (4:3) instead of the placeholder */
+.related-card-img-photo{height:auto;aspect-ratio:4/3;background:#fff;overflow:hidden}.related-card-img-photo img{width:100%;height:100%;object-fit:contain;display:block}

@@ -138,6 +138,7 @@ class ProductController
                     'slug' => $rSlug,
                     'name' => preg_replace('/^.+?\s/', '', $rProd['name'], 1) ?: $rProd['name'],
                     'brand' => $rProd['manufacturer'] ?? '',
+                    'image' => $rProd['image_card'] ?? ($rProd['image_main'] ?? ''),
                 ];
             }
         }

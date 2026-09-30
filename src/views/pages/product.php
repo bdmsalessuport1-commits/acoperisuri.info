@@ -231,7 +231,11 @@ if ($warranty) {
             <div class="related-grid">
                 <?php foreach ($related as $rel): ?>
                     <a href="/produs/<?= htmlspecialchars($rel['slug']) ?>" class="related-card">
+                        <?php if (!empty($rel['image'])): ?>
+                        <div class="related-card-img related-card-img-photo"><img src="<?= htmlspecialchars($rel['image']) ?>" alt="<?= htmlspecialchars($rel['name']) ?>" loading="lazy" width="1200" height="900"></div>
+                        <?php else: ?>
                         <div class="related-card-img">&#9650;</div>
+                        <?php endif; ?>
                         <div class="related-card-body">
                             <h4><?= htmlspecialchars($rel['name']) ?></h4>
                             <span><?= htmlspecialchars($rel['brand']) ?></span>
