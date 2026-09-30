@@ -166,7 +166,8 @@ class ProductController
                 $base = !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? '');
                 $out = []; $ov = $p['gallery_alt'] ?? []; $n = 0;
                 if (!empty($p['image_main'])) { $out[$p['image_main']] = $base; }
-                if (!empty($p['image_schema'])) { $out[$p['image_schema']] = $base . ' (schema tehnica)'; }
+                // schema tehnica: "Tip produs Brand Model - schema tehnica" (primul segment al alt-ului principal, fara descrierea pozei)
+                if (!empty($p['image_schema'])) { $out[$p['image_schema']] = trim(preg_split('/\s-\s/u', $base)[0]) . ' - schema tehnica'; }
                 foreach ($p['gallery'] ?? [] as $i => $g) {
                     if (!$g || isset($out[$g])) { continue; }
                     $n++; $out[$g] = !empty($ov[$i]) ? $ov[$i] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? '', $n);

@@ -103,7 +103,7 @@ $action = $isEdit ? '/admin/produse/editeaza/' . ($formData['id'] ?? 0) : '/admi
                 <div class="admin-field">
                     <label>Schema tehnica</label>
                     <input type="text" name="image_schema" value="<?= htmlspecialchars($formData['image_schema'] ?? '') ?>" placeholder="URL schema tehnica">
-                    <small class="admin-field-hint">Alt text automat: &bdquo;<?= htmlspecialchars($autoAlt) ?> (schema tehnica)&rdquo;</small>
+                    <small class="admin-field-hint">Alt text automat: &bdquo;<?= htmlspecialchars(trim(preg_split('/\s-\s/u', !empty($formData['image_alt']) ? $formData['image_alt'] : $autoAlt)[0])) ?> - schema tehnica&rdquo; (primul segment al alt-ului principal)</small>
                 </div>
                 <div class="admin-field">
                     <label>Imagine card listare (4:3, 1200 x 900 px)</label>

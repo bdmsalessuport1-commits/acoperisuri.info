@@ -165,7 +165,13 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/budmat-venecja/card.jpg"
+        "image_card": "/uploads/products/budmat-venecja/card.jpg",
+        "image_alt": "Tigla metalica Budmat Venecja - panou de prezentare, profil cu 8 valuri",
+        "gallery_alt": [
+            "Tigla metalica Budmat Venecja - detaliu margine inferioara indoita, protectie anticoroziune",
+            "Tigla metalica Budmat Venecja - detaliu orificii de fixare prelucrate din fabrica",
+            "Tigla metalica Budmat Venecja - detaliu terminatie frontala care previne acumularea apei"
+        ]
     },
     {
         "id": 2,
@@ -315,7 +321,13 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/budmat-bella-sara/card.jpg"
+        "image_card": "/uploads/products/budmat-bella-sara/card.jpg",
+        "image_alt": "Tigla metalica Budmat Bella Sara - panou de prezentare, culoare maro",
+        "gallery_alt": [
+            "Tigla metalica Budmat Bella Sara - detaliu orificii de fixare prelucrate din fabrica",
+            "Tigla metalica Budmat Bella Sara - detaliu terminatie frontala care previne acumularea apei",
+            "Tigla metalica Budmat Bella Sara - detaliu val si terminatie frontala"
+        ]
     },
     {
         "id": 3,
@@ -460,7 +472,13 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/budmat-como/card.jpg"
+        "image_card": "/uploads/products/budmat-como/card.jpg",
+        "image_alt": "Tigla metalica Budmat Como - panou de prezentare, profil modern cu val plat",
+        "gallery_alt": [
+            "Tigla metalica Budmat Como - detaliu terminatie frontala patentata",
+            "Tigla metalica Budmat Como - detaliu terminatie frontala care previne acumularea apei",
+            "Tigla metalica Budmat Como - detaliu margine inferioara indoita, protectie anticoroziune"
+        ]
     },
     {
         "id": 4,
@@ -653,7 +671,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/metigla-elit/card.jpg"
+        "image_card": "/uploads/products/metigla-elit/card.jpg",
+        "image_alt": "Tigla metalica Metigla Elit - panou de prezentare, culoare negru"
     },
     {
         "id": 5,
@@ -811,7 +830,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/metigla-star/card.jpg"
+        "image_card": "/uploads/products/metigla-star/card.jpg",
+        "image_alt": "Tigla metalica Metigla Star - panou de prezentare, culoare maro"
     },
     {
         "id": 6,
@@ -963,7 +983,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/metigla-mira/card.jpg"
+        "image_card": "/uploads/products/metigla-mira/card.jpg",
+        "image_alt": "Tigla metalica Metigla Mira - panou de prezentare, culoare rosu"
     },
     {
         "id": 8,
@@ -1106,7 +1127,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 12:40:00",
-        "image_card": "/uploads/products/blachotrapez-enigma/card.jpg?v=2"
+        "image_card": "/uploads/products/blachotrapez-enigma/card.jpg?v=2",
+        "image_alt": "Tigla metalica Blachotrapez Enigma - panou de prezentare, profil modern"
     },
     {
         "id": 9,
@@ -1215,7 +1237,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 12:40:00",
-        "image_card": "/uploads/products/blachotrapez-germania-simetric/card.jpg?v=2"
+        "image_card": "/uploads/products/blachotrapez-germania-simetric/card.jpg?v=2",
+        "image_alt": "Tigla metalica Blachotrapez Germania Simetric - panou de prezentare, profil simetric"
     },
     {
         "id": 10,
@@ -1331,7 +1354,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 12:40:00",
-        "image_card": "/uploads/products/blachotrapez-kingas/card.jpg?v=2"
+        "image_card": "/uploads/products/blachotrapez-kingas/card.jpg?v=2",
+        "image_alt": "Tigla metalica Blachotrapez Kingas - panou de prezentare"
     },
     {
         "id": 11,
@@ -1460,7 +1484,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 12:40:00",
-        "image_card": "/uploads/products/blachotrapez-diament/card.jpg?v=2"
+        "image_card": "/uploads/products/blachotrapez-diament/card.jpg?v=2",
+        "image_alt": "Tigla metalica Blachotrapez Diament - panou de prezentare"
     },
     {
         "id": 12,
@@ -1630,7 +1655,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/wetterbest-clasic/card.jpg"
+        "image_card": "/uploads/products/wetterbest-clasic/card.jpg",
+        "image_alt": "Tigla metalica Wetterbest Clasic - panou de prezentare, culoare maro"
     },
     {
         "id": 13,
@@ -1773,7 +1799,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/wetterbest-cardinal/card.jpg"
+        "image_card": "/uploads/products/wetterbest-cardinal/card.jpg",
+        "image_alt": "Tigla metalica Wetterbest Cardinal - panou de prezentare, culoare maro"
     },
     {
         "id": 14,
@@ -1909,7 +1936,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/wetterbest-gladiator/card.jpg"
+        "image_card": "/uploads/products/wetterbest-gladiator/card.jpg",
+        "image_alt": "Tigla metalica Wetterbest Gladiator - panou de prezentare, culoare gri"
     },
     {
         "id": 15,
@@ -2059,7 +2087,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/wetterbest-colosseum/card.jpg"
+        "image_card": "/uploads/products/wetterbest-colosseum/card.jpg",
+        "image_alt": "Tigla metalica Wetterbest Colosseum - panou de prezentare, culoare maro inchis"
     },
     {
         "id": 16,
@@ -2195,7 +2224,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/wetterbest-imperator/card.jpg"
+        "image_card": "/uploads/products/wetterbest-imperator/card.jpg",
+        "image_alt": "Tigla metalica Wetterbest Imperator - panou de prezentare, profil dublu val, culoare maro"
     },
     {
         "id": 17,
@@ -2336,7 +2366,18 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 15:30:00",
-        "image_card": "/uploads/products/metigla-clic/card.jpg"
+        "image_card": "/uploads/products/metigla-clic/card.jpg",
+        "image_alt": "Tabla click Metigla Clic - panou de prezentare, culoare caramiziu",
+        "gallery_alt": [
+            "Tabla click Metigla Clic - acoperis de casa cu tabla click gri antracit",
+            "Tabla click Metigla Clic - casa cu acoperis din tabla click maro",
+            "Tabla click Metigla Clic - casa moderna cu acoperis din tabla click gri si terasa",
+            "Tabla click Metigla Clic - pavilion de gradina cu acoperis din tabla click gri deschis, vedere de sus",
+            "Tabla click Metigla Clic - acoperis din tabla click gri, vedere aeriana",
+            "Tabla click Metigla Clic - detaliu falturi pe acoperis din tabla click",
+            "Tabla click Metigla Clic - sectiune tehnica profil, latime utila 515 mm",
+            "Tabla click Metigla Clic - sectiune tehnica profil, latime utila 306 mm"
+        ]
     },
     {
         "id": 18,
@@ -2490,7 +2531,17 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-29 09:36:24",
-        "image_card": "/uploads/products/metigla-falt/card.jpg"
+        "image_card": "/uploads/products/metigla-falt/card.jpg",
+        "image_alt": "Tabla faltuita Metigla Falt - panou de prezentare, culoare gri antracit",
+        "gallery_alt": [
+            "Tabla faltuita Metigla Falt - casa moderna cu lemn si acoperis din tabla faltuita antracit",
+            "Tabla faltuita Metigla Falt - casa moderna seara cu acoperis din tabla faltuita neagra",
+            "Tabla faltuita Metigla Falt - casa tip hambar cu acoperis si fatada din tabla faltuita antracit",
+            "Tabla faltuita Metigla Falt - acoperis de bovindou din tabla faltuita maro",
+            "Tabla faltuita Metigla Falt - casa moderna cu pergola si fatada din tabla faltuita antracit",
+            "Tabla faltuita Metigla Falt - sectiune tehnica profil, latime utila 550 mm",
+            "Tabla faltuita Metigla Falt - sectiune tehnica profil, latime utila 340 mm"
+        ]
     },
     {
         "id": 19,
@@ -2589,7 +2640,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 15:30:00",
-        "image_card": "/uploads/products/vestalpin-click/card.jpg"
+        "image_card": "/uploads/products/vestalpin-click/card.jpg",
+        "image_alt": "Tabla faltuita Voestalpine Falt - panou de prezentare, culoare gri antracit"
     },
     {
         "id": 20,
@@ -2729,7 +2781,15 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 15:30:00",
-        "image_card": "/uploads/products/wetterbest-click/card.jpg"
+        "image_card": "/uploads/products/wetterbest-click/card.jpg",
+        "image_alt": "Tabla click Wetterbest - panou de prezentare, culoare gri antracit",
+        "gallery_alt": [
+            "Tabla click Wetterbest - panou tabla click, randare produs",
+            "Tabla click Wetterbest - bloc de locuinte cu acoperis din tabla click gri",
+            "Tabla click Wetterbest - acoperis din tabla click gri deschis pe cladire rezidentiala",
+            "Tabla click Wetterbest - casa cu acoperis din tabla click antracit, vedere aeriana",
+            "Tabla click Wetterbest - acoperis in patru ape din tabla click antracit, vedere aeriana"
+        ]
     },
     {
         "id": 21,
@@ -2829,7 +2889,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/blachotrapez-t18/card.jpg"
+        "image_card": "/uploads/products/blachotrapez-t18/card.jpg",
+        "image_alt": "Tabla cutata Blachotrapez T18 - panou de prezentare"
     },
     {
         "id": 22,
@@ -2943,7 +3004,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/blachotrapez-t35/card.jpg"
+        "image_card": "/uploads/products/blachotrapez-t35/card.jpg",
+        "image_alt": "Tabla cutata Blachotrapez T35 - panou de prezentare"
     },
     {
         "id": 23,
@@ -3043,7 +3105,8 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/blachotrapez-t55/card.jpg"
+        "image_card": "/uploads/products/blachotrapez-t55/card.jpg",
+        "image_alt": "Tabla cutata Blachotrapez T55 - panou de prezentare"
     },
     {
         "id": 24,
@@ -3213,110 +3276,132 @@
             {
                 "name": "Jgheab",
                 "desc": "Jgheab semicircular 125mm sau 165mm, lungime 4m",
-                "image": "/uploads/products/metigla-sistem-pluvial/c8.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c8.jpg",
+                "alt": "Jgheab - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Burlan",
                 "desc": "Burlan circular 88mm sau 100mm, lungime 3m",
-                "image": "/uploads/products/metigla-sistem-pluvial/c18.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c18.jpg",
+                "alt": "Burlan - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Capac jgheab",
                 "desc": "Inchide capatul jgheabului, stanga sau dreapta",
-                "image": "/uploads/products/metigla-sistem-pluvial/c4.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c4.jpg",
+                "alt": "Capac jgheab - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Carlig jgheab caprior",
                 "desc": "Se fixeaza pe capriori inainte de montarea asterelii",
-                "image": "/uploads/products/metigla-sistem-pluvial/c5.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c5.jpg",
+                "alt": "Carlig jgheab caprior - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Carlig jgheab aplicat",
                 "desc": "Se fixeaza pe pana sau pe asterealaa dupa montaj",
-                "image": "/uploads/products/metigla-sistem-pluvial/c9.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c9.jpg",
+                "alt": "Carlig jgheab aplicat - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Carlig rasucit",
                 "desc": "Carlig reglabil cu tija rasucita pentru ajustare precisa",
-                "image": "/uploads/products/metigla-sistem-pluvial/c24.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c24.jpg",
+                "alt": "Carlig rasucit - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Stabilizator jgheab",
                 "desc": "Rigidizeaza jgheabul si previne deformarea",
-                "image": "/uploads/products/metigla-sistem-pluvial/c10.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c10.jpg",
+                "alt": "Stabilizator jgheab - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Piesa de imbinare jgheab",
                 "desc": "Uneste doua tronsoane de jgheab, cu garnitura etansare",
-                "image": "/uploads/products/metigla-sistem-pluvial/c6.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c6.jpg",
+                "alt": "Piesa de imbinare jgheab - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Coltar interior",
                 "desc": "Colt interior 90 grade pentru jgheab",
-                "image": "/uploads/products/metigla-sistem-pluvial/c7.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c7.jpg",
+                "alt": "Coltar interior - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Coltar exterior",
                 "desc": "Colt exterior 90 grade pentru jgheab",
-                "image": "/uploads/products/metigla-sistem-pluvial/c13.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c13.jpg",
+                "alt": "Coltar exterior - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Conecteaza jgheabul la burlan, cu palnie integrata",
-                "image": "/uploads/products/metigla-sistem-pluvial/c11.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c11.jpg",
+                "alt": "Racord jgheab-burlan - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Racord jgheab-burlan 165/88",
                 "desc": "Racord pentru dimensiune 165mm jgheab / 88mm burlan",
-                "image": "/uploads/products/metigla-sistem-pluvial/c12.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c12.jpg",
+                "alt": "Racord jgheab-burlan 165/88 - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Palnie colectare",
                 "desc": "Colecteaza apa din jgheab si o directioneaza in burlan",
-                "image": "/uploads/products/metigla-sistem-pluvial/c22.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c22.jpg",
+                "alt": "Palnie colectare - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Schimba directia burlanului, unghi variabil",
-                "image": "/uploads/products/metigla-sistem-pluvial/c15.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c15.jpg",
+                "alt": "Cot burlan - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Prelungitor burlan",
                 "desc": "Extensie pentru conectarea coturilor la burlan",
-                "image": "/uploads/products/metigla-sistem-pluvial/c14.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c14.jpg",
+                "alt": "Prelungitor burlan - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Fixeaza burlanul pe perete, cu surub inclus",
-                "image": "/uploads/products/metigla-sistem-pluvial/c17.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c17.jpg",
+                "alt": "Bratara burlan - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Ramificatie burlan",
                 "desc": "Ramificatie Y pentru unirea a doua burlane",
-                "image": "/uploads/products/metigla-sistem-pluvial/c16.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c16.jpg",
+                "alt": "Ramificatie burlan - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Element deversare",
                 "desc": "Deversare apa la baza burlanului, spre trotuar",
-                "image": "/uploads/products/metigla-sistem-pluvial/c19.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c19.jpg",
+                "alt": "Element deversare - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Element evacuare",
                 "desc": "Evacuare apa la baza burlanului, cot final",
-                "image": "/uploads/products/metigla-sistem-pluvial/c20.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c20.jpg",
+                "alt": "Element evacuare - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Racord canalizare",
                 "desc": "Conecteaza burlanul la reteaua de canalizare",
-                "image": "/uploads/products/metigla-sistem-pluvial/c21.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c21.jpg",
+                "alt": "Racord canalizare - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             },
             {
                 "name": "Parafrunzar",
                 "desc": "Filtru metalic care previne blocarea cu frunze",
-                "image": "/uploads/products/metigla-sistem-pluvial/c23.jpg"
+                "image": "/uploads/products/metigla-sistem-pluvial/c23.jpg",
+                "alt": "Parafrunzar - sistem pluvial Metigla semirotund, otel vopsit gri antracit"
             }
         ],
-        "image_card": "/uploads/products/metigla-sistem-pluvial/card.jpg"
+        "image_card": "/uploads/products/metigla-sistem-pluvial/card.jpg",
+        "image_alt": "Sistem pluvial Metigla (jgheaburi si burlane) - schema cu toate componentele: jgheaburi, burlane, coturi, carlige"
     },
     {
         "id": 25,
@@ -3442,80 +3527,96 @@
             {
                 "name": "Jgheab 150mm",
                 "desc": "Jgheab semicircular 150mm, lungime 4m",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c28.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c28.jpg",
+                "alt": "Jgheab 150mm - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Burlan 97mm",
                 "desc": "Burlan circular 97mm, lungime 3m",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c26.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c26.jpg",
+                "alt": "Burlan 97mm - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Capac jgheab",
                 "desc": "Inchide capatul jgheabului, stanga sau dreapta",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c23.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c23.jpg",
+                "alt": "Capac jgheab - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Carlig jgheab aplicat",
                 "desc": "Carlig pentru fixare pe pana sau asterealaa",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c16.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c16.jpg",
+                "alt": "Carlig jgheab aplicat - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Carlig rasucit",
                 "desc": "Carlig cu tija rasucita pentru reglare inaltimii",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c24.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c24.jpg",
+                "alt": "Carlig rasucit - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Contracarlig jgheab",
                 "desc": "Sustine jgheabul pe partea opusa carligului",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c3.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c3.jpg",
+                "alt": "Contracarlig jgheab - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Bratara jgheab (piesa de imbinare)",
                 "desc": "Element de rigidizare si fixare suplimentara jgheab",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c4.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c4.jpg",
+                "alt": "Bratara jgheab (piesa de imbinare) - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Coltar interior",
                 "desc": "Colt interior 90 grade pentru jgheab",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c12.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c12.jpg",
+                "alt": "Coltar interior - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Coltar exterior",
                 "desc": "Colt exterior 90 grade pentru jgheab",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c9.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c9.jpg",
+                "alt": "Coltar exterior - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Conecteaza jgheabul de burlan",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c2.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c2.jpg",
+                "alt": "Racord jgheab-burlan - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Palnie colectare",
                 "desc": "Colecteaza apa si o directioneaza in burlan",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c29.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c29.jpg",
+                "alt": "Palnie colectare - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Schimba directia burlanului",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c22.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c22.jpg",
+                "alt": "Cot burlan - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Cot evacuare",
                 "desc": "Cot final la baza burlanului pentru evacuare apa",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c8.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c8.jpg",
+                "alt": "Cot evacuare - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Fixeaza burlanul pe perete",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c25.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c25.jpg",
+                "alt": "Bratara burlan - sistem pluvial Wetterbest, otel vopsit maro"
             },
             {
                 "name": "Ramificatie burlan Y",
                 "desc": "Ramificatie Y pentru unirea a doua burlane",
-                "image": "/uploads/products/wetterbest-sistem-pluvial/c21.jpg"
+                "image": "/uploads/products/wetterbest-sistem-pluvial/c21.jpg",
+                "alt": "Ramificatie burlan Y - sistem pluvial Wetterbest, otel vopsit maro"
             }
         ],
-        "image_card": "/uploads/products/wetterbest-sistem-pluvial/card.jpg"
+        "image_card": "/uploads/products/wetterbest-sistem-pluvial/card.jpg",
+        "image_alt": "Sistem pluvial Wetterbest (jgheaburi si burlane) - burlan rotund 88 mm, culoare maro"
     },
     {
         "id": 26,
@@ -3617,65 +3718,78 @@
             {
                 "name": "Jgheab rectangular",
                 "desc": "Jgheab rectangular simetric cu margine dubla rulata, 4m",
-                "image": "/uploads/products/budmat-flamingo-iq/c2.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c2.jpg",
+                "alt": "Jgheab rectangular - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Burlan rectangular",
                 "desc": "Burlan cu sectiune rectangulara, 3m",
-                "image": "/uploads/products/budmat-flamingo-iq/c14.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c14.jpg",
+                "alt": "Burlan rectangular - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Capac jgheab",
                 "desc": "Inchide capatul jgheabului rectangular",
-                "image": "/uploads/products/budmat-flamingo-iq/c10.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c10.jpg",
+                "alt": "Capac jgheab - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Carlig ascuns fascia",
                 "desc": "Carlig invizibil din exterior, fixare pe scandura de vant",
-                "image": "/uploads/products/budmat-flamingo-iq/c4.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c4.jpg",
+                "alt": "Carlig ascuns fascia - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Carlig ascuns capriori",
                 "desc": "Carlig invizibil din exterior, fixare pe capriori",
-                "image": "/uploads/products/budmat-flamingo-iq/c5.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c5.jpg",
+                "alt": "Carlig ascuns capriori - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Coltar interior/exterior 90°",
                 "desc": "Element de colt universal, se monteaza ca interior sau exterior",
-                "image": "/uploads/products/budmat-flamingo-iq/c9.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c9.jpg",
+                "alt": "Coltar interior/exterior 90° - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Piesa imbinare jgheab",
                 "desc": "Uneste doua tronsoane de jgheab cu etansare",
-                "image": "/uploads/products/budmat-flamingo-iq/c3.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c3.jpg",
+                "alt": "Piesa imbinare jgheab - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Face trecerea de la jgheab la burlan",
-                "image": "/uploads/products/budmat-flamingo-iq/c11.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c11.jpg",
+                "alt": "Racord jgheab-burlan - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Schimba directia burlanului rectangular",
-                "image": "/uploads/products/budmat-flamingo-iq/c12.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c12.jpg",
+                "alt": "Cot burlan - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Prelungitor burlan",
                 "desc": "Tub intermediar intre coturi si burlan",
-                "image": "/uploads/products/budmat-flamingo-iq/c13.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c13.jpg",
+                "alt": "Prelungitor burlan - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Fixeaza burlanul rectangular pe perete",
-                "image": "/uploads/products/budmat-flamingo-iq/c15.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c15.jpg",
+                "alt": "Bratara burlan - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             },
             {
                 "name": "Element evacuare",
                 "desc": "Cot final la baza burlanului",
-                "image": "/uploads/products/budmat-flamingo-iq/c16.jpg"
+                "image": "/uploads/products/budmat-flamingo-iq/c16.jpg",
+                "alt": "Element evacuare - sistem pluvial rectangular Budmat Flamingo iQ, otel GreenCoat gri"
             }
         ],
-        "image_card": "/uploads/products/budmat-flamingo-iq/card.jpg"
+        "image_card": "/uploads/products/budmat-flamingo-iq/card.jpg",
+        "image_alt": "Sistem pluvial rectangular Budmat Flamingo iQ - schema cu componentele sistemului rectangular: jgheab, burlan, coturi"
     },
     {
         "id": 27,
@@ -3917,7 +4031,12 @@
         "sort_order": 29,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTS-V U2 - din lemn de pin, cu deschidere pivotanta",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTS-V U2 - schema clapetei de ventilatie V40P, circulatia aerului",
+            "Fereastra de mansarda FAKRO FTS-V U2 - deschisa, montata pe acoperis cu tigla rosie"
+        ]
     },
     {
         "id": 30,
@@ -4009,7 +4128,13 @@
         "sort_order": 30,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTP-V U3 - din lemn de pin, cu deschidere pivotanta",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTP-V U3 - deschisa, montata pe acoperis cu tigla rosie",
+            "Fereastra de mansarda FAKRO FTP-V U3 - schema clapetei de ventilatie V40P, circulatia aerului",
+            "Fereastra de mansarda FAKRO FTP-V U3 - deschisa, vedere din interior spre peisaj"
+        ]
     },
     {
         "id": 31,
@@ -4094,7 +4219,12 @@
         "sort_order": 31,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTP-V U5 - din lemn cu geam triplu, deschidere pivotanta",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTP-V U5 - cu cerceveaua rotita la 180 de grade pentru curatare",
+            "Fereastra de mansarda FAKRO FTP-V U5 - dormitor la mansarda cu trei ferestre de acoperis"
+        ]
     },
     {
         "id": 32,
@@ -4178,7 +4308,11 @@
         "sort_order": 32,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTP-V P2 Secure - antiefractie cu geam P2A, finisaj alb",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTP-V P2 Secure - cu rulou decorativ intr-o camera de copii"
+        ]
     },
     {
         "id": 33,
@@ -4262,7 +4396,11 @@
         "sort_order": 33,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FPP-V U3 preSelect - preSelect din lemn, deschidere pe axa superioara",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FPP-V U3 preSelect - doua ferestre preSelect deschise pe acoperis cu tigla, oameni privind afara"
+        ]
     },
     {
         "id": 34,
@@ -4347,7 +4485,12 @@
         "sort_order": 34,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FPU-V U3 preSelect - preSelect cu finisaj poliuretanic alb",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FPU-V U3 preSelect - schema clapetei de ventilatie, circulatia aerului",
+            "Fereastra de mansarda FAKRO FPU-V U3 preSelect - mansarda alba cu patru ferestre de acoperis pe doua randuri"
+        ]
     },
     {
         "id": 35,
@@ -4422,7 +4565,12 @@
         "sort_order": 35,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FDY-V U3 Duet proSky - inalta cu element fix in partea de jos",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FDY-V U3 Duet proSky - fereastra Duet proSky deschisa pe acoperis cu tigla rosie",
+            "Fereastra de mansarda FAKRO FDY-V U3 Duet proSky - living la mansarda cu ferestre inalte de acoperis"
+        ]
     },
     {
         "id": 36,
@@ -4513,7 +4661,12 @@
         "sort_order": 36,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LWK Komfort - pliabila din lemn, in trei segmente, cu balustrada rosie",
+        "gallery_alt": [
+            "Scara de pod FAKRO LWK Komfort - din lemn pliata partial, vedere de jos",
+            "Scara de pod FAKRO LWK Komfort - persoana coborand scara de pod din tavan"
+        ]
     },
     {
         "id": 37,
@@ -4612,7 +4765,11 @@
         "sort_order": 37,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LWT Thermo - termoizolata din lemn, pliata in chepeng",
+        "gallery_alt": [
+            "Scara de pod FAKRO LWT Thermo - termoizolata din lemn, desfacuta"
+        ]
     },
     {
         "id": 38,
@@ -4702,7 +4859,11 @@
         "sort_order": 38,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LTK Energy - din lemn cu chepeng termoizolant",
+        "gallery_alt": [
+            "Scara de pod FAKRO LTK Energy - din lemn desfacuta pe hol"
+        ]
     },
     {
         "id": 39,
@@ -4787,7 +4948,11 @@
         "sort_order": 39,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LST Foarfeca - metalica tip foarfeca",
+        "gallery_alt": [
+            "Scara de pod FAKRO LST Foarfeca - tip foarfeca desfacuta intr-un hol"
+        ]
     },
     {
         "id": 40,
@@ -4873,7 +5038,12 @@
         "sort_order": 40,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LML Lux Metal - metalica pliabila, cu balustrada rosie",
+        "gallery_alt": [
+            "Scara de pod FAKRO LML Lux Metal - metalica pliata in chepeng",
+            "Scara de pod FAKRO LML Lux Metal - metalica desfacuta pe un coridor"
+        ]
     },
     {
         "id": 41,
@@ -4959,7 +5129,12 @@
         "sort_order": 41,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LMF Antifoc - metalica rezistenta la foc",
+        "gallery_alt": [
+            "Scara de pod FAKRO LMF Antifoc - antifoc desfacuta intr-un hol de birouri",
+            "Scara de pod FAKRO LMF Antifoc - antifoc desfacuta intr-un hol de locuinta"
+        ]
     },
     {
         "id": 42,
@@ -5044,7 +5219,11 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/bdm-125-standard-plus/card.jpg"
+        "image_card": "/uploads/products/bdm-125-standard-plus/card.jpg",
+        "image_alt": "Folie anticondens BDM 125 Standard Plus - rola de folie anticondens, culoare bej, cu sigla Acoperis Sanatos",
+        "gallery_alt": [
+            "Folie anticondens BDM 125 Standard Plus - intinsa pe astereala acoperisului"
+        ]
     },
     {
         "id": 43,
@@ -5134,7 +5313,11 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/bdm-140-maxi-sk2/card.jpg"
+        "image_card": "/uploads/products/bdm-140-maxi-sk2/card.jpg",
+        "image_alt": "Folie anticondens BDM 140 MAXI Sk2 - rola de membrana neagra cu benzi adezive integrate",
+        "gallery_alt": [
+            "Folie anticondens BDM 140 MAXI Sk2 - membrana neagra montata pe astereala acoperisului"
+        ]
     },
     {
         "id": 44,
@@ -5220,7 +5403,12 @@
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-reflex-plus/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-reflex-plus/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega USB Reflex Plus - rola de membrana reflectorizanta gri argintiu",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega USB Reflex Plus - structura pe straturi: aluminiu perforat, plasa armata",
+            "Membrana difuzie pentru acoperis Riwega USB Reflex Plus - membrana reflectorizanta intinsa pe astereala din lemn"
+        ]
     },
     {
         "id": 45,
@@ -5520,7 +5708,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/rufster-aqua-3d/card.jpg"
+        "image_card": "/uploads/products/rufster-aqua-3d/card.jpg",
+        "image_alt": "Tigla metalica Rufster Aqua 3D - panou de prezentare, culoare rosu visiniu"
     },
     {
         "id": 46,
@@ -5903,7 +6092,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/rufster-celesta/card.jpg"
+        "image_card": "/uploads/products/rufster-celesta/card.jpg",
+        "image_alt": "Tigla metalica Rufster Celesta - panou de prezentare"
     },
     {
         "id": 47,
@@ -6203,7 +6393,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/rufster-nova/card.jpg"
+        "image_card": "/uploads/products/rufster-nova/card.jpg",
+        "image_alt": "Tigla metalica Rufster Nova - panou de prezentare, culoare caramiziu"
     },
     {
         "id": 48,
@@ -6503,7 +6694,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 11:40:00",
-        "image_card": "/uploads/products/rufster-terra/card.jpg"
+        "image_card": "/uploads/products/rufster-terra/card.jpg",
+        "image_alt": "Tigla metalica Rufster Terra - panou de prezentare, culoare maro roscat"
     },
     {
         "id": 49,
@@ -6782,7 +6974,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/metigla-tr8/card.jpg"
+        "image_card": "/uploads/products/metigla-tr8/card.jpg",
+        "image_alt": "Tabla cutata Metigla TR8 - panou de prezentare, culoare gri"
     },
     {
         "id": 50,
@@ -7061,7 +7254,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/metigla-tr30/card.jpg"
+        "image_card": "/uploads/products/metigla-tr30/card.jpg",
+        "image_alt": "Tabla cutata Metigla TR30 - panou de prezentare, culoare maro"
     },
     {
         "id": 51,
@@ -7340,7 +7534,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/metigla-tr35/card.jpg"
+        "image_card": "/uploads/products/metigla-tr35/card.jpg",
+        "image_alt": "Tabla cutata Metigla TR35 - panou de prezentare, culoare gri antracit"
     },
     {
         "id": 52,
@@ -7619,7 +7814,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/metigla-tr45/card.jpg"
+        "image_card": "/uploads/products/metigla-tr45/card.jpg",
+        "image_alt": "Tabla cutata Metigla TR45 - panou de prezentare, culoare rosu"
     },
     {
         "id": 53,
@@ -7898,7 +8094,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/metigla-ondu18/card.jpg"
+        "image_card": "/uploads/products/metigla-ondu18/card.jpg",
+        "image_alt": "Tabla cutata Metigla ONDU18 - panou de prezentare, culoare verde deschis"
     },
     {
         "id": 54,
@@ -8177,7 +8374,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/metigla-ondu18-curb/card.jpg"
+        "image_card": "/uploads/products/metigla-ondu18-curb/card.jpg",
+        "image_alt": "Tabla cutata Metigla ONDU18 CURB - panou de prezentare"
     },
     {
         "id": 55,
@@ -8678,7 +8876,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-w8/card.jpg"
+        "image_card": "/uploads/products/wetterbest-w8/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest W8 - panou de prezentare, culoare gri"
     },
     {
         "id": 56,
@@ -9174,7 +9373,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-w10/card.jpg"
+        "image_card": "/uploads/products/wetterbest-w10/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest W10 - panou de prezentare, culoare gri deschis"
     },
     {
         "id": 57,
@@ -9675,7 +9875,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-w18/card.jpg"
+        "image_card": "/uploads/products/wetterbest-w18/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest W18 - panou de prezentare, culoare verde"
     },
     {
         "id": 58,
@@ -10176,7 +10377,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-w35/card.jpg"
+        "image_card": "/uploads/products/wetterbest-w35/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest W35 - panou de prezentare, culoare bej"
     },
     {
         "id": 59,
@@ -10677,7 +10879,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-w60/card.jpg"
+        "image_card": "/uploads/products/wetterbest-w60/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest W60 - panou de prezentare, culoare caramiziu"
     },
     {
         "id": 60,
@@ -11178,7 +11381,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 14:10:00",
-        "image_card": "/uploads/products/wetterbest-ji45/card.jpg"
+        "image_card": "/uploads/products/wetterbest-ji45/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest JI 45 - panou de prezentare, culoare gri"
     },
     {
         "id": 61,
@@ -11679,7 +11883,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-jis-16-5/card.jpg"
+        "image_card": "/uploads/products/wetterbest-jis-16-5/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest JIS 16,5 - panou de prezentare, 5, culoare gri"
     },
     {
         "id": 62,
@@ -12180,7 +12385,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/wetterbest-jis-35/card.jpg"
+        "image_card": "/uploads/products/wetterbest-jis-35/card.jpg",
+        "image_alt": "Tabla cutata Wetterbest JIS 35 - panou de prezentare, culoare bej"
     },
     {
         "id": 63,
@@ -12676,7 +12882,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/blachotrapez-t-50/card.jpg"
+        "image_card": "/uploads/products/blachotrapez-t-50/card.jpg",
+        "image_alt": "Tabla cutata Blachotrapez T-50 - panou de prezentare"
     },
     {
         "id": 64,
@@ -12964,7 +13171,12 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 14:01:00",
-        "image_card": "/uploads/products/rufster-r8a/card.jpg"
+        "image_card": "/uploads/products/rufster-r8a/card.jpg",
+        "image_alt": "Tabla cutata Rufster R8 A - panou de prezentare, culoare verde",
+        "gallery_alt": [
+            "",
+            "Tabla cutata Rufster R8 A - sectiune tehnica profil R8 A cu dimensiuni"
+        ]
     },
     {
         "id": 65,
@@ -13252,7 +13464,12 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 14:01:00",
-        "image_card": "/uploads/products/rufster-r8f/card.jpg"
+        "image_card": "/uploads/products/rufster-r8f/card.jpg",
+        "image_alt": "Tabla cutata Rufster R8 F - panou de prezentare, culoare gri",
+        "gallery_alt": [
+            "",
+            "Tabla cutata Rufster R8 F - sectiune tehnica profil R8 F cu dimensiuni"
+        ]
     },
     {
         "id": 66,
@@ -13542,7 +13759,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/rufster-r12a/card.jpg"
+        "image_card": "/uploads/products/rufster-r12a/card.jpg",
+        "image_alt": "Tabla cutata Rufster R12 A - panou de prezentare, culoare albastru"
     },
     {
         "id": 67,
@@ -13832,7 +14050,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/rufster-r12f/card.jpg"
+        "image_card": "/uploads/products/rufster-r12f/card.jpg",
+        "image_alt": "Tabla cutata Rufster R12 F - panou de prezentare, culoare gri deschis"
     },
     {
         "id": 68,
@@ -14122,7 +14341,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/rufster-r18a/card.jpg"
+        "image_card": "/uploads/products/rufster-r18a/card.jpg",
+        "image_alt": "Tabla cutata Rufster R18 A - panou de prezentare, culoare maro"
     },
     {
         "id": 69,
@@ -14412,7 +14632,8 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 13:40:00",
-        "image_card": "/uploads/products/rufster-r18f/card.jpg"
+        "image_card": "/uploads/products/rufster-r18f/card.jpg",
+        "image_alt": "Tabla cutata Rufster R18 F - panou de prezentare, culoare rosu"
     },
     {
         "id": 70,
@@ -14705,7 +14926,12 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 14:01:00",
-        "image_card": "/uploads/products/rufster-r35a/card.jpg"
+        "image_card": "/uploads/products/rufster-r35a/card.jpg",
+        "image_alt": "Tabla cutata Rufster R35 A - panou de prezentare, culoare maro",
+        "gallery_alt": [
+            "",
+            "Tabla cutata Rufster R35 A - sectiune tehnica profil R35 A cu dimensiuni"
+        ]
     },
     {
         "id": 71,
@@ -14993,7 +15219,12 @@
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
         "updated_at": "2026-09-28 14:01:00",
-        "image_card": "/uploads/products/rufster-r35f/card.jpg"
+        "image_card": "/uploads/products/rufster-r35f/card.jpg",
+        "image_alt": "Tabla cutata Rufster R35 F - panou de prezentare, culoare gri deschis",
+        "gallery_alt": [
+            "",
+            "Tabla cutata Rufster R35 F - sectiune tehnica profil R35 F cu dimensiuni"
+        ]
     },
     {
         "id": 72,
@@ -15281,7 +15512,14 @@
         "sort_order": 72,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Stacheti metalici pentru gard Rufster - desen tehnic sectiune stachet metalic 105 mm",
+        "gallery_alt": [
+            "",
+            "Stacheti metalici pentru gard Rufster - paleta de culori RAL lucios",
+            "Stacheti metalici pentru gard Rufster - paleta de culori RAL mat structurat (MS)",
+            "Stacheti metalici pentru gard Rufster - paleta de culori RAL MPR"
+        ]
     },
     {
         "id": 73,
@@ -15422,7 +15660,13 @@
         "sort_order": 73,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Jaluzele Gard Z95 - gard cu lamele tip jaluzea, aspect lemn, pe stalpi de caramida, randare",
+        "gallery_alt": [
+            "",
+            "Rufster Jaluzele Gard Z95 - desen tehnic profil jaluzea Z95 cu dimensiuni",
+            "Rufster Jaluzele Gard Z95 - desen tehnic profil U pentru jaluzea gard"
+        ]
     },
     {
         "id": 74,
@@ -15562,7 +15806,12 @@
         "sort_order": 74,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Sipca Gard V1 - gard din sipca metalica verticala, gri antracit, randare",
+        "gallery_alt": [
+            "",
+            "Rufster Sipca Gard V1 - desen tehnic profil sipca V1 cu dimensiuni"
+        ]
     },
     {
         "id": 75,
@@ -15698,7 +15947,13 @@
         "sort_order": 75,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Gard Rectangular 80x20 - gard cu lamele orizontale rectangulare, gri antracit, pe stalpi de caramida",
+        "gallery_alt": [
+            "",
+            "Rufster Gard Rectangular 80x20 - desen tehnic profil rectangular 80x20 mm",
+            "Rufster Gard Rectangular 80x20 - mostra de culoare stejar auriu"
+        ]
     },
     {
         "id": 76,
@@ -15805,7 +16060,12 @@
         "sort_order": 76,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Element Gard Combi - gard cu lamele orizontale aspect lemn, pe stalpi din beton, randare",
+        "gallery_alt": [
+            "",
+            "Rufster Element Gard Combi - desen tehnic profil element Combi cu dimensiuni"
+        ]
     },
     {
         "id": 77,
@@ -16093,7 +16353,12 @@
         "sort_order": 77,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:15:00"
+        "updated_at": "2026-07-11 12:15:00",
+        "image_alt": "Wetterbest Panou Gard Lamela Tip Jaluzea L - panou de gard cu lamele orizontale tip jaluzea, gri antracit, randare",
+        "gallery_alt": [
+            "",
+            "Wetterbest Panou Gard Lamela Tip Jaluzea L - panou de gard cu lamele orizontale tip jaluzea, gri antracit (imagine 2)"
+        ]
     },
     {
         "id": 78,
@@ -16381,7 +16646,12 @@
         "sort_order": 78,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:15:00"
+        "updated_at": "2026-07-11 12:15:00",
+        "image_alt": "Wetterbest Panou Gard Lamela Tip Jaluzea D - panou de gard cu lamele orizontale tip jaluzea, gri antracit, randare",
+        "gallery_alt": [
+            "",
+            "Wetterbest Panou Gard Lamela Tip Jaluzea D - panou de gard cu lamele orizontale tip jaluzea, gri antracit (imagine 2)"
+        ]
     },
     {
         "id": 79,
@@ -16951,7 +17221,13 @@
         "sort_order": 80,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:15:00"
+        "updated_at": "2026-07-11 12:15:00",
+        "image_alt": "Wetterbest Sipca Metalica Semirotunda - panou de gard din sipca metalica semirotunda, gri antracit, randare",
+        "gallery_alt": [
+            "",
+            "Wetterbest Sipca Metalica Semirotunda - panou de gard din sipca metalica semirotunda, gri antracit, randare (imagine 2)",
+            "Wetterbest Sipca Metalica Semirotunda - panou de gard din sipca metalica semirotunda, gri antracit, randare (imagine 3)"
+        ]
     },
     {
         "id": 81,
@@ -17244,7 +17520,12 @@
         "sort_order": 81,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:15:00"
+        "updated_at": "2026-07-11 12:15:00",
+        "image_alt": "Wetterbest Sipca Metalica Dreapta - panou de gard din sipca metalica dreapta, gri antracit, randare",
+        "gallery_alt": [
+            "",
+            "Wetterbest Sipca Metalica Dreapta - panou de gard din sipca metalica dreapta, gri antracit, randare (imagine 2)"
+        ]
     },
     {
         "id": 82,
@@ -17351,7 +17632,14 @@
         "sort_order": 82,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:30:00"
+        "updated_at": "2026-07-11 12:30:00",
+        "image_alt": "Gard metalic Budmat Palisada Modular - casa cu gard metalic modular cu lamele orizontale gri antracit",
+        "gallery_alt": [
+            "",
+            "Gard metalic Budmat Palisada Modular - casa parter cu gard din lamele negre si accente din lemn",
+            "Gard metalic Budmat Palisada Modular - casa moderna cu gard din lamele orizontale gri",
+            "Gard metalic Budmat Palisada Modular - casa alba moderna cu gard metalic si poarta din lamele"
+        ]
     },
     {
         "id": 83,
@@ -17490,7 +17778,17 @@
         "sort_order": 83,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-07-11 12:30:00"
+        "updated_at": "2026-07-11 12:30:00",
+        "image_alt": "Gard metalic Budmat colectii premium - cladire moderna cu gard metalic din lamele orizontale",
+        "gallery_alt": [
+            "",
+            "Gard metalic Budmat colectii premium - casa cu gard din sipci verticale aspect lemn",
+            "Gard metalic Budmat colectii premium - casa parter cu gard din lamele orizontale pe stalpi din piatra",
+            "Gard metalic Budmat colectii premium - casa cu gard din lamele gri antracit si stalpi albi",
+            "Gard metalic Budmat colectii premium - casa la munte cu gard din sipca metalica maro",
+            "Gard metalic Budmat colectii premium - casa parter cu gard din lamele orizontale pe stalpi gri",
+            "Gard metalic Budmat colectii premium - casa cu gard si poarta din lamele orizontale negre"
+        ]
     },
     {
         "id": 84,
@@ -17659,7 +17957,16 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Sipca metalica pentru gard BDM Nervura 115 - cinci sipci metalice gri antracit, vedere frontala",
+        "gallery_alt": [
+            "",
+            "Sipca metalica pentru gard BDM Nervura 115 - o sipca metalica visinie, vedere frontala",
+            "Sipca metalica pentru gard BDM Nervura 115 - detaliu sipci in trei culori: visiniu, negru si stejar auriu",
+            "Sipca metalica pentru gard BDM Nervura 115 - gard din sipca metalica visinie montat pe soclu de beton",
+            "Sipca metalica pentru gard BDM Nervura 115 - cinci sipci metalice cu aspect de lemn, stejar auriu",
+            "Sipca metalica pentru gard BDM Nervura 115 - panou din cinci sipci metalice gri antracit"
+        ]
     },
     {
         "id": 85,
@@ -17831,7 +18138,17 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 08:12:34",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard tip jaluzea BDM Persiana - cu lamele orizontale tip jaluzea, gri antracit",
+        "gallery_alt": [
+            "",
+            "Panou de gard tip jaluzea BDM Persiana - gri antracit, vedere laterala",
+            "Panou de gard tip jaluzea BDM Persiana - detaliu lamele orizontale ale panoului de gard",
+            "Panou de gard tip jaluzea BDM Persiana - gard din panouri tip jaluzea montat pe stalpi albi, langa casa",
+            "Panou de gard tip jaluzea BDM Persiana - gard din panouri tip jaluzea cu aspect de lemn, de-a lungul strazii",
+            "Panou de gard tip jaluzea BDM Persiana - cu aspect de lemn, stejar auriu",
+            "Panou de gard tip jaluzea BDM Persiana - gri, vedere frontala"
+        ]
     },
     {
         "id": 86,
@@ -17908,7 +18225,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-protector-gold-330/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-protector-gold-330/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega USB Protector GOLD 330 - rola de membrana difuzie rosie",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega USB Protector GOLD 330 - structura pe trei straturi: poliester, poliuretan",
+            "Membrana difuzie pentru acoperis Riwega USB Protector GOLD 330 - membrana rosie montata pe acoperis, in jurul cosului de fum"
+        ]
     },
     {
         "id": 87,
@@ -17985,7 +18307,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-protector-silver-230/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-protector-silver-230/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega USB Protector SILVER 230 - rola de membrana difuzie rosie",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega USB Protector SILVER 230 - membrana rosie montata pe acoperis, in jurul cosului",
+            "Membrana difuzie pentru acoperis Riwega USB Protector SILVER 230 - structura pe trei straturi: PET, film PUR monolitic, PET"
+        ]
     },
     {
         "id": 88,
@@ -18056,7 +18383,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-weld-as/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-weld-as/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega USB Weld AS - rola de membrana gri deschis, sudabila",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega USB Weld AS - structura pe straturi: PUR sudabil antiderapant, film PET, PU sudabil",
+            "Membrana difuzie pentru acoperis Riwega USB Weld AS - membrana gri montata sub tigla, cu sipci si contrasipci"
+        ]
     },
     {
         "id": 89,
@@ -18133,7 +18465,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-classic/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-classic/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega USB Classic - rola de membrana difuzie verde",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega USB Classic - structura pe trei straturi: polipropilena, film UV10, polipropilena",
+            "Membrana difuzie pentru acoperis Riwega USB Classic - membrana verde montata pe acoperis, in jurul cosului de fum"
+        ]
     },
     {
         "id": 90,
@@ -18210,7 +18547,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-elefant/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-elefant/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega USB Elefant - rola de membrana difuzie maro",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega USB Elefant - structura pe trei straturi: polipropilena, film UV10 bicomponent",
+            "Membrana difuzie pentru acoperis Riwega USB Elefant - membrana maro montata pe acoperis, in jurul cosului de fum"
+        ]
     },
     {
         "id": 91,
@@ -18277,7 +18619,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-do-155/card.jpg"
+        "image_card": "/uploads/products/riwega-do-155/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega DO 155 - rola de membrana difuzie gri",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega DO 155 - structura pe trei straturi: polipropilena, film microporos, polipropilena",
+            "Membrana difuzie pentru acoperis Riwega DO 155 - membrana gri montata pe acoperis, peste termoizolatie"
+        ]
     },
     {
         "id": 92,
@@ -18344,7 +18691,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-do-135/card.jpg"
+        "image_card": "/uploads/products/riwega-do-135/card.jpg",
+        "image_alt": "Membrana difuzie pentru acoperis Riwega DO 135 - rola de membrana difuzie gri",
+        "gallery_alt": [
+            "Membrana difuzie pentru acoperis Riwega DO 135 - structura pe trei straturi: polipropilena, film microporos, polipropilena",
+            "Membrana difuzie pentru acoperis Riwega DO 135 - membrana montata pe perete, detaliu de montaj"
+        ]
     },
     {
         "id": 93,
@@ -18411,7 +18763,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-micro-strong/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-micro-strong/card.jpg",
+        "image_alt": "Membrana bariera de vapori Riwega USB Micro Strong - rola de membrana bariera de vapori, culoare bej",
+        "gallery_alt": [
+            "Membrana bariera de vapori Riwega USB Micro Strong - structura pe trei straturi: polipropilena, film functional",
+            "Membrana bariera de vapori Riwega USB Micro Strong - membrana montata pe acoperis, langa cosul de fum"
+        ]
     },
     {
         "id": 94,
@@ -18478,7 +18835,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-micro/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-micro/card.jpg",
+        "image_alt": "Membrana bariera de vapori Riwega USB Micro - rola de membrana bariera de vapori, culoare bej",
+        "gallery_alt": [
+            "Membrana bariera de vapori Riwega USB Micro - structura pe trei straturi: polipropilena, film functional, polipropilena",
+            "Membrana bariera de vapori Riwega USB Micro - membrana montata pe acoperis, sub sipci"
+        ]
     },
     {
         "id": 95,
@@ -18545,7 +18907,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-micro-light/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-micro-light/card.jpg",
+        "image_alt": "Membrana bariera de vapori Riwega USB Micro Light - rola de membrana bariera de vapori, culoare bej",
+        "gallery_alt": [
+            "Membrana bariera de vapori Riwega USB Micro Light - structura pe trei straturi: polipropilena, film functional, polipropilena",
+            "Membrana bariera de vapori Riwega USB Micro Light - membrana montata la interior, pe capriorii mansardei"
+        ]
     },
     {
         "id": 96,
@@ -18612,7 +18979,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-micro-200-vario/card.jpg"
+        "image_card": "/uploads/products/riwega-micro-200-vario/card.jpg",
+        "image_alt": "Membrana bariera de vapori Riwega Micro 200 Vario V7 - rola de membrana cu difuzie variabila, culoare gri, garantie 15 ani",
+        "gallery_alt": [
+            "Membrana bariera de vapori Riwega Micro 200 Vario V7 - membrana montata pe un acoperis terasa",
+            "Membrana bariera de vapori Riwega Micro 200 Vario V7 - structura pe trei straturi: polipropilena, film poliamida"
+        ]
     },
     {
         "id": 97,
@@ -18679,7 +19051,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-ds-188-alu/card.jpg"
+        "image_card": "/uploads/products/riwega-ds-188-alu/card.jpg",
+        "image_alt": "Bariera de vapori Riwega DS 188 ALU - rola de bariera de vapori cu aluminiu, culoare argintie",
+        "gallery_alt": [
+            "Bariera de vapori Riwega DS 188 ALU - structura pe straturi: folie de aluminiu, plasa de armare PET, film PE",
+            "Bariera de vapori Riwega DS 188 ALU - cu aluminiu montata la interior, pe pereti si tavan"
+        ]
     },
     {
         "id": 98,
@@ -18741,7 +19118,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-ds-1500-syn/card.jpg"
+        "image_card": "/uploads/products/riwega-ds-1500-syn/card.jpg",
+        "image_alt": "Bariera de vapori Riwega DS 1500 SYN - rola de bariera de vapori gri",
+        "gallery_alt": [
+            "Bariera de vapori Riwega DS 1500 SYN - structura pe cinci straturi cu folie de aluminiu si film PE",
+            "Bariera de vapori Riwega DS 1500 SYN - montata la interior, pe pereti si tavan mansarda"
+        ]
     },
     {
         "id": 99,
@@ -18802,7 +19184,11 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-ds-65-pe/card.jpg"
+        "image_card": "/uploads/products/riwega-ds-65-pe/card.jpg",
+        "image_alt": "Bariera de vapori Riwega DS 65 PE - rola de folie bariera de vapori din polietilena, albastra",
+        "gallery_alt": [
+            "Bariera de vapori Riwega DS 65 PE - folie albastra de polietilena intinsa pe pardoseala si pereti"
+        ]
     },
     {
         "id": 100,
@@ -18878,7 +19264,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-windtop-uv/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-windtop-uv/card.jpg",
+        "image_alt": "Membrana de fatada Riwega USB Windtop UV 30/160 - rola de membrana de fatada neagra, rezistenta UV",
+        "gallery_alt": [
+            "Membrana de fatada Riwega USB Windtop UV 30/160 - membrana neagra montata in spatele unui placaj de fatada din lemn",
+            "Membrana de fatada Riwega USB Windtop UV 30/160 - structura pe doua straturi: film poliuretanic stabilizat UV si poliester"
+        ]
     },
     {
         "id": 101,
@@ -18944,7 +19335,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-wall-120/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-wall-120/card.jpg",
+        "image_alt": "Membrana de fatada Riwega USB Wall 120 - rola de membrana de fatada gri",
+        "gallery_alt": [
+            "Membrana de fatada Riwega USB Wall 120 - membrana gri montata pe peretele exterior al unei case",
+            "Membrana de fatada Riwega USB Wall 120 - structura pe trei straturi: polipropilena, film functional, polipropilena"
+        ]
     },
     {
         "id": 102,
@@ -19010,7 +19406,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-usb-drenlam-bluetech/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-drenlam-bluetech/card.jpg",
+        "image_alt": "Covor de drenaj pentru tabla faltuita Riwega USB Drenlam Bluetech - rola de covor de drenaj tridimensional albastru",
+        "gallery_alt": [
+            "Covor de drenaj pentru tabla faltuita Riwega USB Drenlam Bluetech - detaliu plasa tridimensionala din polipropilena albastra",
+            "Covor de drenaj pentru tabla faltuita Riwega USB Drenlam Bluetech - montat pe acoperis sub tabla faltuita"
+        ]
     },
     {
         "id": 103,
@@ -19077,7 +19478,13 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:50:00",
-        "image_card": "/uploads/products/riwega-usb-drenlam-light/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-drenlam-light/card.jpg",
+        "image_alt": "Covor de drenaj pentru tabla faltuita Riwega USB Drenlam Light - rola de covor de drenaj tridimensional negru",
+        "gallery_alt": [
+            "",
+            "Covor de drenaj pentru tabla faltuita Riwega USB Drenlam Light - detaliu structura tridimensionala din polipropilena neagra",
+            "Covor de drenaj pentru tabla faltuita Riwega USB Drenlam Light - negru montat pe acoperis sub tabla faltuita"
+        ]
     },
     {
         "id": 104,
@@ -19139,7 +19546,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-vsk-bitum-reflex-1200/card.jpg"
+        "image_card": "/uploads/products/riwega-vsk-bitum-reflex-1200/card.jpg",
+        "image_alt": "Membrana autoadeziva Riwega VSK Bitum Reflex 1200 - rola de membrana bituminoasa autoadeziva cu aluminiu",
+        "gallery_alt": [
+            "Membrana autoadeziva Riwega VSK Bitum Reflex 1200 - montata la interior, pe pardoseala si pereti",
+            "Membrana autoadeziva Riwega VSK Bitum Reflex 1200 - structura pe straturi: folie de aluminiu, bitum autoadeziv, folie"
+        ]
     },
     {
         "id": 105,
@@ -19201,7 +19613,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-vsk-clear-280/card.jpg"
+        "image_card": "/uploads/products/riwega-vsk-clear-280/card.jpg",
+        "image_alt": "Membrana autoadeziva Riwega VSK Clear 280 - rola de membrana autoadeziva transparenta, alba",
+        "gallery_alt": [
+            "Membrana autoadeziva Riwega VSK Clear 280 - montata pe panouri prefabricate de perete",
+            "Membrana autoadeziva Riwega VSK Clear 280 - structura pe straturi: film EVA, material netesut, adeziv acrilic, liner"
+        ]
     },
     {
         "id": 106,
@@ -19268,7 +19685,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:17:27",
         "updated_at": "2026-09-28 16:20:00",
-        "image_card": "/uploads/products/riwega-vsk-ds-1500-syn/card.jpg"
+        "image_card": "/uploads/products/riwega-vsk-ds-1500-syn/card.jpg",
+        "image_alt": "Membrana autoadeziva Riwega VSK DS 1500 SYN - rola de bariera de vapori autoadeziva gri",
+        "gallery_alt": [
+            "Membrana autoadeziva Riwega VSK DS 1500 SYN - structura pe straturi cu film PE si aluminiu, adeziv acrilic si liner",
+            "Membrana autoadeziva Riwega VSK DS 1500 SYN - bariera de vapori autoadeziva montata la interior, pe pereti si pardoseala"
+        ]
     },
     {
         "id": 107,
@@ -19341,7 +19763,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-usb-coll-150-x/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-coll-150-x/card.jpg",
+        "image_alt": "Riwega USB Coll 150 X - rola de banda gri cu strat de armare"
     },
     {
         "id": 108,
@@ -19414,7 +19837,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-usb-coll-flexi/card.jpg"
+        "image_card": "/uploads/products/riwega-usb-coll-flexi/card.jpg",
+        "image_alt": "Riwega USB Coll Flexi - rola de banda gri flexibila cu strat de armare"
     },
     {
         "id": 109,
@@ -19482,7 +19906,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-roll-flex-top-alu/card.jpg"
+        "image_card": "/uploads/products/riwega-roll-flex-top-alu/card.jpg",
+        "image_alt": "Riwega Roll Flex Top Alu - rola de banda din aluminiu plisat, caramiziu si gri"
     },
     {
         "id": 110,
@@ -19540,7 +19965,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/evotek-banda-3d/card.jpg"
+        "image_card": "/uploads/products/evotek-banda-3d/card.jpg",
+        "image_alt": "Evotek Banda 3D perete si cos de fum - rola de banda din aluminiu 3D, caramizie, cu strat adeziv"
     },
     {
         "id": 111,
@@ -19599,7 +20025,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/evotek-banda-sipca/card.jpg"
+        "image_card": "/uploads/products/evotek-banda-sipca/card.jpg",
+        "image_alt": "Evotek Banda Sipca Verticala - rola de banda neagra pentru etansarea contrasipcilor",
+        "gallery_alt": [
+            "",
+            "Evotek Banda Sipca Verticala - banda montata sub contrasipci, peste membrana de acoperis"
+        ]
     },
     {
         "id": 112,
@@ -19672,7 +20103,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tip-kont/card.jpg"
+        "image_card": "/uploads/products/riwega-tip-kont/card.jpg",
+        "image_alt": "Riwega Tip KONT - rola de banda albastra din spuma, pentru etansarea cuielor sub sipca"
     },
     {
         "id": 113,
@@ -19735,7 +20167,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-2-co/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-2-co/card.jpg",
+        "image_alt": "Riwega Tape 2 CO - rola de banda gri dublu adeziva"
     },
     {
         "id": 114,
@@ -19789,7 +20222,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/evotek-banda-acrilica-dublu-adeziva/card.jpg"
+        "image_card": "/uploads/products/evotek-banda-acrilica-dublu-adeziva/card.jpg",
+        "image_alt": "Evotek Banda Acrilica Dublu-Adeziva - rola de banda acrilica dublu adeziva, bej",
+        "gallery_alt": [
+            "",
+            "Evotek Banda Acrilica Dublu-Adeziva - banda aplicata pe suprapunerea foliilor galbene de acoperis"
+        ]
     },
     {
         "id": 115,
@@ -19862,7 +20300,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-1-pap/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-1-pap/card.jpg",
+        "image_alt": "Riwega Tape 1 PAP - rola de banda adeziva din hartie, galbena"
     },
     {
         "id": 116,
@@ -19940,7 +20379,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-1-pe/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-1-pe/card.jpg",
+        "image_alt": "Riwega Tape 1 PE - rola de banda adeziva din polietilena, albastra"
     },
     {
         "id": 117,
@@ -20013,7 +20453,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-corner/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-corner/card.jpg",
+        "image_alt": "Riwega Tape Corner - rola de banda alba pentru colturi"
     },
     {
         "id": 118,
@@ -20091,7 +20532,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-green/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-green/card.jpg",
+        "image_alt": "Riwega Tape Green - rola de banda adeziva verde"
     },
     {
         "id": 119,
@@ -20169,7 +20611,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-reflex/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-reflex/card.jpg",
+        "image_alt": "Riwega Tape Reflex - rola de banda adeziva reflectorizanta, gri argintiu"
     },
     {
         "id": 120,
@@ -20242,7 +20685,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-uv/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-uv/card.jpg",
+        "image_alt": "Riwega Tape UV - rola de banda adeziva neagra rezistenta UV"
     },
     {
         "id": 121,
@@ -20310,7 +20754,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-2-bu/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-2-bu/card.jpg",
+        "image_alt": "Riwega Tape 2 BU - rola de banda butilica dublu adeziva, gri"
     },
     {
         "id": 122,
@@ -20373,7 +20818,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/evotek-banda-butilica/card.jpg"
+        "image_card": "/uploads/products/evotek-banda-butilica/card.jpg",
+        "image_alt": "Evotek Banda Butilica - rola de banda butilica neagra cu hartie de protectie"
     },
     {
         "id": 123,
@@ -20441,7 +20887,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/riwega-tape-2-ac/card.jpg"
+        "image_card": "/uploads/products/riwega-tape-2-ac/card.jpg",
+        "image_alt": "Riwega Tape 2 AC - rola de banda acrilica dublu adeziva, maro"
     },
     {
         "id": 124,
@@ -20514,7 +20961,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-unisan/card.jpg"
+        "image_card": "/uploads/products/eurovent-unisan/card.jpg",
+        "image_alt": "Eurovent Unisan - rola lata de banda universala verde"
     },
     {
         "id": 125,
@@ -20587,7 +21035,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-multi/card.jpg"
+        "image_card": "/uploads/products/eurovent-multi/card.jpg",
+        "image_alt": "Eurovent Multi - doua cartuse de adeziv-etansant de 320 g"
     },
     {
         "id": 126,
@@ -20660,7 +21109,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-seal/card.jpg"
+        "image_card": "/uploads/products/eurovent-seal/card.jpg",
+        "image_alt": "Eurovent Seal - manseta de etansare cu guler pentru trecerea tevilor prin folie"
     },
     {
         "id": 127,
@@ -20733,7 +21183,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-mini-seal/card.jpg"
+        "image_card": "/uploads/products/eurovent-mini-seal/card.jpg",
+        "image_alt": "Eurovent Mini Seal - manseta mica de etansare pentru trecerea cablurilor prin folie"
     },
     {
         "id": 128,
@@ -20806,7 +21257,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-topband/card.jpg"
+        "image_card": "/uploads/products/eurovent-topband/card.jpg",
+        "image_alt": "Eurovent Topband - rola lata de banda gri pentru suprapuneri"
     },
     {
         "id": 129,
@@ -20879,7 +21331,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-pur/card.jpg"
+        "image_card": "/uploads/products/eurovent-pur/card.jpg",
+        "image_alt": "Eurovent PUR - rola de banda din spuma poliuretanica neagra"
     },
     {
         "id": 130,
@@ -20952,7 +21405,8 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:32:29",
-        "image_card": "/uploads/products/eurovent-compre-x/card.jpg"
+        "image_card": "/uploads/products/eurovent-compre-x/card.jpg",
+        "image_alt": "Eurovent Compre X - rola de banda precomprimata neagra"
     },
     {
         "id": 131,
@@ -21022,7 +21476,13 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:51:19",
-        "image_card": "/uploads/products/evotek-banda-coama/card.jpg"
+        "image_card": "/uploads/products/evotek-banda-coama/card.jpg",
+        "image_alt": "Evotek Banda Coama tip T 310 mm - rola de banda de coama neagra cu margini din aluminiu caramiziu",
+        "gallery_alt": [
+            "",
+            "Evotek Banda Coama tip T 310 mm - banda de coama montata pe coama unui acoperis cu tigla, schema de montaj",
+            "Evotek Banda Coama tip T 310 mm - sectiune prin coama: tigla, sipca de coama si banda de ventilare"
+        ]
     },
     {
         "id": 132,
@@ -21108,7 +21568,14 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:51:19",
-        "image_card": "/uploads/products/evotek-coloana-aerisire-sanitara-n/card.jpg"
+        "image_card": "/uploads/products/evotek-coloana-aerisire-sanitara-n/card.jpg",
+        "image_alt": "Evotek Coloana Aerisire Sanitara N - coloana de aerisire caramizie cu capac",
+        "gallery_alt": [
+            "",
+            "Evotek Coloana Aerisire Sanitara N - coloana de aerisire neagra montata pe tigla metalica, sectiune de montaj",
+            "Evotek Coloana Aerisire Sanitara N - desen tehnic cu dimensiuni: inaltime 410-500 mm, baza 325 mm",
+            "Evotek Coloana Aerisire Sanitara N - desen tehnic vedere de sus, baza 245 mm"
+        ]
     },
     {
         "id": 133,
@@ -21177,7 +21644,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:51:19",
-        "image_card": "/uploads/products/evotek-ventilatie-acoperis-n/card.jpg"
+        "image_card": "/uploads/products/evotek-ventilatie-acoperis-n/card.jpg",
+        "image_alt": "Evotek Ventilatie Acoperis N - aerator de acoperis caramiziu",
+        "gallery_alt": [
+            "",
+            "Evotek Ventilatie Acoperis N - aerator de acoperis negru"
+        ]
     },
     {
         "id": 134,
@@ -21256,7 +21728,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:51:19",
-        "image_card": "/uploads/products/eurovent-ventos-x-roto-b26/card.jpg"
+        "image_card": "/uploads/products/eurovent-ventos-x-roto-b26/card.jpg",
+        "image_alt": "Eurovent Ventos X Roto B26 - coloana de ventilatie neagra cu palarie",
+        "gallery_alt": [
+            "",
+            "Eurovent Ventos X Roto B26 - coloana de ventilatie montata pe tigla metalica, sectiune prin acoperis"
+        ]
     },
     {
         "id": 135,
@@ -21325,7 +21802,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-28 13:51:19",
-        "image_card": "/uploads/products/eurovent-sattos-x-n25/card.jpg"
+        "image_card": "/uploads/products/eurovent-sattos-x-n25/card.jpg",
+        "image_alt": "Eurovent Sattos X N25 - coloana de ventilatie conica neagra",
+        "gallery_alt": [
+            "",
+            "Eurovent Sattos X N25 - coloana de ventilatie montata pe tigla metalica, sectiune prin acoperis"
+        ]
     },
     {
         "id": 136,
@@ -21630,7 +22112,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-30 11:07:12",
-        "image_card": "/uploads/products/bara-simpla-parazapada-tabla-faltuita/card.jpg"
+        "image_card": "/uploads/products/bara-simpla-parazapada-tabla-faltuita/card.jpg",
+        "image_alt": "Figo Bara Parazapada - set 1 bara - bare parazapada montate pe acoperis din tabla faltuita gri",
+        "gallery_alt": [
+            "",
+            "Figo Bara Parazapada - set 1 bara - clema de prindere pe falt, neagra, cu orificiu pentru o bara"
+        ]
     },
     {
         "id": 138,
@@ -21879,7 +22366,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-30 11:07:12",
-        "image_card": "/uploads/products/bare-duble-parazapada-tabla-faltuita/card.jpg"
+        "image_card": "/uploads/products/bare-duble-parazapada-tabla-faltuita/card.jpg",
+        "image_alt": "Figo Set Parazapada - 2 bare - doua bare parazapada pe acoperis din tabla faltuita, sectiune de montaj",
+        "gallery_alt": [
+            "",
+            "Figo Set Parazapada - 2 bare - clema de prindere pe falt, neagra, cu doua orificii pentru bare"
+        ]
     },
     {
         "id": 139,
@@ -22022,7 +22514,12 @@
         "is_active": true,
         "created_at": "2026-03-31 10:48:55",
         "updated_at": "2026-09-30 10:48:28",
-        "image_card": "/uploads/products/eurovent-snowstopper-set-metal-panel/card.jpg"
+        "image_card": "/uploads/products/eurovent-snowstopper-set-metal-panel/card.jpg",
+        "image_alt": "Grilaj parazapada Eurovent Snowstopper Set Metal 35/370 - negru cu console de prindere",
+        "gallery_alt": [
+            "",
+            "Grilaj parazapada Eurovent Snowstopper Set Metal 35/370 - montat pe acoperis din tabla, sectiune de montaj"
+        ]
     },
     {
         "id": 140,
@@ -22141,7 +22638,12 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-03-31 11:28:34",
-        "updated_at": "2026-05-23 19:30:00"
+        "updated_at": "2026-05-23 19:30:00",
+        "image_alt": "Sageac metalic Wetterbest - panouri de sageac metalic gri antracit si maro, plin si perforat",
+        "gallery_alt": [
+            "Sageac metalic Wetterbest - negru montat sub streasina, la coltul casei",
+            "Sageac metalic Wetterbest - maro perforat montat sub streasina, cu burlan"
+        ]
     },
     {
         "name": "FAKRO FTP-V U4",
@@ -22215,7 +22717,11 @@
         "sort_order": 141,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTP-V U4 - din lemn de pin cu geam triplu",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTP-V U4 - doua ferestre de mansarda din lemn intr-un dormitor la mansarda"
+        ]
     },
     {
         "name": "FAKRO FTU-V U3",
@@ -22290,7 +22796,12 @@
         "sort_order": 142,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTU-V U3 - din lemn cu finisaj alb, deschidere pivotanta",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTU-V U3 - baie la mansarda cu fereastra de acoperis alba",
+            "Fereastra de mansarda FAKRO FTU-V U3 - schema clapetei de ventilatie, circulatia aerului"
+        ]
     },
     {
         "name": "FAKRO PTP-V U3",
@@ -22368,7 +22879,15 @@
         "sort_order": 143,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO PTP-V U3 - din PVC alb, deschidere pivotanta",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO PTP-V U3 - baie la mansarda cu doua ferestre de acoperis din PVC",
+            "Fereastra de mansarda FAKRO PTP-V U3 - schema clapetei de ventilatie, circulatia aerului",
+            "Fereastra de mansarda FAKRO PTP-V U3 - sectiune prin profilul din PVC cu geam termoizolant",
+            "Fereastra de mansarda FAKRO PTP-V U3 - detaliu deschidere si sistem de fixare a cercevelei",
+            "Fereastra de mansarda FAKRO PTP-V U3 - detaliu maner de deschidere montat in partea de jos"
+        ]
     },
     {
         "name": "FAKRO PTP-V U4",
@@ -22443,7 +22962,12 @@
         "sort_order": 144,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO PTP-V U4 - din PVC alb cu geam triplu",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO PTP-V U4 - dining la mansarda cu doua ferestre de acoperis din PVC",
+            "Fereastra de mansarda FAKRO PTP-V U4 - schema clapetei de ventilatie, circulatia aerului"
+        ]
     },
     {
         "name": "FAKRO PTP-V U5",
@@ -22517,7 +23041,11 @@
         "sort_order": 145,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO PTP-V U5 - din PVC alb cu geam triplu, deschidere pivotanta",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO PTP-V U5 - schema clapetei de ventilatie, circulatia aerului"
+        ]
     },
     {
         "name": "FAKRO FTT U8 Thermo",
@@ -22597,7 +23125,12 @@
         "sort_order": 146,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FTT U8 Thermo - super-termoizolanta din lemn, cu geam cvadruplu",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FTT U8 Thermo - sectiune prin profilul din lemn cu geam cvadruplu",
+            "Fereastra de mansarda FAKRO FTT U8 Thermo - sectiune prin profil, Uw 0,58 W/m2K"
+        ]
     },
     {
         "name": "FAKRO FGH-V P5 Galeria",
@@ -22673,7 +23206,13 @@
         "sort_order": 147,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra-balcon de mansarda FAKRO FGH-V P5 Galeria - mansarda, deschisa",
+        "gallery_alt": [
+            "Fereastra-balcon de mansarda FAKRO FGH-V P5 Galeria - fereastra-balcon deschisa pe acoperis cu tigla rosie, persoana",
+            "Fereastra-balcon de mansarda FAKRO FGH-V P5 Galeria - doua ferestre-balcon deschise pe un acoperis gri",
+            "Fereastra-balcon de mansarda FAKRO FGH-V P5 Galeria - fereastra-balcon Galeria deschisa pe acoperis cu tigla, vedere"
+        ]
     },
     {
         "name": "FAKRO FPU-V U5 preSelect MAX",
@@ -22748,7 +23287,12 @@
         "sort_order": 148,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-24 23:45:00"
+        "updated_at": "2026-04-24 23:45:00",
+        "image_alt": "Fereastra de mansarda FAKRO FPU-V U5 preSelect MAX - preSelect MAX cu finisaj alb, geam triplu",
+        "gallery_alt": [
+            "Fereastra de mansarda FAKRO FPU-V U5 preSelect MAX - schema clapetei de ventilatie, circulatia aerului",
+            "Fereastra de mansarda FAKRO FPU-V U5 preSelect MAX - fereastra preSelect deschisa pe acoperis cu tigla gri, persoana"
+        ]
     },
     {
         "name": "FAKRO DXC-C P2 Tip C",
@@ -22822,7 +23366,11 @@
         "sort_order": 149,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Fereastra pentru acoperis terasa FAKRO DXC-C P2 Tip C - cu cupola transparenta",
+        "gallery_alt": [
+            "Fereastra pentru acoperis terasa FAKRO DXC-C P2 Tip C - ferestre cu cupola montate pe un acoperis terasa"
+        ]
     },
     {
         "name": "FAKRO DXF DU6 Tip F",
@@ -22898,7 +23446,13 @@
         "sort_order": 150,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Fereastra pentru acoperis terasa FAKRO DXF DU6 Tip F - fereastra plata pentru acoperis terasa, cu geam si rama neagra",
+        "gallery_alt": [
+            "Fereastra pentru acoperis terasa FAKRO DXF DU6 Tip F - sectiune de montaj pe acoperis verde",
+            "Fereastra pentru acoperis terasa FAKRO DXF DU6 Tip F - fereastra plata montata pe terasa, vedere de aproape",
+            "Fereastra pentru acoperis terasa FAKRO DXF DU6 Tip F - sectiune prin rama din PVC multicamerala"
+        ]
     },
     {
         "name": "FAKRO DMF DU6",
@@ -22973,7 +23527,12 @@
         "sort_order": 151,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Fereastra pentru acoperis terasa FAKRO DMF DU6 - fereastra plata pentru acoperis terasa, deschisa electric",
+        "gallery_alt": [
+            "Fereastra pentru acoperis terasa FAKRO DMF DU6 - fereastra plata deschisa, pe o terasa cu gazon",
+            "Fereastra pentru acoperis terasa FAKRO DMF DU6 - birou luminat prin ferestre de acoperis terasa"
+        ]
     },
     {
         "name": "FAKRO DEF DU6",
@@ -23047,7 +23606,11 @@
         "sort_order": 152,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Fereastra pentru acoperis terasa FAKRO DEF DU6 - fereastra plata pentru acoperis terasa, deschisa electric",
+        "gallery_alt": [
+            "Fereastra pentru acoperis terasa FAKRO DEF DU6 - birou luminat printr-o fereastra de acoperis terasa"
+        ]
     },
     {
         "name": "FAKRO DXW Circulabila",
@@ -23127,7 +23690,12 @@
         "sort_order": 153,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Fereastra circulabila pentru terasa FAKRO DXW - terasa, cu geam antiderapant",
+        "gallery_alt": [
+            "Fereastra circulabila pentru terasa FAKRO DXW - persoana pasind pe fereastra circulabila de pe terasa",
+            "Fereastra circulabila pentru terasa FAKRO DXW - montata intr-o terasa cu deck din lemn"
+        ]
     },
     {
         "name": "FAKRO DSF Evacuare Fum",
@@ -23196,7 +23764,11 @@
         "sort_order": 154,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Fereastra de evacuare fum FAKRO DSF - fum deschisa cu actuatoare",
+        "gallery_alt": [
+            "Fereastra de evacuare fum FAKRO DSF - fum pe acoperis terasa, noaptea"
+        ]
     },
     {
         "name": "FAKRO DRC-C P2 Acces Terasa",
@@ -23266,7 +23838,12 @@
         "sort_order": 155,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Trapa de acces pe terasa FAKRO DRC-C P2 - pe terasa cu cupola, deschisa",
+        "gallery_alt": [
+            "Trapa de acces pe terasa FAKRO DRC-C P2 - cu cupola deschisa, detaliu",
+            "Trapa de acces pe terasa FAKRO DRC-C P2 - cu cupola, inchisa"
+        ]
     },
     {
         "name": "FAKRO DRL Trapa Acces",
@@ -23336,7 +23913,12 @@
         "sort_order": 156,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Trapa de acces pe terasa FAKRO DRL - pe terasa cu scara metalica",
+        "gallery_alt": [
+            "Trapa de acces pe terasa FAKRO DRL - deschisa pe terasa, cu scara vazuta din interior",
+            "Trapa de acces pe terasa FAKRO DRL - deschisa pe terasa, la apus"
+        ]
     },
     {
         "name": "FAKRO SRT Tub Rigid",
@@ -23416,7 +23998,12 @@
         "sort_order": 157,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Tunel de lumina FAKRO SRT cu tub rigid - cupola tunelului de lumina montata pe acoperis plat",
+        "gallery_alt": [
+            "Tunel de lumina FAKRO SRT cu tub rigid - schema tunelului de lumina cu tub rigid prin pod",
+            "Tunel de lumina FAKRO SRT cu tub rigid - cupola tunelului de lumina montata pe acoperis cu sindrila"
+        ]
     },
     {
         "name": "FAKRO SLT Tub Flexibil",
@@ -23490,7 +24077,11 @@
         "sort_order": 158,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Tunel de lumina FAKRO SLT cu tub flexibil - tub flexibil cu difuzor de tavan",
+        "gallery_alt": [
+            "Tunel de lumina FAKRO SLT cu tub flexibil - schema tunelului de lumina cu tub flexibil prin pod"
+        ]
     },
     {
         "name": "FAKRO SR_ Tub Rigid Rama Integrata",
@@ -23564,7 +24155,11 @@
         "sort_order": 159,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Tunel de lumina FAKRO SR_ cu tub rigid si rama integrata - tub rigid cu rama integrata si difuzor de tavan",
+        "gallery_alt": [
+            "Tunel de lumina FAKRO SR_ cu tub rigid si rama integrata - cupola cu rama integrata montata pe acoperis din ardezie"
+        ]
     },
     {
         "name": "FAKRO SF_ Tub Flexibil Rama Integrata",
@@ -23631,7 +24226,8 @@
         "sort_order": 160,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Tunel de lumina FAKRO SF_ cu tub flexibil si rama integrata - colaj: cupola pe tigla, tub flexibil si hol luminat natural"
     },
     {
         "name": "FAKRO WLI Luminator",
@@ -23710,7 +24306,11 @@
         "sort_order": 161,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Luminator de acoperis FAKRO WLI - cu deschidere laterala",
+        "gallery_alt": [
+            "Luminator de acoperis FAKRO WLI - luminator deschis montat pe acoperis cu tigla rosie"
+        ]
     },
     {
         "name": "FAKRO WGI Luminator Geam",
@@ -23785,7 +24385,12 @@
         "sort_order": 162,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Luminator de acoperis cu geam FAKRO WGI - luminator cu geam, deschis cu tija de sustinere",
+        "gallery_alt": [
+            "Luminator de acoperis cu geam FAKRO WGI - luminator montat pe acoperis cu tigla rosie",
+            "Luminator de acoperis cu geam FAKRO WGI - luminator pe acoperis antracit, cu treapta de acces"
+        ]
     },
     {
         "name": "FAKRO WGT Luminator Termoizolant",
@@ -23859,7 +24464,11 @@
         "sort_order": 163,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:15:00"
+        "updated_at": "2026-04-25 00:15:00",
+        "image_alt": "Luminator de acoperis termoizolant FAKRO WGT - luminator termoizolant din lemn, deschis",
+        "gallery_alt": [
+            "Luminator de acoperis termoizolant FAKRO WGT - luminator termoizolant montat pe acoperis antracit, cu treapta de acces"
+        ]
     },
     {
         "name": "FAKRO LWL Extra",
@@ -23938,7 +24547,11 @@
         "sort_order": 164,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LWL Extra - din lemn cu balustrada, desfacuta",
+        "gallery_alt": [
+            "Scara de pod FAKRO LWL Extra - din lemn desfacuta intr-o camera"
+        ]
     },
     {
         "name": "FAKRO LWF 45 Antifoc",
@@ -24017,7 +24630,11 @@
         "sort_order": 165,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LWF 45 Antifoc - din lemn rezistenta la foc, desfacuta intr-o camera",
+        "gallery_alt": [
+            "Scara de pod FAKRO LWF 45 Antifoc - desen tehnic cu dimensiuni si tabel de parametri"
+        ]
     },
     {
         "name": "FAKRO LWZ Plus",
@@ -24091,7 +24708,11 @@
         "sort_order": 166,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LWZ Plus - din lemn cu balustrada rosie, desfacuta",
+        "gallery_alt": [
+            "Scara de pod FAKRO LWZ Plus - din lemn pliata partial, vedere de jos"
+        ]
     },
     {
         "name": "FAKRO LMK Komfort Metal",
@@ -24171,7 +24792,12 @@
         "sort_order": 167,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LMK Komfort Metal - metalica pliabila, vedere de jos",
+        "gallery_alt": [
+            "Scara de pod FAKRO LMK Komfort Metal - metalica pliata in chepeng",
+            "Scara de pod FAKRO LMK Komfort Metal - metalica desfacuta intr-un hol modern"
+        ]
     },
     {
         "name": "FAKRO LMP Inaltime Mare",
@@ -24248,7 +24874,14 @@
         "sort_order": 168,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LMP Inaltime Mare - metalica pentru inaltimi mari, desfacuta",
+        "gallery_alt": [
+            "Scara de pod FAKRO LMP Inaltime Mare - pentru inaltimi de pana la 366 cm, ilustrare inaltime",
+            "Scara de pod FAKRO LMP Inaltime Mare - metalica inalta, vedere laterala",
+            "Scara de pod FAKRO LMP Inaltime Mare - detaliu trepte metalice si balustrada rosie",
+            "Scara de pod FAKRO LMP Inaltime Mare - metalica inalta desfacuta intr-un garaj"
+        ]
     },
     {
         "name": "FAKRO LSZ Foarfeca Termoizolata",
@@ -24322,7 +24955,11 @@
         "sort_order": 169,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LSZ Foarfeca Termoizolata - tip foarfeca cu chepeng termoizolat",
+        "gallery_alt": [
+            "Scara de pod FAKRO LSZ Foarfeca Termoizolata - tip foarfeca desfacuta intr-un hol"
+        ]
     },
     {
         "name": "FAKRO LSF Foarfeca Antifoc",
@@ -24394,7 +25031,8 @@
         "sort_order": 170,
         "is_active": true,
         "created_at": "2026-04-03 10:00:00",
-        "updated_at": "2026-04-25 00:30:00"
+        "updated_at": "2026-04-25 00:30:00",
+        "image_alt": "Scara de pod FAKRO LSF Foarfeca Antifoc - tip foarfeca rezistenta la foc, cu chepeng metalic"
     },
     {
         "id": 171,
@@ -24512,70 +25150,90 @@
             {
                 "name": "Capac jgheab",
                 "desc": "Element de inchidere lateral al jgheabului (EDGE CAP-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c01-capac-jgheab.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c01-capac-jgheab.jpg",
+                "alt": "Capac jgheab - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Jgheab",
                 "desc": "Jgheab rectangular 140mm, lungime 4m (EDGE JGH-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c02-jgheab.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c02-jgheab.jpg",
+                "alt": "Jgheab - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Imbinare jgheab",
                 "desc": "Piesa de imbinare intre doua tronsoane de jgheab (EDGE IMB-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c03-imbinare-jgheab.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c03-imbinare-jgheab.jpg",
+                "alt": "Imbinare jgheab - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Carlig aplicat",
                 "desc": "Carlig standard pentru fixare directa a jgheabului (EDGE CRL-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c04-carlig-aplicat.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c04-carlig-aplicat.jpg",
+                "alt": "Carlig aplicat - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Coltar jgheab",
                 "desc": "Coltar 90° pentru intersectia jgheaburilor (EDGE CJH-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c05-coltar-jgheab.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c05-coltar-jgheab.jpg",
+                "alt": "Coltar jgheab - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Piesa de trecere de la jgheab la burlan (EDGE RJB-140/80)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c06-racord-jgheab-burlan.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c06-racord-jgheab-burlan.jpg",
+                "alt": "Racord jgheab-burlan - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Cot pentru burlan cu unghi ajustabil (EDGE COT-80)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c07-cot-burlan.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c07-cot-burlan.jpg",
+                "alt": "Cot burlan - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Colier burlan",
                 "desc": "Colier de fixare intermediar pentru burlan (EDGE BRT-80)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c08-colier-burlan.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c08-colier-burlan.jpg",
+                "alt": "Colier burlan - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Burlan",
                 "desc": "Burlan rectangular 80mm, lungime 1m (EDGE BUR-80)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c09-burlan.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c09-burlan.jpg",
+                "alt": "Burlan - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Carlig cu pinten",
                 "desc": "Carlig ranforsat cu pinten pentru sarcini mari (EDGE CRL-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c10-carlig-cu-pinten.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c10-carlig-cu-pinten.jpg",
+                "alt": "Carlig cu pinten - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Carlig cu umar",
                 "desc": "Carlig cu umar de sprijin pentru montaj perfect (EDGE CRL-140)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c11-carlig-cu-umar.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c11-carlig-cu-umar.jpg",
+                "alt": "Carlig cu umar - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Bratara de fixare a burlanului pe perete (EDGE BRT-80)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c12-bratara-burlan.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c12-bratara-burlan.jpg",
+                "alt": "Bratara burlan - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             },
             {
                 "name": "Mufa burlan",
                 "desc": "Mufa de imbinare pentru extinderea burlanului (EDGE MUF-80/80)",
-                "image": "/uploads/products/metigla-edge-sistem-pluvial/c13-mufa-burlan.jpg"
+                "image": "/uploads/products/metigla-edge-sistem-pluvial/c13-mufa-burlan.jpg",
+                "alt": "Mufa burlan - sistem pluvial rectangular Metigla EDGE, gri antracit RAL 7016"
             }
         ],
-        "image_card": "/uploads/products/metigla-edge-sistem-pluvial/card.jpg"
+        "image_card": "/uploads/products/metigla-edge-sistem-pluvial/card.jpg",
+        "image_alt": "Sistem pluvial rectangular Metigla EDGE - jgheab rectangular gri antracit montat pe streasina unei case moderne",
+        "gallery_alt": [
+            "Sistem pluvial rectangular Metigla EDGE - burlan rectangular pe fatada unei case albe",
+            "Sistem pluvial rectangular Metigla EDGE - casa cu acoperis din tabla faltuita si jgheaburi rectangulare gri antracit",
+            "Sistem pluvial rectangular Metigla EDGE - sectiuni tehnice: jgheab 140x80 mm si burlan 80x80 mm",
+            "Sistem pluvial rectangular Metigla EDGE - culoare disponibila RAL 7016 gri antracit"
+        ]
     },
     {
         "id": 172,
@@ -24695,7 +25353,15 @@
         "is_active": true,
         "created_at": "2026-07-11 10:45:00",
         "updated_at": "2026-09-28 15:30:00",
-        "image_card": "/uploads/products/falt-solar-metigla/card.jpg"
+        "image_card": "/uploads/products/falt-solar-metigla/card.jpg",
+        "image_alt": "Acoperis solar Roofit.Solar din tabla faltuita Metigla - casa cu acoperis solar integrat din tabla faltuita",
+        "gallery_alt": [
+            "",
+            "Acoperis solar Roofit.Solar din tabla faltuita Metigla - casa neagra cu acoperis fotovoltaic integrat, randare",
+            "Acoperis solar Roofit.Solar din tabla faltuita Metigla - casa la apus cu acoperis solar din tabla faltuita",
+            "Acoperis solar Roofit.Solar din tabla faltuita Metigla - detaliu acoperis cu panouri solare integrate in tabla faltuita",
+            "Acoperis solar Roofit.Solar din tabla faltuita Metigla - casa cu acoperis solar integrat, vedere din gradina"
+        ]
     },
     {
         "id": 173,
@@ -24843,7 +25509,13 @@
         "sort_order": 173,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Element Orizontal O120 - gard cu lamele orizontale late, culoare maro, pe stalpi de caramida",
+        "gallery_alt": [
+            "",
+            "Rufster Element Orizontal O120 - desen tehnic profil element orizontal O120",
+            "Rufster Element Orizontal O120 - desen tehnic profil U pentru element orizontal"
+        ]
     },
     {
         "id": 174,
@@ -25010,7 +25682,12 @@
         "sort_order": 174,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Jaluzea Gard Dubla - gard cu jaluzea dubla, culoare maro inchis, pe stalpi de caramida",
+        "gallery_alt": [
+            "",
+            "Rufster Jaluzea Gard Dubla - desen tehnic profil jaluzea dubla cu dimensiuni"
+        ]
     },
     {
         "id": 175,
@@ -25177,7 +25854,12 @@
         "sort_order": 175,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Jaluzea Gard Sageata V75 - gard cu lamele tip sageata, aspect stejar auriu, pe stalpi de caramida",
+        "gallery_alt": [
+            "",
+            "Rufster Jaluzea Gard Sageata V75 - desen tehnic profil sageata V75 cu dimensiuni"
+        ]
     },
     {
         "id": 176,
@@ -25319,7 +26001,12 @@
         "sort_order": 176,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Jaluzea Gard V58 - gard cu lamele tip jaluzea, culoare maro, pe stalpi de caramida",
+        "gallery_alt": [
+            "",
+            "Rufster Jaluzea Gard V58 - desen tehnic profil jaluzea V58 cu dimensiuni"
+        ]
     },
     {
         "id": 177,
@@ -25481,7 +26168,12 @@
         "sort_order": 177,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Jaluzea Gard V80 - gard cu lamele tip jaluzea, gri antracit, pe stalpi de caramida",
+        "gallery_alt": [
+            "",
+            "Rufster Jaluzea Gard V80 - desen tehnic profil jaluzea V80 cu dimensiuni"
+        ]
     },
     {
         "id": 178,
@@ -25624,7 +26316,13 @@
         "sort_order": 178,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Jaluzele Gard ZT125 - gard cu lamele tip jaluzea late, culoare maro roscat, randare",
+        "gallery_alt": [
+            "",
+            "Rufster Jaluzele Gard ZT125 - desen tehnic profil jaluzea ZT125 cu dimensiuni",
+            "Rufster Jaluzele Gard ZT125 - desen tehnic profil U pentru jaluzea ZT125"
+        ]
     },
     {
         "id": 179,
@@ -25745,7 +26443,12 @@
         "sort_order": 179,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Element Gard Combi 80x20 - gard metalic negru cu lamele orizontale subtiri, randare",
+        "gallery_alt": [
+            "",
+            "Rufster Element Gard Combi 80x20 - desen tehnic profil Combi 80x20 cu dimensiuni"
+        ]
     },
     {
         "id": 180,
@@ -25866,7 +26569,12 @@
         "sort_order": 180,
         "is_active": true,
         "created_at": "2026-07-11 12:00:00",
-        "updated_at": "2026-07-11 12:00:00"
+        "updated_at": "2026-07-11 12:00:00",
+        "image_alt": "Rufster Element Gard Combi 300x20 - gard cu lamele late aspect lemn, pe stalpi metalici gri, randare",
+        "gallery_alt": [
+            "",
+            "Rufster Element Gard Combi 300x20 - desen tehnic profil Combi 300x20 cu dimensiuni"
+        ]
     },
     {
         "id": 181,
@@ -26002,7 +26710,16 @@
         "sort_order": 181,
         "is_active": true,
         "created_at": "2026-09-28 15:30:00",
-        "updated_at": "2026-09-28 15:30:00"
+        "updated_at": "2026-09-28 15:30:00",
+        "image_alt": "Tabla click Wetterbest Elegant - panou tabla click cu nervuri, randare produs",
+        "gallery_alt": [
+            "",
+            "Tabla click Wetterbest Elegant - casa cu fatada din lemn si acoperis din tabla click antracit",
+            "Tabla click Wetterbest Elegant - case insiruite cu acoperisuri din tabla click gri",
+            "Tabla click Wetterbest Elegant - acoperis din tabla click antracit cu panouri fotovoltaice",
+            "Tabla click Wetterbest Elegant - casa alba cu acoperis din tabla click gri si ferestre de mansarda",
+            "Tabla click Wetterbest Elegant - ansamblu de case cu acoperisuri din tabla click gri, vedere aeriana"
+        ]
     },
     {
         "id": 182,
@@ -26130,7 +26847,13 @@
         "sort_order": 182,
         "is_active": true,
         "created_at": "2026-09-28 15:30:00",
-        "updated_at": "2026-09-28 15:30:00"
+        "updated_at": "2026-09-28 15:30:00",
+        "image_alt": "Tabla faltuita Wetterbest Faltz - panou tabla faltuita, randare produs",
+        "gallery_alt": [
+            "",
+            "Tabla faltuita Wetterbest Faltz - acoperis de casa din tabla faltuita gri",
+            "Tabla faltuita Wetterbest Faltz - biserica cu acoperis din tabla faltuita rosie, vedere aeriana"
+        ]
     },
     {
         "id": 183,
@@ -26304,7 +27027,8 @@
         "sort_order": 183,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Sort de streasina pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 184,
@@ -26478,7 +27202,8 @@
         "sort_order": 184,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Dolie pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 185,
@@ -26652,7 +27377,8 @@
         "sort_order": 185,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Racord calcan pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 186,
@@ -26826,7 +27552,8 @@
         "sort_order": 186,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura fronton ondulata pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 187,
@@ -27000,7 +27727,8 @@
         "sort_order": 187,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura fronton interior pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 188,
@@ -27174,7 +27902,8 @@
         "sort_order": 188,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura fronton ranforsata pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 189,
@@ -27348,7 +28077,8 @@
         "sort_order": 189,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura fronton pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 190,
@@ -27522,7 +28252,8 @@
         "sort_order": 190,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura rupere panta pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 191,
@@ -27696,7 +28427,8 @@
         "sort_order": 191,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura calcan pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 192,
@@ -27870,7 +28602,8 @@
         "sort_order": 192,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Coama semirotunda mare pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 193,
@@ -28044,7 +28777,8 @@
         "sort_order": 193,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Semicoama pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 194,
@@ -28218,7 +28952,8 @@
         "sort_order": 194,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Opritor zapada mare pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 195,
@@ -28392,7 +29127,8 @@
         "sort_order": 195,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Opritor zapada mic pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 196,
@@ -28566,7 +29302,8 @@
         "sort_order": 196,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Opritor zapada Omega pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 197,
@@ -28740,7 +29477,8 @@
         "sort_order": 197,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Coama dreapta pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 198,
@@ -28914,7 +29652,8 @@
         "sort_order": 198,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Fronton interior pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 199,
@@ -29088,7 +29827,8 @@
         "sort_order": 199,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Coama semirotunda mica pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 200,
@@ -29262,7 +30002,8 @@
         "sort_order": 200,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Sort de streasina cu ambutisare pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 201,
@@ -29436,7 +30177,8 @@
         "sort_order": 201,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura rupere panta inversa pentru tigla metalica - profil din otel vopsit, gri antracit"
     },
     {
         "id": 202,
@@ -29615,7 +30357,8 @@
         "sort_order": 202,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Tabla lisa Metigla - foaie de tabla plana gri antracit"
     },
     {
         "id": 203,
@@ -29789,7 +30532,8 @@
         "sort_order": 203,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Lambriu metalic Metigla - lambriu metalic cu aspect de lemn"
     },
     {
         "id": 204,
@@ -29836,7 +30580,8 @@
         "sort_order": 204,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bandex pentru tigla metalica - rola de banda din spuma neagra"
     },
     {
         "id": 205,
@@ -29883,7 +30628,8 @@
         "sort_order": 205,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Burete dolie pentru tigla metalica - profile de burete pentru dolie"
     },
     {
         "id": 206,
@@ -29930,7 +30676,8 @@
         "sort_order": 206,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Burete etansare pentru tigla metalica - profil de burete ondulat pentru etansare"
     },
     {
         "id": 207,
@@ -29977,7 +30724,8 @@
         "sort_order": 207,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Pieptene streasina pentru tigla metalica - pieptene de streasina negru"
     },
     {
         "id": 208,
@@ -30024,7 +30772,8 @@
         "sort_order": 208,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Pipeco - trecere prin acoperis pentru tigla metalica - manseta din cauciuc pentru trecerea tevilor prin acoperis"
     },
     {
         "id": 209,
@@ -30076,7 +30825,8 @@
         "sort_order": 209,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Surub autoforant SC-M20 pentru tigla metalica - surub autoforant cu saiba, cap vopsit visiniu"
     },
     {
         "id": 210,
@@ -30128,7 +30878,8 @@
         "sort_order": 210,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Surub autoforant SC-W35 pentru tigla metalica - surub autoforant lung cu saiba, cap vopsit visiniu"
     },
     {
         "id": 211,
@@ -30175,7 +30926,8 @@
         "sort_order": 211,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Ecobit - etansant pentru tigla metalica - cutie de banda aluminiu-bitum Aluband"
     },
     {
         "id": 212,
@@ -30222,7 +30974,8 @@
         "sort_order": 212,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "C-Past - vopsea de retus pentru tigla metalica - ambalajul produsului"
     },
     {
         "id": 213,
@@ -30355,7 +31108,8 @@
         "sort_order": 213,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Sort de streasina pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 214,
@@ -30493,7 +31247,8 @@
         "sort_order": 214,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Sort de streasina ventilat pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 215,
@@ -30626,7 +31381,8 @@
         "sort_order": 215,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Dolie pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 216,
@@ -30759,7 +31515,8 @@
         "sort_order": 216,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Sort contrapicurator pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 217,
@@ -30892,7 +31649,8 @@
         "sort_order": 217,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Brida suprapunere pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 218,
@@ -31025,7 +31783,8 @@
         "sort_order": 218,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura fronton pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 219,
@@ -31158,7 +31917,8 @@
         "sort_order": 219,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura calcan pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 220,
@@ -31296,7 +32056,8 @@
         "sort_order": 220,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bordura calcan ventilata pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 221,
@@ -31429,7 +32190,8 @@
         "sort_order": 221,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Coama dreapta pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 222,
@@ -31567,7 +32329,8 @@
         "sort_order": 222,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Coama dreapta ventilata pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 223,
@@ -31700,7 +32463,8 @@
         "sort_order": 223,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Semicoama pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 224,
@@ -31838,7 +32602,8 @@
         "sort_order": 224,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Semicoama ventilata pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 225,
@@ -31971,7 +32736,8 @@
         "sort_order": 225,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport C pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 226,
@@ -32109,7 +32875,8 @@
         "sort_order": 226,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport C ventilat pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 227,
@@ -32247,7 +33014,8 @@
         "sort_order": 227,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport C 300 pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 228,
@@ -32385,7 +33153,8 @@
         "sort_order": 228,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport C 300 ventilat pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 229,
@@ -32523,7 +33292,8 @@
         "sort_order": 229,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport C 500 pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 230,
@@ -32661,7 +33431,8 @@
         "sort_order": 230,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport C 500 ventilat pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 231,
@@ -32799,7 +33570,8 @@
         "sort_order": 231,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Suport L pentru tabla faltuita/click - profil din otel vopsit, gri antracit"
     },
     {
         "id": 232,
@@ -32845,7 +33617,8 @@
         "sort_order": 232,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Tub conector parazapada pentru tabla faltuita - tub conector negru din plastic pentru bare parazapada"
     },
     {
         "id": 233,
@@ -32892,7 +33665,8 @@
         "sort_order": 233,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Bara parazapada Ø 32 mm pentru tabla faltuita - bara metalica zincata montata pe acoperis din tabla"
     },
     {
         "id": 234,
@@ -32938,7 +33712,8 @@
         "sort_order": 234,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Consola parazapada simpla pentru tabla faltuita - consola prinsa pe falt, cu bara parazapada"
     },
     {
         "id": 235,
@@ -32984,7 +33759,8 @@
         "sort_order": 235,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Extensie consola parazapada pentru tabla faltuita - extensie de consola pentru al doilea rand de bara parazapada"
     },
     {
         "id": 236,
@@ -33030,7 +33806,8 @@
         "sort_order": 236,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Clema fixa pentru tabla faltuita - clema metalica fixa, gri"
     },
     {
         "id": 237,
@@ -33076,7 +33853,8 @@
         "sort_order": 237,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Clema mobila pentru tabla faltuita - clema metalica mobila cu fanta de culisare"
     },
     {
         "id": 238,
@@ -33122,7 +33900,8 @@
         "sort_order": 238,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Surub autoforant SC-W32 pentru tabla faltuita/click - surub autoforant negru cu cap plat"
     },
     {
         "id": 239,
@@ -33168,7 +33947,8 @@
         "sort_order": 239,
         "is_active": true,
         "created_at": "2026-09-28 18:00:00",
-        "updated_at": "2026-09-28 18:00:00"
+        "updated_at": "2026-09-28 18:00:00",
+        "image_alt": "Surub autoforant SC-W41 pentru tabla faltuita/click - surub autoforant negru cu cap plat, lung"
     },
     {
         "id": 240,
@@ -33490,7 +34270,14 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard tip jaluzea BDM Linia - cu lamele drepte, gri deschis, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard tip jaluzea BDM Linia - cu lamele drepte, gri deschis, vedere frontala",
+            "Panou de gard tip jaluzea BDM Linia - gard din panouri cu lamele gri antracit montat la o casa moderna",
+            "Panou de gard tip jaluzea BDM Linia - detaliu poarta si panou cu lamele, cu incuietoare"
+        ]
     },
     {
         "id": 241,
@@ -33807,7 +34594,14 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard tip jaluzea BDM Curba - cu lamele curbate, gri, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard tip jaluzea BDM Curba - cu lamele curbate, gri, vedere frontala",
+            "Panou de gard tip jaluzea BDM Curba - gard din panouri cu lamele curbate gri antracit, in curte cu plante",
+            "Panou de gard tip jaluzea BDM Curba - cu lamele curbate, montat, iarna"
+        ]
     },
     {
         "id": 242,
@@ -34124,7 +34918,14 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard tip jaluzea BDM Eco Lamela - cu patru lamele late, gri, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard tip jaluzea BDM Eco Lamela - cu lamele late, gri, vedere frontala",
+            "Panou de gard tip jaluzea BDM Eco Lamela - gard din panouri cu lamele late, gri antracit, de-a lungul strazii",
+            "Panou de gard tip jaluzea BDM Eco Lamela - detaliu lamela si structura panoului de gard"
+        ]
     },
     {
         "id": 243,
@@ -34286,7 +35087,14 @@
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard tip jaluzea BDM Simetric 360 - cu lamele simetrice dese, gri antracit, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard tip jaluzea BDM Simetric 360 - cu lamele simetrice, gri antracit, vedere frontala",
+            "Panou de gard tip jaluzea BDM Simetric 360 - gard si poarta din panouri cu lamele simetrice la o casa moderna",
+            "Panou de gard tip jaluzea BDM Simetric 360 - panou lat de gard cu lamele simetrice, gri antracit"
+        ]
     },
     {
         "id": 244,
@@ -34602,7 +35410,13 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Prisma 11 - cu casete orizontale inguste, gri, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Prisma 11 - cu casete orizontale inguste, gri, vedere frontala",
+            "Panou de gard metalic BDM Prisma 11 - gard si poarta din panouri cu casete la o casa moderna cu fatada din lemn"
+        ]
     },
     {
         "id": 245,
@@ -34919,7 +35733,14 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Prisma 17 - cu cinci casete orizontale, gri, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Prisma 17 - cu casete orizontale, gri, vedere frontala",
+            "Panou de gard metalic BDM Prisma 17 - detaliu casete orizontale si stalp",
+            "Panou de gard metalic BDM Prisma 17 - gard si poarta din panouri cu casete la o casa moderna"
+        ]
     },
     {
         "id": 246,
@@ -35235,7 +36056,13 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Prisma 25 - cu patru casete late, gri, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Prisma 25 - cu casete late, gri, vedere frontala",
+            "Panou de gard metalic BDM Prisma 25 - gard din panouri cu casete montat pe stalpi din piatra, langa o casa din lemn"
+        ]
     },
     {
         "id": 247,
@@ -35551,7 +36378,13 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Prisma 27 - cu casete late, gri, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Prisma 27 - cu casete late, gri, vedere frontala",
+            "Panou de gard metalic BDM Prisma 27 - gard din panouri cu casete montat pe stalpi din piatra"
+        ]
     },
     {
         "id": 248,
@@ -35868,7 +36701,15 @@
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Cubic 11 - cu lamele orizontale inguste, gri antracit, vedere frontala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Cubic 11 - cu lamele orizontale inguste, vedere laterala",
+            "Panou de gard metalic BDM Cubic 11 - gard si poarta gri antracit din lamele orizontale, pe alee pietruita",
+            "Panou de gard metalic BDM Cubic 11 - gard cu poarta si stalpi din lamele orizontale, la strada",
+            "Panou de gard metalic BDM Cubic 11 - detaliu lamele orizontale si stalp"
+        ]
     },
     {
         "id": 249,
@@ -36183,7 +37024,13 @@
         "sort_order": 6,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Cubic 16 - cu lamele orizontale medii, gri antracit, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Cubic 16 - cu lamele orizontale medii, vedere frontala",
+            "Panou de gard metalic BDM Cubic 16 - panou lat de gard cu lamele orizontale, vedere laterala"
+        ]
     },
     {
         "id": 250,
@@ -36498,7 +37345,13 @@
         "sort_order": 7,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Panou de gard metalic BDM Cubic 22 - cu lamele orizontale late, gri antracit, vedere laterala",
+        "gallery_alt": [
+            "",
+            "Panou de gard metalic BDM Cubic 22 - cu lamele orizontale late, vedere frontala",
+            "Panou de gard metalic BDM Cubic 22 - cu trei casete late, vedere laterala"
+        ]
     },
     {
         "id": 251,
@@ -36576,7 +37429,8 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Stalp gard 40x40 mm - stalp metalic negru 40x40 mm, lungimi 1,5 / 2 / 2,5 m, cu cote"
     },
     {
         "id": 252,
@@ -36655,7 +37509,12 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Stalp gard cu talpa sudata 60x40x2 mm - detaliu talpa de fixare sudata la baza stalpului",
+        "gallery_alt": [
+            "",
+            "Stalp gard cu talpa sudata 60x40x2 mm - teava rectangulara si stalp cu talpa sudata, cu cote"
+        ]
     },
     {
         "id": 253,
@@ -36733,7 +37592,8 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Stalp gard cu talpa sudata 100x40x2 mm - stalp 100x40 mm cu suporturi de prindere montate"
     },
     {
         "id": 254,
@@ -36811,7 +37671,8 @@
         "sort_order": 4,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Teava rectangulara 30x20 mm - rigla pentru sipca - teava rectangulara neagra 30x20 mm, 2 m, cu cote"
     },
     {
         "id": 255,
@@ -36884,7 +37745,12 @@
         "sort_order": 5,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Suport teava Smart 30x20 - suport metalic negru in forma de Z, cu gauri de prindere",
+        "gallery_alt": [
+            "",
+            "Suport teava Smart 30x20 - suport Smart montat pe teava rectangulara 30x20"
+        ]
     },
     {
         "id": 256,
@@ -36956,7 +37822,8 @@
         "sort_order": 6,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Suport teava clasic 30x20 - suport clasic maro cu bride si cote 20x30 mm"
     },
     {
         "id": 257,
@@ -37028,7 +37895,8 @@
         "sort_order": 7,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Suport stalp 40x40 - ancorare in soclu - suport de ancorare gri pentru stalp 40x40, inaltime 120 mm, cu cote"
     },
     {
         "id": 258,
@@ -37094,7 +37962,8 @@
         "sort_order": 8,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Prelungitor teava 30x20 - prelungitor maro pentru teava 30x20, cu cote"
     },
     {
         "id": 259,
@@ -37161,7 +38030,8 @@
         "sort_order": 9,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Capac stalp tip cupa 40x40 / 60x40 - capac maro tip cupa pentru stalp"
     },
     {
         "id": 260,
@@ -37228,7 +38098,8 @@
         "sort_order": 10,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Capac stalp tip dop 60x40 / 100x40 - teava neagra cu capac tip dop"
     },
     {
         "id": 261,
@@ -37294,7 +38165,8 @@
         "sort_order": 11,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Capac teava 30x20 - dop negru din plastic 30x20 mm, cu cote"
     },
     {
         "id": 262,
@@ -37428,7 +38300,12 @@
         "sort_order": 12,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "Suruburi autoforante 4,8x19 mm la culoare - suruburi cu cap gri montate pe un profil metalic",
+        "gallery_alt": [
+            "",
+            "Suruburi autoforante 4,8x19 mm la culoare - suruburi autoforante cu cap maro"
+        ]
     },
     {
         "id": 263,
@@ -37692,7 +38569,14 @@
         "sort_order": 1,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "BDM Lambriu Metalic Drept pentru streasina - panou de lambriu metalic drept, gri antracit",
+        "gallery_alt": [
+            "",
+            "BDM Lambriu Metalic Drept pentru streasina - panou cu cote: latime 26 cm (utila 24 cm), lungime 250 cm",
+            "BDM Lambriu Metalic Drept pentru streasina - detaliu suprafata neteda si imbinare",
+            "BDM Lambriu Metalic Drept pentru streasina - lambriu montat sub streasina, vedere de jos"
+        ]
     },
     {
         "id": 264,
@@ -37956,7 +38840,14 @@
         "sort_order": 2,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "BDM Lambriu Metalic Riflat pentru streasina - panou de lambriu metalic riflat, gri antracit",
+        "gallery_alt": [
+            "",
+            "BDM Lambriu Metalic Riflat pentru streasina - panou cu cote: latime 26 cm (utila 24 cm), lungime 250 cm",
+            "BDM Lambriu Metalic Riflat pentru streasina - detaliu suprafata riflata",
+            "BDM Lambriu Metalic Riflat pentru streasina - detaliu textura riflata si imbinare"
+        ]
     },
     {
         "id": 265,
@@ -38220,6 +39111,13 @@
         "sort_order": 3,
         "is_active": true,
         "created_at": "2026-09-29 18:00:00",
-        "updated_at": "2026-09-29 18:00:00"
+        "updated_at": "2026-09-29 18:00:00",
+        "image_alt": "BDM Lambriu Metalic Perforat pentru streasina - panou de lambriu metalic perforat, gri antracit",
+        "gallery_alt": [
+            "",
+            "BDM Lambriu Metalic Perforat pentru streasina - panou cu cote: latime 26 cm (utila 24 cm), lungime 250 cm",
+            "BDM Lambriu Metalic Perforat pentru streasina - detaliu perforatii pentru ventilarea streasinii",
+            "BDM Lambriu Metalic Perforat pentru streasina - lambriu perforat montat sub streasina, vedere de jos"
+        ]
     }
 ]
