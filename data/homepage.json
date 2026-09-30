@@ -443,6 +443,13 @@
                 "title": "Suport tehnic complet",
                 "text": "Asistenta la montaj, calcul materiale si documentatie tehnica.",
                 "sort_order": 3
+            },
+            {
+                "id": 5,
+                "icon": "&#9878;",
+                "title": "Avem un proces foarte bine stabilit de alegere a producatorilor cu care lucram",
+                "text": "Astfel incat, indiferent de bugetul dumneavoastra, va putem oferi cel mai bun sistem existent in piata, care sa se incadreze in bugetul dumneavoastra.",
+                "sort_order": 4
             }
         ],
         "image_cutout": true
