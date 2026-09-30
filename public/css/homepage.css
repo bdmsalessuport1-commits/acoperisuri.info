@@ -840,3 +840,6 @@
 
 /* Homepage service cards: navy with white text and white icons */
 .service-card-home{background:var(--color-primary);border-color:var(--color-primary)}.service-card-home:hover{background:#032a5e;border-color:#032a5e}.service-card-home h3{color:#fff}.service-card-home p{color:rgba(255,255,255,0.85)}.service-card-home .service-icon{background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.22);color:#fff}.service-card-home .service-icon img{width:44px;height:44px;object-fit:contain}
+
+/* About (cut-out): equal space above the title and below the last point (section has no bottom padding) */
+@media (min-width:1025px){.about-section-cutout .about-text{padding-bottom:var(--spacing-3xl)}}
