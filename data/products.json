@@ -3622,72 +3622,67 @@
         "sort_order": 26,
         "is_active": true,
         "created_at": "2026-03-30 19:47:43",
-        "updated_at": "2026-09-28 14:30:00",
+        "updated_at": "2026-09-30 07:59:30",
         "components": [
             {
                 "name": "Jgheab rectangular",
                 "desc": "Jgheab rectangular simetric cu margine dubla rulata, 4m",
-                "image": "/uploads/products/budmat-flamingo-iq/2.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c2.jpg"
             },
             {
                 "name": "Burlan rectangular",
                 "desc": "Burlan cu sectiune rectangulara, 3m",
-                "image": "/uploads/products/budmat-flamingo-iq/14.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c14.jpg"
             },
             {
                 "name": "Capac jgheab",
                 "desc": "Inchide capatul jgheabului rectangular",
-                "image": "/uploads/products/budmat-flamingo-iq/10.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c10.jpg"
             },
             {
                 "name": "Carlig ascuns fascia",
                 "desc": "Carlig invizibil din exterior, fixare pe scandura de vant",
-                "image": "/uploads/products/budmat-flamingo-iq/4.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c4.jpg"
             },
             {
                 "name": "Carlig ascuns capriori",
                 "desc": "Carlig invizibil din exterior, fixare pe capriori",
-                "image": "/uploads/products/budmat-flamingo-iq/5.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c5.jpg"
             },
             {
                 "name": "Coltar interior/exterior 90°",
                 "desc": "Element de colt universal, se monteaza ca interior sau exterior",
-                "image": "/uploads/products/budmat-flamingo-iq/9.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c9.jpg"
             },
             {
                 "name": "Piesa imbinare jgheab",
                 "desc": "Uneste doua tronsoane de jgheab cu etansare",
-                "image": "/uploads/products/budmat-flamingo-iq/3.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c3.jpg"
             },
             {
                 "name": "Racord jgheab-burlan",
                 "desc": "Face trecerea de la jgheab la burlan",
-                "image": "/uploads/products/budmat-flamingo-iq/11.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c11.jpg"
             },
             {
                 "name": "Cot burlan",
                 "desc": "Schimba directia burlanului rectangular",
-                "image": "/uploads/products/budmat-flamingo-iq/12.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c12.jpg"
             },
             {
                 "name": "Prelungitor burlan",
                 "desc": "Tub intermediar intre coturi si burlan",
-                "image": "/uploads/products/budmat-flamingo-iq/13.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c13.jpg"
             },
             {
                 "name": "Bratara burlan",
                 "desc": "Fixeaza burlanul rectangular pe perete",
-                "image": "/uploads/products/budmat-flamingo-iq/15.png"
+                "image": "/uploads/products/budmat-flamingo-iq/c15.jpg"
             },
             {
                 "name": "Element evacuare",
                 "desc": "Cot final la baza burlanului",
-                "image": "/uploads/products/budmat-flamingo-iq/16.png"
-            },
-            {
-                "name": "Parafrunzar",
-                "desc": "Filtru frunze pentru protectia burlanului",
-                "image": ""
+                "image": "/uploads/products/budmat-flamingo-iq/c16.jpg"
             }
         ],
         "image_card": "/uploads/products/budmat-flamingo-iq/card.jpg"
