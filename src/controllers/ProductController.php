@@ -161,11 +161,15 @@ class ProductController
             'image_main' => $p['image_main'] ?? '',
             'image_card' => $p['image_card'] ?? ($p['image_main'] ?? ''),
             'image_alt' => !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? ''),
-            'gallery_alts' => (function () use ($p, $cat) {
-                $out = []; $main = $p['image_main'] ?? ''; $ov = $p['gallery_alt'] ?? []; $n = 0;
+            // alt text per URL de imagine: principala, schema, apoi galeria numerotata (fara duplicatele principalei)
+            'image_alts' => (function () use ($p, $cat) {
+                $base = !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? '');
+                $out = []; $ov = $p['gallery_alt'] ?? []; $n = 0;
+                if (!empty($p['image_main'])) { $out[$p['image_main']] = $base; }
+                if (!empty($p['image_schema'])) { $out[$p['image_schema']] = $base . ' (schema tehnica)'; }
                 foreach ($p['gallery'] ?? [] as $i => $g) {
-                    if ($g === $main) { $out[$i] = !empty($p['image_alt']) ? $p['image_alt'] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? ''); continue; }
-                    $n++; $out[$i] = !empty($ov[$i]) ? $ov[$i] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? '', $n);
+                    if (!$g || isset($out[$g])) { continue; }
+                    $n++; $out[$g] = !empty($ov[$i]) ? $ov[$i] : \App\Helpers\SeoHelper::imageAlt($p['name'] ?? '', $p['subtitle'] ?? '', $cat['name'] ?? '', $n);
                 }
                 return $out;
             })(),

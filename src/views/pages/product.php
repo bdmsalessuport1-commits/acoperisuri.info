@@ -65,13 +65,13 @@ if ($warranty) {
             <div class="product-gallery">
                 <?php if (!empty($galleryImages)): ?>
                 <div class="gallery-main" id="galleryMain">
-                    <img src="<?= htmlspecialchars($galleryImages[0]) ?>" alt="<?= htmlspecialchars($p['gallery_alts'][0] ?? ($p['image_alt'] ?? $productName)) ?>" id="galleryMainImg">
+                    <img src="<?= htmlspecialchars($galleryImages[0]) ?>" alt="<?= htmlspecialchars($p['image_alts'][$galleryImages[0]] ?? ($p['image_alt'] ?? $productName)) ?>" id="galleryMainImg">
                 </div>
                 <?php if (count($galleryImages) > 1): ?>
                 <div class="gallery-thumbs">
                     <?php foreach ($galleryImages as $i => $img): ?>
                         <div class="gallery-thumb <?= $i === 0 ? 'active' : '' ?>" data-img="<?= htmlspecialchars($img) ?>">
-                            <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($p['gallery_alts'][$i] ?? ($productName . ' - imagine ' . ($i + 1))) ?>" loading="lazy">
+                            <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($p['image_alts'][$img] ?? ($productName . ' - imagine ' . ($i + 1))) ?>" loading="lazy">
                         </div>
                     <?php endforeach; ?>
                 </div>
